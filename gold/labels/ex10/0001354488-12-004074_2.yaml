@@ -1,0 +1,44 @@
+accession: 0001354488-12-004074
+sequence: 2
+doc_type: EX-10.17
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 97395, title: ""}
+  - {label: "SECTION 1", raw_start: 97395, title: "ACCOUNTING TERMS -- DEFINITIONS"}
+  - {label: "ARTICLE 2", raw_start: 113429, title: ""}
+  - {label: "SECTION 2", raw_start: 113429, title: "THE LOAN"}
+  - {label: "ARTICLE 3", raw_start: 126883, title: ""}
+  - {label: "SECTION 3", raw_start: 126883, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "ARTICLE 4", raw_start: 139611, title: ""}
+  - {label: "SECTION 4", raw_start: 139611, title: "COLLATERAL"}
+  - {label: "ARTICLE 5", raw_start: 144669, title: ""}
+  - {label: "SECTION 5", raw_start: 144669, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "ARTICLE 6", raw_start: 158799, title: ""}
+  - {label: "SECTION 6", raw_start: 158799, title: "NEGATIVE COVENANTS"}
+  - {label: "ARTICLE 7", raw_start: 168850, title: ""}
+  - {label: "SECTION 7", raw_start: 168850, title: "CONDITIONS OF LENDING"}
+  - {label: "ARTICLE 8", raw_start: 176512, title: ""}
+  - {label: "SECTION 8", raw_start: 176512, title: "EVENTS OF DEFAULT"}
+  - {label: "ARTICLE 9", raw_start: 181257, title: ""}
+  - {label: "SECTION 9", raw_start: 181257, title: "EFFECT OF EVENT OF DEFAULT/SETOFF"}
+  - {label: "ARTICLE 10", raw_start: 183776, title: ""}
+  - {label: "SECTION 10", raw_start: 183776, title: "WAIVER -- AMENDMENTS"}
+  - {label: "ARTICLE 11", raw_start: 184423, title: ""}
+  - {label: "SECTION 11", raw_start: 184423, title: "NOTICES"}
+  - {label: "ARTICLE 12", raw_start: 186094, title: ""}
+  - {label: "SECTION 12", raw_start: 186094, title: "COSTS, EXPENSES AND TAXES"}
+  - {label: "ARTICLE 13", raw_start: 187764, title: ""}
+  - {label: "SECTION 13", raw_start: 187764, title: "SEVERABILITY"}
+  - {label: "ARTICLE 14", raw_start: 188103, title: ""}
+  - {label: "SECTION 14", raw_start: 188103, title: "CAPTIONS"}
+  - {label: "ARTICLE 15", raw_start: 188253, title: ""}
+  - {label: "SECTION 15", raw_start: 188253, title: "GOVERNING LAW -- JURISDICTION"}
+  - {label: "ARTICLE 16", raw_start: 189463, title: ""}
+  - {label: "SECTION 16", raw_start: 189463, title: "PRIOR AGREEMENTS, ETC"}
+  - {label: "ARTICLE 17", raw_start: 189857, title: ""}
+  - {label: "SECTION 17", raw_start: 189857, title: "SUCCESSORS AND ASSIGNS"}
+  - {label: "ARTICLE 18", raw_start: 190249, title: ""}
+  - {label: "SECTION 18", raw_start: 190249, title: "WAIVER OF JURY TRIAL"}
+  - {label: "ARTICLE 19", raw_start: 190776, title: ""}
+  - {label: "SECTION 19", raw_start: 190776, title: "COUNTERPARTS"}
+absent: []

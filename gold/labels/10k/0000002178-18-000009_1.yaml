@@ -1,0 +1,30 @@
+accession: 0000002178-18-000009
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 53334, title: ""}
+  - {label: "ITEM 1", raw_start: 53675, title: "Business and Properties"}
+  - {label: "ITEM 1A", raw_start: 165726, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 209419, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 3", raw_start: 211063, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 212985, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 213934, title: ""}
+  - {label: "ITEM 5", raw_start: 214449, title: "Market for Registrant’s Common Stock, Related Stockholder Ma"}
+  - {label: "ITEM 6", raw_start: 287646, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 464526, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 850800, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 855356, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 2248669, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 2250105, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 2272144, title: "Other Information"}
+  - {label: "PART III", raw_start: 2272897, title: ""}
+  - {label: "ITEM 10", raw_start: 2273545, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 2275040, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 2276361, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 2278472, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 2280028, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 2281373, title: ""}
+  - {label: "ITEM 15", raw_start: 2281944, title: "Exhibits, Financial Statement Schedules"}
+  - {label: "ITEM 16", raw_start: 2307829, title: "Form 10-K Summary"}
+absent: []

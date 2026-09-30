@@ -1,0 +1,26 @@
+accession: 0001047469-13-001962
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 35629, title: ""}
+  - {label: "ITEM 1", raw_start: 36127, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 104038, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 141840, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 142233, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 143969, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 145018, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 146506, title: ""}
+  - {label: "ITEM 5", raw_start: 146725, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 182523, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 230343, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 414732, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 428906, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 1119456, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 1119919, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 1122773, title: "Other Information"}
+  - {label: "PART III", raw_start: 1123165, title: ""}
+  - {label: "ITEM 10", raw_start: 1123386, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "PART IV", raw_start: 1125943, title: ""}
+  - {label: "ITEM 15", raw_start: 1126175, title: "Exhibits and Financial Statement Schedules"}
+absent: []

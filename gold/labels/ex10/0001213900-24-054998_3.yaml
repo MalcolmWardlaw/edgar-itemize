@@ -1,0 +1,175 @@
+accession: 0001213900-24-054998
+sequence: 3
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 388667, title: ""}
+  - {label: "SECTION 1", raw_start: 388667, title: "DEFINITIONS AND INTERPRETATION"}
+  - {label: "SECTION 1.01", raw_start: 389278, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 653152, title: ""}
+  - {label: "SECTION 1.03", raw_start: 657361, title: ""}
+  - {label: "SECTION 1.04", raw_start: 665636, title: ""}
+  - {label: "ARTICLE 2", raw_start: 667279, title: ""}
+  - {label: "SECTION 2", raw_start: 667279, title: "LOANS"}
+  - {label: "SECTION 2.01", raw_start: 667585, title: ""}
+  - {label: "SECTION 2.02", raw_start: 680567, title: ""}
+  - {label: "SECTION 2.03", raw_start: 681517, title: ""}
+  - {label: "SECTION 2.04", raw_start: 684042, title: ""}
+  - {label: "SECTION 2.05", raw_start: 686366, title: ""}
+  - {label: "SECTION 2.06", raw_start: 695910, title: ""}
+  - {label: "SECTION 2.07", raw_start: 697448, title: ""}
+  - {label: "SECTION 2.08", raw_start: 697936, title: ""}
+  - {label: "SECTION 2.09", raw_start: 699847, title: ""}
+  - {label: "SECTION 2.10", raw_start: 703168, title: ""}
+  - {label: "SECTION 2.11", raw_start: 718782, title: ""}
+  - {label: "SECTION 2.12", raw_start: 726635, title: ""}
+  - {label: "SECTION 2.13", raw_start: 735648, title: ""}
+  - {label: "SECTION 2.14", raw_start: 739395, title: ""}
+  - {label: "SECTION 2.15", raw_start: 746955, title: ""}
+  - {label: "SECTION 2.16", raw_start: 774141, title: ""}
+  - {label: "SECTION 2.17", raw_start: 777977, title: ""}
+  - {label: "ARTICLE 3", raw_start: 780333, title: ""}
+  - {label: "SECTION 3", raw_start: 780333, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 3.01", raw_start: 780654, title: ""}
+  - {label: "SECTION 3.02", raw_start: 805389, title: "All Borrowings"}
+  - {label: "ARTICLE 4", raw_start: 813804, title: ""}
+  - {label: "SECTION 4", raw_start: 813804, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 814597, title: ""}
+  - {label: "SECTION 4.02", raw_start: 816163, title: ""}
+  - {label: "SECTION 4.03", raw_start: 818267, title: ""}
+  - {label: "SECTION 4.04", raw_start: 818817, title: ""}
+  - {label: "SECTION 4.05", raw_start: 820718, title: ""}
+  - {label: "SECTION 4.06", raw_start: 821694, title: ""}
+  - {label: "SECTION 4.07", raw_start: 822761, title: ""}
+  - {label: "SECTION 4.08", raw_start: 825408, title: ""}
+  - {label: "SECTION 4.09", raw_start: 826594, title: ""}
+  - {label: "SECTION 4.10", raw_start: 827187, title: ""}
+  - {label: "SECTION 4.11", raw_start: 828409, title: ""}
+  - {label: "SECTION 4.12", raw_start: 829695, title: ""}
+  - {label: "SECTION 4.13", raw_start: 833076, title: ""}
+  - {label: "SECTION 4.14", raw_start: 834779, title: ""}
+  - {label: "SECTION 4.15", raw_start: 835460, title: ""}
+  - {label: "SECTION 4.16", raw_start: 836868, title: ""}
+  - {label: "SECTION 4.17", raw_start: 838648, title: ""}
+  - {label: "SECTION 4.18", raw_start: 839553, title: ""}
+  - {label: "SECTION 4.19", raw_start: 847514, title: ""}
+  - {label: "SECTION 4.20", raw_start: 854163, title: ""}
+  - {label: "SECTION 4.21", raw_start: 854641, title: ""}
+  - {label: "SECTION 4.22", raw_start: 855117, title: ""}
+  - {label: "SECTION 4.23", raw_start: 859243, title: ""}
+  - {label: "SECTION 4.24", raw_start: 859911, title: ""}
+  - {label: "SECTION 4.25", raw_start: 866333, title: ""}
+  - {label: "SECTION 4.26", raw_start: 868431, title: ""}
+  - {label: "SECTION 4.27", raw_start: 870383, title: ""}
+  - {label: "SECTION 4.28", raw_start: 873482, title: ""}
+  - {label: "SECTION 4.29", raw_start: 874600, title: ""}
+  - {label: "SECTION 4.30", raw_start: 875600, title: ""}
+  - {label: "SECTION 4.31", raw_start: 877775, title: ""}
+  - {label: "ARTICLE 5", raw_start: 879717, title: ""}
+  - {label: "SECTION 5", raw_start: 879717, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 880640, title: ""}
+  - {label: "SECTION 5.02", raw_start: 909860, title: ""}
+  - {label: "SECTION 5.03", raw_start: 910932, title: ""}
+  - {label: "SECTION 5.04", raw_start: 912568, title: ""}
+  - {label: "SECTION 5.05", raw_start: 914225, title: ""}
+  - {label: "SECTION 5.06", raw_start: 917219, title: ""}
+  - {label: "SECTION 5.07", raw_start: 919176, title: ""}
+  - {label: "SECTION 5.08", raw_start: 926594, title: ""}
+  - {label: "SECTION 5.09", raw_start: 927230, title: ""}
+  - {label: "SECTION 5.10", raw_start: 927925, title: ""}
+  - {label: "SECTION 5.11", raw_start: 931472, title: ""}
+  - {label: "SECTION 5.12", raw_start: 933142, title: ""}
+  - {label: "SECTION 5.13", raw_start: 938071, title: ""}
+  - {label: "SECTION 5.14", raw_start: 945667, title: ""}
+  - {label: "SECTION 5.15", raw_start: 948999, title: ""}
+  - {label: "SECTION 5.16", raw_start: 951391, title: ""}
+  - {label: "SECTION 5.17", raw_start: 953233, title: ""}
+  - {label: "SECTION 5.18", raw_start: 953909, title: ""}
+  - {label: "SECTION 5.19", raw_start: 955754, title: ""}
+  - {label: "SECTION 5.20", raw_start: 956991, title: ""}
+  - {label: "ARTICLE 6", raw_start: 957899, title: ""}
+  - {label: "SECTION 6", raw_start: 957899, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 958720, title: ""}
+  - {label: "SECTION 6.02", raw_start: 970605, title: ""}
+  - {label: "SECTION 6.03", raw_start: 982785, title: ""}
+  - {label: "SECTION 6.04", raw_start: 984468, title: ""}
+  - {label: "SECTION 6.05", raw_start: 988324, title: ""}
+  - {label: "SECTION 6.06", raw_start: 991749, title: ""}
+  - {label: "SECTION 6.07", raw_start: 994120, title: ""}
+  - {label: "SECTION 6.08", raw_start: 998949, title: ""}
+  - {label: "SECTION 6.09", raw_start: 1014388, title: ""}
+  - {label: "SECTION 6.10", raw_start: 1021478, title: ""}
+  - {label: "SECTION 6.11", raw_start: 1022234, title: ""}
+  - {label: "SECTION 6.12", raw_start: 1023266, title: ""}
+  - {label: "SECTION 6.13", raw_start: 1025112, title: ""}
+  - {label: "SECTION 6.14", raw_start: 1026012, title: ""}
+  - {label: "SECTION 6.15", raw_start: 1026529, title: ""}
+  - {label: "SECTION 6.16", raw_start: 1027760, title: ""}
+  - {label: "SECTION 6.17", raw_start: 1028525, title: ""}
+  - {label: "SECTION 6.18", raw_start: 1029367, title: ""}
+  - {label: "SECTION 6.19", raw_start: 1032900, title: ""}
+  - {label: "SECTION 6.20", raw_start: 1034480, title: ""}
+  - {label: "SECTION 6.21", raw_start: 1037832, title: ""}
+  - {label: "SECTION 6.22", raw_start: 1038431, title: ""}
+  - {label: "SECTION 6.23", raw_start: 1039832, title: ""}
+  - {label: "SECTION 6.24", raw_start: 1040556, title: ""}
+  - {label: "ARTICLE 7", raw_start: 1042494, title: ""}
+  - {label: "SECTION 7", raw_start: 1042494, title: "GUARANTY"}
+  - {label: "SECTION 7.01", raw_start: 1042803, title: ""}
+  - {label: "SECTION 7.02", raw_start: 1043789, title: ""}
+  - {label: "SECTION 7.03", raw_start: 1047297, title: ""}
+  - {label: "SECTION 7.04", raw_start: 1049630, title: ""}
+  - {label: "SECTION 7.05", raw_start: 1059731, title: ""}
+  - {label: "SECTION 7.06", raw_start: 1063713, title: ""}
+  - {label: "SECTION 7.07", raw_start: 1067136, title: ""}
+  - {label: "SECTION 7.08", raw_start: 1068190, title: ""}
+  - {label: "SECTION 7.09", raw_start: 1069593, title: ""}
+  - {label: "SECTION 7.10", raw_start: 1070158, title: ""}
+  - {label: "SECTION 7.11", raw_start: 1071624, title: ""}
+  - {label: "SECTION 7.12", raw_start: 1075488, title: ""}
+  - {label: "ARTICLE 8", raw_start: 1077256, title: ""}
+  - {label: "SECTION 8", raw_start: 1077256, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 8.01", raw_start: 1077574, title: ""}
+  - {label: "ARTICLE 9", raw_start: 1100268, title: ""}
+  - {label: "SECTION 9", raw_start: 1100268, title: "AGENTS"}
+  - {label: "SECTION 9.01", raw_start: 1100575, title: ""}
+  - {label: "SECTION 9.02", raw_start: 1102398, title: ""}
+  - {label: "SECTION 9.03", raw_start: 1105063, title: ""}
+  - {label: "SECTION 9.04", raw_start: 1113540, title: ""}
+  - {label: "SECTION 9.05", raw_start: 1115351, title: ""}
+  - {label: "SECTION 9.06", raw_start: 1116546, title: ""}
+  - {label: "SECTION 9.07", raw_start: 1119420, title: ""}
+  - {label: "SECTION 9.08", raw_start: 1122501, title: ""}
+  - {label: "SECTION 9.09", raw_start: 1127160, title: ""}
+  - {label: "SECTION 9.10", raw_start: 1138532, title: ""}
+  - {label: "SECTION 9.11", raw_start: 1141715, title: ""}
+  - {label: "SECTION 9.12", raw_start: 1156441, title: ""}
+  - {label: "ARTICLE 10", raw_start: 1166141, title: ""}
+  - {label: "SECTION 10", raw_start: 1166141, title: "MISCELLANEOUS"}
+  - {label: "SECTION 10.01", raw_start: 1166456, title: ""}
+  - {label: "SECTION 10.02", raw_start: 1177765, title: ""}
+  - {label: "SECTION 10.03", raw_start: 1182533, title: ""}
+  - {label: "SECTION 10.04", raw_start: 1187894, title: ""}
+  - {label: "SECTION 10.05", raw_start: 1191213, title: ""}
+  - {label: "SECTION 10.06", raw_start: 1207668, title: ""}
+  - {label: "SECTION 10.07", raw_start: 1229320, title: "Independence of Covenants, etc"}
+  - {label: "SECTION 10.08", raw_start: 1230218, title: "Survival of Representations, Warranties and Agreements"}
+  - {label: "SECTION 10.09", raw_start: 1231199, title: "No Waiver;"}
+  - {label: "SECTION 10.10", raw_start: 1232591, title: "Marshalling;"}
+  - {label: "SECTION 10.11", raw_start: 1234127, title: "Severability"}
+  - {label: "SECTION 10.12", raw_start: 1234873, title: "Obligations Several;"}
+  - {label: "SECTION 10.13", raw_start: 1237147, title: "Headings"}
+  - {label: "SECTION 10.14", raw_start: 1237706, title: "Applicable Law"}
+  - {label: "SECTION 10.15", raw_start: 1238424, title: "Consent To Jurisdiction"}
+  - {label: "SECTION 10.16", raw_start: 1242258, title: "Waiver Of Jury Trial"}
+  - {label: "SECTION 10.17", raw_start: 1244330, title: "Confidentiality"}
+  - {label: "SECTION 10.18", raw_start: 1250735, title: "Usury Savings Clause"}
+  - {label: "SECTION 10.19", raw_start: 1253544, title: "Counterparts"}
+  - {label: "SECTION 10.20", raw_start: 1255293, title: "Effectiveness;"}
+  - {label: "SECTION 10.21", raw_start: 1257361, title: "Patriot Act"}
+  - {label: "SECTION 10.22", raw_start: 1258234, title: "Acknowledgement and Consent to Bail-In of EEA Financial Inst"}
+  - {label: "SECTION 10.23", raw_start: 1262726, title: "Judgment Currency"}
+  - {label: "SECTION 10.24", raw_start: 1264865, title: "Original Issue Discount"}
+  - {label: "SECTION 10.25", raw_start: 1265639, title: "Electronic Execution of Assignments and Credit Documents"}
+  - {label: "SECTION 10.26", raw_start: 1267889, title: "No Fiduciary Duty"}
+absent: []

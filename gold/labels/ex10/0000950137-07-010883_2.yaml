@@ -1,0 +1,97 @@
+accession: 0000950137-07-010883
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 136943, title: ""}
+  - {label: "SECTION 1.01", raw_start: 137012, title: "Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 206472, title: "Classification of Loans and Borrowings"}
+  - {label: "SECTION 1.03", raw_start: 206944, title: "Terms Generally"}
+  - {label: "SECTION 1.04", raw_start: 208596, title: "Accounting Terms;"}
+  - {label: "SECTION 1.05", raw_start: 209615, title: "Pro Forma Calculations"}
+  - {label: "ARTICLE 2", raw_start: 210136, title: ""}
+  - {label: "SECTION 2.01", raw_start: 210206, title: "Commitments"}
+  - {label: "SECTION 2.02", raw_start: 211198, title: "Loans and Borrowings"}
+  - {label: "SECTION 2.03", raw_start: 213987, title: "Requests for Borrowings"}
+  - {label: "SECTION 2.04", raw_start: 216387, title: "Swingline Loans"}
+  - {label: "SECTION 2.05", raw_start: 221467, title: "Letters of Credit"}
+  - {label: "SECTION 2.06", raw_start: 239467, title: "Funding of Borrowings"}
+  - {label: "SECTION 2.07", raw_start: 242116, title: "Interest Elections"}
+  - {label: "SECTION 2.08", raw_start: 246181, title: "Termination and Reduction of Commitments"}
+  - {label: "SECTION 2.09", raw_start: 248721, title: "Repayment of Loans;"}
+  - {label: "SECTION 2.10", raw_start: 251823, title: "[reserved]"}
+  - {label: "SECTION 2.11", raw_start: 251860, title: "Prepayment of Loans"}
+  - {label: "SECTION 2.12", raw_start: 255146, title: "Fees"}
+  - {label: "SECTION 2.13", raw_start: 258788, title: "Interest"}
+  - {label: "SECTION 2.14", raw_start: 261670, title: "Alternate Rate of Interest"}
+  - {label: "SECTION 2.15", raw_start: 263306, title: "Increased Costs"}
+  - {label: "SECTION 2.16", raw_start: 267818, title: "Break Funding Payments"}
+  - {label: "SECTION 2.17", raw_start: 270217, title: "Taxes"}
+  - {label: "SECTION 2.18", raw_start: 276354, title: "Payments Generally;"}
+  - {label: "SECTION 2.19", raw_start: 282788, title: "Mitigation Obligations;"}
+  - {label: "SECTION 2.20", raw_start: 286131, title: "Competitive Bid Procedure"}
+  - {label: "SECTION 2.21", raw_start: 293689, title: "Increase in Commitments"}
+  - {label: "ARTICLE 3", raw_start: 299939, title: ""}
+  - {label: "SECTION 3.01", raw_start: 300096, title: "Organization;"}
+  - {label: "SECTION 3.02", raw_start: 300811, title: "Authorization;"}
+  - {label: "SECTION 3.03", raw_start: 301617, title: "Governmental Approvals;"}
+  - {label: "SECTION 3.04", raw_start: 302988, title: "Financial Condition;"}
+  - {label: "SECTION 3.05", raw_start: 304564, title: "Properties"}
+  - {label: "SECTION 3.06", raw_start: 305349, title: "Litigation and Environmental Matters"}
+  - {label: "SECTION 3.07", raw_start: 306695, title: "Compliance with Laws and Agreements"}
+  - {label: "SECTION 3.08", raw_start: 307167, title: "Investment Company Status"}
+  - {label: "SECTION 3.09", raw_start: 307369, title: "Taxes"}
+  - {label: "SECTION 3.10", raw_start: 308053, title: "ERISA"}
+  - {label: "SECTION 3.11", raw_start: 308535, title: "Disclosure"}
+  - {label: "SECTION 3.12", raw_start: 309910, title: "[Reserved.]"}
+  - {label: "SECTION 3.13", raw_start: 309947, title: "Labor Matters"}
+  - {label: "ARTICLE 4", raw_start: 310284, title: ""}
+  - {label: "SECTION 4.01", raw_start: 310353, title: "[Intentionally omitted]"}
+  - {label: "SECTION 4.02", raw_start: 310403, title: "Each Credit Event"}
+  - {label: "ARTICLE 5", raw_start: 312141, title: ""}
+  - {label: "SECTION 5.01", raw_start: 312768, title: "Financial Statements and Other Information"}
+  - {label: "SECTION 5.02", raw_start: 317376, title: "Notices of Material Events"}
+  - {label: "SECTION 5.03", raw_start: 319645, title: "Existence;"}
+  - {label: "SECTION 5.04", raw_start: 320263, title: "Payment of Obligations"}
+  - {label: "SECTION 5.05", raw_start: 321049, title: "Maintenance of Properties"}
+  - {label: "SECTION 5.06", raw_start: 321422, title: "Insurance"}
+  - {label: "SECTION 5.07", raw_start: 322425, title: "Books and Records;"}
+  - {label: "SECTION 5.08", raw_start: 323378, title: "Compliance with Laws"}
+  - {label: "SECTION 5.09", raw_start: 323753, title: "Use of Proceeds and Letters of Credit"}
+  - {label: "SECTION 5.10", raw_start: 324596, title: "[Reserved.]"}
+  - {label: "SECTION 5.11", raw_start: 324633, title: "Rated Credit Facilities"}
+  - {label: "SECTION 5.12", raw_start: 324849, title: "[Reserved.]"}
+  - {label: "ARTICLE 6", raw_start: 325002, title: ""}
+  - {label: "SECTION 6.01", raw_start: 325616, title: "Indebtedness"}
+  - {label: "SECTION 6.02", raw_start: 330161, title: "Liens"}
+  - {label: "SECTION 6.03", raw_start: 335259, title: "Fundamental Changes"}
+  - {label: "SECTION 6.04", raw_start: 336730, title: "Investments"}
+  - {label: "SECTION 6.05", raw_start: 340118, title: "Asset Sales"}
+  - {label: "SECTION 6.06", raw_start: 343553, title: "Sale and Leaseback Transactions"}
+  - {label: "SECTION 6.07", raw_start: 344614, title: "Swap Agreements"}
+  - {label: "SECTION 6.08", raw_start: 344774, title: "Restricted Payments"}
+  - {label: "SECTION 6.09", raw_start: 345354, title: "Transactions with Affiliates"}
+  - {label: "SECTION 6.10", raw_start: 345823, title: "Restrictive Agreements"}
+  - {label: "SECTION 6.11", raw_start: 349061, title: "Amendment of Material Documents"}
+  - {label: "SECTION 6.12", raw_start: 349655, title: "Interest Expense Coverage Ratio"}
+  - {label: "SECTION 6.13", raw_start: 350049, title: "Leverage Ratio"}
+  - {label: "SECTION 6.14", raw_start: 350427, title: "Changes in Fiscal Periods"}
+  - {label: "ARTICLE 7", raw_start: 350837, title: ""}
+  - {label: "ARTICLE 8", raw_start: 360312, title: ""}
+  - {label: "ARTICLE 9", raw_start: 369741, title: ""}
+  - {label: "SECTION 9.01", raw_start: 369812, title: "Notices"}
+  - {label: "SECTION 9.02", raw_start: 372255, title: "Waivers;"}
+  - {label: "SECTION 9.03", raw_start: 380433, title: "Expenses;"}
+  - {label: "SECTION 9.04", raw_start: 386029, title: "Successors and Assigns"}
+  - {label: "SECTION 9.05", raw_start: 401421, title: "Survival"}
+  - {label: "SECTION 9.06", raw_start: 402818, title: "Counterparts;"}
+  - {label: "SECTION 9.07", raw_start: 404185, title: "Severability"}
+  - {label: "SECTION 9.08", raw_start: 404666, title: "Right of Setoff"}
+  - {label: "SECTION 9.09", raw_start: 406240, title: "Governing Law;"}
+  - {label: "SECTION 9.10", raw_start: 408273, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 9.11", raw_start: 409052, title: "Headings"}
+  - {label: "SECTION 9.12", raw_start: 409330, title: "Confidentiality"}
+  - {label: "SECTION 9.13", raw_start: 413312, title: "Interest Rate Limitation"}
+  - {label: "SECTION 9.14", raw_start: 414768, title: "USA Patriot Act"}
+  - {label: "SECTION 9.15", raw_start: 415239, title: "Existing Credit Agreement;"}
+absent: []

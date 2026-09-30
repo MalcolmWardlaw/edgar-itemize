@@ -1,0 +1,17 @@
+accession: 0000002024-02-000008
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 11290, title: ""}
+  - {label: "ITEM 4", raw_start: 194663, title: "Submission of Matters to a Vote of Security Holders None"}
+  - {label: "PART II", raw_start: 195181, title: ""}
+  - {label: "ITEM 6", raw_start: 198864, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 210653, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 9", raw_start: 257414, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "PART III", raw_start: 258060, title: ""}
+  - {label: "ITEM 10", raw_start: 258152, title: "Directors and Executive Officers of the Company Our director"}
+  - {label: "ITEM 11", raw_start: 288429, title: "Executive Compensation"}
+  - {label: "PART IV", raw_start: 349787, title: ""}
+  - {label: "ITEM 14", raw_start: 350073, title: "Exhibits, Financial Statement Schedules and Reports on Form "}
+absent: []

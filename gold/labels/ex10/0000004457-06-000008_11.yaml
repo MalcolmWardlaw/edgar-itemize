@@ -1,0 +1,93 @@
+accession: 0000004457-06-000008
+sequence: 11
+doc_type: EX-10.90
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 9060638, title: ""}
+  - {label: "SECTION 1.01", raw_start: 9061660, title: "Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 9186940, title: "Terms Generally"}
+  - {label: "SECTION 1.03", raw_start: 9189236, title: "Accounting Terms;"}
+  - {label: "ARTICLE 2", raw_start: 9192118, title: ""}
+  - {label: "SECTION 2.01", raw_start: 9193145, title: "Commitments"}
+  - {label: "SECTION 2.02", raw_start: 9194743, title: "The Notes"}
+  - {label: "SECTION 2.03", raw_start: 9197933, title: "Making the Loans"}
+  - {label: "SECTION 2.04", raw_start: 9202074, title: "Repayment of Loans;"}
+  - {label: "ARTICLE 3", raw_start: 9206746, title: ""}
+  - {label: "SECTION 3.01", raw_start: 9207767, title: "Security Interest"}
+  - {label: "SECTION 3.02", raw_start: 9210700, title: "Release of Collateral"}
+  - {label: "ARTICLE 4", raw_start: 9215593, title: ""}
+  - {label: "SECTION 4.01", raw_start: 9216636, title: "Servicer/Manager;"}
+  - {label: "SECTION 4.02", raw_start: 9219770, title: "Custody of Vehicle Files"}
+  - {label: "SECTION 4.03", raw_start: 9231529, title: "Maintenance"}
+  - {label: "ARTICLE 5", raw_start: 9232449, title: ""}
+  - {label: "SECTION 5.01", raw_start: 9233506, title: "Fees and Expenses"}
+  - {label: "SECTION 5.02", raw_start: 9237480, title: "Interest on the Loans"}
+  - {label: "SECTION 5.03", raw_start: 9242835, title: "Collections and Cash Flows"}
+  - {label: "SECTION 5.04", raw_start: 9255452, title: "Payments to be Made"}
+  - {label: "SECTION 5.05", raw_start: 9259866, title: "Optional Prepayments"}
+  - {label: "SECTION 5.06", raw_start: 9261658, title: "[Reserved]"}
+  - {label: "SECTION 5.07", raw_start: 9262245, title: "Illegality;"}
+  - {label: "SECTION 5.08", raw_start: 9264636, title: "Payments of Principal;"}
+  - {label: "SECTION 5.09", raw_start: 9269369, title: "Increased Costs"}
+  - {label: "SECTION 5.10", raw_start: 9275411, title: "Taxes"}
+  - {label: "ARTICLE 6", raw_start: 9282186, title: ""}
+  - {label: "SECTION 6.01", raw_start: 9283744, title: "Organization;"}
+  - {label: "SECTION 6.02", raw_start: 9284889, title: "Authorization;"}
+  - {label: "SECTION 6.03", raw_start: 9286458, title: "Governmental Approvals;"}
+  - {label: "SECTION 6.04", raw_start: 9288139, title: "Financial Condition;"}
+  - {label: "SECTION 6.05", raw_start: 9290563, title: "Properties;"}
+  - {label: "SECTION 6.06", raw_start: 9293854, title: "Litigation Matters"}
+  - {label: "SECTION 6.07", raw_start: 9294988, title: "Compliance with Laws and Agreements"}
+  - {label: "SECTION 6.08", raw_start: 9296074, title: "Investment and Holding Company Status"}
+  - {label: "SECTION 6.09", raw_start: 9296977, title: "Taxes"}
+  - {label: "SECTION 6.10", raw_start: 9298183, title: "ERISA"}
+  - {label: "SECTION 6.11", raw_start: 9300023, title: "Disclosure"}
+  - {label: "SECTION 6.12", raw_start: 9301913, title: "The Collateral"}
+  - {label: "SECTION 6.13", raw_start: 9304916, title: "Liens on the Collateral"}
+  - {label: "SECTION 6.14", raw_start: 9305962, title: "Eligible Vehicle Collateral"}
+  - {label: "SECTION 6.15", raw_start: 9306755, title: "Insurance"}
+  - {label: "SECTION 6.16", raw_start: 9307639, title: "Labor Matters"}
+  - {label: "SECTION 6.17", raw_start: 9309175, title: "Security Documents"}
+  - {label: "SECTION 6.18", raw_start: 9309870, title: "Margin Regulations"}
+  - {label: "ARTICLE 7", raw_start: 9311085, title: ""}
+  - {label: "SECTION 7.01", raw_start: 9312108, title: "Effective Date"}
+  - {label: "SECTION 7.02", raw_start: 9326231, title: "Each Loan"}
+  - {label: "ARTICLE 8", raw_start: 9330840, title: ""}
+  - {label: "SECTION 8.01", raw_start: 9332549, title: "Financial Statements and Other Information"}
+  - {label: "SECTION 8.02", raw_start: 9341771, title: "Notices of Material Events"}
+  - {label: "SECTION 8.03", raw_start: 9345688, title: "Information Regarding Collateral"}
+  - {label: "SECTION 8.04", raw_start: 9347697, title: "Existence;"}
+  - {label: "SECTION 8.05", raw_start: 9348574, title: "Payment of Obligations"}
+  - {label: "SECTION 8.06", raw_start: 9349892, title: "Maintenance of Properties and Fleet Owner Cash Flow"}
+  - {label: "SECTION 8.07", raw_start: 9351417, title: "Insurance"}
+  - {label: "SECTION 8.08", raw_start: 9353373, title: "Books and Records;"}
+  - {label: "SECTION 8.09", raw_start: 9354753, title: "Compliance with Laws and Agreements"}
+  - {label: "SECTION 8.10", raw_start: 9355789, title: "Use of Proceeds"}
+  - {label: "SECTION 8.11", raw_start: 9356712, title: "Further Assurances"}
+  - {label: "SECTION 8.12", raw_start: 9358328, title: "Casualty"}
+  - {label: "ARTICLE 9", raw_start: 9362622, title: ""}
+  - {label: "SECTION 9.01", raw_start: 9364030, title: "Change in Control"}
+  - {label: "SECTION 9.02", raw_start: 9364839, title: "Use of Collateral"}
+  - {label: "SECTION 9.03", raw_start: 9367537, title: "Negative Pledge"}
+  - {label: "SECTION 9.04", raw_start: 9368297, title: "Limitations on Fundamental Changes"}
+  - {label: "ARTICLE 10", raw_start: 9370735, title: ""}
+  - {label: "SECTION 10.01", raw_start: 9371799, title: "Events of Default"}
+  - {label: "SECTION 10.02", raw_start: 9384544, title: "Consequences of an Event of Default"}
+  - {label: "SECTION 10.03", raw_start: 9387373, title: "Consequences of Accelerated Amortization Event"}
+  - {label: "ARTICLE 11", raw_start: 9390285, title: ""}
+  - {label: "SECTION 11.01", raw_start: 9391327, title: "The Administrative Agent"}
+  - {label: "ARTICLE 12", raw_start: 9403032, title: ""}
+  - {label: "SECTION 12.01", raw_start: 9404058, title: "Notices"}
+  - {label: "SECTION 12.02", raw_start: 9409986, title: "Waivers;"}
+  - {label: "SECTION 12.03", raw_start: 9415273, title: "Expenses;"}
+  - {label: "SECTION 12.04", raw_start: 9421319, title: "Successors and Assigns"}
+  - {label: "SECTION 12.05", raw_start: 9432033, title: "Survival"}
+  - {label: "SECTION 12.06", raw_start: 9433977, title: "Counterparts;"}
+  - {label: "SECTION 12.07", raw_start: 9435943, title: "Severability"}
+  - {label: "SECTION 12.08", raw_start: 9437016, title: "Right of Setoff"}
+  - {label: "SECTION 12.09", raw_start: 9438676, title: "Governing Law;"}
+  - {label: "SECTION 12.10", raw_start: 9443980, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 12.11", raw_start: 9445408, title: "Headings"}
+  - {label: "SECTION 12.12", raw_start: 9446260, title: "Confidentiality"}
+  - {label: "SECTION 12.13", raw_start: 9449554, title: "Joint and Several Liability of the Borrowers"}
+absent: []

@@ -1,0 +1,47 @@
+accession: 0001002014-13-000085
+sequence: 27
+doc_type: EX-10.135
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 9270419, title: ""}
+  - {label: "SECTION 1.00", raw_start: 9270419, title: "When used in this Agreement, with initial capitalization, th"}
+  - {label: "ARTICLE 2", raw_start: 9271379, title: ""}
+  - {label: "SECTION 2.00", raw_start: 9271379, title: "Applicant elects and Distribution Provider shall cause to be"}
+  - {label: "ARTICLE 3", raw_start: 9272390, title: ""}
+  - {label: "SECTION 3.00", raw_start: 9272390, title: "The scope of the Interconnection Studies shall be subject to"}
+  - {label: "ARTICLE 4", raw_start: 9274259, title: ""}
+  - {label: "SECTION 4.00", raw_start: 9274259, title: "The Interconnection Studies will be based upon the technical"}
+  - {label: "ARTICLE 5", raw_start: 9276414, title: ""}
+  - {label: "SECTION 5.00", raw_start: 9276414, title: "The Interconnection Study report for each Interconnection St"}
+  - {label: "ARTICLE 6", raw_start: 9277342, title: ""}
+  - {label: "SECTION 6.00", raw_start: 9277342, title: "Applicant shall provide Interconnection Financial Security i"}
+  - {label: "ARTICLE 7", raw_start: 9278570, title: ""}
+  - {label: "SECTION 7.00", raw_start: 9278570, title: "Unless the Parties agree to waive the Facilities Study in ac"}
+  - {label: "ARTICLE 8", raw_start: 9279996, title: ""}
+  - {label: "SECTION 8.00", raw_start: 9279996, title: "Upon completion of the Interconnection Studies, Distribution"}
+  - {label: "ARTICLE 10", raw_start: 9283665, title: ""}
+  - {label: "SECTION 10.00", raw_start: 9283665, title: "Substantial portions of technical data and assumptions used "}
+  - {label: "ARTICLE 11", raw_start: 9285904, title: ""}
+  - {label: "SECTION 11.00", raw_start: 9285904, title: "The Distribution Provider shall maintain records and account"}
+  - {label: "ARTICLE 12", raw_start: 9287539, title: ""}
+  - {label: "SECTION 12.00", raw_start: 9287539, title: "In accordance with Section F.6 of Rule 21, the Applicant may"}
+  - {label: "ARTICLE 13", raw_start: 9288636, title: ""}
+  - {label: "SECTION 13.00", raw_start: 9288636, title: "This Agreement shall become effective upon the date the full"}
+  - {label: "ARTICLE 14", raw_start: 9289554, title: ""}
+  - {label: "SECTION 14.00", raw_start: 9289554, title: "Miscellaneous"}
+  - {label: "SECTION 14.01", raw_start: 9290326, title: "Dispute Resolution"}
+  - {label: "SECTION 14.02", raw_start: 9292229, title: "Confidentiality"}
+  - {label: "SECTION 14.03", raw_start: 9293166, title: "Binding Effect"}
+  - {label: "SECTION 14.04", raw_start: 9294166, title: "Conflicts"}
+  - {label: "SECTION 14.05", raw_start: 9295230, title: "Rules of Interpretation"}
+  - {label: "SECTION 14.06", raw_start: 9297884, title: "Entire Agreement"}
+  - {label: "SECTION 14.07", raw_start: 9300461, title: "No Third Party Beneficiaries"}
+  - {label: "SECTION 14.08", raw_start: 9301668, title: "Waiver"}
+  - {label: "SECTION 14.09", raw_start: 9303546, title: "Headings"}
+  - {label: "SECTION 14.10", raw_start: 9304596, title: "Multiple Counterparts"}
+  - {label: "SECTION 14.11", raw_start: 9305601, title: "Amendment"}
+  - {label: "SECTION 14.12", raw_start: 9306556, title: "Modification by the Parties"}
+  - {label: "SECTION 14.13", raw_start: 9307683, title: "No Partnership"}
+  - {label: "SECTION 14.14", raw_start: 9310322, title: "Assignment"}
+  - {label: "SECTION 14.15", raw_start: 9314285, title: "This Agreement is subject to the applicable provisions of SC"}
+absent: []

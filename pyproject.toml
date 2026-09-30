@@ -1,0 +1,43 @@
+[project]
+name = "edgar-itemize"
+version = "1.0.0"
+description = "Deterministic agenda-structure (Part/Item/Section) parser for SEC EDGAR filings"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "LICENSES/PSF-2.0.txt"]
+authors = [
+    { name = "Malcolm Wardlaw", email = "malcolm.wardlaw@uga.edu" }
+]
+requires-python = ">=3.11"
+# Core: everything `edgar-itemize parse` / `show` and `import edgar_itemize` need. The
+# deterministic-output claim (docs/VERSIONING.md) covers the core only.
+dependencies = [
+    "regex>=2024.0",
+    "pyarrow>=14",
+    "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+viewer = ["fastapi>=0.141.1", "uvicorn[standard]>=0.52.4"]  # `edgar-itemize serve`, edgar_itemize.viewer
+judge = ["httpx>=0.28.1"]  # `edgar-itemize judge`, edgar_itemize.llm (evaluation only)
+polars = ["polars>=1.0"]  # scripts/ analyses
+dev = ["pytest>=8", "polars>=1.0"]
+docs = [
+    "mkdocs-material>=9.5",
+]
+
+[project.scripts]
+edgar-itemize = "edgar_itemize.cli:main"
+
+[dependency-groups]
+dev = [
+    "polars>=1.0",
+    "pytest>=8",
+]
+
+[build-system]
+requires = ["uv_build>=0.10.8,<0.11.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "tests_lab"]

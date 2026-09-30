@@ -1,0 +1,93 @@
+accession: 0000006814-96-000003
+sequence: 4
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 109151, title: "DEFINITIONS; ACCOUNTING TERMS"}
+  - {label: "SECTION 1.01", raw_start: 109213, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 129590, title: "Accounting Terms"}
+  - {label: "ARTICLE 2", raw_start: 129838, title: "REVOLVING CREDIT FACILITY"}
+  - {label: "SECTION 2.01", raw_start: 129896, title: "Revolving Credit"}
+  - {label: "SECTION 2.02", raw_start: 131196, title: "The Revolving Credit Note"}
+  - {label: "SECTION 2.03", raw_start: 132258, title: "Use of Proceeds"}
+  - {label: "SECTION 2.04", raw_start: 133424, title: "Notice and Manner of Borrowing"}
+  - {label: "SECTION 2.05", raw_start: 134177, title: "Interest on Revolving Credit Loans"}
+  - {label: "SECTION 2.06", raw_start: 135059, title: "Minimum Amounts"}
+  - {label: "SECTION 2.07", raw_start: 135423, title: "Revolving Commitment Fee"}
+  - {label: "SECTION 2.08", raw_start: 135766, title: "Default Interest"}
+  - {label: "SECTION 2.09", raw_start: 136037, title: "Payments Generally"}
+  - {label: "ARTICLE 3", raw_start: 138024, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 3.01", raw_start: 138076, title: "Conditions to the Initial Borrowings Hereunder"}
+  - {label: "SECTION 3.02", raw_start: 144293, title: "Conditions to All Borrowings"}
+  - {label: "SECTION 3.03", raw_start: 145509, title: "Deemed Representations"}
+  - {label: "SECTION 3.04", raw_start: 145912, title: "Existing Relationship"}
+  - {label: "ARTICLE 4", raw_start: 146150, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 146282, title: ""}
+  - {label: "SECTION 4.02", raw_start: 147128, title: "Corporate Power and Authority;"}
+  - {label: "SECTION 4.03", raw_start: 148792, title: "Legally Enforceable Agreements"}
+  - {label: "SECTION 4.04", raw_start: 149316, title: "Litigation"}
+  - {label: "SECTION 4.05", raw_start: 149904, title: "Financial Statements;"}
+  - {label: "SECTION 4.06", raw_start: 152121, title: "Ownership and Liens"}
+  - {label: "SECTION 4.07", raw_start: 152656, title: "Taxes"}
+  - {label: "SECTION 4.08", raw_start: 153230, title: "ERISA"}
+  - {label: "SECTION 4.09", raw_start: 154225, title: "Subsidiaries"}
+  - {label: "SECTION 4.10", raw_start: 154362, title: "Credit Arrangements"}
+  - {label: "SECTION 4.11", raw_start: 155307, title: "Operation of Business"}
+  - {label: "SECTION 4.12", raw_start: 155713, title: "Hazardous Substances"}
+  - {label: "SECTION 4.13", raw_start: 156420, title: "No Default on Outstanding Judgments or Orders"}
+  - {label: "SECTION 4.14", raw_start: 156882, title: "No Defaults on Other Agreements"}
+  - {label: "SECTION 4.15", raw_start: 157870, title: "Labor Disputes and Acts of God"}
+  - {label: "SECTION 4.16", raw_start: 158409, title: "Governmental Regulation"}
+  - {label: "SECTION 4.17", raw_start: 158726, title: "Partnerships"}
+  - {label: "SECTION 4.18", raw_start: 158825, title: "No Forfeiture"}
+  - {label: "SECTION 4.19", raw_start: 159135, title: "No Default or Event of Default"}
+  - {label: "SECTION 4.20", raw_start: 159266, title: "Security Agreement"}
+  - {label: "SECTION 4.21", raw_start: 159724, title: "Solvency"}
+  - {label: "SECTION 4.22", raw_start: 159927, title: "Name Changes"}
+  - {label: "SECTION 4.23", raw_start: 160309, title: "Relationships"}
+  - {label: "ARTICLE 5", raw_start: 160954, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 161147, title: "Maintenance of Existence"}
+  - {label: "SECTION 5.02", raw_start: 161555, title: "Conduct of Business"}
+  - {label: "SECTION 5.03", raw_start: 161655, title: "Maintenance of Properties"}
+  - {label: "SECTION 5.04", raw_start: 161943, title: "Maintenance of Records"}
+  - {label: "SECTION 5.05", raw_start: 162217, title: "Maintenance of Insurance"}
+  - {label: "SECTION 5.06", raw_start: 162743, title: "Compliance with Laws"}
+  - {label: "SECTION 5.07", raw_start: 162891, title: "Right of Inspection"}
+  - {label: "SECTION 5.08", raw_start: 163382, title: "Reporting Requirements"}
+  - {label: "SECTION 5.09", raw_start: 170160, title: "Payment of Obligations"}
+  - {label: "SECTION 5.10", raw_start: 170564, title: "Escrow Funds under Purchase Agreement"}
+  - {label: "SECTION 5.11", raw_start: 170903, title: "Business Acquired under Purchase Agreement"}
+  - {label: "ARTICLE 6", raw_start: 171074, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 171324, title: "Debt"}
+  - {label: "SECTION 6.02", raw_start: 172270, title: "Liens"}
+  - {label: "SECTION 6.03", raw_start: 174440, title: "Investments and Advances"}
+  - {label: "SECTION 6.04", raw_start: 174790, title: "Sale of Assets"}
+  - {label: "SECTION 6.05", raw_start: 175125, title: "Transactions with Affiliates"}
+  - {label: "SECTION 6.06", raw_start: 175692, title: "Mergers, Etc"}
+  - {label: "SECTION 6.07", raw_start: 176195, title: "Acquisitions"}
+  - {label: "SECTION 6.08", raw_start: 177797, title: "No Activities Leading to Forfeiture"}
+  - {label: "SECTION 6.09", raw_start: 177948, title: "Corporate Documents;"}
+  - {label: "SECTION 6.10", raw_start: 178365, title: "Subsidiaries;"}
+  - {label: "ARTICLE 7", raw_start: 178626, title: "FINANCIAL COVENANTS"}
+  - {label: "SECTION 7.01", raw_start: 178853, title: "Maximum Leverage"}
+  - {label: "SECTION 7.02", raw_start: 179512, title: "Minimum Coverage Ratio"}
+  - {label: "SECTION 7.03", raw_start: 180164, title: "Dividends"}
+  - {label: "SECTION 7.04", raw_start: 180284, title: "No Quarterly Losses"}
+  - {label: "SECTION 7.05", raw_start: 180437, title: "Minimum Net Retained Profit"}
+  - {label: "SECTION 7.06", raw_start: 180660, title: "Minimum Interest Coverage"}
+  - {label: "ARTICLE 8", raw_start: 181100, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 8.01", raw_start: 181150, title: "Events of Default"}
+  - {label: "SECTION 8.02", raw_start: 188472, title: "Remedies"}
+  - {label: "ARTICLE 9", raw_start: 189605, title: "MISCELLANEOUS"}
+  - {label: "SECTION 9.01", raw_start: 189651, title: "Amendments and Waivers"}
+  - {label: "SECTION 9.02", raw_start: 190236, title: "Usury"}
+  - {label: "SECTION 9.03", raw_start: 190665, title: "Expenses"}
+  - {label: "SECTION 9.04", raw_start: 192282, title: "Assignment;"}
+  - {label: "SECTION 9.05", raw_start: 192577, title: "Notices"}
+  - {label: "SECTION 9.06", raw_start: 193821, title: "Setoff"}
+  - {label: "SECTION 9.07", raw_start: 194688, title: "Jurisdiction;"}
+  - {label: "SECTION 9.08", raw_start: 197134, title: "Headings"}
+  - {label: "SECTION 9.09", raw_start: 197329, title: "Severability"}
+  - {label: "SECTION 9.10", raw_start: 197844, title: "Integration"}
+  - {label: "SECTION 9.11", raw_start: 198134, title: "Governing Law"}
+absent: []

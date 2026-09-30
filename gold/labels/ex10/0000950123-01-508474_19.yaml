@@ -1,0 +1,297 @@
+accession: 0000950123-01-508474
+sequence: 19
+doc_type: EX-10.8
+reviewed: false
+nodes:
+  - {label: "ARTICLE 2", raw_start: 1229783, title: ""}
+  - {label: "SECTION 2.01", raw_start: 1229783, title: "Revolving Credit"}
+  - {label: "SECTION 2.01.1", raw_start: 1229954, title: "Revolving Loan"}
+  - {label: "SECTION 2.01.2", raw_start: 1252894, title: "Borrowing Requests"}
+  - {label: "SECTION 2.01.3", raw_start: 1254542, title: "Revolving Notes"}
+  - {label: "SECTION 2.02", raw_start: 1255553, title: "Term Loan B"}
+  - {label: "SECTION 2.02.1", raw_start: 1255719, title: "Term Loan B"}
+  - {label: "SECTION 2.02.2", raw_start: 1256297, title: "Term Loan B Notes"}
+  - {label: "SECTION 2.03", raw_start: 1256710, title: "Term Loan C"}
+  - {label: "SECTION 2.03.1", raw_start: 1256876, title: "Term Loan C"}
+  - {label: "SECTION 2.03.2", raw_start: 1257330, title: "Term Loan C Notes"}
+  - {label: "SECTION 2.04", raw_start: 1257755, title: "Supplemental Credit"}
+  - {label: "SECTION 2.04.1", raw_start: 1257929, title: "Request for Supplemental Facilities"}
+  - {label: "SECTION 2.04.2", raw_start: 1263011, title: "Supplemental Facilities"}
+  - {label: "SECTION 2.04.3", raw_start: 1264046, title: "Borrowing Requests"}
+  - {label: "SECTION 2.04.4", raw_start: 1266087, title: "Supplemental Notes"}
+  - {label: "SECTION 2.04.5", raw_start: 1267273, title: "Supplemental Restatement Revolving Facility"}
+  - {label: "SECTION 2.05", raw_start: 1288149, title: "New Restatement Revolving Facility"}
+  - {label: "SECTION 2.05.1", raw_start: 1288488, title: "New Restatement Revolving Loan"}
+  - {label: "SECTION 2.05.2", raw_start: 1302615, title: "Borrowing Requests"}
+  - {label: "SECTION 2.05.3", raw_start: 1304192, title: "New Restatement Revolving Notes"}
+  - {label: "SECTION 2.06", raw_start: 1305524, title: "Application of Proceeds"}
+  - {label: "SECTION 2.06.1", raw_start: 1305702, title: "Loan"}
+  - {label: "SECTION 2.06.2", raw_start: 1306079, title: "Specifically Prohibited Applications"}
+  - {label: "SECTION 2.07", raw_start: 1306561, title: "Nature of Obligations of Lenders to Extend Credit"}
+  - {label: "ARTICLE 3", raw_start: 1307631, title: ""}
+  - {label: "SECTION 3.01", raw_start: 1307631, title: "Interest"}
+  - {label: "SECTION 3.02", raw_start: 1309552, title: "Eurodollar Pricing Options"}
+  - {label: "SECTION 3.02.1", raw_start: 1309733, title: "Election of Eurodollar Pricing Options"}
+  - {label: "SECTION 3.02.2", raw_start: 1313739, title: "Notice to Lenders and Borrower"}
+  - {label: "SECTION 3.02.3", raw_start: 1314546, title: "Selection of Interest Periods"}
+  - {label: "SECTION 3.02.4", raw_start: 1318881, title: "Additional Interest"}
+  - {label: "SECTION 3.02.5", raw_start: 1321134, title: "Change in Applicable Laws, Regulations, etc"}
+  - {label: "SECTION 3.02.6", raw_start: 1322860, title: "Funding Procedure"}
+  - {label: "SECTION 3.03", raw_start: 1323926, title: "Commitment Fees"}
+  - {label: "SECTION 3.04", raw_start: 1328589, title: "Taxes"}
+  - {label: "SECTION 3.05", raw_start: 1329897, title: "Capital Adequacy"}
+  - {label: "SECTION 3.06", raw_start: 1332181, title: "Regulatory Changes"}
+  - {label: "SECTION 3.07", raw_start: 1334323, title: "Computations of Interest and Fees"}
+  - {label: "SECTION 3.08", raw_start: 1334905, title: "Interest Limitation"}
+  - {label: "ARTICLE 4", raw_start: 1336263, title: ""}
+  - {label: "SECTION 4.01", raw_start: 1336263, title: "Payment at Maturity"}
+  - {label: "SECTION 4.02", raw_start: 1337128, title: "Fixed Required Prepayments"}
+  - {label: "SECTION 4.02.1", raw_start: 1337309, title: "Term Loan B"}
+  - {label: "SECTION 4.02.2", raw_start: 1338002, title: "Term Loan C"}
+  - {label: "SECTION 4.02.3", raw_start: 1338852, title: "Supplemental Loan"}
+  - {label: "SECTION 4.03", raw_start: 1339153, title: "Maximum Amount of Revolving Credit, etc"}
+  - {label: "SECTION 4.04", raw_start: 1340277, title: "Asset Sales"}
+  - {label: "SECTION 4.04.1", raw_start: 1340454, title: "Operating Asset Sale Notice"}
+  - {label: "SECTION 4.04.2", raw_start: 1342088, title: "Prepayment on Sale"}
+  - {label: "SECTION 4.04.3", raw_start: 1342824, title: "Asset Reinvestment Reserve Amount"}
+  - {label: "SECTION 4.04.4", raw_start: 1344620, title: "Allocations of Prepayment"}
+  - {label: "SECTION 4.05", raw_start: 1346096, title: "Designated Financing Debt"}
+  - {label: "SECTION 4.06", raw_start: 1347541, title: "Voluntary Prepayments"}
+  - {label: "SECTION 4.07", raw_start: 1350983, title: "Application of Payments"}
+  - {label: "ARTICLE 5", raw_start: 1352482, title: ""}
+  - {label: "SECTION 5.01", raw_start: 1352482, title: "Conditions to Effectiveness of Amendment and Restatement"}
+  - {label: "SECTION 5.01.1", raw_start: 1352942, title: "Consents"}
+  - {label: "SECTION 5.01.2", raw_start: 1353410, title: "Agreement"}
+  - {label: "SECTION 5.01.3", raw_start: 1353703, title: "Officer's Certificate;"}
+  - {label: "SECTION 5.01.4", raw_start: 1354311, title: "Payment of Fees"}
+  - {label: "SECTION 5.01.5", raw_start: 1355293, title: "Legal Opinions"}
+  - {label: "SECTION 5.02", raw_start: 1355954, title: "Conditions to Each Extension of Credit"}
+  - {label: "SECTION 5.02.1", raw_start: 1356375, title: "Officer's Certificate"}
+  - {label: "SECTION 5.02.2", raw_start: 1357431, title: "Proper Proceedings"}
+  - {label: "SECTION 5.02.3", raw_start: 1358481, title: "Legality, etc"}
+  - {label: "SECTION 5.03", raw_start: 1359215, title: "Conditions on Supplemental Facility Closing Dates"}
+  - {label: "SECTION 5.03.1", raw_start: 1360034, title: "Supplemental Notes"}
+  - {label: "SECTION 5.03.2", raw_start: 1360388, title: "Joinder Agreement"}
+  - {label: "SECTION 5.03.3", raw_start: 1360855, title: "Legal Opinions"}
+  - {label: "SECTION 5.03.4", raw_start: 1361206, title: "General"}
+  - {label: "ARTICLE 6", raw_start: 1362293, title: ""}
+  - {label: "SECTION 6.01", raw_start: 1362293, title: "Guarantees of Credit Obligations"}
+  - {label: "SECTION 6.02", raw_start: 1364320, title: "Continuing Obligation"}
+  - {label: "SECTION 6.03", raw_start: 1367208, title: "Waivers with Respect to Credit Obligations"}
+  - {label: "SECTION 6.04", raw_start: 1374082, title: "Lenders' Power to Waive, etc"}
+  - {label: "SECTION 6.05", raw_start: 1377926, title: "Information Regarding Obligors, etc"}
+  - {label: "SECTION 6.06", raw_start: 1379361, title: "Certain Guarantor Representations"}
+  - {label: "SECTION 6.07", raw_start: 1383021, title: "No Subrogation"}
+  - {label: "SECTION 6.08", raw_start: 1383695, title: "Subordination"}
+  - {label: "SECTION 6.09", raw_start: 1384614, title: "Contribution Among Guarantors"}
+  - {label: "SECTION 6.10", raw_start: 1386653, title: "Future Subsidiaries;"}
+  - {label: "SECTION 6.11", raw_start: 1387661, title: "Release of Guarantor"}
+  - {label: "ARTICLE 7", raw_start: 1389077, title: ""}
+  - {label: "SECTION 7.01", raw_start: 1389077, title: "Taxes and Other Charges;"}
+  - {label: "SECTION 7.01.1", raw_start: 1389284, title: "Taxes and Other Charges"}
+  - {label: "SECTION 7.01.2", raw_start: 1390689, title: "Accounts Payable"}
+  - {label: "SECTION 7.02", raw_start: 1391315, title: "Conduct of Business, etc"}
+  - {label: "SECTION 7.02.1", raw_start: 1391505, title: "Types of Business"}
+  - {label: "SECTION 7.02.2", raw_start: 1392549, title: "Maintenance of Properties"}
+  - {label: "SECTION 7.02.3", raw_start: 1394366, title: "Compliance with Material Agreements;"}
+  - {label: "SECTION 7.02.4", raw_start: 1395235, title: "Statutory Compliance"}
+  - {label: "SECTION 7.03", raw_start: 1396143, title: "Insurance"}
+  - {label: "SECTION 7.04", raw_start: 1397076, title: "Financial Statements and Reports"}
+  - {label: "SECTION 7.04.1", raw_start: 1397723, title: "Annual Reports"}
+  - {label: "SECTION 7.04.2", raw_start: 1402133, title: "Quarterly Reports"}
+  - {label: "SECTION 7.04.3", raw_start: 1405185, title: "Other Reports"}
+  - {label: "SECTION 7.04.4", raw_start: 1405876, title: "Notice of Litigation;"}
+  - {label: "SECTION 7.04.5", raw_start: 1406765, title: "Franchise Matters"}
+  - {label: "SECTION 7.04.6", raw_start: 1407446, title: "ERISA Reports"}
+  - {label: "SECTION 7.04.7", raw_start: 1409824, title: "Other Information"}
+  - {label: "SECTION 7.05", raw_start: 1411227, title: "Certain Financial Tests"}
+  - {label: "SECTION 7.05.1", raw_start: 1411416, title: "Consolidated Total Debt to Consolidated Annualized Operating"}
+  - {label: "SECTION 7.05.2", raw_start: 1417022, title: "Consolidated Interest Coverage Ratio"}
+  - {label: "SECTION 7.05.3", raw_start: 1417437, title: "Consolidated Annualized Operating Cash Flow to Consolidated "}
+  - {label: "SECTION 7.06", raw_start: 1417958, title: "Indebtedness"}
+  - {label: "SECTION 7.06.1", raw_start: 1418289, title: "The Credit Obligations"}
+  - {label: "SECTION 7.06.2", raw_start: 1418479, title: "Guarantees permitted by Section 7.7"}
+  - {label: "SECTION 7.06.3", raw_start: 1418687, title: "Current liabilities existing from time to time, other than f"}
+  - {label: "SECTION 7.06.4", raw_start: 1418977, title: "To the extent that payment thereof shall not at the time be "}
+  - {label: "SECTION 7.06.5", raw_start: 1419347, title: "Indebtedness secured by Liens of carriers, warehousemen, mec"}
+  - {label: "SECTION 7.06.6", raw_start: 1419638, title: "Indebtedness in respect of judgments or awards not in excess"}
+  - {label: "SECTION 7.06.7", raw_start: 1420354, title: "Indebtedness in respect of Capitalized Lease Obligations or "}
+  - {label: "SECTION 7.06.8", raw_start: 1420880, title: "Indebtedness in respect deferred taxes arising in the ordina"}
+  - {label: "SECTION 7.06.9", raw_start: 1421129, title: "Indebtedness in respect of inter-company loans and advances "}
+  - {label: "SECTION 7.06.10", raw_start: 1421432, title: "Indebtedness outstanding on the Initial Closing Date and des"}
+  - {label: "SECTION 7.06.11", raw_start: 1422057, title: "Indebtedness on account of security deposits of Subscribers "}
+  - {label: "SECTION 7.06.12", raw_start: 1422443, title: "Binding obligations of the Restricted Companies to make acqu"}
+  - {label: "SECTION 7.06.13", raw_start: 1422726, title: "Minority interests in Subsidiaries and equity in losses of a"}
+  - {label: "SECTION 7.06.14", raw_start: 1423001, title: "Indebtedness of the Borrower (but not any Subsidiary of the "}
+  - {label: "SECTION 7.06.15", raw_start: 1424128, title: "Indebtedness of any Person that becomes a Subsidiary pursuan"}
+  - {label: "SECTION 7.06.16", raw_start: 1425228, title: "Other Indebtedness of the Restricted Companies not in excess"}
+  - {label: "SECTION 7.07", raw_start: 1425517, title: "Guarantees;"}
+  - {label: "SECTION 7.07.1", raw_start: 1425933, title: "Guarantees of the Credit Obligations"}
+  - {label: "SECTION 7.07.2", raw_start: 1426137, title: "Guarantees by the Restricted Companies of Indebtedness incur"}
+  - {label: "SECTION 7.07.3", raw_start: 1426434, title: "Guarantees to governmental authorities in respect of perform"}
+  - {label: "SECTION 7.08", raw_start: 1426938, title: "Liens"}
+  - {label: "SECTION 7.08.1", raw_start: 1427403, title: "Liens on any Credit Security which secure the Credit Obligat"}
+  - {label: "SECTION 7.08.2", raw_start: 1427698, title: "Liens to secure taxes, assessments and other governmental ch"}
+  - {label: "SECTION 7.08.3", raw_start: 1428016, title: "Deposits or pledges made (a) in connection with, or to secur"}
+  - {label: "SECTION 7.08.4", raw_start: 1429006, title: "Liens in respect of judgments or awards, to the extent that "}
+  - {label: "SECTION 7.08.5", raw_start: 1429294, title: "Liens of carriers, warehousemen, mechanics and similar Liens"}
+  - {label: "SECTION 7.08.6", raw_start: 1429845, title: "Encumbrances in the nature of (a) zoning restrictions, (b) e"}
+  - {label: "SECTION 7.08.7", raw_start: 1430430, title: "Restrictions under federal and state securities laws on the "}
+  - {label: "SECTION 7.08.8", raw_start: 1430680, title: "Restrictions under the Communications Act, specific Franchis"}
+  - {label: "SECTION 7.08.9", raw_start: 1431078, title: "Set-off rights of depository institutions with which any Res"}
+  - {label: "SECTION 7.08.10", raw_start: 1431348, title: "Liens constituting (a) purchase money security interests (in"}
+  - {label: "SECTION 7.08.11", raw_start: 1432641, title: "Liens as of the Initial Closing Date described in Exhibit 7."}
+  - {label: "SECTION 7.08.12", raw_start: 1433027, title: "Arrangements constituting a qualified escrow account, qualif"}
+  - {label: "SECTION 7.08.13", raw_start: 1433430, title: "Liens on the Equity Interests of any Person that is not a Re"}
+  - {label: "SECTION 7.08.14", raw_start: 1433812, title: "Liens not otherwise permitted by this Section 7.8 so long as"}
+  - {label: "SECTION 7.09", raw_start: 1434335, title: "Investments and Acquisitions"}
+  - {label: "SECTION 7.09.1", raw_start: 1434837, title: "Investments of the Restricted Companies in other Restricted "}
+  - {label: "SECTION 7.09.2", raw_start: 1435074, title: "Investments in Cash Equivalents"}
+  - {label: "SECTION 7.09.3", raw_start: 1435273, title: "Loans and other advances to employees, officers and director"}
+  - {label: "SECTION 7.09.4", raw_start: 1435589, title: "Prepaid royalties and fees paid in the ordinary course of bu"}
+  - {label: "SECTION 7.09.5", raw_start: 1435823, title: "Guarantees permitted by Section 7.7"}
+  - {label: "SECTION 7.09.6", raw_start: 1436031, title: "Investments as of the Second Restatement Effective Date desc"}
+  - {label: "SECTION 7.09.7", raw_start: 1436287, title: "Investments consisting of loans from the Restricted Companie"}
+  - {label: "SECTION 7.09.8", raw_start: 1436639, title: "Contributions by any Restricted Company of cable systems to "}
+  - {label: "SECTION 7.09.9", raw_start: 1437492, title: "Investments not otherwise permitted by this Section 7.9 at a"}
+  - {label: "SECTION 7.09.10", raw_start: 1438195, title: "Investments consisting of the acquisition of Systems or asse"}
+  - {label: "SECTION 7.09.11", raw_start: 1438484, title: "Acquisitions by the Borrower or any Wholly Owned Guarantor o"}
+  - {label: "SECTION 7.09.12", raw_start: 1439373, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.09.13", raw_start: 1439985, title: "Acquisition deposits and deposits with a qualified intermedi"}
+  - {label: "SECTION 7.10", raw_start: 1440284, title: "Distributions"}
+  - {label: "SECTION 7.10.1", raw_start: 1440547, title: "The Restricted Companies may make Distributions to other Res"}
+  - {label: "SECTION 7.10.2", raw_start: 1440793, title: "Any Restricted Company may declare and pay dividends payable"}
+  - {label: "SECTION 7.10.3", raw_start: 1441092, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.10.4", raw_start: 1444100, title: "The Restricted Companies may make Distributions on account o"}
+  - {label: "SECTION 7.10.5", raw_start: 1444395, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.10.6", raw_start: 1445145, title: "Investments permitted by Sections 7.9.7 and 7.9.9 and Affili"}
+  - {label: "SECTION 7.10.7", raw_start: 1445483, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.10.8", raw_start: 1445955, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.10.9", raw_start: 1447413, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.10.10", raw_start: 1448656, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.11", raw_start: 1449089, title: "Merger, Consolidation and Dispositions of Assets"}
+  - {label: "SECTION 7.11.1", raw_start: 1449530, title: "Any Restricted Company may sell or otherwise dispose of (a) "}
+  - {label: "SECTION 7.11.2", raw_start: 1450173, title: "Any Restricted Company may (i) merge or be liquidated into, "}
+  - {label: "SECTION 7.11.3", raw_start: 1450705, title: "Subject to Section 4.4, so long as no Event of Default exist"}
+  - {label: "SECTION 7.11.4", raw_start: 1451920, title: "So long as immediately before and after giving effect theret"}
+  - {label: "SECTION 7.11.5", raw_start: 1452336, title: "The Restricted Companies may consummate Permitted Asset Swap"}
+  - {label: "SECTION 7.11.6", raw_start: 1453395, title: "The Restricted Companies may consummate mergers or consolida"}
+  - {label: "SECTION 7.11.7", raw_start: 1453708, title: "The Restricted Companies may sell property acquired after th"}
+  - {label: "SECTION 7.12", raw_start: 1454648, title: "Issuance of Stock by Subsidiaries;"}
+  - {label: "SECTION 7.12.1", raw_start: 1454874, title: "Issuance of Stock by Subsidiaries"}
+  - {label: "SECTION 7.12.2", raw_start: 1455506, title: "No Restrictions on Subsidiary Distributions"}
+  - {label: "SECTION 7.13", raw_start: 1456108, title: "ERISA, etc"}
+  - {label: "SECTION 7.14", raw_start: 1457429, title: "Transactions with Affiliates"}
+  - {label: "SECTION 7.15", raw_start: 1460590, title: "Interest Rate Protection"}
+  - {label: "SECTION 7.16", raw_start: 1461603, title: "Compliance with Environmental Laws"}
+  - {label: "SECTION 7.16.1", raw_start: 1461843, title: "Use and operate all of its facilities and properties in comp"}
+  - {label: "SECTION 7.16.2", raw_start: 1462583, title: "Immediately notify the Administrative Agent, and provide cop"}
+  - {label: "SECTION 7.16.3", raw_start: 1463386, title: "Provide such information and certifications which the Admini"}
+  - {label: "SECTION 7.17", raw_start: 1463721, title: "No Outside Management Fees"}
+  - {label: "SECTION 7.18", raw_start: 1465691, title: "Derivative Contracts"}
+  - {label: "SECTION 7.19", raw_start: 1466196, title: "Negative Pledge Clauses"}
+  - {label: "SECTION 7.19.1", raw_start: 1466894, title: "This Agreement and the other Credit Documents"}
+  - {label: "SECTION 7.19.2", raw_start: 1467108, title: "Covenants in documents creating Liens permitted by Section 7"}
+  - {label: "SECTION 7.19.3", raw_start: 1467403, title: "Restrictions on transfer and pledges imposed in the ordinary"}
+  - {label: "ARTICLE 8", raw_start: 1468099, title: ""}
+  - {label: "SECTION 8.01", raw_start: 1468099, title: "Organization and Business"}
+  - {label: "SECTION 8.01.1", raw_start: 1468290, title: "The Borrower"}
+  - {label: "SECTION 8.01.2", raw_start: 1469592, title: "Other Guarantors"}
+  - {label: "SECTION 8.01.3", raw_start: 1471300, title: "Qualification"}
+  - {label: "SECTION 8.01.4", raw_start: 1472208, title: "Capitalization"}
+  - {label: "SECTION 8.02", raw_start: 1472830, title: "Financial Statements and Other Information;"}
+  - {label: "SECTION 8.02.1", raw_start: 1473059, title: "Financial Statements and Other Information"}
+  - {label: "SECTION 8.02.2", raw_start: 1474575, title: "Material Agreements"}
+  - {label: "SECTION 8.03", raw_start: 1475051, title: "Changes in Condition"}
+  - {label: "SECTION 8.04", raw_start: 1475278, title: "Title to Assets"}
+  - {label: "SECTION 8.05", raw_start: 1476232, title: "Licenses, etc"}
+  - {label: "SECTION 8.05.1", raw_start: 1477679, title: "Franchises;"}
+  - {label: "SECTION 8.05.2", raw_start: 1478049, title: "FCC and Other Matters"}
+  - {label: "SECTION 8.06", raw_start: 1479404, title: "Litigation"}
+  - {label: "SECTION 8.07", raw_start: 1480676, title: "Tax Returns"}
+  - {label: "SECTION 8.08", raw_start: 1481798, title: "Authorization and Enforceability"}
+  - {label: "SECTION 8.09", raw_start: 1482389, title: "No Legal Obstacle to Agreements"}
+  - {label: "SECTION 8.10", raw_start: 1485067, title: "Defaults"}
+  - {label: "SECTION 8.11", raw_start: 1485725, title: "Certain Business Representations"}
+  - {label: "SECTION 8.11.1", raw_start: 1485924, title: "Labor Relations"}
+  - {label: "SECTION 8.11.2", raw_start: 1487080, title: "Antitrust"}
+  - {label: "SECTION 8.11.3", raw_start: 1487450, title: "Consumer Protection"}
+  - {label: "SECTION 8.12", raw_start: 1487959, title: "Environmental Regulations"}
+  - {label: "SECTION 8.12.1", raw_start: 1488151, title: "Environmental Compliance"}
+  - {label: "SECTION 8.12.2", raw_start: 1489188, title: "Environmental Litigation"}
+  - {label: "SECTION 8.12.3", raw_start: 1491528, title: "Hazardous Material"}
+  - {label: "SECTION 8.12.4", raw_start: 1492989, title: "Environmental Condition of Properties"}
+  - {label: "SECTION 8.13", raw_start: 1493654, title: "Pension Plans"}
+  - {label: "SECTION 8.14", raw_start: 1494241, title: "Government Regulation;"}
+  - {label: "SECTION 8.14.1", raw_start: 1494443, title: "Government Regulation"}
+  - {label: "SECTION 8.14.2", raw_start: 1495238, title: "Margin Stock"}
+  - {label: "SECTION 8.15", raw_start: 1495593, title: "Disclosure"}
+  - {label: "ARTICLE 9", raw_start: 1496375, title: ""}
+  - {label: "SECTION 9.01", raw_start: 1496375, title: "Events of Default"}
+  - {label: "SECTION 9.01.1", raw_start: 1496629, title: "Non-Payment"}
+  - {label: "SECTION 9.01.2", raw_start: 1497356, title: "Breach of Designated Covenants"}
+  - {label: "SECTION 9.01.3", raw_start: 1497693, title: "Breach of Other Covenants"}
+  - {label: "SECTION 9.01.4", raw_start: 1498313, title: "Misrepresentation"}
+  - {label: "SECTION 9.01.5", raw_start: 1499019, title: "Cross-Default, etc"}
+  - {label: "SECTION 9.01.6", raw_start: 1501737, title: "Change of Control, etc"}
+  - {label: "SECTION 9.01.7", raw_start: 1503876, title: "Enforceability, etc"}
+  - {label: "SECTION 9.01.8", raw_start: 1504598, title: "Judgments, etc"}
+  - {label: "SECTION 9.01.9", raw_start: 1505442, title: "Franchise Revocation, etc"}
+  - {label: "SECTION 9.01.10", raw_start: 1506445, title: "ERISA"}
+  - {label: "SECTION 9.01.11", raw_start: 1507810, title: "Bankruptcy, etc"}
+  - {label: "SECTION 9.01.12", raw_start: 1511030, title: "Charter Communications VII"}
+  - {label: "SECTION 9.01.13", raw_start: 1512120, title: "Minority Interest HoldCo"}
+  - {label: "SECTION 9.02", raw_start: 1512410, title: "Certain Actions Following an Event of Default"}
+  - {label: "SECTION 9.02.1", raw_start: 1512723, title: "No Obligation to Extend Credit"}
+  - {label: "SECTION 9.02.2", raw_start: 1514144, title: "Specific Performance;"}
+  - {label: "SECTION 9.02.3", raw_start: 1514931, title: "Acceleration"}
+  - {label: "SECTION 9.02.4", raw_start: 1515748, title: "Enforcement of Payment;"}
+  - {label: "SECTION 9.02.5", raw_start: 1516717, title: "Cumulative Remedies"}
+  - {label: "SECTION 9.03", raw_start: 1517075, title: "Annulment of Defaults"}
+  - {label: "SECTION 9.04", raw_start: 1518127, title: "Waivers"}
+  - {label: "ARTICLE 10", raw_start: 1520513, title: ""}
+  - {label: "SECTION 10.01", raw_start: 1520513, title: "Expenses"}
+  - {label: "SECTION 10.02", raw_start: 1524569, title: "General Indemnity"}
+  - {label: "ARTICLE 11", raw_start: 1527061, title: ""}
+  - {label: "SECTION 11.01", raw_start: 1527061, title: "Interests in Credits"}
+  - {label: "SECTION 11.02", raw_start: 1527690, title: "Agents' Authority to Act, etc"}
+  - {label: "SECTION 11.03", raw_start: 1528793, title: "Borrower to Pay Agent, etc"}
+  - {label: "SECTION 11.04", raw_start: 1529836, title: "Lender Operations for Advances, etc"}
+  - {label: "SECTION 11.04.1", raw_start: 1530038, title: "Advances"}
+  - {label: "SECTION 11.04.2", raw_start: 1531250, title: "Administrative Agent to Allocate Payments, etc"}
+  - {label: "SECTION 11.04.3", raw_start: 1532291, title: "Delinquent Lenders;"}
+  - {label: "SECTION 11.05", raw_start: 1535575, title: "Sharing of Payments, etc"}
+  - {label: "SECTION 11.06", raw_start: 1537743, title: "Agent's Resignation or Removal"}
+  - {label: "SECTION 11.07", raw_start: 1539844, title: "Concerning the Agents"}
+  - {label: "SECTION 11.07.1", raw_start: 1540181, title: "Action in Good Faith, etc"}
+  - {label: "SECTION 11.07.2", raw_start: 1541102, title: "No Implied Duties, etc"}
+  - {label: "SECTION 11.07.3", raw_start: 1542468, title: "Validity, etc"}
+  - {label: "SECTION 11.07.4", raw_start: 1543383, title: "Compliance"}
+  - {label: "SECTION 11.07.5", raw_start: 1544004, title: "Employment of Agents and Counsel"}
+  - {label: "SECTION 11.07.6", raw_start: 1544839, title: "Reliance on Documents and Counsel"}
+  - {label: "SECTION 11.07.7", raw_start: 1545750, title: "Agent's Reimbursement"}
+  - {label: "SECTION 11.08", raw_start: 1546786, title: "Rights as a Lender"}
+  - {label: "SECTION 11.09", raw_start: 1548047, title: "Independent Credit Decision"}
+  - {label: "SECTION 11.10", raw_start: 1549916, title: "Indemnification"}
+  - {label: "ARTICLE 12", raw_start: 1552448, title: ""}
+  - {label: "SECTION 12.01", raw_start: 1552448, title: "Assignments by Lenders"}
+  - {label: "SECTION 12.01.1", raw_start: 1552637, title: "Assignees and Assignment Procedures"}
+  - {label: "SECTION 12.01.2", raw_start: 1557474, title: "Terms of Assignment and Acceptance"}
+  - {label: "SECTION 12.01.3", raw_start: 1561183, title: "Register"}
+  - {label: "SECTION 12.01.4", raw_start: 1562358, title: "Acceptance of Assignment and Assumption"}
+  - {label: "SECTION 12.01.5", raw_start: 1563772, title: "Pledges"}
+  - {label: "SECTION 12.01.6", raw_start: 1564389, title: "Further Assurances"}
+  - {label: "SECTION 12.02", raw_start: 1564794, title: "Credit Participants"}
+  - {label: "SECTION 12.03", raw_start: 1567960, title: "Replacement of Lender"}
+  - {label: "ARTICLE 17", raw_start: 1580904, title: ""}
+  - {label: "SECTION 17.01", raw_start: 1580904, title: "Lender Consents for Amendments"}
+  - {label: "SECTION 17.02", raw_start: 1589370, title: "Course of Dealing;"}
+  - {label: "ARTICLE 18", raw_start: 1590643, title: ""}
+  - {label: "SECTION 18.01", raw_start: 1590643, title: "Defeasance"}
+  - {label: "SECTION 18.02", raw_start: 1591865, title: "No Strict Construction"}
+  - {label: "SECTION 18.03", raw_start: 1592583, title: "Certain Obligor Acknowledgments"}
+  - {label: "SECTION 18.04", raw_start: 1594301, title: "Venue;"}
+  - {label: "SECTION 18.05", raw_start: 1597132, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 18.06", raw_start: 1598620, title: "Interpretation;"}
+  - {label: "SECTION 18.07", raw_start: 1600323, title: "Pledge and Subordination Agreement"}
+absent: []

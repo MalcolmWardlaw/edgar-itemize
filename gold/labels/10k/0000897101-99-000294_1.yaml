@@ -1,0 +1,24 @@
+accession: 0000897101-99-000294
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 6259, title: ""}
+  - {label: "ITEM 1", raw_start: 6268, title: "Business"}
+  - {label: "ITEM 2", raw_start: 28390, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 28758, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 29362, title: "Submission of Matters to a Vote of Security Holders"}
+  - {label: "PART II", raw_start: 32078, title: ""}
+  - {label: "ITEM 5", raw_start: 32088, title: "Market for the Registrant's Common Equity"}
+  - {label: "ITEM 6", raw_start: 33634, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 35047, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 8", raw_start: 50954, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 96936, title: "Disagreements with Accountants on Accounting and Financial D"}
+  - {label: "PART III", raw_start: 97026, title: ""}
+  - {label: "ITEM 10", raw_start: 97038, title: "Directors and Executive Officers of the Registrant"}
+  - {label: "ITEM 11", raw_start: 97626, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 97985, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 98378, title: "Certain Relationships and Related Transactions"}
+  - {label: "PART IV", raw_start: 98808, title: ""}
+  - {label: "ITEM 14", raw_start: 98819, title: "Exhibits, Schedule and Reports on Form 8-K"}
+absent: []

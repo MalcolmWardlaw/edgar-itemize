@@ -1,0 +1,29 @@
+accession: 0001193125-13-129297
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 12442, title: ""}
+  - {label: "ITEM 1", raw_start: 12554, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 27903, title: "Risk Factors"}
+  - {label: "ITEM 2", raw_start: 37149, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 37852, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 159435, title: "Mine Safety Disclosures. Not applicable"}
+  - {label: "PART II", raw_start: 159939, title: ""}
+  - {label: "ITEM 5", raw_start: 160052, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 175260, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 196806, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 255864, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 320196, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 805514, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 805865, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 811152, title: "Other Information. — None"}
+  - {label: "PART III", raw_start: 811738, title: ""}
+  - {label: "ITEM 10", raw_start: 811852, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 833887, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 834656, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 838710, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 839798, title: "Principal Accountant Fees and Services"}
+  - {label: "PART IV", raw_start: 844547, title: ""}
+  - {label: "ITEM 15", raw_start: 844660, title: "Exhibits, Financial Statement Schedules"}
+absent: []

@@ -1,0 +1,77 @@
+accession: 0000950137-01-502768
+sequence: 4
+doc_type: EX-10.20
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 86156, title: "DEFINITIONS"}
+  - {label: "ARTICLE 2", raw_start: 93772, title: "REPRESENTATIONS"}
+  - {label: "SECTION 2.01", raw_start: 93837, title: "Representations and Tax Covenants by the Borrower"}
+  - {label: "SECTION 2.02", raw_start: 111765, title: "Representations of the Issuer"}
+  - {label: "ARTICLE 3", raw_start: 119411, title: "LOAN AND REPAYMENT"}
+  - {label: "SECTION 3.01", raw_start: 119479, title: "Amount and Evidence of Loan"}
+  - {label: "SECTION 3.02", raw_start: 119924, title: "Loan Repayments"}
+  - {label: "SECTION 3.03", raw_start: 121300, title: "Mandatory and Optional Prepayments of the Promissory Note"}
+  - {label: "SECTION 3.04", raw_start: 123581, title: "Additional Payment Obligations of the Borrower"}
+  - {label: "SECTION 3.05", raw_start: 125508, title: "Payment of Fees"}
+  - {label: "SECTION 3.06", raw_start: 125958, title: "Administrative Expenses"}
+  - {label: "SECTION 3.07", raw_start: 126620, title: "Agreement to Supply Letter of Credit"}
+  - {label: "SECTION 3.08", raw_start: 126870, title: "Purchase of Bonds Prohibited"}
+  - {label: "ARTICLE 4", raw_start: 127200, title: "NO SECURITY INTEREST IN PROJECT"}
+  - {label: "ARTICLE 5", raw_start: 127722, title: "ACQUISITION OF THE PROJECT"}
+  - {label: "SECTION 5.01", raw_start: 127792, title: "Disbursements from the Project Fund"}
+  - {label: "SECTION 5.02", raw_start: 128789, title: "Obligation of the Borrower to Complete the Project and to Pa"}
+  - {label: "SECTION 5.03", raw_start: 130802, title: "Investment of Project Fund and Bond Fund Moneys"}
+  - {label: "SECTION 5.04", raw_start: 132323, title: "Certificate as to Completion"}
+  - {label: "SECTION 5.05", raw_start: 133388, title: "No Warranty by Issuer"}
+  - {label: "ARTICLE 6", raw_start: 134669, title: "USE OF PROJECT MAINTENANCE, TAXES AND INSURANCE"}
+  - {label: "SECTION 6.01", raw_start: 134751, title: "Use, Maintenance and Modifications of Project by Borrower"}
+  - {label: "SECTION 6.02", raw_start: 136863, title: "Taxes, Other Governmental Charges and Utility Charges"}
+  - {label: "SECTION 6.03", raw_start: 139098, title: "Insurance"}
+  - {label: "ARTICLE 7", raw_start: 139486, title: "DAMAGE, DESTRUCTION AND CONDEMNATION"}
+  - {label: "ARTICLE 8", raw_start: 142895, title: "SPECIAL COVENANTS"}
+  - {label: "SECTION 8.01", raw_start: 142964, title: "Assignment and Pledge of Issuer's Rights;"}
+  - {label: "SECTION 8.02", raw_start: 144693, title: "Right of Access to the Project"}
+  - {label: "SECTION 8.03", raw_start: 145201, title: "Maintenance of Existence"}
+  - {label: "SECTION 8.04", raw_start: 146040, title: "Qualification in State of Illinois"}
+  - {label: "SECTION 8.05", raw_start: 146280, title: "Covenant as to Non-Impairment of Tax-Exempt Status"}
+  - {label: "SECTION 8.06", raw_start: 150295, title: "Indemnity, Expenses"}
+  - {label: "SECTION 8.07", raw_start: 157481, title: "Compliance with Laws"}
+  - {label: "SECTION 8.08", raw_start: 158222, title: "No Recourse to Issuer"}
+  - {label: "SECTION 8.09", raw_start: 160218, title: "Indenture Provisions"}
+  - {label: "SECTION 8.10", raw_start: 160975, title: "Recording and Maintenance of Liens"}
+  - {label: "SECTION 8.11", raw_start: 163093, title: "Rights and Duties of the Issuer"}
+  - {label: "SECTION 8.12", raw_start: 168330, title: "Nature of Project and Public Purpose"}
+  - {label: "SECTION 8.13", raw_start: 169398, title: "Annual Certificate"}
+  - {label: "SECTION 8.14", raw_start: 170238, title: "Term Of This Agreement"}
+  - {label: "SECTION 8.15", raw_start: 171346, title: "Reports on Employment at the Project"}
+  - {label: "SECTION 8.16", raw_start: 172317, title: "Additional Payments"}
+  - {label: "ARTICLE 9", raw_start: 173368, title: "ASSIGNMENT, LEASING, EQUIPMENT"}
+  - {label: "SECTION 9.01", raw_start: 173441, title: "Transfer, Assignment and Leasing"}
+  - {label: "SECTION 9.02", raw_start: 175982, title: "Substitution and Removal of Machinery and Equipment"}
+  - {label: "ARTICLE 10", raw_start: 177523, title: "EVENTS OF DEFAULT AND REMEDIES"}
+  - {label: "SECTION 10.01", raw_start: 177595, title: "Events of Default"}
+  - {label: "SECTION 10.02", raw_start: 182034, title: "Remedies on Default"}
+  - {label: "SECTION 10.03", raw_start: 183660, title: "No Remedy Exclusive"}
+  - {label: "SECTION 10.04", raw_start: 184521, title: "Agreement to Pay Attorneys' Fees and Expenses"}
+  - {label: "SECTION 10.05", raw_start: 185022, title: "No Additional Waiver Implied by One Waiver"}
+  - {label: "SECTION 10.06", raw_start: 186258, title: "Default by Issuer - Limited Liability"}
+  - {label: "ARTICLE 11", raw_start: 187505, title: "PAYMENT OF SURPLUS BOND PROCEEDS FROM THE BOND FUND"}
+  - {label: "SECTION 11.01", raw_start: 187589, title: "Surplus Bond Proceeds"}
+  - {label: "ARTICLE 12", raw_start: 188720, title: "THE BONDS"}
+  - {label: "SECTION 12.01", raw_start: 188784, title: "Issuance of the Bonds"}
+  - {label: "SECTION 12.02", raw_start: 189003, title: "Compliance with Indenture"}
+  - {label: "SECTION 12.03", raw_start: 189189, title: "Consent to Issuer's Pledge"}
+  - {label: "SECTION 12.04", raw_start: 190194, title: "Rights of Trustee Hereunder"}
+  - {label: "SECTION 12.05", raw_start: 191221, title: "Amendments to Indenture and this Agreement"}
+  - {label: "ARTICLE 13", raw_start: 191647, title: "MISCELLANEOUS"}
+  - {label: "SECTION 13.01", raw_start: 191714, title: "Amounts Remaining in Funds"}
+  - {label: "SECTION 13.02", raw_start: 192264, title: "Rights of the Bank"}
+  - {label: "SECTION 13.03", raw_start: 192878, title: "Notices"}
+  - {label: "SECTION 13.04", raw_start: 194014, title: "Bondholders' Action"}
+  - {label: "SECTION 13.05", raw_start: 194351, title: "Binding Effect"}
+  - {label: "SECTION 13.06", raw_start: 194927, title: "Severability"}
+  - {label: "SECTION 13.07", raw_start: 195591, title: "Captions"}
+  - {label: "SECTION 13.08", raw_start: 195796, title: "Governing Law,"}
+  - {label: "SECTION 13.09", raw_start: 197607, title: "Execution in Counterparts"}
+  - {label: "SECTION 13.10", raw_start: 197811, title: "Recent Developments"}
+absent: []

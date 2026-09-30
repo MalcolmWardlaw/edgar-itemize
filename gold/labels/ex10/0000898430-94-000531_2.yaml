@@ -1,0 +1,98 @@
+accession: 0000898430-94-000531
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 46216, title: ""}
+  - {label: "SECTION 1", raw_start: 46216, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 46241, title: "CERTAIN DEFINED TERMS"}
+  - {label: "SECTION 1.02", raw_start: 79597, title: "ACCOUNTING TERMS;"}
+  - {label: "SECTION 1.03", raw_start: 80487, title: "OTHER DEFINITIONAL PROVISIONS"}
+  - {label: "ARTICLE 2", raw_start: 80871, title: ""}
+  - {label: "SECTION 2", raw_start: 80871, title: "AMOUNTS AND TERMS OF COMMITMENTS AND LOANS"}
+  - {label: "SECTION 2.01", raw_start: 80927, title: "PRO RATA LOANS"}
+  - {label: "SECTION 2.02", raw_start: 85709, title: "BID RATE LOANS"}
+  - {label: "SECTION 2.03", raw_start: 95677, title: "SWING LINE LOANS"}
+  - {label: "SECTION 2.04", raw_start: 103618, title: "DISBURSEMENT OF FUNDS"}
+  - {label: "SECTION 2.05", raw_start: 107056, title: "LOAN ACCOUNTS AND REGISTER"}
+  - {label: "SECTION 2.06", raw_start: 110683, title: "INTEREST ON THE LOANS"}
+  - {label: "SECTION 2.07", raw_start: 126573, title: "FEES"}
+  - {label: "SECTION 2.08", raw_start: 128404, title: "PREPAYMENTS AND REDUCTIONS IN COMMITMENTS;"}
+  - {label: "SECTION 2.09", raw_start: 136411, title: "USE OF PROCEEDS"}
+  - {label: "SECTION 2.10", raw_start: 137548, title: "SPECIAL PROVISIONS GOVERNING EURODOLLAR RATE LOANS"}
+  - {label: "SECTION 2.11", raw_start: 158514, title: "CERTAIN TAX PROVISIONS"}
+  - {label: "ARTICLE 3", raw_start: 162448, title: ""}
+  - {label: "SECTION 3", raw_start: 162448, title: "CONDITIONS TO LOANS"}
+  - {label: "SECTION 3.01", raw_start: 162598, title: "CONDITIONS TO INITIAL LOANS"}
+  - {label: "SECTION 3.02", raw_start: 165673, title: "ADDITIONAL CONDITIONS"}
+  - {label: "ARTICLE 4", raw_start: 167991, title: ""}
+  - {label: "SECTION 4", raw_start: 167991, title: "COMPANY'S REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 168248, title: "ORGANIZATION, POWERS, QUALIFICATION, GOOD STANDING AND SUBSI"}
+  - {label: "SECTION 4.02", raw_start: 169296, title: "AUTHORIZATION OF BORROWING, ETC"}
+  - {label: "SECTION 4.03", raw_start: 172195, title: "FINANCIAL CONDITION"}
+  - {label: "SECTION 4.04", raw_start: 172878, title: "NO MATERIAL ADVERSE CHANGE"}
+  - {label: "SECTION 4.05", raw_start: 173114, title: "LITIGATION;"}
+  - {label: "SECTION 4.06", raw_start: 174041, title: "PAYMENT OF TAXES"}
+  - {label: "SECTION 4.07", raw_start: 175030, title: "GOVERNMENTAL REGULATION"}
+  - {label: "SECTION 4.08", raw_start: 175456, title: "SECURITIES ACTIVITIES"}
+  - {label: "SECTION 4.09", raw_start: 175687, title: "MARGIN STOCK"}
+  - {label: "SECTION 4.10", raw_start: 176315, title: "EMPLOYEE BENEFIT PLANS"}
+  - {label: "SECTION 4.11", raw_start: 178829, title: "ENVIRONMENTAL PROTECTION"}
+  - {label: "ARTICLE 5", raw_start: 180054, title: ""}
+  - {label: "SECTION 5", raw_start: 180054, title: "COMPANY'S AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 180568, title: "FINANCIAL STATEMENTS AND OTHER REPORTS"}
+  - {label: "SECTION 5.02", raw_start: 185833, title: "CORPORATE EXISTENCE, ETC"}
+  - {label: "SECTION 5.03", raw_start: 186675, title: "PAYMENT OF TAXES AND CLAIMS;"}
+  - {label: "SECTION 5.04", raw_start: 188106, title: "MAINTENANCE OF PROPERTIES;"}
+  - {label: "SECTION 5.05", raw_start: 189034, title: "COMPLIANCE WITH LAWS, ETC"}
+  - {label: "SECTION 5.06", raw_start: 189503, title: "HAZARDOUS MATERIALS"}
+  - {label: "SECTION 5.07", raw_start: 190323, title: "MARGIN STOCK"}
+  - {label: "SECTION 5.08", raw_start: 190923, title: "INSPECTION"}
+  - {label: "ARTICLE 6", raw_start: 191326, title: ""}
+  - {label: "SECTION 6", raw_start: 191326, title: "COMPANY'S NEGATIVE COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 191786, title: "MAXIMUM LEVERAGE RATIO"}
+  - {label: "SECTION 6.02", raw_start: 192019, title: "MINIMUM FIXED CHARGE COVERAGE RATIO"}
+  - {label: "SECTION 6.03", raw_start: 192400, title: "LIENS"}
+  - {label: "SECTION 6.04", raw_start: 195943, title: "DISPOSITION OF ASSETS"}
+  - {label: "ARTICLE 7", raw_start: 196707, title: ""}
+  - {label: "SECTION 7", raw_start: 196707, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 7.01", raw_start: 196841, title: "FAILURE TO MAKE PAYMENTS WHEN DUE"}
+  - {label: "SECTION 7.02", raw_start: 197237, title: "DEFAULT IN OTHER AGREEMENTS"}
+  - {label: "SECTION 7.03", raw_start: 198500, title: "BREACH OF CERTAIN COVENANTS"}
+  - {label: "SECTION 7.04", raw_start: 198715, title: "BREACH OF WARRANTY"}
+  - {label: "SECTION 7.05", raw_start: 199057, title: "OTHER DEFAULTS UNDER AGREEMENT"}
+  - {label: "SECTION 7.06", raw_start: 199463, title: "INVOLUNTARY BANKRUPTCY;"}
+  - {label: "SECTION 7.07", raw_start: 201382, title: "VOLUNTARY BANKRUPTCY;"}
+  - {label: "SECTION 7.08", raw_start: 202825, title: "JUDGMENTS AND ATTACHMENTS"}
+  - {label: "SECTION 7.09", raw_start: 203392, title: "UNFUNDED ERISA LIABILITIES"}
+  - {label: "SECTION 7.10", raw_start: 205256, title: "CHANGE IN CONTROL"}
+  - {label: "ARTICLE 8", raw_start: 207654, title: ""}
+  - {label: "SECTION 8", raw_start: 207654, title: "AGENT"}
+  - {label: "SECTION 8.01", raw_start: 207673, title: "APPOINTMENT"}
+  - {label: "SECTION 8.02", raw_start: 207941, title: "POWERS;"}
+  - {label: "SECTION 8.03", raw_start: 213317, title: "REPRESENTATIONS AND WARRANTIES;"}
+  - {label: "SECTION 8.04", raw_start: 214362, title: "RIGHT TO INDEMNITY"}
+  - {label: "SECTION 8.05", raw_start: 215657, title: "REGISTERED PERSONS TREATED AS OWNERS"}
+  - {label: "SECTION 8.06", raw_start: 216366, title: "SUCCESSOR AGENT"}
+  - {label: "ARTICLE 9", raw_start: 218218, title: ""}
+  - {label: "SECTION 9", raw_start: 218218, title: "MISCELLANEOUS"}
+  - {label: "SECTION 9.01", raw_start: 218245, title: "SECURITIES REPRESENTATION"}
+  - {label: "SECTION 9.02", raw_start: 218985, title: "ASSIGNMENTS AND PARTICIPATIONS IN LOANS"}
+  - {label: "SECTION 9.03", raw_start: 228069, title: "EXPENSES"}
+  - {label: "SECTION 9.04", raw_start: 229168, title: "INDEMNITY"}
+  - {label: "SECTION 9.05", raw_start: 233531, title: "RATABLE SHARING"}
+  - {label: "SECTION 9.06", raw_start: 235455, title: "AMENDMENTS AND WAIVERS"}
+  - {label: "SECTION 9.07", raw_start: 237872, title: "NOTICES"}
+  - {label: "SECTION 9.08", raw_start: 239599, title: "SURVIVAL OF REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 9.09", raw_start: 239858, title: "FAILURE OR INDULGENCE NOT WAIVER;"}
+  - {label: "SECTION 9.10", raw_start: 240516, title: "ENTIRE AGREEMENT"}
+  - {label: "SECTION 9.11", raw_start: 240811, title: "SEVERABILITY"}
+  - {label: "SECTION 9.12", raw_start: 241183, title: "OBLIGATIONS SEVERAL;"}
+  - {label: "SECTION 9.13", raw_start: 241991, title: "HEADINGS"}
+  - {label: "SECTION 9.14", raw_start: 242241, title: "APPLICABLE LAW"}
+  - {label: "SECTION 9.15", raw_start: 242421, title: "SUCCESSORS AND ASSIGNS"}
+  - {label: "SECTION 9.16", raw_start: 242987, title: "CONSENT TO JURISDICTION AND SERVICE OF PROCESS"}
+  - {label: "SECTION 9.17", raw_start: 243848, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 9.18", raw_start: 245328, title: "CONFIDENTIALITY"}
+  - {label: "SECTION 9.19", raw_start: 247092, title: "COUNTERPARTS;"}
+absent: []

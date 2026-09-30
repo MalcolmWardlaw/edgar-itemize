@@ -1,0 +1,19 @@
+accession: 0001047469-99-012341
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "ITEM 2", raw_start: 17438, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 18112, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 18268, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "ITEM 5", raw_start: 18403, title: "MARKET FOR THE REGISTRANT'S COMMON STOCK AND RELATED SECURIT"}
+  - {label: "ITEM 6", raw_start: 20036, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 24667, title: "Management's Discussion and Analysis"}
+  - {label: "ITEM 9", raw_start: 175015, title: "DISAGREEMENTS ON ACCOUNTING AND FINANCIAL DISCLOSURE"}
+  - {label: "PART III", raw_start: 175162, title: ""}
+  - {label: "ITEM 10", raw_start: 175173, title: "DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT"}
+  - {label: "ITEM 11", raw_start: 177145, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 177351, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 177617, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS"}
+  - {label: "ITEM 14", raw_start: 177845, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES AND REPORTS ON FORM "}
+absent: []

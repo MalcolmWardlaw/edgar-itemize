@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>edgar-itemize turns</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --paper:#FBFAF7; --ink:#1B1F24; --muted:#6B7480; --rule:#D8D4CB; --band:#F1EEE6; --accent:#1E4F73; --head:#FFFFFF;
+  --l1:#1E4F73; --l2:#2E7D5B; --l3:#B7791F; --l4:#A3502A;
+  --grid:#E6E2D9; --s-cur:#2a78d6; --s-prev:#eb6834;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --paper:#15181C; --ink:#E8E4DA; --muted:#A3AAB3; --rule:#343A42; --band:#1E2228; --accent:#7FB2D6; --head:#1A1E23;
+  --l1:#7FB2D6; --l2:#7CCB9F; --l3:#E3B65A; --l4:#E0956A; --grid:#2A2F36; --s-cur:#3987e5; --s-prev:#d95926; color-scheme:dark; } }
+:root[data-theme="dark"]{ --paper:#15181C; --ink:#E8E4DA; --muted:#A3AAB3; --rule:#343A42; --band:#1E2228; --accent:#7FB2D6; --head:#1A1E23;
+  --l1:#7FB2D6; --l2:#7CCB9F; --l3:#E3B65A; --l4:#E0956A; --grid:#2A2F36; --s-cur:#3987e5; --s-prev:#d95926; color-scheme:dark; }
+*{ box-sizing:border-box; }
+body{ margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Mono", Menlo, Consolas, monospace; font-size:13px; line-height:1.5; }
+header{ display:flex; gap:.75rem; align-items:center; padding:.5rem .9rem; border-bottom:1px solid var(--rule); position:sticky; top:0; background:var(--paper); z-index:5; flex-wrap:wrap; }
+header select{ font:inherit; padding:.3rem .45rem; border:1px solid var(--rule); background:var(--band); color:var(--ink); border-radius:2px; }
+header a{ color:var(--accent); text-decoration:none; } header a:hover{ text-decoration:underline; }
+header .brand{ font-weight:700; }
+header nav{ display:flex; gap:.8rem; flex-wrap:wrap; font-size:12px; }
+#meta{ color:var(--muted); font-size:12px; margin-left:auto; }
+main{ max-width:1480px; margin:0 auto; padding:1rem 16px 4rem; }
+section{ margin:1.6rem 0 0; }
+h2{ font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); font-weight:500; margin:0 0 .5rem; border-bottom:1px solid var(--rule); padding-bottom:.25rem; }
+h3{ font-size:12px; font-weight:600; margin:1rem 0 .35rem; }
+p.note, .src{ color:var(--muted); font-size:11px; margin:.35rem 0; }
+.src code{ font-size:11px; }
+a{ color:var(--accent); }
+a.n{ text-decoration:none; border-bottom:1px dotted var(--accent); }
+a.n:hover{ border-bottom-style:solid; }
+.wrap{ overflow-x:auto; }
+table{ border-collapse:collapse; width:100%; font-size:12px; font-variant-numeric:tabular-nums; }
+th, td{ padding:.22rem .5rem; border-bottom:1px solid var(--rule); text-align:right; white-space:nowrap; vertical-align:top; }
+th{ color:var(--muted); font-weight:500; background:var(--band); position:sticky; top:0; }
+th.l, td.l{ text-align:left; }
+td.wrapc{ white-space:normal; min-width:24ch; }
+tr.sub td{ color:var(--muted); font-size:11px; }
+tbody tr:hover td{ background:var(--band); }
+.up{ color:var(--l2); } .down{ color:var(--l4); } .mut{ color:var(--muted); }
+.chip{ display:inline-block; font-size:10px; font-weight:700; padding:0 .4rem; border-radius:2px; border:1px solid currentColor; margin-left:.3rem; }
+.chip.pass{ color:var(--l2); } .chip.fail{ color:var(--l4); } .chip.warn{ color:var(--l3); }
+.tiles{ display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:.6rem; }
+.tile{ border:1px solid var(--rule); background:var(--head); padding:.55rem .7rem; border-radius:2px; }
+.tile .k{ color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.06em; }
+.tile .v{ font-size:20px; font-weight:700; margin:.15rem 0; }
+.tile .d{ font-size:11px; color:var(--muted); }
+details{ margin:.2rem 0; } summary{ cursor:pointer; color:var(--muted); font-size:11px; }
+.legend{ display:flex; gap:1rem; font-size:11px; color:var(--muted); margin:.2rem 0 .4rem; }
+.legend i{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:.3rem; vertical-align:middle; }
+.charts{ display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem; }
+.chart svg{ width:100%; height:auto; display:block; }
+.chart text{ fill:var(--muted); font-family:inherit; font-size:11px; }
+.chart .lbl{ fill:var(--ink); }
+.tip{ position:fixed; pointer-events:none; background:var(--head); color:var(--ink); border:1px solid var(--rule); padding:.35rem .55rem; font-size:11px; z-index:10; box-shadow:0 4px 14px rgba(0,0,0,.15); display:none; white-space:pre; }
+#err{ color:var(--l4); }
+.bgrid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(210px, 1fr)); gap:.6rem; margin:.5rem 0; }
+.fbox{ border:1px solid var(--rule); background:var(--head); border-radius:2px; padding:.35rem .45rem; min-width:0; }
+.fbox .t{ color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.06em; display:flex; justify-content:space-between; gap:.4rem; }
+.fbox .t a{ text-transform:none; letter-spacing:0; cursor:pointer; }
+.fbox .opts{ max-height:150px; overflow-y:auto; margin-top:.25rem; }
+.fbox label{ display:flex; gap:.35rem; align-items:baseline; font-size:12px; cursor:pointer; white-space:nowrap; }
+.fbox label span.v{ overflow:hidden; text-overflow:ellipsis; flex:1; }
+.fbox label span.c{ color:var(--muted); font-variant-numeric:tabular-nums; }
+.fbox label.zero{ opacity:.45; }
+.fbox input.ff{ width:100%; font:inherit; font-size:11px; padding:.1rem .3rem; border:1px solid var(--rule); background:var(--paper); color:var(--ink); margin-top:.25rem; }
+.fbox.wide{ grid-column:1 / -1; }
+.brow{ display:flex; flex-wrap:wrap; gap:.6rem 1rem; align-items:center; margin:.55rem 0; }
+.brow input[type=text], .brow input[type=number], .brow textarea{ font:inherit; padding:.25rem .4rem; border:1px solid var(--rule); background:var(--band); color:var(--ink); border-radius:2px; }
+.brow input[type=number]{ width:7ch; }
+.brow textarea{ width:min(640px, 100%); min-height:3.2em; }
+button{ font:inherit; padding:.25rem .7rem; border:1px solid var(--accent); background:var(--head); color:var(--accent); border-radius:2px; cursor:pointer; }
+button.primary{ background:var(--accent); color:var(--paper); }
+button:disabled{ opacity:.5; cursor:default; }
+#bcount{ font-size:16px; font-weight:700; }
+.okmsg{ color:var(--l2); } .errmsg{ color:var(--l4); }
+td.mk{ white-space:normal; min-width:30ch; max-width:60ch; overflow-wrap:anywhere; }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="/">edgar-itemize</a><span class="mut">/ turns</span>
+  <a href="/">&larr; viewer</a>
+  <select id="turn" aria-label="turn"></select>
+  <nav>
+    <a href="#builds">builds</a><a href="#corpora">corpora</a><a href="#tiers">10-Q tiers</a><a href="#crosswalk">text crosswalk</a><a href="#audit">audit</a><a href="#external" id="navext" hidden>external</a><a href="#builder">set builder</a>
+  </nav>
+  <span id="meta"></span>
+</header>
+<main>
+  <div id="err"></div>
+  <section id="headline"><div class="tiles" id="tiles"></div><p class="src" id="headsrc"></p></section>
+  <section id="builds"><h2>Builds merged and their gates</h2><div class="wrap" id="buildtab"></div><p class="src" id="buildsrc"></p></section>
+  <section id="corpora"><h2>Whole-turn diff per corpus</h2>
+    <div class="wrap" id="difftab"></div>
+    <p class="note">Nodes and documents are over the documents both runs parsed without error (run_diff's scope). Run totals below count every document in each run directory.</p>
+    <h3>Run totals</h3><div class="wrap" id="totaltab"></div><p class="src" id="corpsrc"></p></section>
+  <section id="tiers"><h2>10-Q tier presence</h2><div class="wrap" id="tiertab"></div><p class="note" id="tiernote"></p><p class="src" id="tiersrc"></p></section>
+  <section id="crosswalk"><h2>Text-corpus crosswalk</h2><div id="xwline"></div>
+    <details><summary>every row of the main set</summary><div class="wrap" id="xwtab"></div></details><p class="src" id="xwsrc"></p></section>
+  <section id="audit"><h2>Random audit, re-scored</h2>
+    <p class="note" id="auditdef"></p>
+    <div class="legend"><span><i style="background:var(--s-prev)"></i><span id="lgprev">Turn 11</span></span><span><i style="background:var(--s-cur)"></i><span id="lgcur">Phase C</span></span><span>bars: 95% Wilson interval</span></div>
+    <div class="charts"><div class="chart" id="chprec"></div><div class="chart" id="chgap"></div></div>
+    <div class="wrap" id="audittab"></div>
+    <h3>Transitions: what the new runs did to the judged windows</h3>
+    <div class="wrap" id="transtab"></div>
+    <h3>Recall gap by rejection reason</h3>
+    <div class="wrap" id="reasontab"></div>
+    <p class="src" id="auditsrc"></p></section>
+  <section id="external" hidden><h2>External agreement, before and after</h2>
+    <p class="note" id="extdef"></p>
+    <div class="wrap" id="exttab"></div>
+    <p class="src" id="extsrc"></p></section>
+  <section id="builder"><h2>Build a review set</h2>
+    <p class="note">Select windows from the window index (<code>runs/viewer/windows.parquet</code>, every judge bank) by its columns and by the documents a Turn 12 gate touched, take them all or a seeded sample, and save the list as an immutable set under <code>gold/review/sets/</code>. The same seed and query always give the same list. A saved set opens in the viewer at <code>/?set=&lt;slug&gt;</code>.</p>
+    <div class="bgrid" id="bfacets"></div>
+    <h3>Documents a gate touched</h3>
+    <p class="note">A window matches when its document (accession, and sequence for exhibits) is listed in a chosen artifact under <code>runs/judge/</code>. Several artifacts are OR; a loss class or kind narrows to documents with at least one loss of that class or kind.</p>
+    <div class="bgrid" id="bdocs"></div>
+    <div class="brow">
+      <label>free text <input type="text" id="bq" placeholder="accession, company, marked line, label" size="34"></label>
+      <span><span id="bcount">…</span> <span class="mut">windows match</span></span>
+      <a href="#" id="bclear">clear all</a>
+    </div>
+    <div class="brow">
+      <label><input type="radio" name="bmode" value="all" checked> take all</label>
+      <label><input type="radio" name="bmode" value="sample"> sample <input type="number" id="bn" min="1" value="50"> with seed <input type="number" id="bseed" value="12"></label>
+      <button id="bprev">preview</button>
+      <span id="bopen" class="mut"></span>
+    </div>
+    <div class="wrap" id="bpreview"></div>
+    <h3>Save</h3>
+    <div class="brow">
+      <label>name <input type="text" id="bname" size="34"></label>
+      <label>slug <input type="text" id="bslug" size="30" pattern="[a-z0-9]+(-[a-z0-9]+)*" title="lower-case letters, digits and single dashes"></label>
+    </div>
+    <div class="brow"><textarea id="bdesc" placeholder="description: why this set, what to look for"></textarea></div>
+    <div class="brow"><button class="primary" id="bsave">save set</button><span id="bsaved"></span></div>
+    <h3>Saved sets</h3>
+    <div class="wrap" id="bsets"></div>
+  </section>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => n == null ? "—" : Number(n).toLocaleString("en-US");
+const pct = (r, d=1) => r == null ? "n/a" : (100*r).toFixed(d) + "%";
+const sgn = n => n == null ? "—" : (n > 0 ? "+" : n < 0 ? "−" : "±") + fmt(Math.abs(n));
+const dcls = (n, goodUp=true) => n == null || n === 0 ? "mut" : ((n > 0) === goodUp ? "up" : "down");
+const src = a => "source: " + (Array.isArray(a) ? a : [a]).map(x => `<code>${esc(x)}</code>`).join(", ");
+const link = (o, text) => o && o.href ? `<a class="n" href="${esc(o.href)}" title="open these windows in the viewer">${text}</a>` : text;
+const frac = (r, o) => link(o || r, `${fmt(r.k)}/${fmt(r.n)}`);
+const ci = r => r.lo == null ? "" : `[${pct(r.lo)}, ${pct(r.hi)}]`;
+let S = null, TURN = null;
+
+async function init(){
+  const list = await fetch("/api/turns").then(r => r.json());
+  if (!list.length){ $("#err").textContent = "No turn summaries. Run: uv run python scripts/turn_summary.py --turn N"; return; }
+  const want = Number(new URLSearchParams(location.search).get("turn")) || list[0].turn;
+  $("#turn").innerHTML = list.map(t => `<option value="${t.turn}">Turn ${t.turn}${t.closed ? " · closed " + esc(t.closed) : ""}</option>`).join("");
+  $("#turn").value = String(list.some(t => t.turn === want) ? want : list[0].turn);
+  $("#turn").onchange = () => load(Number($("#turn").value), true);
+  load(Number($("#turn").value), false);
+}
+
+async function load(n, push){
+  const r = await fetch(`/api/turns/${n}`);
+  if (!r.ok){ $("#err").textContent = `Turn ${n}: ${r.status}`; return; }
+  S = await r.json(); TURN = n; $("#err").textContent = "";
+  if (push) history.replaceState(null, "", `?turn=${n}${location.hash}`);
+  document.title = `Turn ${n} summary`;
+  $("#meta").innerHTML = `generated ${esc(S.generated_at)} at <code>${esc(S.git_head)}</code> · <code>${esc(S.report)}</code>`;
+  $("#lgprev").textContent = S.audit.prev_label || `Turn ${S.prev_turn} (as drawn)`; $("#lgcur").textContent = `Turn ${S.turn} Phase C`;
+  tiles(); builds(); corpora(); tiers(); crosswalk(); audit(); external();
+}
+
+function tiles(){
+  const a = S.audit.pooled, X = xw(), sx = X && X.breakpoint_accept;
+  const t = (k, prev, cur, goodUp, extra) => {
+    const d = cur.rate - prev.rate;
+    return `<div class="tile"><div class="k">${k}</div><div class="v">${pct(cur.rate)}</div>
+      <div class="d">from ${pct(prev.rate)} · <span class="${d === 0 ? "mut" : ((d > 0) === goodUp ? "up" : "down")}">${d === 0 ? "unchanged" : (d > 0 ? "+" : "−") + (100*Math.abs(d)).toFixed(1) + " pts"}</span></div>
+      <div class="d">${frac(prev, prev)} → ${frac(cur, cur)}${extra ? " · " + extra : ""}</div></div>`;
+  };
+  $("#tiles").innerHTML =
+    t("Accepted precision", a.precision.prev, a.precision.cur, true, ci(a.precision.cur)) +
+    t("Top-level precision", a.precision_toplevel.prev, a.precision_toplevel.cur, true, ci(a.precision_toplevel.cur)) +
+    t("Recall gap", a.recall_gap.prev, a.recall_gap.cur, false, ci(a.recall_gap.cur)) +
+    (sx ? t("Text-corpus breakpoint accept", sx.old, sx.new, true, "") : "");
+  $("#headsrc").innerHTML = src([...S.audit.source, ...(X ? [X.source[0]] : [])]);
+}
+
+function builds(){
+  const rows = S.builds.builds.map(b => {
+    const v = b.verdict || "?";
+    const m = b.merge;
+    const gates = b.gates.map(g => g.missing ? `<tr class="sub"><td></td><td class="l">${esc(g.diff)}</td><td class="l">${esc(g.role)}</td><td colspan="8" class="l">log missing</td></tr>` :
+      `<tr class="sub"><td></td><td class="l"><code>${esc(g.diff)}</code></td><td class="l">${esc(g.corpus)} · ${esc(g.role)}</td>
+       <td>${fmt(g.docs)}</td><td>${fmt(g.docs_changed)}</td><td>+${fmt(g.items.gained)} / −${fmt(g.items.lost)}</td>
+       <td>+${fmt(g.parts.gained)} / −${fmt(g.parts.lost)}</td><td>${fmt(g.anchors.earlier)} / ${fmt(g.anchors.later)}</td>
+       <td>${fmt(g.core.old)} → ${fmt(g.core.new)}</td><td class="${dcls(g.nodes.total.delta)}">${sgn(g.nodes.total.delta)}</td></tr>`).join("");
+    return `<tbody><tr><td class="l"><b>${esc(b.id)}</b></td><td class="l wrapc" colspan="2">${esc(m ? m.summary : b.title)}
+        <div class="mut">${esc(b.report_heading || "")}</div>
+        <div class="mut">memo <code>${esc(b.memo)}</code></div></td>
+      <td class="l" colspan="3">${m ? `<code>${esc(m.short)}</code> ${esc(m.date.slice(0,16).replace("T"," "))}` : "not merged"}</td>
+      <td class="l" colspan="4"><span class="chip ${v === "PASS" ? "pass" : "fail"}">${esc(v)}</span> <span class="mut">${esc((b.merge_gate_verdict || []).join("; "))}</span></td></tr>
+      ${gates}</tbody>`;
+  }).join("");
+  $("#buildtab").innerHTML = `<table><thead><tr><th class="l">build</th><th class="l">gate diff</th><th class="l">corpus · role</th><th>docs</th><th>changed</th><th>items +/−</th><th>parts +/−</th><th>anchors e/l</th><th>core</th><th>nodes Δ</th></tr></thead>${rows}</table>`;
+  $("#buildsrc").innerHTML = src(S.builds.source);
+}
+
+function corpora(){
+  const R = S.corpora.rows;
+  const cell = (o, goodUp) => `${fmt(o.old)} → ${fmt(o.new)} <span class="${dcls(o.delta, goodUp)}">(${sgn(o.delta)})</span>`;
+  $("#difftab").innerHTML = `<table><thead><tr><th class="l">corpus</th><th class="l">runs</th><th>docs</th><th>docs changed</th><th>nodes depth≤2</th><th>nodes depth≥3</th><th>nodes, all</th>
+    <th>items lost / gained</th><th>parts lost / gained</th><th>anchors earlier / later</th><th>back_start earlier / later</th><th>core-complete</th></tr></thead><tbody>` +
+    R.map(c => { const d = c.diff; return `<tr><td class="l"><b>${esc(c.label)}</b></td><td class="l"><code>${esc(c.old_run)}</code> → <code>${esc(c.new_run)}</code></td>
+      <td>${fmt(d.docs)}</td><td>${fmt(d.docs_changed)}</td><td>${cell(d.nodes.le2)}</td><td>${cell(d.nodes.ge3)}</td><td>${cell(d.nodes.total)}</td>
+      <td><span class="${d.items.lost ? "down" : "mut"}">−${fmt(d.items.lost)}</span> / <span class="${d.items.gained ? "up" : "mut"}">+${fmt(d.items.gained)}</span></td>
+      <td><span class="${d.parts.lost ? "down" : "mut"}">−${fmt(d.parts.lost)}</span> / <span class="${d.parts.gained ? "up" : "mut"}">+${fmt(d.parts.gained)}</span></td>
+      <td>${fmt(d.anchors.earlier)} / ${fmt(d.anchors.later)}</td><td>${fmt(d.back_start.earlier)} / ${fmt(d.back_start.later)}</td>
+      <td>${fmt(d.core.old)} → ${fmt(d.core.new)} <span class="mut">(−${fmt(d.core.lose)} +${fmt(d.core.gain)})</span></td></tr>`; }).join("") + `</tbody></table>`;
+  const runs = [];
+  R.forEach(c => { [["old", c.old_run], ["new", c.new_run]].forEach(([k, name]) => { const t = c.run_totals[k]; if (t) runs.push([c.label, name, t]); }); });
+  $("#totaltab").innerHTML = `<table><thead><tr><th class="l">corpus</th><th class="l">run</th><th>documents</th><th>errors</th><th>nodes</th><th>depth≤2</th><th>depth≥3</th><th>rejected rows</th><th class="l">top rejection reasons</th><th class="l">parse-log check</th></tr></thead><tbody>` +
+    runs.map(([lab, name, t]) => `<tr><td class="l">${esc(lab)}</td><td class="l"><code>${esc(name)}</code></td><td>${fmt(t.documents)}</td><td>${fmt(t.errors)}</td><td>${fmt(t.nodes)}</td><td>${fmt(t.le2)}</td><td>${fmt(t.ge3)}</td><td>${fmt(t.rejected_rows)}</td>
+      <td class="l wrapc mut">${Object.entries(t.rejected_by_reason || {}).slice(0,3).map(([k,v]) => `${esc(k)} ${fmt(v)}`).join(" · ")}</td>
+      <td class="l wrapc mut">${esc(t.log_check === "-" ? "" : t.log_check)}</td></tr>`).join("") + `</tbody></table>`;
+  $("#corpsrc").innerHTML = src([...S.corpora.source, "reconciliation: " + S.reconciliation]);
+}
+
+function tiers(){
+  const T = S.tiers_10q;
+  $("#tiertab").innerHTML = `<table><thead><tr><th class="l">tier</th><th class="l">item</th><th>eligible</th><th>Turn ${S.prev_turn} present</th><th>rate</th><th>Turn ${S.turn} present</th><th>rate</th><th>Δ present</th><th>Δ rate</th><th class="l">flags</th></tr></thead><tbody>` +
+    T.rows.map(r => { const o = r.old || {}; const th = r.threshold ? `${r.threshold.op}${r.threshold.pct}%` : "";
+      const flags = (r.flagged ? `<span class="chip warn" title="presence ${th} threshold">threshold ${esc(th)}</span>` : "") + (r.fell ? `<span class="chip fail" title="fewer documents present than Turn ${S.prev_turn}">fell</span>` : "");
+      return `<tr><td class="l">${esc(r.tier)}</td><td class="l">${esc(r.item)}</td><td>${fmt(r.new.eligible)}</td><td>${fmt(o.present)}</td><td>${pct(o.rate)}</td><td>${fmt(r.new.present)}</td><td>${pct(r.new.rate)}</td>
+        <td class="${dcls(r.present_delta)}">${sgn(r.present_delta)}</td><td class="${dcls(r.rate_delta)}">${r.rate_delta == null ? "—" : (r.rate_delta >= 0 ? "+" : "−") + (100*Math.abs(r.rate_delta)).toFixed(2) + " pts"}</td><td class="l">${flags}</td></tr>`; }).join("") + `</tbody></table>`;
+  const thr = Object.entries(T.thresholds).map(([k, v]) => `${k} ${v.op} ${v.pct}%`).join(", ");
+  $("#tiernote").innerHTML = `Flag rule (from the report): ${esc(thr)}. <code>${esc(T.run_old)}</code> → <code>${esc(T.run_new)}</code>. Flags in the Turn ${S.turn} report: ${T.flags_new.map(esc).join("; ") || "none"}.`;
+  $("#tiersrc").innerHTML = src(T.source);
+}
+
+// The text-corpus crosswalk block: `text_crosswalk`, or the summary's one *_crosswalk key.
+function xw(){
+  if (S.text_crosswalk) return S.text_crosswalk;
+  const k = Object.keys(S).find(k => k.endsWith("_crosswalk"));
+  return k ? S[k] : null;
+}
+
+function crosswalk(){
+  const X = xw();
+  $("#crosswalk").hidden = !X;
+  if (!X) return;
+  const b = X.breakpoint_accept;
+  $("#xwline").innerHTML = `<p>Breakpoint accept (reviewer verdict accept, parser has an accepted node at the reviewer's line): <b>${b.new.k}/${b.new.n} = ${pct(b.new.rate, 0)}</b> ${ci(b.new)},
+    from ${b.old.k}/${b.old.n} = ${pct(b.old.rate, 0)} at Turn ${S.prev_turn}. <span class="mut">${esc(X.set)}; crosswalk <code>${esc(X.crosswalk_old)}</code> → <code>${esc(X.crosswalk_new)}</code></span></p>`;
+  $("#xwtab").innerHTML = `<table><thead><tr><th class="l">claim</th><th class="l">reviewer verdict</th><th>n</th><th>scorable</th><th>Turn ${S.prev_turn} agrees</th><th>Turn ${S.turn} agrees</th><th>rate</th></tr></thead><tbody>` +
+    X.rows.map(r => `<tr><td class="l">${esc(r.claim)}</td><td class="l">${esc(r.verdict || "")}</td><td>${r.n}</td><td>${r.scorable}</td><td>${r.old_agrees ?? "—"}</td>
+      <td class="${dcls(r.old_agrees == null ? null : r.agrees - r.old_agrees)}">${r.agrees}</td><td>${pct(r.scorable ? r.agrees / r.scorable : null, 0)}</td></tr>`).join("") + `</tbody></table>`;
+  $("#xwsrc").innerHTML = src(X.source);
+}
+
+function audit(){
+  const A = S.audit, rows = [...A.per_corpus, A.pooled];
+  const D = A.definitions;
+  $("#auditdef").innerHTML = `${fmt(A.n_windows)} windows in bank <code>${esc(A.bank)}</code>, same verdicts both columns. Precision: ${esc(D.precision_prev)} → ${esc(D.precision_cur)}. Recall gap: ${esc(D.recall_gap_prev)} → ${esc(D.recall_gap_cur)}. Intervals ${esc(D.interval)}. Every count links to its windows.`;
+  dotChart("#chprec", "Accepted precision", rows, r => r.precision, [0.6, 1]);
+  dotChart("#chgap", "Recall gap (lower is better)", rows, r => r.recall_gap, [0, 0.4]);
+  $("#audittab").innerHTML = `<table><thead><tr><th class="l">corpus</th><th>judged</th><th>accepted / rejected half</th>
+    <th>precision T${S.prev_turn}</th><th>interval</th><th>precision C</th><th>interval</th>
+    <th>top-level T${S.prev_turn} → C</th><th>recall gap T${S.prev_turn}</th><th>interval</th><th>recall gap C</th><th>interval</th></tr></thead><tbody>` +
+    rows.map(r => { const P = r.precision, G = r.recall_gap, TL = r.precision_toplevel;
+      return `<tr${r.corpus === "ALL" ? ' style="font-weight:600"' : ""}><td class="l">${esc(r.label)}</td><td>${link(r.judged, fmt(r.judged.n))}</td>
+      <td>${link(r.judged_accepted, fmt(r.judged_accepted.n))} / ${link(r.judged_rejected, fmt(r.judged_rejected.n))}</td>
+      <td>${frac(P.prev, P.prev)} ${pct(P.prev.rate)}</td><td class="mut">${ci(P.prev)}</td>
+      <td class="${dcls(P.cur.rate - P.prev.rate)}">${frac(P.cur, P.cur)} ${pct(P.cur.rate)}</td><td class="mut">${ci(P.cur)}</td>
+      <td>${TL.prev.n ? `${TL.prev.k}/${TL.prev.n} → ${TL.cur.k}/${TL.cur.n}` : "—"}</td>
+      <td>${frac(G.prev, G.prev)} ${pct(G.prev.rate)}</td><td class="mut">${ci(G.prev)}</td>
+      <td class="${dcls(G.cur.rate - G.prev.rate, false)}">${frac(G.cur, G.cur)} ${pct(G.cur.rate)}</td><td class="mut">${ci(G.cur)}</td></tr>`; }).join("") + `</tbody></table>`;
+  const T = r => r.transitions;
+  const tl = g => g.n ? link(g, fmt(g.n)) : `<span class="mut">0</span>`;
+  $("#transtab").innerHTML = `<table><thead><tr><th class="l">corpus</th><th>dropped</th><th>of which recall cost</th><th>precision gain</th>
+    <th>newly accepted</th><th>of which recall gain</th><th>precision cost</th><th>re-parented</th><th>rejected, other reason</th></tr></thead><tbody>` +
+    rows.map(r => { const t = T(r); return `<tr${r.corpus === "ALL" ? ' style="font-weight:600"' : ""}><td class="l">${esc(r.label)}</td>
+      <td>${tl(t.dropped)}</td><td class="${t.recall_cost.n ? "down" : ""}">${tl(t.recall_cost)}</td><td class="${t.precision_gain.n ? "up" : ""}">${tl(t.precision_gain)}</td>
+      <td>${tl(t.newly_accepted)}</td><td class="${t.recall_gain.n ? "up" : ""}">${tl(t.recall_gain)}</td><td class="${t.precision_cost.n ? "down" : ""}">${tl(t.precision_cost)}</td>
+      <td>${tl(t.reparented)}</td><td>${tl(t.rejected_other)}</td></tr>`; }).join("") + `</tbody></table>
+    <p class="note">Dropped = accepted when judged, no node at the offset now; judge=heading makes it a recall cost, judge=not a precision gain. Newly accepted = rejected when judged, accepted now; judge=heading is a recall gain, judge=not a precision cost.</p>`;
+  $("#reasontab").innerHTML = `<table><thead><tr><th class="l">corpus</th><th class="l">reason</th><th>${esc(A.drawn_label || `T${S.prev_turn} as drawn`)}</th><th>rate</th><th>C still rejected (new reason)</th><th>rate</th><th>now accepted</th></tr></thead><tbody>` +
+    A.recall_gap_by_reason.map(r => `<tr><td class="l">${esc(r.corpus)}</td><td class="l">${esc(r.reason)}</td><td>${frac(r.prev, r.prev)}</td><td>${pct(r.prev.rate)}</td><td>${r.cur.k}/${r.cur.n}</td><td>${pct(r.cur.rate)}</td><td>${r.left || ""}</td></tr>`).join("") + `</tbody></table>`;
+  $("#auditsrc").innerHTML = src(A.source) + ` · recomputed from the parquet and checked equal to the .txt for ${A.checked_against_txt.map(esc).join(", ")}`;
+}
+
+// external comparators (Turn 13 on): agree share and every cell, before -> after
+function external(){
+  const E = S.external, sec = document.getElementById("external"), nav = document.getElementById("navext");
+  if (!E) { sec.hidden = true; nav.hidden = true; return; }
+  sec.hidden = false; nav.hidden = false;
+  $("#extdef").innerHTML = `Agree share = ${esc(E.definitions.agree)}. Before: ${esc(E.definitions.before)}; after: ${esc(E.definitions.after)}.`;
+  let probe = null;
+  const rows = E.rows.map(r => {
+    const head = r.probe !== probe ? `<tr><td class="l" colspan="6"><b>${esc(r.probe)}</b> <span class="mut">${esc(r.title || "")}</span></td></tr>` : "";
+    probe = r.probe;
+    const d = (r.agree.after.rate ?? 0) - (r.agree.before.rate ?? 0);
+    const cells = Object.entries(r.cells).sort().map(([k, v]) => `${esc(k)} ${fmt(v.before)}${v.after !== v.before ? ` → <b>${fmt(v.after)}</b>` : ""}`).join(" · ");
+    return head + `<tr><td class="l">${esc(r.corpus)}</td><td class="l">${esc(r.tool)}</td><td class="l">${esc(r.stratum)}</td>
+      <td>${frac(r.agree.before, r.agree.before)} ${pct(r.agree.before.rate)}</td>
+      <td class="${r.changed ? dcls(d) : "mut"}">${frac(r.agree.after, r.agree.after)} ${pct(r.agree.after.rate)}</td>
+      <td class="l wrapc mut">${cells}</td></tr>`;
+  }).join("");
+  $("#exttab").innerHTML = `<table><thead><tr><th class="l">corpus</th><th class="l">tool</th><th class="l">stratum</th><th>agree, before</th><th>agree, after</th><th class="l">cells before → after</th></tr></thead><tbody>${rows}</tbody></table>`;
+  $("#extsrc").innerHTML = src(E.source);
+}
+
+// dot-and-interval chart: one row per corpus, the previous turn above the current one
+function dotChart(sel, title, rows, get, dom){
+  const W = 520, rowH = 34, top = 28, left = 72, right = 16, H = top + rows.length * rowH + 22;
+  const x = v => left + (v - dom[0]) / (dom[1] - dom[0]) * (W - left - right);
+  const ticks = []; const step = (dom[1] - dom[0]) / 4; for (let i = 0; i <= 4; i++) ticks.push(dom[0] + i * step);
+  let g = `<text class="lbl" x="0" y="14" font-weight="600">${esc(title)}</text>`;
+  ticks.forEach(t => { g += `<line x1="${x(t)}" x2="${x(t)}" y1="${top - 6}" y2="${H - 20}" stroke="var(--grid)" stroke-width="1"/><text x="${x(t)}" y="${H - 6}" text-anchor="middle">${Math.round(t*100)}%</text>`; });
+  rows.forEach((r, i) => {
+    const y0 = top + i * rowH, o = get(r);
+    g += `<text class="lbl" x="0" y="${y0 + 17}">${esc(r.label === "All five" ? "ALL" : r.label)}</text>`;
+    [["prev", "var(--s-prev)", 9, `Turn ${S.prev_turn}`], ["cur", "var(--s-cur)", 21, `Turn ${S.turn} C`]].forEach(([k, col, dy, nm]) => {
+      const v = o[k]; if (v.rate == null) return; const y = y0 + dy;
+      const lo = Math.max(dom[0], v.lo), hi = Math.min(dom[1], v.hi), cx = Math.min(dom[1], Math.max(dom[0], v.rate));
+      g += `<line x1="${x(lo)}" x2="${x(hi)}" y1="${y}" y2="${y}" stroke="${col}" stroke-width="2" stroke-linecap="round" opacity=".55"/>`;
+      g += `<circle cx="${x(cx)}" cy="${y}" r="4.5" fill="${col}" stroke="var(--paper)" stroke-width="2"/>`;
+      g += `<rect x="${x(lo) - 6}" y="${y - 7}" width="${x(hi) - x(lo) + 12}" height="14" fill="transparent" data-tip="${esc(`${r.label} · ${nm}\n${v.k}/${v.n} = ${pct(v.rate)}\n95% ${pct(v.lo)} to ${pct(v.hi)}`)}"/>`;
+    });
+  });
+  const el = $(sel);
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)} by corpus, Turn ${S.prev_turn} and Turn ${S.turn}">${g}</svg>`;
+  el.querySelectorAll("[data-tip]").forEach(n => {
+    n.addEventListener("mousemove", e => { const t = $("#tip"); t.textContent = n.dataset.tip; t.style.display = "block"; t.style.left = (e.clientX + 12) + "px"; t.style.top = (e.clientY + 12) + "px"; });
+    n.addEventListener("mouseleave", () => { $("#tip").style.display = "none"; });
+  });
+}
+
+// ---------------------------------------------------------------- set builder
+// Contract parameters the viewer's ?windows= list accepts (docs/turn_summaries filter_contract).
+const LINK_PARAMS = ["bank", "corpus", "side", "verdict", "phasec_status", "reason", "window_id"];
+const FACETS = ["bank", "turn", "corpus", "side", "verdict", "phasec_status", "reason", "era", "year"];
+const B = { sel: {}, q: "", doc: new Set(), cls: new Set(), kind: new Set(), ffilter: {}, timer: null, facets: null };
+FACETS.forEach(f => B.sel[f] = new Set());
+const winHref = id => "/?windows=" + encodeURIComponent(new URLSearchParams({ window_id: id }).toString());
+const slugify = t => String(t || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").slice(0, 80).replace(/-$/, "");
+
+function bQuery(){
+  const p = new URLSearchParams();
+  FACETS.forEach(f => B.sel[f].forEach(v => p.append(f, v)));
+  if (B.q) p.append("q", B.q);
+  B.doc.forEach(v => p.append("doc", v));
+  B.cls.forEach(v => p.append("doc_class", v));
+  B.kind.forEach(v => p.append("doc_kind", v));
+  return p;
+}
+function bQueryObj(){
+  const o = {}; for (const [k, v] of bQuery()) (o[k] = o[k] || []).push(v); return o;
+}
+function bSample(){
+  const on = document.querySelector('input[name=bmode]:checked').value === "sample";
+  return on ? { sample_n: Number($("#bn").value) || 0, seed: Number($("#bseed").value || 12) } : { sample_n: null, seed: null };
+}
+
+function fbox(title, name, items, chosen, key, wide){
+  const flt = (B.ffilter[key] || "").toLowerCase();
+  const vals = items.filter(it => !flt || String(it.value).toLowerCase().includes(flt) || chosen.has(String(it.value)));
+  chosen.forEach(v => { if (!items.some(it => String(it.value) === v)) vals.unshift({ value: v, count: 0 }); });
+  const opts = vals.map(it => `<label class="${it.count ? "" : "zero"}" title="${esc(it.label || it.value)}"><input type="checkbox" data-k="${esc(key)}" value="${esc(it.value)}"${chosen.has(String(it.value)) ? " checked" : ""}>
+    <span class="v">${esc(it.label || it.value)}</span><span class="c">${fmt(it.count)}</span></label>`).join("");
+  const ff = items.length > 12 ? `<input class="ff" data-ff="${esc(key)}" placeholder="filter ${esc(name)}" value="${esc(B.ffilter[key] || "")}">` : "";
+  return `<div class="fbox${wide ? " wide" : ""}"><div class="t"><span>${esc(title)}</span>${chosen.size ? `<a data-clear="${esc(key)}">clear</a>` : ""}</div>${ff}<div class="opts">${opts || '<span class="mut">none</span>'}</div></div>`;
+}
+
+function bRender(){
+  const F = B.facets; if (!F) return;
+  $("#bcount").textContent = fmt(F.total);
+  $("#bfacets").innerHTML = FACETS.map(f => fbox(f.replace("_", " "), f, F.facets[f] || [], B.sel[f], f)).join("");
+  const docs = F.docs.map(d => ({ value: d.id, count: d.windows,
+    label: `${d.id} · ${d.build} ${d.corpus || "ex10+text"} · ${d.role} · ${d.runs} · ${fmt(d.documents)} docs` }));
+  let html = fbox("gate artifact (windows in its documents)", "artifacts", docs, B.doc, "doc", true);
+  const chosen = F.docs.filter(d => B.doc.has(d.id));
+  const merge = k => { const m = {}; chosen.forEach(d => (d[k] || []).forEach(x => m[x.value] = (m[x.value] || 0) + x.count)); return Object.entries(m).map(([value, count]) => ({ value, count })).sort((a, b) => b.count - a.count); };
+  if (chosen.some(d => d.type === "losses")){
+    html += fbox("loss class", "classes", merge("classes"), B.cls, "doc_class");
+    html += fbox("loss kind", "kinds", merge("kinds"), B.kind, "doc_kind");
+  }
+  $("#bdocs").innerHTML = html;
+  const qp = bQuery(), s = bSample();
+  const linkable = [...qp.keys()].every(k => LINK_PARAMS.includes(k)) && s.sample_n == null && [...qp.keys()].length;
+  $("#bopen").innerHTML = linkable ? `<a href="/?windows=${encodeURIComponent(qp.toString())}">open this selection in the viewer</a>`
+    : "save the selection to open it in the viewer";
+  document.querySelectorAll("#builder input[type=checkbox][data-k]").forEach(cb => cb.onchange = () => {
+    const k = cb.dataset.k, set = k === "doc" ? B.doc : k === "doc_class" ? B.cls : k === "doc_kind" ? B.kind : B.sel[k];
+    cb.checked ? set.add(cb.value) : set.delete(cb.value);
+    if (k === "doc" && !B.doc.size){ B.cls.clear(); B.kind.clear(); }
+    bRefresh();
+  });
+  document.querySelectorAll("#builder [data-clear]").forEach(a => a.onclick = () => {
+    const k = a.dataset.clear; (k === "doc" ? B.doc : k === "doc_class" ? B.cls : k === "doc_kind" ? B.kind : B.sel[k]).clear();
+    if (k === "doc"){ B.cls.clear(); B.kind.clear(); }
+    bRefresh();
+  });
+  document.querySelectorAll("#builder input.ff").forEach(inp => inp.oninput = () => {
+    B.ffilter[inp.dataset.ff] = inp.value; const pos = inp.selectionStart; bRender();
+    const n = document.querySelector(`#builder input.ff[data-ff="${inp.dataset.ff}"]`); if (n){ n.focus(); n.setSelectionRange(pos, pos); }
+  });
+}
+
+function bRefresh(){
+  clearTimeout(B.timer);
+  $("#bpreview").innerHTML = "";
+  B.timer = setTimeout(async () => {
+    const r = await fetch("/api/builder/facets?" + bQuery().toString());
+    if (!r.ok){ $("#bcount").textContent = "error"; $("#bpreview").innerHTML = `<p class="errmsg">${esc(await r.text())}</p>`; return; }
+    B.facets = await r.json(); bRender();
+  }, 120);
+}
+
+async function bPreview(){
+  const p = bQuery(), s = bSample();
+  if (s.sample_n != null){ p.set("sample_n", s.sample_n); p.set("seed", s.seed); }
+  p.set("limit", 500);
+  const r = await fetch("/api/builder/select?" + p.toString());
+  if (!r.ok){ $("#bpreview").innerHTML = `<p class="errmsg">${esc(await r.text())}</p>`; return; }
+  const j = await r.json();
+  $("#bpreview").innerHTML = `<p class="note">${fmt(j.n)} selected of ${fmt(j.total)} matching${j.sample_n != null ? ` (sample ${fmt(j.sample_n)}, seed ${j.seed})` : ""}${j.rows.length < j.n ? `; first ${fmt(j.rows.length)} shown` : ""}.</p>
+    <table><thead><tr><th class="l">window</th><th class="l">bank</th><th class="l">corpus</th><th class="l">accession:seq</th><th>anchor</th><th class="l">label</th><th class="l">marked line</th><th class="l">side · reason</th><th class="l">verdict</th><th class="l">Phase C</th></tr></thead><tbody>` +
+    j.rows.map(w => `<tr><td class="l"><a class="n" href="${esc(winHref(w.window_id))}" title="${esc(w.window_id)}">open</a></td><td class="l">${esc(w.bank)}</td><td class="l">${esc(w.corpus)}</td>
+      <td class="l"><code>${esc(w.accession)}${w.sequence ? ":" + w.sequence : ""}</code></td><td>${fmt(w.anchor)}</td><td class="l">${esc(w.label)}</td>
+      <td class="l mk">${esc((w.marked_line || "").trim().slice(0, 140))}</td><td class="l">${esc(w.side || "")} · ${esc(w.reason || "")}</td><td class="l">${esc(w.verdict || "")}</td><td class="l">${esc(w.phasec_status || "")}</td></tr>`).join("") + `</tbody></table>`;
+}
+
+async function bSave(){
+  const name = $("#bname").value.trim(), slug = $("#bslug").value.trim() || slugify(name);
+  const out = $("#bsaved");
+  if (!name){ out.innerHTML = `<span class="errmsg">name is required</span>`; return; }
+  const s = bSample();
+  const body = { name, slug, description: $("#bdesc").value, query: bQueryObj(), sample_n: s.sample_n, seed: s.seed };
+  $("#bsave").disabled = true;
+  try {
+    const r = await fetch("/api/sets", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+    const j = await r.json();
+    if (!r.ok){
+      const d = j.detail;
+      if (r.status === 409 && d && d.suggest){ $("#bslug").value = d.suggest; out.innerHTML = `<span class="errmsg">${esc(d.error)}; slug changed to <code>${esc(d.suggest)}</code>, save again</span>`; }
+      else out.innerHTML = `<span class="errmsg">${esc(typeof d === "string" ? d : JSON.stringify(d))}</span>`;
+      return;
+    }
+    out.innerHTML = `<span class="okmsg">saved ${fmt(j.n)} windows as <code>${esc(j.slug)}</code> · <a href="${esc(j.link)}">${esc(j.link)}</a></span>`;
+    bSets();
+  } finally { $("#bsave").disabled = false; }
+}
+
+async function bSets(){
+  const r = await fetch("/api/sets"); if (!r.ok) return;
+  const L = await r.json();
+  $("#bsets").innerHTML = `<table><thead><tr><th class="l">name</th><th class="l">slug · link</th><th>items</th><th class="l">draw</th><th class="l">created</th><th class="l">author</th><th class="l">description</th><th></th></tr></thead><tbody>` +
+    L.map(s => `<tr><td class="l">${esc(s.name)}${s.legacy ? ' <span class="chip warn">legacy</span>' : ""}</td><td class="l"><a class="n" href="${esc(s.link)}">${esc(s.slug)}</a></td><td>${fmt(s.n)}</td>
+      <td class="l">${s.sample_n != null ? `sample ${fmt(s.sample_n)}, seed ${s.seed}` : (s.legacy ? "" : "all")}</td><td class="l">${esc((s.created || "").replace("T", " ").slice(0, 16))}</td><td class="l">${esc(s.author || "")}</td>
+      <td class="l wrapc mut">${esc(s.description || "")}</td><td>${s.legacy ? "" : `<a href="#builder" data-edit="${esc(s.slug)}">edit as new</a>`}</td></tr>`).join("") + `</tbody></table>`;
+  document.querySelectorAll("#bsets [data-edit]").forEach(a => a.onclick = () => bEdit(a.dataset.edit));
+}
+
+async function bEdit(slug){
+  const s = await fetch(`/api/sets/${encodeURIComponent(slug)}`).then(r => r.json());
+  FACETS.forEach(f => B.sel[f] = new Set((s.query || {})[f] || []));
+  B.q = ((s.query || {}).q || []).join(" "); $("#bq").value = B.q;
+  B.doc = new Set((s.query || {}).doc || []); B.cls = new Set((s.query || {}).doc_class || []); B.kind = new Set((s.query || {}).doc_kind || []);
+  document.querySelector(`input[name=bmode][value=${s.sample_n != null ? "sample" : "all"}]`).checked = true;
+  if (s.sample_n != null){ $("#bn").value = s.sample_n; $("#bseed").value = s.seed; }
+  $("#bname").value = s.name + " (edit)"; $("#bslug").value = s.slug.replace(/-\d+$/, "") + "-2"; $("#bdesc").value = s.description || "";
+  $("#bsaved").innerHTML = `<span class="mut">loaded <code>${esc(slug)}</code>; sets are immutable, so this saves a new file</span>`;
+  bRefresh();
+}
+
+function builderInit(){
+  $("#bq").oninput = () => { B.q = $("#bq").value.trim(); bRefresh(); };
+  document.querySelectorAll("input[name=bmode]").forEach(r => r.onchange = bRender);
+  $("#bprev").onclick = bPreview;
+  $("#bsave").onclick = bSave;
+  $("#bname").oninput = () => { if (!$("#bslug").dataset.touched) $("#bslug").value = slugify($("#bname").value); };
+  $("#bslug").oninput = () => { $("#bslug").dataset.touched = "1"; };
+  $("#bclear").onclick = e => { e.preventDefault(); FACETS.forEach(f => B.sel[f].clear()); B.doc.clear(); B.cls.clear(); B.kind.clear(); B.q = ""; $("#bq").value = ""; bRefresh(); };
+  bRefresh(); bSets();
+}
+builderInit();
+
+init().catch(e => { $("#err").textContent = String(e); });
+</script>
+</body>
+</html>

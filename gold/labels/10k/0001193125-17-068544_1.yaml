@@ -1,0 +1,29 @@
+accession: 0001193125-17-068544
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 35682, title: ""}
+  - {label: "ITEM 1", raw_start: 35818, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 137602, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 171947, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 172233, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 176109, title: "Legal Proceedings"}
+  - {label: "PART II", raw_start: 182250, title: ""}
+  - {label: "ITEM 5", raw_start: 182413, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 184512, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 252303, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 506710, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 523888, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 524381, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 525075, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 530430, title: "Other Information"}
+  - {label: "PART III", raw_start: 531145, title: ""}
+  - {label: "ITEM 10", raw_start: 531284, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 532006, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 532559, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 533224, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 533894, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 534560, title: ""}
+  - {label: "ITEM 15", raw_start: 534699, title: "Exhibits, Financial Statement Schedules"}
+absent: []

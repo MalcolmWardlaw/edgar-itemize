@@ -1,0 +1,475 @@
+accession: 0000089024-10-000161
+sequence: 2
+doc_type: EX-10.12
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 5891931, title: ""}
+  - {label: "SECTION 1", raw_start: 5891931, title: ""}
+  - {label: "SECTION 1.01", raw_start: 5892027, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 5930194, title: "Construction"}
+  - {label: "SECTION 1.02.1", raw_start: 5930217, title: "Unless a contrary indication appears, any reference in this"}
+  - {label: "SECTION 1.02.2", raw_start: 5933633, title: "Section, Clause and Schedule headings are for ease of refere"}
+  - {label: "SECTION 1.02.3", raw_start: 5933782, title: "Unless a contrary indication appears, a term used in any oth"}
+  - {label: "SECTION 1.02.4", raw_start: 5934065, title: "An Event of Default or Special Early Termination Event is"}
+  - {label: "SECTION 1.02.5", raw_start: 5934202, title: "There is an Event of Default 'in relation to' a particular O"}
+  - {label: "SECTION 1.02.6", raw_start: 5935030, title: "With respect to the following currency symbols and definitio"}
+  - {label: "ARTICLE 2", raw_start: 5935882, title: ""}
+  - {label: "SECTION 2", raw_start: 5935882, title: ""}
+  - {label: "SECTION 2.01", raw_start: 5935962, title: "The Facilities"}
+  - {label: "SECTION 2.01.1", raw_start: 5936034, title: "The Facility A Lenders make available to the Borrowers a"}
+  - {label: "SECTION 2.01.2", raw_start: 5936226, title: "The Swingline Lenders make available to the Borrowers a U.S"}
+  - {label: "SECTION 2.01.3", raw_start: 5936452, title: "The L/C Lenders make available to the Borrowers a letter of "}
+  - {label: "SECTION 2.01.4", raw_start: 5936610, title: "The aggregate amount made available to the Borrowers under F"}
+  - {label: "SECTION 2.02", raw_start: 5936817, title: "Finance Parties' rights and obligations"}
+  - {label: "SECTION 2.02.1", raw_start: 5936868, title: "The obligations of each Finance Party under the Finance Docu"}
+  - {label: "SECTION 2.02.2", raw_start: 5937327, title: "The rights of each Finance Party under or in connection with"}
+  - {label: "SECTION 2.02.3", raw_start: 5937625, title: "A Finance Party may, except as otherwise stated in the Finan"}
+  - {label: "ARTICLE 3", raw_start: 5937793, title: ""}
+  - {label: "SECTION 3", raw_start: 5937793, title: "PURPOSE"}
+  - {label: "SECTION 3.01", raw_start: 5937807, title: "Purpose"}
+  - {label: "SECTION 3.01.1", raw_start: 5937826, title: "The Borrowers shall apply the proceeds of all Facility A Loa"}
+  - {label: "SECTION 3.01.2", raw_start: 5938063, title: "Each Swingline Borrower shall apply the proceeds of all Swin"}
+  - {label: "SECTION 3.01.3", raw_start: 5938483, title: "The issue of a Letter of Credit may only be requested for th"}
+  - {label: "SECTION 3.02", raw_start: 5938609, title: "Monitoring"}
+  - {label: "ARTICLE 4", raw_start: 5938751, title: ""}
+  - {label: "SECTION 4", raw_start: 5938751, title: "CONDITIONS OF UTILISATION"}
+  - {label: "SECTION 4.01", raw_start: 5938783, title: "Initial conditions precedent"}
+  - {label: "SECTION 4.01.1", raw_start: 5938823, title: "No Borrower may deliver a Utilisation Request unless the Age"}
+  - {label: "SECTION 4.01.2", raw_start: 5939204, title: "No Borrower may deliver a Utilisation Request unless the Age"}
+  - {label: "SECTION 4.02", raw_start: 5939698, title: "Further conditions precedent"}
+  - {label: "SECTION 4.03", raw_start: 5940395, title: "Conditions relating to Optional Currencies"}
+  - {label: "SECTION 4.03.1", raw_start: 5940449, title: "A currency will constitute an Optional Currency in relation "}
+  - {label: "SECTION 4.03.2", raw_start: 5941256, title: "If the Agent has received a written request from the Company"}
+  - {label: "SECTION 4.03.3", raw_start: 5941559, title: "Notwithstanding paragraphs 4.3.1 and 4.3.2 above, if a Facil"}
+  - {label: "SECTION 4.04", raw_start: 5942257, title: "Maximum number of Utilisations"}
+  - {label: "SECTION 4.04.1", raw_start: 5942299, title: "A Borrower may not deliver a Utilisation Request if as a res"}
+  - {label: "SECTION 4.04.2", raw_start: 5942583, title: "Any Loan made by a single Lender under Clause 10.2 (Unavaila"}
+  - {label: "ARTICLE 5", raw_start: 5942928, title: ""}
+  - {label: "SECTION 5", raw_start: 5942928, title: "UTILISATION - LOANS"}
+  - {label: "SECTION 5.01", raw_start: 5942954, title: "Delivery of a Utilisation Request"}
+  - {label: "SECTION 5.01.1", raw_start: 5942999, title: "A Borrower may utilise Facility A by delivery to the Agent o"}
+  - {label: "SECTION 5.01.2", raw_start: 5943173, title: "The Proposed Utilisation Date in any Utilisation Request sha"}
+  - {label: "SECTION 5.02", raw_start: 5943610, title: "Completion of a Utilisation Request"}
+  - {label: "SECTION 5.02.1", raw_start: 5943657, title: "Each Utilisation Request is irrevocable and will not be rega"}
+  - {label: "SECTION 5.02.2", raw_start: 5944221, title: "Only one (1) Loan may be requested in each Utilisation Reque"}
+  - {label: "SECTION 5.03", raw_start: 5944294, title: "Currency and amount"}
+  - {label: "SECTION 5.03.1", raw_start: 5944325, title: "The currency specified in a Utilisation Request under Facili"}
+  - {label: "SECTION 5.03.2", raw_start: 5944468, title: "The amount of the proposed Loan must be"}
+  - {label: "SECTION 5.04", raw_start: 5945304, title: "Lenders' participation"}
+  - {label: "SECTION 5.04.1", raw_start: 5945338, title: "If the conditions set out in this Agreement have been met an"}
+  - {label: "SECTION 5.04.2", raw_start: 5945604, title: "The amount of each Facility A Lender's participation in each"}
+  - {label: "SECTION 5.04.3", raw_start: 5945891, title: "The Agent shall determine the Base Currency Amount of each F"}
+  - {label: "SECTION 5.04.4", raw_start: 5946353, title: "When in Part A or Part C of Schedule 1, a 'U.S"}
+  - {label: "ARTICLE 6", raw_start: 5947582, title: ""}
+  - {label: "SECTION 6", raw_start: 5947582, title: "UTILISATION - LETTERS OF CREDIT"}
+  - {label: "SECTION 6.01", raw_start: 5947620, title: "General"}
+  - {label: "SECTION 6.01.1", raw_start: 5947639, title: "In this Clause 6 (Utilisation - Letters of Credit) and in Cl"}
+  - {label: "SECTION 6.01.2", raw_start: 5948910, title: "Any reference in this Agreement to"}
+  - {label: "SECTION 6.01.3", raw_start: 5953956, title: "Clause 5 (Utilisation - Loans) does not apply to a Utilisati"}
+  - {label: "SECTION 6.01.4", raw_start: 5954074, title: "In determining the amount of the Available Facility and a L/"}
+  - {label: "SECTION 6.02", raw_start: 5954438, title: "Issue of Letters of Credit"}
+  - {label: "SECTION 6.02.1", raw_start: 5954476, title: "A Borrower may request the issue of a Letter of Credit by de"}
+  - {label: "SECTION 6.02.2", raw_start: 5954829, title: "Each Utilisation Request for a Letter of Credit is irrevocab"}
+  - {label: "SECTION 6.02.3", raw_start: 5956595, title: "If the conditions for the issue of a Letter of Credit set ou"}
+  - {label: "SECTION 6.02.4", raw_start: 5957233, title: "The L/C Lenders will not be obliged to comply with paragraph"}
+  - {label: "SECTION 6.02.5", raw_start: 5958032, title: "Each Letter of Credit shall specify each of the L/C Lenders "}
+  - {label: "SECTION 6.02.6", raw_start: 5958288, title: "On or before each Utilisation Date for a Letter of Credit, t"}
+  - {label: "SECTION 6.03", raw_start: 5958549, title: "Renewal of Letters of Credit"}
+  - {label: "SECTION 6.03.1", raw_start: 5958589, title: "Each Letter of Credit shall, unless terminated in accordance"}
+  - {label: "SECTION 6.03.2", raw_start: 5958845, title: "The Agent shall, at least ninety (90) days before the end of"}
+  - {label: "SECTION 6.03.3", raw_start: 5959183, title: "The Agent shall (subject to paragraph 6.3.4 below) only be r"}
+  - {label: "SECTION 6.03.4", raw_start: 5959485, title: "The Agent shall give such a notice to the beneficiary of a L"}
+  - {label: "ARTICLE 7", raw_start: 5959681, title: ""}
+  - {label: "SECTION 7", raw_start: 5959681, title: "THE LETTERS OF CREDIT"}
+  - {label: "SECTION 7.01", raw_start: 5959709, title: "Letter of Credit Fees"}
+  - {label: "SECTION 7.01.1", raw_start: 5959742, title: "Each Borrower shall pay to the Agent (for the account of eac"}
+  - {label: "SECTION 7.01.2", raw_start: 5960234, title: "The accrued letter of credit fee on a Letter of Credit shall"}
+  - {label: "SECTION 7.01.3", raw_start: 5960628, title: "If a Borrower cash covers any part of a Letter of Credit the"}
+  - {label: "SECTION 7.02", raw_start: 5961035, title: "Claims under a Letter of Credit"}
+  - {label: "SECTION 7.02.1", raw_start: 5961078, title: "Each Borrower irrevocably and unconditionally authorises the"}
+  - {label: "SECTION 7.02.2", raw_start: 5961349, title: "The Agent shall promptly after receipt of a claim under a Le"}
+  - {label: "SECTION 7.02.3", raw_start: 5961772, title: "Each Borrower which requested a Letter of Credit shall, on t"}
+  - {label: "SECTION 7.02.4", raw_start: 5962061, title: "Each Borrower which receives a notification under paragraph "}
+  - {label: "SECTION 7.02.5", raw_start: 5962428, title: "Each Borrower acknowledges that the L/C Lenders"}
+  - {label: "SECTION 7.02.6", raw_start: 5962901, title: "The obligations of a Borrower under this Clause will not be"}
+  - {label: "SECTION 7.02.7", raw_start: 5963252, title: "The Borrower which requested the issue of a Letter of Credit"}
+  - {label: "SECTION 7.03", raw_start: 5964084, title: "Indemnities"}
+  - {label: "ARTICLE 8", raw_start: 5964447, title: ""}
+  - {label: "SECTION 8", raw_start: 5964447, title: "UTILISATION - SWINGLINE LOANS"}
+  - {label: "SECTION 8.01", raw_start: 5964483, title: "General"}
+  - {label: "SECTION 8.01.1", raw_start: 5964502, title: "In this Clause, Clause 2.1 (The Facilities) and Clause 9 (Re"}
+  - {label: "SECTION 8.01.2", raw_start: 5966486, title: "Any reference in this Agreement to an 'Interest Period' incl"}
+  - {label: "SECTION 8.01.3", raw_start: 5966701, title: "The following provisions do not apply to Swingline Loans"}
+  - {label: "SECTION 8.02", raw_start: 5967401, title: "Delivery of a Utilisation Request for Swingline Loans"}
+  - {label: "SECTION 8.02.1", raw_start: 5967466, title: "A Borrower may utilise the Swingline Facility by delivery to"}
+  - {label: "SECTION 8.02.2", raw_start: 5967788, title: "Each Utilisation Request for a Swingline Loan must be sent t"}
+  - {label: "SECTION 8.03", raw_start: 5967989, title: "Completion of a Utilisation Request for Swingline Loans"}
+  - {label: "SECTION 8.03.1", raw_start: 5968056, title: "Each Utilisation Request for a Swingline Loan is irrevocable"}
+  - {label: "SECTION 8.03.2", raw_start: 5969077, title: "Only one Swingline Loan may be requested in each Utilisation"}
+  - {label: "SECTION 8.04", raw_start: 5969295, title: "Swingline Lenders' participation"}
+  - {label: "SECTION 8.04.1", raw_start: 5969339, title: "If the conditions set out in this Agreement have been met, e"}
+  - {label: "SECTION 8.04.2", raw_start: 5969568, title: "The Swingline Lenders will not be obliged to comply with par"}
+  - {label: "SECTION 8.04.3", raw_start: 5970137, title: "The amount of each Swingline Lender's participation in each"}
+  - {label: "SECTION 8.04.4", raw_start: 5970547, title: "The Swingline Agent shall notify each Swingline Lender of th"}
+  - {label: "SECTION 8.05", raw_start: 5970742, title: "Relationship with Facility A"}
+  - {label: "SECTION 8.05.1", raw_start: 5970782, title: "This Clause 8.5 (Relationship with Facility A) applies when "}
+  - {label: "SECTION 8.05.2", raw_start: 5970923, title: "Facility A may be used by way of Swingline Loans"}
+  - {label: "SECTION 8.05.3", raw_start: 5971204, title: "Notwithstanding any other term of this Agreement a Lender is"}
+  - {label: "ARTICLE 9", raw_start: 5971680, title: ""}
+  - {label: "SECTION 9", raw_start: 5971680, title: "REPAYMENT AND PREPAYMENT OF SWINGLINE LOANS"}
+  - {label: "SECTION 9.01", raw_start: 5971730, title: "Repayment"}
+  - {label: "SECTION 9.01.1", raw_start: 5971751, title: "A Borrower shall repay each Swingline Loan on the last day o"}
+  - {label: "SECTION 9.01.2", raw_start: 5971861, title: "If a Swingline Loan is not repaid in full on its due date, t"}
+  - {label: "SECTION 9.01.3", raw_start: 5972464, title: "On the Loss Sharing Date each Facility A Lender must pay to "}
+  - {label: "SECTION 9.01.4", raw_start: 5974250, title: "Out of the funds received by the Swingline Agent pursuant to"}
+  - {label: "SECTION 9.01.5", raw_start: 5974707, title: "If the amount actually received by the Swingline Agent from "}
+  - {label: "SECTION 9.02", raw_start: 5976000, title: "Voluntary Prepayment of Swingline Loans"}
+  - {label: "SECTION 9.02.1", raw_start: 5976051, title: "A Borrower may prepay at any time the whole of a Swingline L"}
+  - {label: "SECTION 9.02.2", raw_start: 5976130, title: "Unless a contrary indication appears in this Agreement, any "}
+  - {label: "SECTION 9.03", raw_start: 5976339, title: "Interest"}
+  - {label: "SECTION 9.03.1", raw_start: 5976359, title: "Interest shall accrue on each Swingline Loan on each day of "}
+  - {label: "SECTION 9.03.2", raw_start: 5976498, title: "The Swingline Agent shall promptly notify the Swingline Lend"}
+  - {label: "SECTION 9.03.3", raw_start: 5976681, title: "The relevant Borrower shall pay accrued interest on each Swi"}
+  - {label: "SECTION 9.04", raw_start: 5976826, title: "Interest Period"}
+  - {label: "SECTION 9.05", raw_start: 5976908, title: "Conditions of assignment or transfer"}
+  - {label: "ARTICLE 10", raw_start: 5977344, title: ""}
+  - {label: "SECTION 10", raw_start: 5977344, title: "OPTIONAL CURRENCIES"}
+  - {label: "SECTION 10.01", raw_start: 5977371, title: "Selection of currency"}
+  - {label: "SECTION 10.02", raw_start: 5977527, title: "Unavailability of a currency"}
+  - {label: "ARTICLE 11", raw_start: 5978662, title: ""}
+  - {label: "SECTION 11", raw_start: 5978662, title: "REPAYMENT"}
+  - {label: "SECTION 11.01", raw_start: 5978679, title: "Each Borrower which has drawn a Loan shall repay that Loan o"}
+  - {label: "SECTION 11.02", raw_start: 5978791, title: "Without prejudice to each Borrower's obligation under Clause"}
+  - {label: "SECTION 11.03", raw_start: 5981333, title: "At any time when a Lender becomes a Defaulting Lender, the m"}
+  - {label: "SECTION 11.04", raw_start: 5981790, title: "A Borrower to whom a Separate Loan is outstanding may prepay"}
+  - {label: "SECTION 11.05", raw_start: 5982121, title: "Interest in respect of a Separate Loan will accrue for succe"}
+  - {label: "SECTION 11.06", raw_start: 5982434, title: "The terms of this Agreement relating to Facility A Loans gen"}
+  - {label: "ARTICLE 12", raw_start: 5982714, title: ""}
+  - {label: "SECTION 12", raw_start: 5982714, title: "PREPAYMENT AND CANCELLATION"}
+  - {label: "SECTION 12.01", raw_start: 5982749, title: "Illegality"}
+  - {label: "SECTION 12.02", raw_start: 5984123, title: "Change of control"}
+  - {label: "SECTION 12.02.1", raw_start: 5984154, title: "Hostile changes of control"}
+  - {label: "SECTION 12.02.2", raw_start: 5985203, title: "Amicable changes of control"}
+  - {label: "SECTION 12.02.3", raw_start: 5986309, title: "Definitions"}
+  - {label: "SECTION 12.03", raw_start: 5989823, title: "Voluntary cancellation"}
+  - {label: "SECTION 12.03.1", raw_start: 5989859, title: "The Company may, if it gives the Agent not less than four (4"}
+  - {label: "SECTION 12.03.2", raw_start: 5990207, title: "Any cancellation under this Clause 12.3 (Voluntary cancellat"}
+  - {label: "SECTION 12.04", raw_start: 5990391, title: "Voluntary Prepayment"}
+  - {label: "SECTION 12.05", raw_start: 5991359, title: "Right of replacement or repayment and cancellation in relati"}
+  - {label: "SECTION 12.05.1", raw_start: 5991460, title: "If"}
+  - {label: "SECTION 12.05.2", raw_start: 5993091, title: "On receipt of a notice of cancellation referred to in paragr"}
+  - {label: "SECTION 12.05.3", raw_start: 5993281, title: "On the last day of each Interest Period which ends after the"}
+  - {label: "SECTION 12.05.4", raw_start: 5993721, title: "The Company may, in the circumstances set out in paragraph 1"}
+  - {label: "SECTION 12.05.5", raw_start: 5994980, title: "The replacement of a Lender pursuant to paragraph 12.5.4 abo"}
+  - {label: "SECTION 12.06", raw_start: 5995550, title: "Mandatory prepayment and cancellation in relation to a singl"}
+  - {label: "SECTION 12.07", raw_start: 5996628, title: "Restrictions"}
+  - {label: "SECTION 12.07.1", raw_start: 5996654, title: "Any notice of cancellation or prepayment given by any Party "}
+  - {label: "SECTION 12.07.2", raw_start: 5997036, title: "Any prepayment under this Agreement shall be made together w"}
+  - {label: "SECTION 12.07.3", raw_start: 5997243, title: "Unless a contrary indication appears in this Agreement, any "}
+  - {label: "SECTION 12.07.4", raw_start: 5997448, title: "The Borrowers shall not repay or prepay all or any part of t"}
+  - {label: "SECTION 12.07.5", raw_start: 5997758, title: "No amount of the Total Commitments cancelled under this Agre"}
+  - {label: "SECTION 12.07.6", raw_start: 5997885, title: "If the Agent receives a notice under this Clause 12, it shal"}
+  - {label: "SECTION 12.08", raw_start: 5998085, title: "Right of cancellation in relation to a Defaulting Lender"}
+  - {label: "SECTION 12.08.1", raw_start: 5998155, title: "If any Lender becomes a Defaulting Lender, the Company may, "}
+  - {label: "SECTION 12.08.2", raw_start: 5998460, title: "On the notice referred to in paragraph 12.8.1 above becoming"}
+  - {label: "SECTION 12.08.3", raw_start: 5998664, title: "The Agent shall as soon as practicable after receipt of a no"}
+  - {label: "ARTICLE 13", raw_start: 5998964, title: ""}
+  - {label: "SECTION 13", raw_start: 5998964, title: "INTEREST"}
+  - {label: "SECTION 13.01", raw_start: 5998980, title: "Calculation of interest"}
+  - {label: "SECTION 13.02", raw_start: 5999282, title: "Payment of interest"}
+  - {label: "SECTION 13.03", raw_start: 5999603, title: "Default interest"}
+  - {label: "SECTION 13.03.1", raw_start: 5999633, title: "If an Obligor fails to pay any amount payable by it under a"}
+  - {label: "SECTION 13.03.2", raw_start: 6000513, title: "If any overdue amount consists of all or part of a Loan whic"}
+  - {label: "SECTION 13.03.3", raw_start: 6001207, title: "Default interest (if unpaid) arising on an overdue amount wi"}
+  - {label: "SECTION 13.04", raw_start: 6001600, title: "Notification of rates of interest"}
+  - {label: "SECTION 13.05", raw_start: 6001777, title: "Effective Global Rate (Taux Effectif Global)"}
+  - {label: "ARTICLE 14", raw_start: 6002694, title: ""}
+  - {label: "SECTION 14", raw_start: 6002694, title: "INTEREST PERIODS"}
+  - {label: "SECTION 14.01", raw_start: 6002718, title: "Selection of Interest Periods"}
+  - {label: "SECTION 14.01.1", raw_start: 6002761, title: "A Borrower may select an Interest Period for a Loan in the"}
+  - {label: "SECTION 14.01.2", raw_start: 6002884, title: "Subject to this Clause 14 (Interest Periods), a Borrower may"}
+  - {label: "SECTION 14.01.3", raw_start: 6003187, title: "An Interest Period for a Facility A Loan or a Swingline Loan"}
+  - {label: "SECTION 14.01.4", raw_start: 6003323, title: "A Loan has one (1) Interest Period only"}
+  - {label: "SECTION 14.02", raw_start: 6003373, title: "Non-Business Days"}
+  - {label: "ARTICLE 15", raw_start: 6003656, title: ""}
+  - {label: "SECTION 15", raw_start: 6003656, title: "CHANGES TO THE CALCULATION OF INTEREST"}
+  - {label: "SECTION 15.01", raw_start: 6003702, title: "Absence of quotations"}
+  - {label: "SECTION 15.02", raw_start: 6004151, title: "Market disruption"}
+  - {label: "SECTION 15.02.1", raw_start: 6004182, title: "If a Market Disruption Event occurs in relation to a Loan fo"}
+  - {label: "SECTION 15.02.2", raw_start: 6005419, title: "In this Agreement 'Market Disruption Event' means"}
+  - {label: "SECTION 15.02.3", raw_start: 6006370, title: "Alternative basis of interest or funding"}
+  - {label: "SECTION 15.02.4", raw_start: 6007001, title: "The Agent shall promptly, and in any event no later than 10."}
+  - {label: "SECTION 15.03", raw_start: 6007326, title: "Break Costs"}
+  - {label: "SECTION 15.03.1", raw_start: 6007351, title: "Each Borrower shall, within three (3) Business Days of deman"}
+  - {label: "SECTION 15.03.2", raw_start: 6007714, title: "Each Lender shall, as soon as reasonably practicable after a"}
+  - {label: "ARTICLE 16", raw_start: 6007942, title: ""}
+  - {label: "SECTION 16", raw_start: 6007942, title: "FEES"}
+  - {label: "SECTION 16.01", raw_start: 6007954, title: "Non-Utilisation Fee"}
+  - {label: "SECTION 16.02", raw_start: 6008166, title: "Arrangement and participation fees"}
+  - {label: "SECTION 16.03", raw_start: 6008371, title: "Agency fee"}
+  - {label: "ARTICLE 17", raw_start: 6008730, title: ""}
+  - {label: "SECTION 17", raw_start: 6008730, title: "TAX GROSS-UP AND INDEMNITIES"}
+  - {label: "SECTION 17.01", raw_start: 6008766, title: "Definitions"}
+  - {label: "SECTION 17.01.1", raw_start: 6008791, title: "In this Agreement"}
+  - {label: "SECTION 17.01.2", raw_start: 6012456, title: "Unless a contrary indication appears, in this Clause 17, a"}
+  - {label: "SECTION 17.02", raw_start: 6012702, title: "Tax gross-up"}
+  - {label: "SECTION 17.02.1", raw_start: 6012728, title: "Each Obligor shall make all payments to be made by it under "}
+  - {label: "SECTION 17.02.2", raw_start: 6012923, title: "Each Obligor shall promptly upon becoming aware that it must"}
+  - {label: "SECTION 17.02.3", raw_start: 6013420, title: "If a Tax Deduction is required by law to be made by an Oblig"}
+  - {label: "SECTION 17.02.4", raw_start: 6013777, title: "An Obligor is not required to make an increased payment to a"}
+  - {label: "SECTION 17.02.5", raw_start: 6015902, title: "If an Obligor is required to make a Tax Deduction, that Obli"}
+  - {label: "SECTION 17.02.6", raw_start: 6016183, title: "Within thirty days of making either a Tax Deduction or any p"}
+  - {label: "SECTION 17.02.7", raw_start: 6016682, title: "A Treaty Lender and each Obligor which makes a payment to wh"}
+  - {label: "SECTION 17.02.8", raw_start: 6017590, title: "Any Lender which is not incorporated in France and which act"}
+  - {label: "SECTION 17.03", raw_start: 6018554, title: "Tax indemnity"}
+  - {label: "SECTION 17.03.1", raw_start: 6018580, title: "The Company shall (within three Business Days of demand by t"}
+  - {label: "SECTION 17.03.2", raw_start: 6018998, title: "Paragraph 17.3.1 above shall not apply"}
+  - {label: "SECTION 17.03.3", raw_start: 6020518, title: "A Protected Party making, or intending to make a claim under"}
+  - {label: "SECTION 17.03.4", raw_start: 6020806, title: "A Protected Party shall, on receiving a payment from an Obli"}
+  - {label: "SECTION 17.04", raw_start: 6020987, title: "Tax Credit"}
+  - {label: "SECTION 17.05", raw_start: 6021572, title: "Lender status confirmation"}
+  - {label: "SECTION 17.05.1", raw_start: 6021612, title: "Each Lender which becomes a Party to this Agreement after th"}
+  - {label: "SECTION 17.05.2", raw_start: 6022122, title: "Such Lender shall also indicate, in the Transfer Agreement w"}
+  - {label: "SECTION 17.05.3", raw_start: 6022409, title: "If a New Lender fails to indicate its status in accordance w"}
+  - {label: "SECTION 17.06", raw_start: 6023012, title: "Stamp taxes"}
+  - {label: "SECTION 17.07", raw_start: 6023348, title: "Value added tax"}
+  - {label: "SECTION 17.07.1", raw_start: 6023377, title: "All consideration expressed to be payable under a Finance Do"}
+  - {label: "SECTION 17.07.2", raw_start: 6023940, title: "Where a Finance Document requires any Party to reimburse a F"}
+  - {label: "ARTICLE 18", raw_start: 6024394, title: ""}
+  - {label: "SECTION 18", raw_start: 6024394, title: "INCREASED COSTS"}
+  - {label: "SECTION 18.01", raw_start: 6024417, title: "Increased costs"}
+  - {label: "SECTION 18.01.1", raw_start: 6024446, title: "Subject to Clause 18.3 (Exceptions) the Company shall, withi"}
+  - {label: "SECTION 18.01.2", raw_start: 6025116, title: "In this Agreement 'Increased Costs' means"}
+  - {label: "SECTION 18.02", raw_start: 6025781, title: "Increased cost claims"}
+  - {label: "SECTION 18.02.1", raw_start: 6025816, title: "A Finance Party intending to make a claim pursuant to Clause"}
+  - {label: "SECTION 18.02.2", raw_start: 6026103, title: "Each Finance Party shall, as soon as practicable after a dem"}
+  - {label: "SECTION 18.03", raw_start: 6026369, title: "Exceptions"}
+  - {label: "ARTICLE 19", raw_start: 6027997, title: ""}
+  - {label: "SECTION 19", raw_start: 6027997, title: "OTHER INDEMNITIES"}
+  - {label: "SECTION 19.01", raw_start: 6028022, title: "Currency indemnity"}
+  - {label: "SECTION 19.01.1", raw_start: 6028054, title: "If any sum due from an Obligor under the Finance Documents ("}
+  - {label: "SECTION 19.01.2", raw_start: 6029280, title: "Each Obligor waives any right it may have in any jurisdictio"}
+  - {label: "SECTION 19.02", raw_start: 6029526, title: "Other indemnities"}
+  - {label: "SECTION 19.03", raw_start: 6031025, title: "Indemnity to the Agent"}
+  - {label: "ARTICLE 20", raw_start: 6031618, title: ""}
+  - {label: "SECTION 20", raw_start: 6031618, title: "MITIGATION BY THE LENDERS"}
+  - {label: "SECTION 20.01", raw_start: 6031651, title: "Mitigation"}
+  - {label: "SECTION 20.01.1", raw_start: 6031675, title: "Each Finance Party shall as soon as reasonably possible, in"}
+  - {label: "SECTION 20.01.2", raw_start: 6033267, title: "Paragraph 20.1.1 above does not in any way limit the obligat"}
+  - {label: "SECTION 20.02", raw_start: 6033399, title: "Limitation of liability"}
+  - {label: "SECTION 20.02.1", raw_start: 6033436, title: "The Company shall indemnify each Finance Party for all duly"}
+  - {label: "SECTION 20.02.2", raw_start: 6033688, title: "A Finance Party is not obliged to take any steps under Claus"}
+  - {label: "ARTICLE 21", raw_start: 6033904, title: ""}
+  - {label: "SECTION 21", raw_start: 6033904, title: "COSTS AND EXPENSES"}
+  - {label: "SECTION 21.01", raw_start: 6033930, title: "Transaction expenses"}
+  - {label: "SECTION 21.02", raw_start: 6036318, title: "Amendment costs"}
+  - {label: "ARTICLE 22", raw_start: 6036961, title: ""}
+  - {label: "SECTION 22", raw_start: 6036961, title: "GUARANTEE"}
+  - {label: "SECTION 22.01", raw_start: 6036978, title: "Scope of Guarantee (the 'Guarantee')"}
+  - {label: "SECTION 22.02", raw_start: 6038067, title: "Further guarantee provisions"}
+  - {label: "SECTION 22.03", raw_start: 6038946, title: "Undertakings"}
+  - {label: "SECTION 22.04", raw_start: 6040430, title: "No exercise of rights of recovery"}
+  - {label: "SECTION 22.05", raw_start: 6041411, title: "Duration"}
+  - {label: "ARTICLE 23", raw_start: 6041855, title: ""}
+  - {label: "SECTION 23", raw_start: 6041855, title: "REPRESENTATIONS"}
+  - {label: "SECTION 23.01", raw_start: 6042195, title: "Status"}
+  - {label: "SECTION 23.02", raw_start: 6042508, title: "Corporate action"}
+  - {label: "SECTION 23.03", raw_start: 6042830, title: "Authorisations"}
+  - {label: "SECTION 23.04", raw_start: 6043030, title: "Binding obligations"}
+  - {label: "SECTION 23.05", raw_start: 6043401, title: "No conflict"}
+  - {label: "SECTION 23.06", raw_start: 6043766, title: "No proceedings pending"}
+  - {label: "SECTION 23.06.1", raw_start: 6043831, title: "AXA's Document de Reference lodged with the Autorite des Mar"}
+  - {label: "SECTION 23.07", raw_start: 6044641, title: "No Event of Default"}
+  - {label: "SECTION 23.08", raw_start: 6044749, title: "Pari passu ranking"}
+  - {label: "SECTION 23.09", raw_start: 6045271, title: "Stamp duty"}
+  - {label: "SECTION 23.10", raw_start: 6045642, title: "Financial statements"}
+  - {label: "SECTION 23.11", raw_start: 6046113, title: "No liquidation proceedings"}
+  - {label: "SECTION 23.12", raw_start: 6046315, title: "Repetition"}
+  - {label: "ARTICLE 24", raw_start: 6046666, title: ""}
+  - {label: "SECTION 24", raw_start: 6046666, title: "ADDITIONAL AXA REPRESENTATIONS AND WARRANTIES"}
+  - {label: "ARTICLE 25", raw_start: 6047910, title: ""}
+  - {label: "SECTION 25", raw_start: 6047910, title: "ADDITIONAL U.S"}
+  - {label: "ARTICLE 26", raw_start: 6048186, title: ""}
+  - {label: "SECTION 26", raw_start: 6048186, title: "INFORMATION UNDERTAKINGS"}
+  - {label: "SECTION 26.01", raw_start: 6048447, title: "Financial information"}
+  - {label: "SECTION 26.01.1", raw_start: 6048482, title: "The Company shall deliver to the Agent in sufficient numbers"}
+  - {label: "SECTION 26.02", raw_start: 6049982, title: "Notification of default"}
+  - {label: "SECTION 26.02.1", raw_start: 6050019, title: "Each Obligor shall notify the Agent of any Event of Default "}
+  - {label: "SECTION 26.02.2", raw_start: 6050471, title: "Promptly upon a request by the Agent, each Obligor shall con"}
+  - {label: "ARTICLE 27", raw_start: 6051050, title: ""}
+  - {label: "SECTION 27", raw_start: 6051050, title: "ADDITIONAL U.S"}
+  - {label: "ARTICLE 28", raw_start: 6051308, title: ""}
+  - {label: "SECTION 28", raw_start: 6051308, title: "'KNOW YOUR CUSTOMER' CHECKS"}
+  - {label: "SECTION 28.01", raw_start: 6051342, title: "If"}
+  - {label: "SECTION 28.02", raw_start: 6052822, title: "Each Lender shall promptly upon the request of the Agent sup"}
+  - {label: "SECTION 28.03", raw_start: 6053290, title: "The Company shall, by not less than ten (10) Business Days' "}
+  - {label: "SECTION 28.04", raw_start: 6053606, title: "Following the giving of any notice pursuant to Clause 28.3 a"}
+  - {label: "ARTICLE 29", raw_start: 6054570, title: ""}
+  - {label: "SECTION 29", raw_start: 6054570, title: "GENERAL UNDERTAKINGS"}
+  - {label: "SECTION 29.01", raw_start: 6054855, title: "Security"}
+  - {label: "SECTION 29.02", raw_start: 6060017, title: "Consents"}
+  - {label: "SECTION 29.03", raw_start: 6060252, title: "Change of business"}
+  - {label: "SECTION 29.04", raw_start: 6060497, title: "Maintenance of status"}
+  - {label: "SECTION 29.05", raw_start: 6060777, title: "Compliance with laws"}
+  - {label: "ARTICLE 30", raw_start: 6061259, title: ""}
+  - {label: "SECTION 30", raw_start: 6061259, title: "ADDITIONAL U.S"}
+  - {label: "ARTICLE 31", raw_start: 6061505, title: ""}
+  - {label: "SECTION 31", raw_start: 6061505, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 31.01", raw_start: 6061909, title: "Non-payment"}
+  - {label: "SECTION 31.02", raw_start: 6062097, title: "Material Breach"}
+  - {label: "SECTION 31.03", raw_start: 6062335, title: "Financial Indebtedness"}
+  - {label: "SECTION 31.04", raw_start: 6064166, title: "Representations"}
+  - {label: "SECTION 31.05", raw_start: 6064743, title: "Insolvency"}
+  - {label: "SECTION 31.05.1", raw_start: 6064767, title: "An Obligor, in France"}
+  - {label: "SECTION 31.05.2", raw_start: 6066178, title: "An Obligor, in any part of the United States of America"}
+  - {label: "SECTION 31.05.3", raw_start: 6067197, title: "A proceeding is commenced, without the application or consen"}
+  - {label: "SECTION 31.05.4", raw_start: 6068471, title: "An Obligor (other than a U.S"}
+  - {label: "SECTION 31.05.5", raw_start: 6068889, title: "An Obligor (other than a U.S"}
+  - {label: "SECTION 31.06", raw_start: 6069537, title: "Acceleration and Cancellation"}
+  - {label: "SECTION 31.06.1", raw_start: 6069580, title: "On and at any time after the occurrence of an Event of Defau"}
+  - {label: "SECTION 31.06.2", raw_start: 6070966, title: "On the occurrence of an Event of Default under paragraph 31."}
+  - {label: "SECTION 31.06.3", raw_start: 6071551, title: "Without prejudice to paragraphs 31.6.1 and 31.6.2 above, on "}
+  - {label: "ARTICLE 32", raw_start: 6073347, title: ""}
+  - {label: "SECTION 32", raw_start: 6073347, title: "SPECIAL EARLY TERMINATION EVENTS"}
+  - {label: "SECTION 32.01", raw_start: 6073387, title: "The following events or circumstances shall each be Special "}
+  - {label: "SECTION 32.02", raw_start: 6074664, title: "On and at any time after the occurrence of a Special Early"}
+  - {label: "ARTICLE 33", raw_start: 6076382, title: ""}
+  - {label: "SECTION 33", raw_start: 6076382, title: "CHANGES TO THE LENDERS"}
+  - {label: "SECTION 33.01", raw_start: 6076412, title: "Assignments and transfers by the Lenders"}
+  - {label: "SECTION 33.01.1", raw_start: 6076466, title: "Subject to this Clause 33, a Lender (the 'Existing Lender') "}
+  - {label: "SECTION 33.01.2", raw_start: 6078199, title: "Any such transfer by a Lender of all or, as the case may be,"}
+  - {label: "SECTION 33.01.3", raw_start: 6078661, title: "A Facility A Lender may not (for the avoidance of doubt) tra"}
+  - {label: "SECTION 33.01.4", raw_start: 6078945, title: "The consent of the Finance Parties is hereby given to a tran"}
+  - {label: "SECTION 33.02", raw_start: 6079124, title: "Conditions of assignment or transfer"}
+  - {label: "SECTION 33.02.1", raw_start: 6079174, title: "Each Lender shall notify the Company of an assignment, trans"}
+  - {label: "SECTION 33.02.2", raw_start: 6079335, title: "A transfer will only be effective if (i) the procedure set o"}
+  - {label: "SECTION 33.02.3", raw_start: 6079829, title: "If"}
+  - {label: "SECTION 33.03", raw_start: 6080660, title: "Assignment or transfer fee"}
+  - {label: "SECTION 33.04", raw_start: 6080877, title: "Limitation of responsibility of Existing Lenders"}
+  - {label: "SECTION 33.04.1", raw_start: 6080939, title: "Unless expressly agreed to the contrary, an Existing Lender "}
+  - {label: "SECTION 33.04.2", raw_start: 6081863, title: "Each New Lender confirms to the Existing Lender and the othe"}
+  - {label: "SECTION 33.04.3", raw_start: 6082764, title: "Nothing in any Finance Document obliges an Existing Lender t"}
+  - {label: "SECTION 33.05", raw_start: 6083280, title: "Procedure for transfer"}
+  - {label: "SECTION 33.05.1", raw_start: 6083316, title: "Subject to the conditions set out in Clause 33.2 (Conditions"}
+  - {label: "SECTION 33.05.2", raw_start: 6083996, title: "The Agent shall only be obliged to execute a Transfer Agreem"}
+  - {label: "SECTION 33.05.3", raw_start: 6084357, title: "By virtue of the execution of a Transfer Agreement, as from "}
+  - {label: "SECTION 33.05.4", raw_start: 6085881, title: "The Agent shall notify the Company if a Lender has effected "}
+  - {label: "SECTION 33.05.5", raw_start: 6086077, title: "The Agent, acting for these purposes solely as an agent of t"}
+  - {label: "ARTICLE 34", raw_start: 6086920, title: ""}
+  - {label: "SECTION 34", raw_start: 6086920, title: "SECURITY OVER LENDERS' RIGHTS"}
+  - {label: "ARTICLE 35", raw_start: 6088646, title: ""}
+  - {label: "SECTION 35", raw_start: 6088646, title: "PRO RATA INTEREST SETTLEMENT"}
+  - {label: "ARTICLE 36", raw_start: 6090377, title: ""}
+  - {label: "SECTION 36", raw_start: 6090377, title: "CHANGES TO THE OBLIGORS"}
+  - {label: "SECTION 36.01", raw_start: 6090408, title: "Assignments and transfer by Obligors"}
+  - {label: "SECTION 36.02", raw_start: 6090579, title: "Additional Borrowers"}
+  - {label: "SECTION 36.02.1", raw_start: 6090613, title: "Subject to compliance with the provisions of Clauses 28.3 an"}
+  - {label: "SECTION 36.02.2", raw_start: 6092501, title: "The Agent shall notify the Company and the Lenders promptly "}
+  - {label: "SECTION 36.02.3", raw_start: 6092795, title: "If the Additional Borrower is not incorporated or deemed to "}
+  - {label: "SECTION 36.03", raw_start: 6093152, title: "Resignation of a Borrower"}
+  - {label: "SECTION 36.03.1", raw_start: 6093191, title: "The Company may request that a Borrower (other than the Comp"}
+  - {label: "SECTION 36.03.2", raw_start: 6093372, title: "The Agent shall accept a Resignation Letter and notify the C"}
+  - {label: "SECTION 36.04", raw_start: 6094060, title: "Repetition of Representations"}
+  - {label: "ARTICLE 37", raw_start: 6094502, title: ""}
+  - {label: "SECTION 37", raw_start: 6094502, title: "ROLE OF THE AGENT, THE ARRANGERS AND THE SWINGLINE AGENT"}
+  - {label: "SECTION 37.01", raw_start: 6094566, title: "Appointment of the Agent"}
+  - {label: "SECTION 37.01.1", raw_start: 6094604, title: "Each other Finance Party appoints the Agent to act as its ag"}
+  - {label: "SECTION 37.01.2", raw_start: 6094749, title: "Each other Finance Party authorises the Agent to exercise th"}
+  - {label: "SECTION 37.02", raw_start: 6095082, title: "Duties of the Agent"}
+  - {label: "SECTION 37.02.1", raw_start: 6095115, title: "The Agent shall promptly forward to a Party the original or "}
+  - {label: "SECTION 37.02.2", raw_start: 6095342, title: "Except where a Finance Document specifically provides otherw"}
+  - {label: "SECTION 37.02.3", raw_start: 6095579, title: "If the Agent receives notice from a Party referring to this"}
+  - {label: "SECTION 37.02.4", raw_start: 6095940, title: "If the Agent is aware of the non-payment of any principal,"}
+  - {label: "SECTION 37.02.5", raw_start: 6096239, title: "The Agent's duties under the Finance Documents are solely"}
+  - {label: "SECTION 37.02.6", raw_start: 6096367, title: "The Agent shall provide to the Company within ten (10) Busin"}
+  - {label: "SECTION 37.03", raw_start: 6097577, title: "Role of the Arrangers"}
+  - {label: "SECTION 37.04", raw_start: 6097798, title: "No fiduciary duties"}
+  - {label: "SECTION 37.04.1", raw_start: 6097831, title: "Nothing in this Agreement constitutes the Agent or the Arran"}
+  - {label: "SECTION 37.04.2", raw_start: 6097972, title: "Neither the Agent nor the Arrangers shall be bound to accoun"}
+  - {label: "SECTION 37.05", raw_start: 6098166, title: "Business with the Group"}
+  - {label: "SECTION 37.06", raw_start: 6098376, title: "Rights and discretions of the Agent"}
+  - {label: "SECTION 37.06.1", raw_start: 6098425, title: "The Agent may rely on"}
+  - {label: "SECTION 37.06.2", raw_start: 6098883, title: "The Agent may assume (unless it has received notice to the"}
+  - {label: "SECTION 37.06.3", raw_start: 6099616, title: "The Agent may engage, pay for and rely on the advice or serv"}
+  - {label: "SECTION 37.06.4", raw_start: 6099767, title: "The Agent may act in relation to the Finance Documents throu"}
+  - {label: "SECTION 37.06.5", raw_start: 6099937, title: "The Agent may disclose to any other Party any information it"}
+  - {label: "SECTION 37.06.6", raw_start: 6100094, title: "Notwithstanding any other provision of any Finance Document "}
+  - {label: "SECTION 37.06.7", raw_start: 6100470, title: "Without prejudice to the generality of Clause 37.6.5 above, "}
+  - {label: "SECTION 37.06.8", raw_start: 6100784, title: "The Agent may not disclose to any Finance Party any details "}
+  - {label: "SECTION 37.07", raw_start: 6101016, title: "Majority Lenders' instructions"}
+  - {label: "SECTION 37.07.1", raw_start: 6101060, title: "Unless a contrary indication appears in a Finance Document, "}
+  - {label: "SECTION 37.07.2", raw_start: 6101690, title: "Unless a contrary indication appears in a Finance Document, "}
+  - {label: "SECTION 37.07.3", raw_start: 6101884, title: "The Agent may refrain from acting in accordance with the"}
+  - {label: "SECTION 37.07.4", raw_start: 6102259, title: "In the absence of instructions from the Majority Lenders, (o"}
+  - {label: "SECTION 37.07.5", raw_start: 6102517, title: "The Agent is not authorised to act on behalf of a Lender in "}
+  - {label: "SECTION 37.08", raw_start: 6102796, title: "Responsibility for documentation"}
+  - {label: "SECTION 37.09", raw_start: 6103529, title: "Exclusion of liability"}
+  - {label: "SECTION 37.09.1", raw_start: 6103565, title: "Without limiting paragraph 37.9.2 below and without prejudic"}
+  - {label: "SECTION 37.09.2", raw_start: 6103944, title: "No Party (other than the Agent) may take any proceedings aga"}
+  - {label: "SECTION 37.09.3", raw_start: 6104387, title: "The Agent will not be liable for any delay (or any related"}
+  - {label: "SECTION 37.09.4", raw_start: 6104875, title: "Nothing in this Agreement shall oblige the Agent or the Arra"}
+  - {label: "SECTION 37.10", raw_start: 6105370, title: "Lenders' indemnity to the Agent"}
+  - {label: "SECTION 37.11", raw_start: 6106283, title: "Resignation of the Agent"}
+  - {label: "SECTION 37.11.1", raw_start: 6106321, title: "The Agent may resign and appoint one of its Affiliates as"}
+  - {label: "SECTION 37.11.2", raw_start: 6106547, title: "Alternatively the Agent may resign by giving notice to the o"}
+  - {label: "SECTION 37.11.3", raw_start: 6106806, title: "If the Majority Lenders have not appointed a successor Agent"}
+  - {label: "SECTION 37.11.4", raw_start: 6107109, title: "The retiring Agent shall, at its own cost, make available to"}
+  - {label: "SECTION 37.11.5", raw_start: 6107445, title: "The Agent's resignation notice shall only take effect upon t"}
+  - {label: "SECTION 37.11.6", raw_start: 6107565, title: "Upon the appointment of a successor, the retiring Agent shal"}
+  - {label: "SECTION 37.11.7", raw_start: 6108098, title: "After consultation with the Company, the Majority Lenders ma"}
+  - {label: "SECTION 37.12", raw_start: 6108383, title: "Replacement of the Agent"}
+  - {label: "SECTION 37.13", raw_start: 6110042, title: "Confidentiality"}
+  - {label: "SECTION 37.13.1", raw_start: 6110071, title: "In acting as agent for the Finance Parties, the Agent shall "}
+  - {label: "SECTION 37.13.2", raw_start: 6110330, title: "If information is received by another division or department"}
+  - {label: "SECTION 37.14", raw_start: 6110563, title: "Relationship with the Lenders"}
+  - {label: "SECTION 37.14.1", raw_start: 6110606, title: "Subject to Clause 35 (Pro rata interest settlement), the Age"}
+  - {label: "SECTION 37.14.2", raw_start: 6111024, title: "Each Lender shall supply the Agent with any information requ"}
+  - {label: "SECTION 37.15", raw_start: 6111237, title: "Credit appraisal by the Lenders"}
+  - {label: "SECTION 37.16", raw_start: 6113170, title: "Reference Banks"}
+  - {label: "SECTION 37.17", raw_start: 6113477, title: "Deduction from amounts payable by the Agent"}
+  - {label: "SECTION 37.18", raw_start: 6114034, title: "Swingline Agent"}
+  - {label: "SECTION 37.18.1", raw_start: 6114063, title: "Each Swingline Lender appoints the Swingline Agent to act as"}
+  - {label: "SECTION 37.18.2", raw_start: 6114511, title: "Notwithstanding any other term of this Agreement and without"}
+  - {label: "SECTION 37.18.3", raw_start: 6115401, title: "This Clause 37 (except Clause 37.10 (Lenders' indemnity to t"}
+  - {label: "ARTICLE 38", raw_start: 6115620, title: ""}
+  - {label: "SECTION 38", raw_start: 6115620, title: "CONDUCT OF BUSINESS BY THE FINANCE PARTIES"}
+  - {label: "ARTICLE 39", raw_start: 6116295, title: ""}
+  - {label: "SECTION 39", raw_start: 6116295, title: "SHARING AMONG THE FINANCE PARTIES"}
+  - {label: "SECTION 39.01", raw_start: 6116336, title: "Payments to Finance Parties"}
+  - {label: "SECTION 39.02", raw_start: 6117716, title: "Redistribution of payments"}
+  - {label: "SECTION 39.03", raw_start: 6118003, title: "Recovering Finance Party's rights"}
+  - {label: "SECTION 39.03.1", raw_start: 6118050, title: "On a distribution by the Agent under Clause 39.2 (Redistribu"}
+  - {label: "SECTION 39.03.2", raw_start: 6118461, title: "If and to the extent that the Recovering Finance Party is no"}
+  - {label: "SECTION 39.04", raw_start: 6118778, title: "Reversal of redistribution"}
+  - {label: "SECTION 39.05", raw_start: 6119940, title: "Exceptions"}
+  - {label: "SECTION 39.05.1", raw_start: 6119964, title: "This Clause 39 (Sharing among the Finance Parties) shall not"}
+  - {label: "SECTION 39.05.2", raw_start: 6120262, title: "A Recovering Finance Party is not obliged to share with any "}
+  - {label: "ARTICLE 40", raw_start: 6121106, title: ""}
+  - {label: "SECTION 40", raw_start: 6121106, title: "PAYMENT MECHANICS"}
+  - {label: "SECTION 40.01", raw_start: 6121131, title: "Payments to the Agent"}
+  - {label: "SECTION 40.01.1", raw_start: 6121166, title: "On each date on which an Obligor or a Lender is required to "}
+  - {label: "SECTION 40.01.2", raw_start: 6121684, title: "Payment shall be made to such account in the principal finan"}
+  - {label: "SECTION 40.02", raw_start: 6121979, title: "Distributions by the Agent"}
+  - {label: "SECTION 40.03", raw_start: 6122732, title: "Distributions to an Obligor"}
+  - {label: "SECTION 40.04", raw_start: 6123152, title: "Clawback"}
+  - {label: "SECTION 40.04.1", raw_start: 6123174, title: "Where a sum is to be paid to the Agent under the Finance Doc"}
+  - {label: "SECTION 40.04.2", raw_start: 6123548, title: "If the Agent pays an amount to another Party and it proves t"}
+  - {label: "SECTION 40.05", raw_start: 6124128, title: "Partial payments"}
+  - {label: "SECTION 40.05.1", raw_start: 6124158, title: "If the Agent receives a payment that is insufficient to disc"}
+  - {label: "SECTION 40.05.2", raw_start: 6125259, title: "The Agent shall, if so directed by the Majority Lenders, var"}
+  - {label: "SECTION 40.05.3", raw_start: 6125412, title: "Paragraphs 40.5.1 and 40.5.2 above will override any appropr"}
+  - {label: "SECTION 40.06", raw_start: 6125522, title: "Application to Swingline Agent"}
+  - {label: "SECTION 40.07", raw_start: 6125845, title: "No set-off by Obligors"}
+  - {label: "SECTION 40.08", raw_start: 6126067, title: "Business Days"}
+  - {label: "SECTION 40.08.1", raw_start: 6126094, title: "Any payment which is due to be made on a day that is not a"}
+  - {label: "SECTION 40.08.2", raw_start: 6126356, title: "During any extension of the due date for payment of any prin"}
+  - {label: "SECTION 40.09", raw_start: 6126657, title: "Currency of account"}
+  - {label: "SECTION 40.09.1", raw_start: 6126689, title: "Subject to paragraphs 40.9.2 to 40.9.5 below, the Base Curre"}
+  - {label: "SECTION 40.09.2", raw_start: 6126895, title: "A repayment of a Utilisation or Unpaid Sum or a part of a"}
+  - {label: "SECTION 40.09.3", raw_start: 6127124, title: "Each payment of interest shall be made in the currency in wh"}
+  - {label: "SECTION 40.09.4", raw_start: 6127327, title: "Each payment in respect of costs, expenses or Taxes shall be"}
+  - {label: "SECTION 40.09.5", raw_start: 6127504, title: "Any amount expressed to be payable in a currency other than "}
+  - {label: "SECTION 40.10", raw_start: 6127643, title: "Change of currency"}
+  - {label: "SECTION 40.10.1", raw_start: 6127675, title: "Unless otherwise prohibited by law, if more than one currenc"}
+  - {label: "SECTION 40.10.2", raw_start: 6128642, title: "If a change in any currency of a country occurs, this Agreem"}
+absent: []

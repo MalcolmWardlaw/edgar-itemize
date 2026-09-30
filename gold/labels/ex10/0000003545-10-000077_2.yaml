@@ -1,0 +1,96 @@
+accession: 0000003545-10-000077
+sequence: 2
+doc_type: EX-10.01
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 53498, title: "THE REAL ESTATE TERM LOAN"}
+  - {label: "SECTION 1.01", raw_start: 53966, title: "Loan Amount"}
+  - {label: "SECTION 1.02", raw_start: 54720, title: "Interest"}
+  - {label: "SECTION 1.03", raw_start: 55902, title: "Interest Margin Adjustment"}
+  - {label: "SECTION 1.04", raw_start: 58842, title: "Required Payments;"}
+  - {label: "SECTION 1.05", raw_start: 62031, title: "Prepayments"}
+  - {label: "SECTION 1.06", raw_start: 63182, title: "The Term Loan Note"}
+  - {label: "ARTICLE 2", raw_start: 64146, title: "THE REAL ESTATE LINE OF CREDIT"}
+  - {label: "SECTION 2.01", raw_start: 64619, title: "The Line of Credit"}
+  - {label: "SECTION 2.02", raw_start: 65767, title: "Maximum Amount The aggregate unpaid principal balance of the"}
+  - {label: "SECTION 2.03", raw_start: 66518, title: "Loans under the Line of Credit"}
+  - {label: "SECTION 2.04", raw_start: 67760, title: "Revolving Nature"}
+  - {label: "SECTION 2.05", raw_start: 68522, title: "Commitment Fee"}
+  - {label: "SECTION 2.06", raw_start: 69601, title: "Interest"}
+  - {label: "SECTION 2.07", raw_start: 70815, title: "Interest Margin Adjustment"}
+  - {label: "SECTION 2.08", raw_start: 74242, title: "Required Payments;"}
+  - {label: "SECTION 2.09", raw_start: 76106, title: "Prepayments"}
+  - {label: "SECTION 2.10", raw_start: 76977, title: "The Line of Credit Note"}
+  - {label: "ARTICLE 3", raw_start: 77967, title: "COVENANTS REGARDING THE LOANS"}
+  - {label: "SECTION 3.01", raw_start: 78421, title: "Loan Requests"}
+  - {label: "SECTION 3.02", raw_start: 79940, title: "Computation of Interest"}
+  - {label: "SECTION 3.03", raw_start: 81408, title: "Default Rate"}
+  - {label: "SECTION 3.04", raw_start: 83480, title: "Maximum Rate"}
+  - {label: "SECTION 3.05", raw_start: 85226, title: "Method and Application of Payments"}
+  - {label: "SECTION 3.06", raw_start: 87243, title: "Prepayments Generally"}
+  - {label: "SECTION 3.07", raw_start: 90157, title: "Reserved"}
+  - {label: "SECTION 3.08", raw_start: 90744, title: "Mandatory Repayments"}
+  - {label: "SECTION 3.09", raw_start: 91623, title: "Inability to Determine Rates"}
+  - {label: "SECTION 3.10", raw_start: 93117, title: "Hedging Agreements and Hedging Obligations"}
+  - {label: "ARTICLE 4", raw_start: 94298, title: "COLLATERAL"}
+  - {label: "SECTION 4.01", raw_start: 94748, title: "Collateral Documents"}
+  - {label: "SECTION 4.02", raw_start: 96612, title: "Due on Sale or Encumbrance Provisions"}
+  - {label: "ARTICLE 5", raw_start: 104221, title: "CONDITIONS"}
+  - {label: "SECTION 5.01", raw_start: 104653, title: "Conditions of the Initial Loan"}
+  - {label: "SECTION 5.02", raw_start: 112392, title: "Additional Loans"}
+  - {label: "ARTICLE 6", raw_start: 115753, title: "BORROWER REPRESENTATIONS"}
+  - {label: "SECTION 6.01", raw_start: 116205, title: "Representations"}
+  - {label: "SECTION 6.02", raw_start: 126294, title: "Information Accurate and Complete"}
+  - {label: "ARTICLE 7", raw_start: 127794, title: "BORROWER COVENANTS"}
+  - {label: "SECTION 7.01", raw_start: 128661, title: "Tangible Net Worth"}
+  - {label: "SECTION 7.02", raw_start: 129371, title: "Current Ratio"}
+  - {label: "SECTION 7.03", raw_start: 130068, title: "Debt Service Coverage Ratio"}
+  - {label: "SECTION 7.04", raw_start: 130968, title: "Debt to Total Assets Ratio"}
+  - {label: "SECTION 7.05", raw_start: 131694, title: "Dividends"}
+  - {label: "SECTION 7.06", raw_start: 132490, title: "Sale/Transfer/Lease of Assets"}
+  - {label: "SECTION 7.07", raw_start: 133966, title: "Books and Records"}
+  - {label: "SECTION 7.08", raw_start: 135022, title: "Reporting Requirements"}
+  - {label: "SECTION 7.09", raw_start: 143333, title: "Change in Accounting"}
+  - {label: "SECTION 7.10", raw_start: 144113, title: "Maintenance of Assets"}
+  - {label: "SECTION 7.11", raw_start: 144923, title: "Existence and Good Standing"}
+  - {label: "SECTION 7.12", raw_start: 145816, title: "Change in Business or Organizational Structure"}
+  - {label: "SECTION 7.13", raw_start: 147533, title: "Compliance with Laws"}
+  - {label: "SECTION 7.14", raw_start: 148322, title: "Inspections"}
+  - {label: "SECTION 7.15", raw_start: 149402, title: "Insurance"}
+  - {label: "SECTION 7.16", raw_start: 153486, title: "Arms' Length Dealing"}
+  - {label: "SECTION 7.17", raw_start: 154498, title: "Use of the Loans"}
+  - {label: "SECTION 7.18", raw_start: 155475, title: "ERISA Plans"}
+  - {label: "SECTION 7.19", raw_start: 156934, title: "Legal Fees;"}
+  - {label: "SECTION 7.20", raw_start: 158146, title: "Lender Expenses"}
+  - {label: "SECTION 7.21", raw_start: 158922, title: "Encumbrances On and Transfers of the Collateral"}
+  - {label: "SECTION 7.22", raw_start: 159762, title: "Other Acts"}
+  - {label: "ARTICLE 8", raw_start: 160802, title: "EVENTS OF DEFAULT AND REMEDIES"}
+  - {label: "SECTION 8.01", raw_start: 161275, title: "Events of Default"}
+  - {label: "SECTION 8.02", raw_start: 172984, title: "Remedies"}
+  - {label: "ARTICLE 9", raw_start: 174625, title: "NOTICES"}
+  - {label: "ARTICLE 10", raw_start: 177150, title: "GENERAL DEFINITIONS, ACCOUNTING MATTERS AND DRAFTING CONVENT"}
+  - {label: "SECTION 10.01", raw_start: 177644, title: "Defined Terms"}
+  - {label: "SECTION 10.02", raw_start: 218851, title: "Accounting Matters"}
+  - {label: "SECTION 10.03", raw_start: 220235, title: "Drafting Conventions"}
+  - {label: "ARTICLE 11", raw_start: 224886, title: "MISCELLANEOUS"}
+  - {label: "SECTION 11.01", raw_start: 225325, title: "Entire Agreement"}
+  - {label: "SECTION 11.02", raw_start: 226474, title: "Joint and Several Obligations"}
+  - {label: "SECTION 11.03", raw_start: 228146, title: "Authority to Bind Borrower"}
+  - {label: "SECTION 11.04", raw_start: 229402, title: "Binding Effect;"}
+  - {label: "SECTION 11.05", raw_start: 230156, title: "Assignment;"}
+  - {label: "SECTION 11.06", raw_start: 231440, title: "Severability"}
+  - {label: "SECTION 11.07", raw_start: 232557, title: "Amendments in Writing"}
+  - {label: "SECTION 11.08", raw_start: 233331, title: "Governing Law"}
+  - {label: "SECTION 11.09", raw_start: 235179, title: "JURISDICTION AND VENUE"}
+  - {label: "SECTION 11.10", raw_start: 236342, title: "Counterpart Execution"}
+  - {label: "SECTION 11.11", raw_start: 237106, title: "Necessary Action"}
+  - {label: "SECTION 11.12", raw_start: 237886, title: "Credit Report"}
+  - {label: "SECTION 11.13", raw_start: 238916, title: "No Construction Against Drafter"}
+  - {label: "SECTION 11.14", raw_start: 239883, title: "INDEMNIFICATION"}
+  - {label: "SECTION 11.15", raw_start: 242649, title: "COLLATERAL AGENCY AGREEMENT"}
+  - {label: "SECTION 11.16", raw_start: 243571, title: "ENDORSEMENT AND ASSIGNMENT IN LIEU OF SATISFACTION"}
+  - {label: "SECTION 11.17", raw_start: 247198, title: "WAIVER OF TRIAL BY JURY"}
+  - {label: "SECTION 11.18", raw_start: 249157, title: "BALLOON PAYMENT"}
+  - {label: "SECTION 11.19", raw_start: 249841, title: "USA Patriot Act Notice"}
+  - {label: "SECTION 11.20", raw_start: 250878, title: "ORAL AGREEMENTS OR COMMITMENTS"}
+absent: []

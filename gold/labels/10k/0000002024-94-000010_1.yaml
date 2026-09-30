@@ -1,0 +1,24 @@
+accession: 0000002024-94-000010
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 3972, title: ""}
+  - {label: "ITEM 1", raw_start: 3981, title: "Business"}
+  - {label: "ITEM 2", raw_start: 60655, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 63445, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 63701, title: "Submission To A Vote Of Security Holders"}
+  - {label: "PART II", raw_start: 63801, title: ""}
+  - {label: "ITEM 5", raw_start: 63811, title: "Market For The Registrant's Common Equity And Related Stockh"}
+  - {label: "ITEM 6", raw_start: 64864, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 69495, title: "Management's Discussion And Analysis Of Financial Condition "}
+  - {label: "ITEM 8", raw_start: 75822, title: "Financial Statements And Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 76040, title: "Changes In And Disagreements With Accountants On Accounting "}
+  - {label: "PART III", raw_start: 76235, title: ""}
+  - {label: "ITEM 10", raw_start: 76246, title: "Directors And Executive Officers Of The Company"}
+  - {label: "ITEM 11", raw_start: 84409, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 100762, title: "Security Ownership Of Certain Beneficial Owners And Manageme"}
+  - {label: "ITEM 13", raw_start: 102807, title: "Certain Relationships And Related Transactions"}
+  - {label: "PART IV", raw_start: 105032, title: ""}
+  - {label: "ITEM 14", raw_start: 105042, title: "Exhibits, Financial Statement Schedules And Reports On Form "}
+absent: []

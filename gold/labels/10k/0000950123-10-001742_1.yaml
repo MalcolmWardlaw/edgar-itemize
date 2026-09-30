@@ -1,0 +1,30 @@
+accession: 0000950123-10-001742
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 17440, title: ""}
+  - {label: "ITEM 1", raw_start: 17523, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 60937, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 80925, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 81198, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 86425, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 87008, title: "Submission of Matters to a Vote of Security Holders"}
+  - {label: "PART II", raw_start: 93766, title: ""}
+  - {label: "ITEM 5", raw_start: 94036, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 101078, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 119835, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 302550, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 318694, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 626421, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 626806, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 634750, title: "Other Information"}
+  - {label: "PART III", raw_start: 635030, title: ""}
+  - {label: "ITEM 10", raw_start: 635811, title: "Directors, Executive Officers, and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 638747, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 639329, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 640010, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 640572, title: "Principal Accountant's Fees and Services"}
+  - {label: "PART IV", raw_start: 641316, title: ""}
+  - {label: "ITEM 15", raw_start: 641516, title: "Exhibits and Financial Statement Schedules"}
+absent: []

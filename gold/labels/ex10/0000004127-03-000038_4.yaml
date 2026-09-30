@@ -1,0 +1,92 @@
+accession: 0000004127-03-000038
+sequence: 4
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 649068, title: "DEFINITIONS AND RELATED TERMS"}
+  - {label: "SECTION 1.01", raw_start: 649316, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 721725, title: "Accounting Terms and Determinations"}
+  - {label: "SECTION 1.03", raw_start: 722529, title: "References"}
+  - {label: "SECTION 1.04", raw_start: 723053, title: "Use of Defined Terms"}
+  - {label: "SECTION 1.05", raw_start: 723838, title: "Terminology"}
+  - {label: "ARTICLE 2", raw_start: 726762, title: "ADVANCES"}
+  - {label: "SECTION 2.01", raw_start: 727007, title: "Commitment to Make Advances"}
+  - {label: "SECTION 2.02", raw_start: 727834, title: "Method of Borrowing"}
+  - {label: "SECTION 2.03", raw_start: 728933, title: "Final Payment of Aggregate Advances"}
+  - {label: "SECTION 2.04", raw_start: 729907, title: "Interest Rate"}
+  - {label: "SECTION 2.05", raw_start: 732145, title: "Fees"}
+  - {label: "SECTION 2.06", raw_start: 733051, title: "Termination or Reduction of Commitment"}
+  - {label: "SECTION 2.07", raw_start: 734130, title: "Repayment of the Aggregate Advances"}
+  - {label: "SECTION 2.08", raw_start: 736861, title: "General Provisions as to Payments"}
+  - {label: "SECTION 2.09", raw_start: 750010, title: "Lockbox;"}
+  - {label: "ARTICLE 3", raw_start: 753169, title: "COLLATERAL"}
+  - {label: "SECTION 3.01", raw_start: 753376, title: "Grant of Security Interest"}
+  - {label: "SECTION 3.02", raw_start: 755290, title: "Further Assurances"}
+  - {label: "ARTICLE 4", raw_start: 756297, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 756741, title: "Corporate Existence and Power"}
+  - {label: "SECTION 4.02", raw_start: 757616, title: "Corporate and Governmental Authorization;"}
+  - {label: "SECTION 4.03", raw_start: 758681, title: "Litigation"}
+  - {label: "SECTION 4.04", raw_start: 759150, title: "Binding Effect"}
+  - {label: "SECTION 4.05", raw_start: 759758, title: "Financial Information"}
+  - {label: "SECTION 4.06", raw_start: 761437, title: "Margin Stock"}
+  - {label: "SECTION 4.07", raw_start: 762114, title: "Good Title"}
+  - {label: "SECTION 4.08", raw_start: 762893, title: "Perfection;"}
+  - {label: "SECTION 4.09", raw_start: 763571, title: "Compliance with Laws;"}
+  - {label: "SECTION 4.10", raw_start: 764251, title: "Investment Company and Public Utility Holding Acts"}
+  - {label: "SECTION 4.11", raw_start: 764992, title: "No Default"}
+  - {label: "SECTION 4.12", raw_start: 765538, title: "Insolvency"}
+  - {label: "SECTION 4.13", raw_start: 767072, title: "Insurance"}
+  - {label: "SECTION 4.14", raw_start: 768357, title: "Capital Structure"}
+  - {label: "SECTION 4.15", raw_start: 768944, title: "Collateral Information"}
+  - {label: "SECTION 4.16", raw_start: 769951, title: "Force Majeure"}
+  - {label: "SECTION 4.17", raw_start: 770503, title: "Subordinated Notes"}
+  - {label: "SECTION 4.18", raw_start: 770869, title: "Program Documents"}
+  - {label: "SECTION 4.19", raw_start: 771409, title: "No Outside Collection Agencies"}
+  - {label: "SECTION 4.20", raw_start: 772033, title: "No Bulk Sale"}
+  - {label: "SECTION 4.21", raw_start: 772400, title: "Nature of Purchased Receivables"}
+  - {label: "SECTION 4.22", raw_start: 772822, title: "Purchaser's Account"}
+  - {label: "SECTION 4.23", raw_start: 773227, title: "Full Disclosure"}
+  - {label: "SECTION 4.24", raw_start: 774325, title: "Survival of Representations and Warranties"}
+  - {label: "SECTION 4.25", raw_start: 775045, title: "Restating of Representations and Warranties"}
+  - {label: "ARTICLE 5", raw_start: 775373, title: "COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 775807, title: "Information"}
+  - {label: "SECTION 5.02", raw_start: 794537, title: "Inspection of Property, Books and Records"}
+  - {label: "SECTION 5.03", raw_start: 797474, title: "Maintenance of Existence and Management"}
+  - {label: "SECTION 5.04", raw_start: 798256, title: "Compliance with Laws;"}
+  - {label: "SECTION 5.05", raw_start: 799626, title: "Required Cash Price"}
+  - {label: "SECTION 5.06", raw_start: 800287, title: "Maintenance of the Policy"}
+  - {label: "SECTION 5.07", raw_start: 801567, title: "Maintenance of Property"}
+  - {label: "SECTION 5.08", raw_start: 801967, title: "Physical Inventories"}
+  - {label: "SECTION 5.09", raw_start: 802560, title: "Reports Respecting Collateral"}
+  - {label: "SECTION 5.10", raw_start: 803628, title: "Separate Legal Entity"}
+  - {label: "SECTION 5.11", raw_start: 810676, title: "Payment of Taxes On and Use of Collateral"}
+  - {label: "SECTION 5.12", raw_start: 811078, title: "Payment of Fees"}
+  - {label: "SECTION 5.13", raw_start: 811620, title: "Additional Negative Covenants"}
+  - {label: "ARTICLE 6", raw_start: 821703, title: "DEFAULTS"}
+  - {label: "SECTION 6.01", raw_start: 821964, title: "Events of Default"}
+  - {label: "SECTION 6.02", raw_start: 836486, title: "Remedies with Respect to Collateral"}
+  - {label: "SECTION 6.03", raw_start: 843228, title: "Power of Attorney"}
+  - {label: "ARTICLE 7", raw_start: 844295, title: "CHANGE IN CIRCUMSTANCES; COMPENSATION"}
+  - {label: "SECTION 7.01", raw_start: 844525, title: "Basis for Determining Interest Rate Inadequate or Unfair"}
+  - {label: "SECTION 7.02", raw_start: 845316, title: "Illegality"}
+  - {label: "SECTION 7.03", raw_start: 846923, title: "Increased Cost and Reduced Return"}
+  - {label: "SECTION 7.04", raw_start: 853323, title: "Compensation"}
+  - {label: "ARTICLE 8", raw_start: 855281, title: "CONDITIONS TO MAKING ADVANCES"}
+  - {label: "SECTION 8.01", raw_start: 855496, title: "Conditions to Making Initial Advance"}
+  - {label: "SECTION 8.02", raw_start: 863235, title: "Conditions to the Making of All Advances"}
+  - {label: "ARTICLE 9", raw_start: 866254, title: "MISCELLANEOUS"}
+  - {label: "SECTION 9.01", raw_start: 866452, title: "Notices"}
+  - {label: "SECTION 9.02", raw_start: 867602, title: "No Waivers"}
+  - {label: "SECTION 9.03", raw_start: 868546, title: "Expenses;"}
+  - {label: "SECTION 9.04", raw_start: 871195, title: "Indemnification"}
+  - {label: "SECTION 9.05", raw_start: 872438, title: "Setoff;"}
+  - {label: "SECTION 9.06", raw_start: 874198, title: "Amendments and Waivers"}
+  - {label: "SECTION 9.07", raw_start: 875112, title: "Successors and Assigns"}
+  - {label: "SECTION 9.08", raw_start: 875836, title: "New York Law"}
+  - {label: "SECTION 9.09", raw_start: 876314, title: "Severability"}
+  - {label: "SECTION 9.10", raw_start: 877002, title: "Interpretation"}
+  - {label: "SECTION 9.11", raw_start: 877598, title: "WAIVER OF JURY TRIAL;"}
+  - {label: "SECTION 9.12", raw_start: 879074, title: "Counterparts"}
+  - {label: "SECTION 9.13", raw_start: 879503, title: "Consequential Damages"}
+  - {label: "SECTION 9.14", raw_start: 880031, title: "Entire Agreement"}
+absent: []

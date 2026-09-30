@@ -1,0 +1,25 @@
+accession: 0000002969-01-500028
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 12770, title: ""}
+  - {label: "ITEM 1", raw_start: 12778, title: "Business"}
+  - {label: "ITEM 2", raw_start: 47759, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 52565, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 53728, title: "Submission of Matters to a Vote of Security Holders"}
+  - {label: "PART II", raw_start: 53856, title: ""}
+  - {label: "ITEM 5", raw_start: 53865, title: "Market for Registrant's Common Equity and Related Stockholde"}
+  - {label: "ITEM 6", raw_start: 56793, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 57059, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 57391, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 57683, title: "Financial Statements"}
+  - {label: "ITEM 9", raw_start: 58021, title: "Disagreements on Accounting and Financial Disclosure"}
+  - {label: "PART III", raw_start: 58149, title: ""}
+  - {label: "ITEM 10", raw_start: 58159, title: "Directors and Executive Officers of the Company"}
+  - {label: "ITEM 11", raw_start: 58568, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 59001, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 59512, title: "Certain Relationships and Related Transactions"}
+  - {label: "PART IV", raw_start: 59632, title: ""}
+  - {label: "ITEM 14", raw_start: 59641, title: "Exhibits, Financial Statement Schedules, and Reports on Form"}
+absent: []

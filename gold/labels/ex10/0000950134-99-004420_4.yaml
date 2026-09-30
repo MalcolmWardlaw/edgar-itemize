@@ -1,0 +1,129 @@
+accession: 0000950134-99-004420
+sequence: 4
+doc_type: EX-10.22.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 290077, title: ""}
+  - {label: "SECTION 1.01", raw_start: 290146, title: "Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 372884, title: "Computation of Time Periods"}
+  - {label: "SECTION 1.03", raw_start: 373195, title: "Accounting Terms"}
+  - {label: "SECTION 1.04", raw_start: 373545, title: "Certain Terms"}
+  - {label: "ARTICLE 2", raw_start: 374198, title: ""}
+  - {label: "SECTION 2.01", raw_start: 374285, title: "The Loans"}
+  - {label: "SECTION 2.02", raw_start: 374856, title: "Making the Loans"}
+  - {label: "SECTION 2.03", raw_start: 378388, title: "Fees"}
+  - {label: "SECTION 2.04", raw_start: 378585, title: "Collateral"}
+  - {label: "SECTION 2.05", raw_start: 380348, title: "Repayment"}
+  - {label: "SECTION 2.06", raw_start: 380749, title: "Prepayments"}
+  - {label: "SECTION 2.07", raw_start: 383981, title: "Conversion/Continuation Option"}
+  - {label: "SECTION 2.08", raw_start: 386386, title: "Interest"}
+  - {label: "SECTION 2.09", raw_start: 388540, title: "Interest Rate Determination and Protection"}
+  - {label: "SECTION 2.10", raw_start: 390056, title: "Increased Costs"}
+  - {label: "SECTION 2.11", raw_start: 391825, title: "Illegality"}
+  - {label: "SECTION 2.12", raw_start: 392830, title: "Capital Adequacy"}
+  - {label: "SECTION 2.13", raw_start: 394151, title: "Payments and Computations"}
+  - {label: "SECTION 2.14", raw_start: 398055, title: "Taxes"}
+  - {label: "SECTION 2.15", raw_start: 404249, title: "Sharing of Payments, Etc"}
+  - {label: "ARTICLE 3", raw_start: 404891, title: ""}
+  - {label: "SECTION 3.01", raw_start: 405035, title: "Conditions Precedent to Effectiveness of this Agreement"}
+  - {label: "SECTION 3.02", raw_start: 413399, title: "Additional Conditions Precedent to Effectiveness of this"}
+  - {label: "ARTICLE 4", raw_start: 414984, title: ""}
+  - {label: "SECTION 4.01", raw_start: 415290, title: "Existence;"}
+  - {label: "SECTION 4.02", raw_start: 417091, title: "Power;"}
+  - {label: "SECTION 4.03", raw_start: 420025, title: "Taxes"}
+  - {label: "SECTION 4.04", raw_start: 421802, title: "Full Disclosure"}
+  - {label: "SECTION 4.05", raw_start: 422277, title: "Financial Matters"}
+  - {label: "SECTION 4.06", raw_start: 424424, title: "Litigation"}
+  - {label: "SECTION 4.07", raw_start: 425459, title: "Margin Regulations"}
+  - {label: "SECTION 4.08", raw_start: 425892, title: "Ownership of Borrower and DJONT;"}
+  - {label: "SECTION 4.09", raw_start: 429044, title: "ERISA"}
+  - {label: "SECTION 4.10", raw_start: 431293, title: "Indebtedness"}
+  - {label: "SECTION 4.11", raw_start: 431490, title: "Restricted Payments"}
+  - {label: "SECTION 4.12", raw_start: 431685, title: "No Burdensome Restrictions;"}
+  - {label: "SECTION 4.13", raw_start: 433460, title: "Investments"}
+  - {label: "SECTION 4.14", raw_start: 433746, title: "Government Regulation"}
+  - {label: "SECTION 4.15", raw_start: 434999, title: "Insurance"}
+  - {label: "SECTION 4.16", raw_start: 435905, title: "Labor Matters"}
+  - {label: "SECTION 4.17", raw_start: 437539, title: "Force Majeure"}
+  - {label: "SECTION 4.18", raw_start: 438026, title: "Use of Proceeds"}
+  - {label: "SECTION 4.19", raw_start: 438575, title: "Environmental Protection"}
+  - {label: "SECTION 4.20", raw_start: 444445, title: "Contractual Obligations Concerning Assets"}
+  - {label: "SECTION 4.21", raw_start: 444954, title: "Intellectual Property"}
+  - {label: "SECTION 4.22", raw_start: 446191, title: "Title"}
+  - {label: "SECTION 4.23", raw_start: 452291, title: "Status as REIT"}
+  - {label: "SECTION 4.24", raw_start: 452835, title: "Operator"}
+  - {label: "SECTION 4.25", raw_start: 453953, title: "Operating Leases, Licenses and Management Agreement"}
+  - {label: "SECTION 4.26", raw_start: 456382, title: "FF&E Reserves"}
+  - {label: "SECTION 4.27", raw_start: 456699, title: "Year 2000 Compliance"}
+  - {label: "ARTICLE 5", raw_start: 457829, title: ""}
+  - {label: "SECTION 5.01", raw_start: 458140, title: "Unsecured Interest Expense Coverage"}
+  - {label: "SECTION 5.02", raw_start: 458581, title: "Fixed Charge Coverage Ratio"}
+  - {label: "SECTION 5.03", raw_start: 458942, title: "Maintenance of Tangible Net Worth"}
+  - {label: "SECTION 5.04", raw_start: 459126, title: "Limitations on Total Indebtedness"}
+  - {label: "SECTION 5.05", raw_start: 459443, title: "Limitations on Total Secured Indebtedness"}
+  - {label: "SECTION 5.06", raw_start: 459824, title: "Adjusted NOI and Hotels"}
+  - {label: "SECTION 5.07", raw_start: 460447, title: "Limitations on Recourse Secured Indebtedness"}
+  - {label: "ARTICLE 6", raw_start: 460806, title: ""}
+  - {label: "SECTION 6.01", raw_start: 461092, title: "Compliance with Laws, Etc"}
+  - {label: "SECTION 6.02", raw_start: 461658, title: "Conduct of Business"}
+  - {label: "SECTION 6.03", raw_start: 463299, title: "Payment of Taxes, Etc"}
+  - {label: "SECTION 6.04", raw_start: 463991, title: "Maintenance of Insurance"}
+  - {label: "SECTION 6.05", raw_start: 464728, title: "Preservation of Existence, Etc"}
+  - {label: "SECTION 6.06", raw_start: 465104, title: "Access"}
+  - {label: "SECTION 6.07", raw_start: 465985, title: "Keeping of Books"}
+  - {label: "SECTION 6.08", raw_start: 466330, title: "Maintenance of Properties, Etc"}
+  - {label: "SECTION 6.09", raw_start: 466994, title: "Performance and Compliance with Other Covenants"}
+  - {label: "SECTION 6.10", raw_start: 467523, title: "Application of Proceeds"}
+  - {label: "SECTION 6.11", raw_start: 467672, title: "Financial Statements"}
+  - {label: "SECTION 6.12", raw_start: 471934, title: "Reporting Requirements"}
+  - {label: "SECTION 6.13", raw_start: 480385, title: "Leases and Operating Leases;"}
+  - {label: "SECTION 6.14", raw_start: 483341, title: "Employee Plans"}
+  - {label: "SECTION 6.15", raw_start: 483768, title: "Fiscal Year"}
+  - {label: "SECTION 6.16", raw_start: 483913, title: "Environmental Matters"}
+  - {label: "SECTION 6.17", raw_start: 485957, title: "REIT Requirements"}
+  - {label: "SECTION 6.18", raw_start: 486781, title: "Maintenance of FF&E Reserves"}
+  - {label: "SECTION 6.19", raw_start: 486943, title: "Further Assurances"}
+  - {label: "SECTION 6.20", raw_start: 487341, title: "Unencumbered Hotel Properties/Financial Covenant"}
+  - {label: "SECTION 6.21", raw_start: 488592, title: "Hotel Documents"}
+  - {label: "ARTICLE 7", raw_start: 488907, title: ""}
+  - {label: "SECTION 7.01", raw_start: 489191, title: "Restrictions on Wholly-Owned Subsidiaries"}
+  - {label: "SECTION 7.02", raw_start: 493031, title: "Operation/Ownership of Hotels"}
+  - {label: "SECTION 7.03", raw_start: 493914, title: "Lease Obligations"}
+  - {label: "SECTION 7.04", raw_start: 495065, title: "Restricted Payments"}
+  - {label: "SECTION 7.05", raw_start: 495998, title: "Mergers, Stock Issuances, Asset Sales, Etc"}
+  - {label: "SECTION 7.06", raw_start: 497203, title: "Restrictions on Construction/Budget Hotels"}
+  - {label: "SECTION 7.07", raw_start: 498702, title: "Change in Nature of Business or in Capital Structure"}
+  - {label: "SECTION 7.08", raw_start: 499485, title: "Modification of Material Agreements"}
+  - {label: "SECTION 7.09", raw_start: 500623, title: "Accounting Changes"}
+  - {label: "SECTION 7.10", raw_start: 500920, title: "Transactions with Affiliates"}
+  - {label: "SECTION 7.11", raw_start: 501751, title: "Adverse or Speculative Transactions"}
+  - {label: "SECTION 7.12", raw_start: 502071, title: "Environmental Matters"}
+  - {label: "SECTION 7.13", raw_start: 502977, title: "Joint Enterprises"}
+  - {label: "SECTION 7.14", raw_start: 503241, title: "ERISA Plan Assets"}
+  - {label: "ARTICLE 8", raw_start: 503598, title: ""}
+  - {label: "SECTION 8.01", raw_start: 503681, title: "Events of Default"}
+  - {label: "SECTION 8.02", raw_start: 509690, title: "Remedies"}
+  - {label: "ARTICLE 9", raw_start: 511037, title: ""}
+  - {label: "SECTION 9.01", raw_start: 511122, title: "Authorization and Action"}
+  - {label: "SECTION 9.02", raw_start: 513146, title: "Administrative Agent's Reliance, Etc"}
+  - {label: "SECTION 9.03", raw_start: 515430, title: "Chase and Affiliates"}
+  - {label: "SECTION 9.04", raw_start: 516372, title: "Lender Credit Decision"}
+  - {label: "SECTION 9.05", raw_start: 517085, title: "Indemnification"}
+  - {label: "SECTION 9.06", raw_start: 519654, title: "Successor Agent"}
+  - {label: "ARTICLE 10", raw_start: 521800, title: ""}
+  - {label: "SECTION 10.01", raw_start: 521878, title: "Amendments, Etc"}
+  - {label: "SECTION 10.02", raw_start: 524856, title: "Notices, Etc"}
+  - {label: "SECTION 10.03", raw_start: 526734, title: "No Waiver;"}
+  - {label: "SECTION 10.04", raw_start: 527196, title: "Costs;"}
+  - {label: "SECTION 10.05", raw_start: 532764, title: "Right of Set-off"}
+  - {label: "SECTION 10.06", raw_start: 533848, title: "Binding Effect"}
+  - {label: "SECTION 10.07", raw_start: 534326, title: "Assignments and Participations"}
+  - {label: "SECTION 10.08", raw_start: 545260, title: "Governing Law;"}
+  - {label: "SECTION 10.09", raw_start: 545992, title: "Submission to Jurisdiction;"}
+  - {label: "SECTION 10.10", raw_start: 547366, title: "Section Titles"}
+  - {label: "SECTION 10.11", raw_start: 547598, title: "Execution in Counterparts"}
+  - {label: "SECTION 10.12", raw_start: 547912, title: "Entire Agreement"}
+  - {label: "SECTION 10.13", raw_start: 548270, title: "Confidentiality"}
+  - {label: "SECTION 10.14", raw_start: 549496, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 10.15", raw_start: 549850, title: "Joint and Several Obligations"}
+absent: []

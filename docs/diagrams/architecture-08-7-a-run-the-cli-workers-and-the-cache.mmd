@@ -1,0 +1,28 @@
+sequenceDiagram
+    participant U as shell
+    participant CLI as cli._parse
+    participant P as cli._run_rows
+    participant W as worker (ProcessPoolExecutor)
+    participant C as normcache.NormCache
+    participant PR as prepare
+    participant PP as pipeline
+    U->>CLI: edgar-itemize parse --manifest M --out DIR --kind K --workers N --no-text [--partition-by year] [--norm-cache DIR --norm-cache-mode MODE]
+    CLI->>CLI: read the manifest, one partition at a time, a partition whose parquet exists is skipped (resumable)
+    CLI->>P: rows of one partition
+    P->>W: map _parse_one_cached over rows (chunks of 4, explicit start method)
+    loop each row
+        W->>C: get(row) when the mode reads
+        alt hit
+            C-->>W: Prepared (fresh objects, digest and file stat checked)
+        else miss or mode off
+            W->>PR: load_row, prepare_document
+            PR-->>W: Prepared
+            W->>C: put(row, Prepared) when the mode writes (temp file + os.replace)
+        end
+        W->>PP: parse_prepared(prep) (Form10KGrammar + synth_root for ex13)
+        PP-->>W: ParseResult
+        W->>W: result_rows -> node rows, one document row, rejected rows
+        W-->>P: rows + cache status (never enters the tables)
+    end
+    P-->>CLI: nodes, documents, rejected for the partition
+    CLI->>U: nodes-<part>.parquet, documents-<part>.parquet, rejected-<part>.parquet, normcache-<part>.parquet sidecar

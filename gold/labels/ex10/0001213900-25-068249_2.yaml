@@ -1,0 +1,97 @@
+accession: 0001213900-25-068249
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 2", raw_start: 57187, title: ""}
+  - {label: "SECTION 2.01", raw_start: 57187, title: "PURCHASE AND SALE OF COMMON STOCK"}
+  - {label: "SECTION 2.02", raw_start: 57802, title: "DELIVERY OF PUT NOTICES"}
+  - {label: "SECTION 2.03", raw_start: 59228, title: "CONDITIONS TO INVESTOR’S OBLIGATION TO PURCHASE SHARES"}
+  - {label: "SECTION 2.04", raw_start: 64255, title: "MECHANICS OF PURCHASE OF SHARES BY INVESTOR"}
+  - {label: "SECTION 2.05", raw_start: 66370, title: "OVERALL LIMIT ON COMMON STOCK ISSUABLE"}
+  - {label: "SECTION 2.06", raw_start: 68661, title: "LIMITATION ON AMOUNT OF OWNERSHIP"}
+  - {label: "SECTION 2.07", raw_start: 69416, title: "COMMITMENT SHARES"}
+  - {label: "ARTICLE 3", raw_start: 70797, title: ""}
+  - {label: "SECTION 3.01", raw_start: 70797, title: "SOPHISTICATED INVESTOR"}
+  - {label: "SECTION 3.02", raw_start: 71523, title: "AUTHORIZATION;"}
+  - {label: "SECTION 3.03", raw_start: 72284, title: "SECTION 9 OF THE 1934 ACT"}
+  - {label: "SECTION 3.04", raw_start: 72760, title: "ACCREDITED INVESTOR"}
+  - {label: "SECTION 3.05", raw_start: 73146, title: "NO CONFLICTS"}
+  - {label: "SECTION 3.06", raw_start: 73673, title: "OPPORTUNITY TO DISCUSS"}
+  - {label: "SECTION 3.07", raw_start: 74921, title: "INVESTMENT PURPOSES"}
+  - {label: "SECTION 3.08", raw_start: 75508, title: "GOOD STANDING"}
+  - {label: "SECTION 3.09", raw_start: 75890, title: "TAX LIABILITIES"}
+  - {label: "SECTION 3.10", raw_start: 76223, title: "REGULATION M"}
+  - {label: "SECTION 3.11", raw_start: 76560, title: "PROHIBITED TRADING"}
+  - {label: "ARTICLE 4", raw_start: 77813, title: ""}
+  - {label: "SECTION 4.01", raw_start: 77813, title: "ORGANIZATION AND QUALIFICATION"}
+  - {label: "SECTION 4.02", raw_start: 79364, title: "AUTHORIZATION;"}
+  - {label: "SECTION 4.03", raw_start: 83342, title: "CAPITALIZATION"}
+  - {label: "SECTION 4.04", raw_start: 91338, title: "ISSUANCE OF SHARES"}
+  - {label: "SECTION 4.05", raw_start: 92497, title: "NO CONFLICTS"}
+  - {label: "SECTION 4.06", raw_start: 97223, title: "SEC DOCUMENTS;"}
+  - {label: "SECTION 4.07", raw_start: 100656, title: "ABSENCE OF CERTAIN CHANGES"}
+  - {label: "SECTION 4.08", raw_start: 101369, title: "ABSENCE OF LITIGATION AND/OR REGULATORY PROCEEDINGS"}
+  - {label: "SECTION 4.09", raw_start: 102962, title: "ACKNOWLEDGMENT REGARDING INVESTOR’S PURCHASE OF SHARES"}
+  - {label: "SECTION 4.10", raw_start: 104320, title: "NO UNDISCLOSED EVENTS, LIABILITIES, DEVELOPMENTS OR CIRCUMST"}
+  - {label: "SECTION 4.11", raw_start: 105200, title: "EMPLOYEE RELATIONS"}
+  - {label: "SECTION 4.12", raw_start: 106062, title: "INTELLECTUAL PROPERTY RIGHTS"}
+  - {label: "SECTION 4.13", raw_start: 109009, title: "ENVIRONMENTAL LAWS"}
+  - {label: "SECTION 4.14", raw_start: 110214, title: "TITLE"}
+  - {label: "SECTION 4.15", raw_start: 111271, title: "INSURANCE"}
+  - {label: "SECTION 4.16", raw_start: 112266, title: "REGULATORY PERMITS"}
+  - {label: "SECTION 4.17", raw_start: 113252, title: "INTERNAL ACCOUNTING CONTROLS"}
+  - {label: "SECTION 4.18", raw_start: 115239, title: "NO MATERIALLY ADVERSE CONTRACTS, ETC"}
+  - {label: "SECTION 4.19", raw_start: 116004, title: "TAX STATUS"}
+  - {label: "SECTION 4.20", raw_start: 117232, title: "CERTAIN TRANSACTIONS"}
+  - {label: "SECTION 4.21", raw_start: 118552, title: "DILUTIVE EFFECT"}
+  - {label: "SECTION 4.22", raw_start: 120015, title: "NO GENERAL SOLICITATION"}
+  - {label: "SECTION 4.23", raw_start: 121288, title: "NO BROKERS, FINDERS OR FINANCIAL ADVISORY FEES OR COMMISSION"}
+  - {label: "SECTION 4.24", raw_start: 121819, title: "EXCLUSIVITY"}
+  - {label: "ARTICLE 5", raw_start: 122819, title: ""}
+  - {label: "SECTION 5.01", raw_start: 122819, title: "BEST EFFORTS"}
+  - {label: "SECTION 5.02", raw_start: 123225, title: "REPORTING STATUS"}
+  - {label: "SECTION 5.03", raw_start: 124142, title: "USE OF PROCEEDS"}
+  - {label: "SECTION 5.04", raw_start: 124798, title: "FINANCIAL INFORMATION"}
+  - {label: "SECTION 5.05", raw_start: 126009, title: "RESERVATION OF SHARES"}
+  - {label: "SECTION 5.06", raw_start: 127623, title: "TRADING MARKET"}
+  - {label: "SECTION 5.07", raw_start: 128547, title: "TRANSACTIONS WITH AFFILIATES"}
+  - {label: "SECTION 5.08", raw_start: 130773, title: "FILING OF FORM 8-K"}
+  - {label: "SECTION 5.09", raw_start: 131349, title: "CORPORATE EXISTENCE"}
+  - {label: "SECTION 5.10", raw_start: 131737, title: "[intentionally omitted]"}
+  - {label: "SECTION 5.11", raw_start: 131999, title: "TRANSFER AGENT"}
+  - {label: "SECTION 5.12", raw_start: 132456, title: "ACKNOWLEDGEMENT OF TERMS"}
+  - {label: "ARTICLE 6", raw_start: 134818, title: ""}
+  - {label: "SECTION 6.01", raw_start: 134818, title: "The Investor shall have executed this Agreement and the Regi"}
+  - {label: "SECTION 6.02", raw_start: 135180, title: "The Investor shall have delivered to the Company the Purchas"}
+  - {label: "SECTION 6.03", raw_start: 135537, title: "No statute, rule, regulation, executive order, decree, rulin"}
+  - {label: "ARTICLE 7", raw_start: 136861, title: ""}
+  - {label: "SECTION 7.01", raw_start: 136861, title: "The Company shall have executed the Registered Offering Tran"}
+  - {label: "SECTION 7.02", raw_start: 137216, title: "The representations and warranties of the Company shall be t"}
+  - {label: "SECTION 7.03", raw_start: 137997, title: "The Company shall have executed and delivered to the Investo"}
+  - {label: "SECTION 7.04", raw_start: 138423, title: "The Board of Directors of the Company shall have adopted res"}
+  - {label: "SECTION 7.05", raw_start: 138897, title: "No statute, rule, regulation, executive order, decree, rulin"}
+  - {label: "SECTION 7.06", raw_start: 139425, title: "The Registration Statement shall be effective on each Closin"}
+  - {label: "SECTION 7.07", raw_start: 141175, title: "At the time of each Closing, the Registration Statement (inc"}
+  - {label: "SECTION 7.08", raw_start: 141847, title: "If applicable, the shareholders of the Company shall have ap"}
+  - {label: "SECTION 7.09", raw_start: 142448, title: "The conditions to such Closing set forth in Section 2.3 shal"}
+  - {label: "SECTION 7.10", raw_start: 142806, title: "The Company shall have certified to the Investor the number "}
+  - {label: "ARTICLE 11", raw_start: 153949, title: ""}
+  - {label: "SECTION 11.01", raw_start: 153949, title: "Law Governing this Agreement"}
+  - {label: "SECTION 11.02", raw_start: 156380, title: "Expenses"}
+  - {label: "SECTION 11.03", raw_start: 157692, title: "COUNTERPARTS"}
+  - {label: "SECTION 11.04", raw_start: 158417, title: "HEADINGS;"}
+  - {label: "SECTION 11.05", raw_start: 158963, title: "SEVERABILITY"}
+  - {label: "SECTION 11.06", raw_start: 160255, title: "ENTIRE AGREEMENT;"}
+  - {label: "SECTION 11.07", raw_start: 161265, title: "NOTICES"}
+  - {label: "SECTION 11.08", raw_start: 163796, title: "NO ASSIGNMENT"}
+  - {label: "SECTION 11.09", raw_start: 164092, title: "NO THIRD-PARTY BENEFICIARIES"}
+  - {label: "SECTION 11.10", raw_start: 164635, title: "SURVIVAL"}
+  - {label: "SECTION 11.11", raw_start: 165897, title: "PUBLICITY"}
+  - {label: "SECTION 11.12", raw_start: 166717, title: "FURTHER ASSURANCES"}
+  - {label: "SECTION 11.13", raw_start: 167366, title: "PLACEMENT AGENT"}
+  - {label: "SECTION 11.14", raw_start: 168411, title: "NO STRICT CONSTRUCTION"}
+  - {label: "SECTION 11.15", raw_start: 169015, title: "REMEDIES"}
+  - {label: "SECTION 11.16", raw_start: 169920, title: "PAYMENT SET ASIDE"}
+  - {label: "SECTION 11.17", raw_start: 171095, title: "PRICING OF COMMON STOCK"}
+absent: []

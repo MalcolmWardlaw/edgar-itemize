@@ -1,0 +1,29 @@
+accession: 0000002178-15-000014
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 19126, title: ""}
+  - {label: "ITEM 1", raw_start: 21867, title: "BUSINESS AND PROPERTIES"}
+  - {label: "ITEM 1A", raw_start: 175059, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 220346, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 3", raw_start: 220886, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 225040, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 226452, title: ""}
+  - {label: "ITEM 5", raw_start: 226925, title: "MARKET FOR THE REGISTRANT’S COMMON STOCK, RELATED STOCKHOLDE"}
+  - {label: "ITEM 6", raw_start: 261984, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 412466, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 713077, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 719401, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 1829180, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 1829927, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 1846851, title: "OTHER INFORMATION"}
+  - {label: "PART III", raw_start: 1848194, title: ""}
+  - {label: "ITEM 10", raw_start: 1848727, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 1850129, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 1851387, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 1852742, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 1854103, title: "PRINCIPAL ACCOUNTING FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 1855940, title: ""}
+  - {label: "ITEM 15", raw_start: 1856472, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES"}
+absent: []

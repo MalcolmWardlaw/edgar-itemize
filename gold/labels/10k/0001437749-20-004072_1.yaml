@@ -1,0 +1,26 @@
+accession: 0001437749-20-004072
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 726824, title: ""}
+  - {label: "ITEM 1", raw_start: 727104, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 1262618, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 1482548, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 1483167, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 1485565, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 1486416, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 1487645, title: ""}
+  - {label: "ITEM 5", raw_start: 1487980, title: "MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER M"}
+  - {label: "ITEM 6", raw_start: 1530654, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 1687397, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 2438551, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 2440016, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 5760708, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 5761461, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 5776750, title: "OTHER INFORMATION"}
+  - {label: "PART III", raw_start: 5777969, title: ""}
+  - {label: "ITEM 10", raw_start: 5778310, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "PART IV", raw_start: 5794581, title: ""}
+  - {label: "ITEM 15", raw_start: 5794915, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES"}
+absent: []

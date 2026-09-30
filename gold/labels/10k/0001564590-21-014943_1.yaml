@@ -1,0 +1,31 @@
+accession: 0001564590-21-014943
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 219162, title: ""}
+  - {label: "ITEM 1", raw_start: 261203, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 351097, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 485046, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 485497, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 486440, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 487521, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 488341, title: ""}
+  - {label: "ITEM 5", raw_start: 488580, title: "MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER M"}
+  - {label: "ITEM 6", raw_start: 523488, title: "[RESERVED]"}
+  - {label: "ITEM 7", raw_start: 524096, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 2034671, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURE ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 2035646, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 4533117, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 4533626, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 4537257, title: "OTHER INFORMATION"}
+  - {label: "PART III", raw_start: 4538273, title: ""}
+  - {label: "ITEM 10", raw_start: 4538512, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 4539452, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 4540175, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 4541298, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 4542067, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 4543299, title: ""}
+  - {label: "ITEM 15", raw_start: 4543604, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"}
+  - {label: "ITEM 16", raw_start: 4660255, title: "FORM 10-K SUMMARY"}
+absent: []

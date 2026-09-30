@@ -1,0 +1,116 @@
+accession: 0001165527-08-000058
+sequence: 3
+doc_type: EX-10.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 38590, title: ""}
+  - {label: "SECTION 1.01", raw_start: 38654, title: "'Advance Rate' shall be a cash sum equivalent to the percent"}
+  - {label: "SECTION 1.02", raw_start: 38876, title: "'Agreement' shall mean this Agreement"}
+  - {label: "SECTION 1.03", raw_start: 38930, title: "'Blocked Account' shall mean that account created in accorda"}
+  - {label: "SECTION 1.04", raw_start: 39033, title: "'Collateral' shall mean all of the items or references to pr"}
+  - {label: "SECTION 1.05", raw_start: 39186, title: "'Customer' shall mean the person or entity indebted to Clien"}
+  - {label: "SECTION 1.06", raw_start: 39340, title: "'Customer Finance Charges' shall mean any finance charges pa"}
+  - {label: "SECTION 1.07", raw_start: 39483, title: "'Default' shall mean (i) default in the payment, when due an"}
+  - {label: "SECTION 1.08", raw_start: 41890, title: "'Discount' shall mean the amount of the discount of each res"}
+  - {label: "SECTION 1.09", raw_start: 42122, title: "'Dispute' shall mean any dispute, deduction, claim, offset, "}
+  - {label: "SECTION 1.10", raw_start: 42440, title: "'Eligible Receivables' means Receivables identified by BLN f"}
+  - {label: "SECTION 1.11", raw_start: 42599, title: "'Face Amount' shall mean the cash price for the goods Client"}
+  - {label: "SECTION 1.12", raw_start: 42823, title: "'Guarantors' shall mean all persons executing a guarantee ag"}
+  - {label: "SECTION 1.13", raw_start: 42941, title: "'Net Amount' shall mean the Face Amount of receivables, less"}
+  - {label: "SECTION 1.14", raw_start: 43058, title: "'Obligations' shall mean, without limitation, the aggregate "}
+  - {label: "SECTION 1.15", raw_start: 43777, title: "''Payment Date' shall mean the date of the deposit of the Cu"}
+  - {label: "SECTION 1.16", raw_start: 44312, title: "'Person' or 'person' shall mean any individual, sole proprie"}
+  - {label: "SECTION 1.17", raw_start: 44808, title: "'Prime Rate' shall mean the 'prime rate' from time to time p"}
+  - {label: "SECTION 1.18", raw_start: 45249, title: "'Purchase Price' shall be defined as the sum of the Advance "}
+  - {label: "SECTION 1.19", raw_start: 45371, title: "'Purchased Accounts' shall mean all Receivables assigned to "}
+  - {label: "SECTION 1.20", raw_start: 45488, title: "'Receivable' or 'Receivables' shall mean collectively or sev"}
+  - {label: "SECTION 1.21", raw_start: 45755, title: "'Related Person' shall mean any Person (a) which now or here"}
+  - {label: "SECTION 1.22", raw_start: 46485, title: "'Reserve' shall mean the amount equivalent to the amount of "}
+  - {label: "SECTION 1.23", raw_start: 46748, title: "'Schedule of Accounts' shall mean the list of Receivables pu"}
+  - {label: "SECTION 1.24", raw_start: 46879, title: "'UCC' shall mean the Uniform Commercial Code in effect in th"}
+  - {label: "SECTION 1.25", raw_start: 47050, title: "'Client' shall mean LaSalle Brands Corporation or any of its"}
+  - {label: "ARTICLE 2", raw_start: 47184, title: ""}
+  - {label: "SECTION 2.01", raw_start: 47332, title: "Client agrees to use and hereby appoints BLN as its sole acc"}
+  - {label: "SECTION 2.02", raw_start: 48858, title: "BLN hereby purchases from Client, with full recourse all pre"}
+  - {label: "SECTION 2.03", raw_start: 50032, title: "Client hereby assign and sell to BLN as absolute owner, with"}
+  - {label: "SECTION 2.04", raw_start: 51218, title: "Client will provide BLN with listings of Receivables in form"}
+  - {label: "SECTION 2.05", raw_start: 52586, title: "Each invoice evidencing a Receivable shall state in a manner"}
+  - {label: "SECTION 2.06", raw_start: 53009, title: "If any remittance or payment for a Receivable is made direct"}
+  - {label: "SECTION 2.07", raw_start: 53624, title: "The purchase price of Receivables is to be the Net Amount th"}
+  - {label: "SECTION 2.08", raw_start: 57463, title: "Such fee as outlined above shall be based upon the number of"}
+  - {label: "SECTION 2.09", raw_start: 57671, title: "BLN may, at its sole discretion, advance against any of the"}
+  - {label: "SECTION 2.10", raw_start: 58506, title: "Within a reasonable period of time after delivery of the Rec"}
+  - {label: "SECTION 2.11", raw_start: 59838, title: "If any Receivable is the subject of a Dispute as defined her"}
+  - {label: "SECTION 2.12", raw_start: 61924, title: "Interest, if applicable, shall be charged for the number of "}
+  - {label: "SECTION 2.13", raw_start: 63148, title: "Blocked Account/Lockbox"}
+  - {label: "SECTION 2.14", raw_start: 64436, title: "Servicing Fees and/or commissions charged with respect to ad"}
+  - {label: "SECTION 2.15", raw_start: 65903, title: "Interest, with respect specifically, to loans against invent"}
+  - {label: "SECTION 2.16", raw_start: 66695, title: "Interest, with respect to monies/funds specifically advanced"}
+  - {label: "SECTION 2.17", raw_start: 67854, title: "BLN shall generate a statement of account/s monthly on advan"}
+  - {label: "SECTION 2.18", raw_start: 69704, title: "BLN shall have the right to verify/contact directly (either "}
+  - {label: "SECTION 2.19", raw_start: 71458, title: "BLN has proposed/agreed to lend up to 50% (Fifty Percent) ag"}
+  - {label: "ARTICLE 3", raw_start: 73419, title: ""}
+  - {label: "SECTION 3.01", raw_start: 73558, title: "In order to secure the prompt payment and performance of Cli"}
+  - {label: "SECTION 3.02", raw_start: 75027, title: "All of the foregoing Collateral shall secure the payment of "}
+  - {label: "SECTION 3.03", raw_start: 76056, title: "Client agrees that, with respect to the security interest gr"}
+  - {label: "SECTION 3.04", raw_start: 78645, title: "In order to facilitate the terms of this Agreement, Client h"}
+  - {label: "SECTION 3.05", raw_start: 79493, title: "At the request of BLN at any time and from time to time, Cli"}
+  - {label: "SECTION 3.06", raw_start: 80118, title: "ACH or Wire Transfer Authorization"}
+  - {label: "SECTION 3.07", raw_start: 80360, title: "IT IS EXPRESSLY UNDERSTOOD BY CLIENT THAT ANY AND ALL LOANS,"}
+  - {label: "SECTION 3.08", raw_start: 80568, title: "IT IS EXPRESSLY UNDERSTOOD BY CLIENT THAT NO NOTE OR NOTES O"}
+  - {label: "ARTICLE 4", raw_start: 81146, title: ""}
+  - {label: "SECTION 4.01", raw_start: 81226, title: "Client warrants that all Receivables are, and at the time of"}
+  - {label: "SECTION 4.02", raw_start: 81916, title: "Client shall, for each year this Agreement remains in effect"}
+  - {label: "SECTION 4.03", raw_start: 83161, title: "Client shall reimburse BLN for any costs or expenses incurre"}
+  - {label: "SECTION 4.04", raw_start: 86415, title: "Client shall execute any documents at present or which may b"}
+  - {label: "SECTION 4.05", raw_start: 86821, title: "With respect to each Receivable"}
+  - {label: "SECTION 4.06", raw_start: 89098, title: "Client will maintain books and records in accordance with ge"}
+  - {label: "SECTION 4.07", raw_start: 91027, title: "Nothing in this Agreement shall be construed to constitute B"}
+  - {label: "SECTION 4.08", raw_start: 91751, title: "Client shall reimburse BLN on demand for all costs incurred "}
+  - {label: "SECTION 4.09", raw_start: 92272, title: "Client will not (a) sell any of its assets other than the sa"}
+  - {label: "SECTION 4.10", raw_start: 93904, title: "Client shall not, directly or indirectly, (a) merge into or "}
+  - {label: "SECTION 4.11", raw_start: 94691, title: "Client shall not, directly or indirectly, open, establish or"}
+  - {label: "SECTION 4.12", raw_start: 95270, title: "The Receivables being advanced against (i) are genuine, are "}
+  - {label: "SECTION 4.13", raw_start: 97236, title: "List of all of Client's present trade and fictitious names"}
+  - {label: "SECTION 4.14", raw_start: 97345, title: "List of all of Client's former trade, fictitious and corpora"}
+  - {label: "SECTION 4.15", raw_start: 97611, title: "Client is a corporation, limited liability company proprieto"}
+  - {label: "SECTION 4.16", raw_start: 98873, title: "The execution, delivery and performance by Client of this Ag"}
+  - {label: "ARTICLE 5", raw_start: 99608, title: ""}
+  - {label: "SECTION 5.01", raw_start: 99683, title: "Client will notify BLN promptly of and settle all Disputes a"}
+  - {label: "SECTION 5.02", raw_start: 101544, title: "In the event of any breach by Client of any provision hereof"}
+  - {label: "SECTION 5.03", raw_start: 101938, title: "Should a default occur;"}
+  - {label: "SECTION 5.04", raw_start: 102600, title: "Except as otherwise provided herein, Client shall hold harml"}
+  - {label: "SECTION 5.05", raw_start: 103024, title: "Upon the occurrence of any Default, without further notice t"}
+  - {label: "SECTION 5.06", raw_start: 104493, title: "The initial term of this Agreement shall expire on March 15t"}
+  - {label: "SECTION 5.07", raw_start: 105172, title: "This Agreement may be terminated without any cause (a) by BL"}
+  - {label: "SECTION 5.08", raw_start: 105850, title: "Notwithstanding any termination, all of the terms, condition"}
+  - {label: "SECTION 5.09", raw_start: 106308, title: "No Lien Termination without Release"}
+  - {label: "SECTION 5.10", raw_start: 106842, title: "If a Default occurs hereunder, BLN shall have the right at i"}
+  - {label: "SECTION 5.11", raw_start: 107402, title: "Waiver of Notice"}
+  - {label: "SECTION 5.12", raw_start: 107580, title: "Client agrees that upon a Default, BLN may exercise and purs"}
+  - {label: "ARTICLE 6", raw_start: 109259, title: ""}
+  - {label: "SECTION 6.01", raw_start: 109349, title: "CLIENT'S 'S AGGREGATE OUTSTANDING OBLIGATIONS UNDER THIS AGR"}
+  - {label: "SECTION 6.02", raw_start: 109612, title: "Facsimile and Electronic Mail transfer between the parties o"}
+  - {label: "SECTION 6.03", raw_start: 110325, title: "All exhibits to which reference is made in this Agreement ar"}
+  - {label: "SECTION 6.04", raw_start: 110545, title: "Any notice or communication required or permitted hereunder "}
+  - {label: "SECTION 6.05", raw_start: 111691, title: "This Agreement shall be governed by and construed in accorda"}
+  - {label: "SECTION 6.06", raw_start: 112083, title: "If any action is taken by BLN, in relation to the enforcemen"}
+  - {label: "SECTION 6.07", raw_start: 112468, title: "This Agreement, and all the terms, provisions, and condition"}
+  - {label: "SECTION 6.08", raw_start: 112964, title: "THIS WRITTEN AGREEMENT REPRESENTS THE FINAL AGREEMENT BETWEE"}
+  - {label: "SECTION 6.09", raw_start: 113505, title: "Amendments or modifications may be made to this Agreement on"}
+  - {label: "SECTION 6.10", raw_start: 113756, title: "This Agreement is intended to be performed in accordance wit"}
+  - {label: "SECTION 6.11", raw_start: 114413, title: "Whenever required by the context, as used in this Agreement,"}
+  - {label: "SECTION 6.12", raw_start: 114622, title: "Any paragraph headings appearing in this Agreement are for c"}
+  - {label: "SECTION 6.13", raw_start: 114803, title: "No person, firm or other entity other than the parties heret"}
+  - {label: "SECTION 6.14", raw_start: 114982, title: "The parties hereto covenant and agree that they will execute"}
+  - {label: "SECTION 6.15", raw_start: 115213, title: "No waiver of a breach or violation of any provision of this "}
+  - {label: "SECTION 6.16", raw_start: 115426, title: "The rights and remedies expressed herein are cumulative and "}
+  - {label: "SECTION 6.17", raw_start: 115566, title: "Upon the request of either party, the other party hereto wil"}
+  - {label: "SECTION 6.18", raw_start: 115796, title: "Time is of the essence with regard to each of the provisions"}
+  - {label: "SECTION 6.19", raw_start: 115889, title: "This Agreement may be executed in any number of counterparts"}
+  - {label: "SECTION 6.20", raw_start: 116283, title: "Client and BLN irrevocably consent and submit to the non-exc"}
+  - {label: "SECTION 6.21", raw_start: 118089, title: "BLN shall not have any liability to Client (whether in tort,"}
+  - {label: "SECTION 6.22", raw_start: 118854, title: "CLIENT HAS AGREED TO REPAY THIS LOAN AND ADVANCE AS FOLLOWS"}
+  - {label: "ARTICLE 7", raw_start: 119158, title: ""}
+  - {label: "SECTION 7.01", raw_start: 119174, title: "CLIENT AND BLN EACH HEREBY WAIVES ANY RIGHT TO TRIAL BY JURY"}
+absent: []

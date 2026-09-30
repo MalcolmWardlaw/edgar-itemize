@@ -1,0 +1,54 @@
+accession: 0000004187-16-000024
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 57931, title: ""}
+  - {label: "SECTION 1", raw_start: 57931, title: "SECURITY INTEREST"}
+  - {label: "ARTICLE 2", raw_start: 68057, title: ""}
+  - {label: "SECTION 2", raw_start: 68057, title: "OBLIGATIONS SECURED"}
+  - {label: "ARTICLE 3", raw_start: 75084, title: ""}
+  - {label: "SECTION 3", raw_start: 75084, title: "PLACES OF BUSINESS, INVENTORY LOCATIONS AND RETURNS POLICY"}
+  - {label: "ARTICLE 4", raw_start: 78349, title: ""}
+  - {label: "SECTION 4", raw_start: 78349, title: "ADDITIONAL REPRESENTATIONS AND WARRANTIES"}
+  - {label: "ARTICLE 5", raw_start: 100288, title: ""}
+  - {label: "SECTION 5", raw_start: 100288, title: "LOANS AND OTHER FINANCIAL ACCOMMODATIONS"}
+  - {label: "ARTICLE 6", raw_start: 127477, title: ""}
+  - {label: "SECTION 6", raw_start: 127477, title: "DEFINITION OF QUALIFIED ACCOUNT"}
+  - {label: "ARTICLE 7", raw_start: 139329, title: ""}
+  - {label: "SECTION 7", raw_start: 139329, title: "DEFINITION OF ELIGIBLE INVENTORY"}
+  - {label: "ARTICLE 8", raw_start: 145874, title: ""}
+  - {label: "SECTION 8", raw_start: 145874, title: "LENDER’S REPORTS"}
+  - {label: "ARTICLE 9", raw_start: 146950, title: ""}
+  - {label: "SECTION 9", raw_start: 146950, title: "CONDITIONS OF LENDING"}
+  - {label: "ARTICLE 10", raw_start: 166330, title: ""}
+  - {label: "SECTION 10", raw_start: 166330, title: "FEES"}
+  - {label: "ARTICLE 11", raw_start: 173017, title: ""}
+  - {label: "SECTION 11", raw_start: 173017, title: "COLLECTIONS;"}
+  - {label: "ARTICLE 12", raw_start: 186082, title: ""}
+  - {label: "SECTION 12", raw_start: 186082, title: "FINANCING STATEMENTS"}
+  - {label: "ARTICLE 13", raw_start: 187846, title: ""}
+  - {label: "SECTION 13", raw_start: 187846, title: "LOAN PARTIES’ REPORTS"}
+  - {label: "ARTICLE 14", raw_start: 194728, title: ""}
+  - {label: "SECTION 14", raw_start: 194728, title: "GENERAL AGREEMENTS OF BORROWERS AND/OR LOAN PARTIES"}
+  - {label: "ARTICLE 15", raw_start: 232795, title: ""}
+  - {label: "SECTION 15", raw_start: 232795, title: "LOAN PARTIES’ NEGATIVE COVENANTS"}
+  - {label: "ARTICLE 16", raw_start: 267559, title: ""}
+  - {label: "SECTION 16", raw_start: 267559, title: "DEFAULT;"}
+  - {label: "ARTICLE 17", raw_start: 289696, title: ""}
+  - {label: "SECTION 17", raw_start: 289696, title: "STANDARDS FOR EXERCISING REMEDIES"}
+  - {label: "ARTICLE 18", raw_start: 293259, title: ""}
+  - {label: "SECTION 18", raw_start: 293259, title: "RESERVED"}
+  - {label: "ARTICLE 19", raw_start: 293683, title: ""}
+  - {label: "SECTION 19", raw_start: 293683, title: "WAIVER OF JURY TRIAL"}
+  - {label: "ARTICLE 20", raw_start: 295978, title: ""}
+  - {label: "SECTION 20", raw_start: 295978, title: "CONSENT TO JURISDICTION"}
+  - {label: "ARTICLE 21", raw_start: 297141, title: ""}
+  - {label: "SECTION 21", raw_start: 297141, title: "TERMINATION"}
+  - {label: "ARTICLE 22", raw_start: 303472, title: ""}
+  - {label: "SECTION 22", raw_start: 303472, title: "JOINT AND SEVERAL OBLIGATIONS"}
+  - {label: "ARTICLE 23", raw_start: 309969, title: ""}
+  - {label: "SECTION 23", raw_start: 309969, title: "BORROWER REPRESENTATIVE"}
+  - {label: "ARTICLE 24", raw_start: 311532, title: ""}
+  - {label: "SECTION 24", raw_start: 311532, title: "MISCELLANEOUS"}
+absent: []

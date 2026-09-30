@@ -1,0 +1,63 @@
+accession: 0000006207-09-000011
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 38784, title: ""}
+  - {label: "SECTION 1.01", raw_start: 38784, title: "CREDIT FACILITY"}
+  - {label: "SECTION 1.02", raw_start: 40301, title: "INTEREST/FEES"}
+  - {label: "SECTION 1.03", raw_start: 42912, title: "NOTE PRINCIPAL PAYMENT"}
+  - {label: "SECTION 1.04", raw_start: 43544, title: "LOAN DOCUMENTS"}
+  - {label: "SECTION 1.05", raw_start: 45050, title: "COLLATERAL"}
+  - {label: "ARTICLE 2", raw_start: 47237, title: ""}
+  - {label: "SECTION 2.01", raw_start: 47237, title: "CORPORATE STATUS"}
+  - {label: "SECTION 2.02", raw_start: 47883, title: "MAINTENANCE OF STATUS"}
+  - {label: "SECTION 2.03", raw_start: 48529, title: "DUE AUTHORIZATION"}
+  - {label: "SECTION 2.04", raw_start: 49115, title: "VALIDITY AND BINDING EFFECT"}
+  - {label: "SECTION 2.05", raw_start: 49859, title: "COMPLIANCE"}
+  - {label: "SECTION 2.06", raw_start: 50571, title: "INCOME TAX RETURNS"}
+  - {label: "SECTION 2.07", raw_start: 51116, title: "NO SUBORDINATION"}
+  - {label: "SECTION 2.08", raw_start: 52598, title: "ERISA"}
+  - {label: "SECTION 2.09", raw_start: 53697, title: "OTHER OBLIGATIONS"}
+  - {label: "SECTION 2.10", raw_start: 54270, title: "ENVIRONMENTAL MATTERS"}
+  - {label: "SECTION 2.11", raw_start: 55771, title: "ACCURACY OF REPRESENTATIONS"}
+  - {label: "SECTION 2.12", raw_start: 56756, title: "SOLVENCY"}
+  - {label: "SECTION 2.13", raw_start: 57510, title: "NO MISREPESENTATION"}
+  - {label: "ARTICLE 3", raw_start: 59973, title: ""}
+  - {label: "SECTION 3.01", raw_start: 59973, title: "CONDITIONS OF INITIAL EXTENSION OF CREDIT"}
+  - {label: "ARTICLE 4", raw_start: 69093, title: ""}
+  - {label: "SECTION 4.01", raw_start: 69093, title: "PUNCTUAL PAYMENTS"}
+  - {label: "SECTION 4.02", raw_start: 69804, title: "RECORDS"}
+  - {label: "SECTION 4.03", raw_start: 71656, title: "FINANCIAL REPORTING REQUIREMENTS"}
+  - {label: "SECTION 4.04", raw_start: 79326, title: ""}
+  - {label: "SECTION 4.05", raw_start: 86066, title: "INSURANCE"}
+  - {label: "SECTION 4.06", raw_start: 87665, title: "IMPOSITIONS"}
+  - {label: "SECTION 4.07", raw_start: 88420, title: "NOTICE TO BANK OF ADVERSE CLAIMS"}
+  - {label: "SECTION 4.08", raw_start: 89716, title: "NO CHANGE OF OWNERSHIP/CONTROL"}
+  - {label: "SECTION 4.09", raw_start: 90230, title: "TAXES AND REPORTS"}
+  - {label: "SECTION 4.10", raw_start: 91775, title: "MAXIMUM LOAN TO VALUE COLLATERAL RATIO"}
+  - {label: "SECTION 4.11", raw_start: 92873, title: "INTEREST RESERVE"}
+  - {label: "SECTION 4.12", raw_start: 93672, title: "RELEASE OF COLLATERAL"}
+  - {label: "ARTICLE 5", raw_start: 95883, title: ""}
+  - {label: "SECTION 5.01", raw_start: 95883, title: "USE OF FUNDS"}
+  - {label: "SECTION 5.02", raw_start: 96448, title: "NO ASSIGNMENT"}
+  - {label: "SECTION 5.03", raw_start: 97014, title: "LIMITATION ON OTHER BORROWINGS AND PLEDGE OF ASSETS"}
+  - {label: "SECTION 5.04", raw_start: 102849, title: "LOANS, ACQUISITIONS, GUARANTIES"}
+  - {label: "ARTICLE 6", raw_start: 104178, title: ""}
+  - {label: "SECTION 6.01", raw_start: 104178, title: "The occurrence of any of the following shall constitute an '"}
+  - {label: "SECTION 6.02", raw_start: 112521, title: "REMEDIES"}
+  - {label: "ARTICLE 7", raw_start: 114815, title: ""}
+  - {label: "SECTION 7.01", raw_start: 114815, title: "NO WAIVER"}
+  - {label: "SECTION 7.02", raw_start: 117194, title: "NOTICES"}
+  - {label: "SECTION 7.03", raw_start: 123260, title: "COSTS, EXPENSES AND ATTORNEYS' FEES"}
+  - {label: "SECTION 7.04", raw_start: 125818, title: "SUCCESSORS, ASSIGNMENT"}
+  - {label: "SECTION 7.05", raw_start: 127716, title: "ENTIRE AGREEMENT;"}
+  - {label: "SECTION 7.06", raw_start: 128467, title: "NO THIRD PARTY BENEFICIARIES"}
+  - {label: "SECTION 7.07", raw_start: 129235, title: "TIME"}
+  - {label: "SECTION 7.08", raw_start: 129704, title: "SEVERABILITY OF PROVISIONS"}
+  - {label: "SECTION 7.09", raw_start: 130368, title: "COUNTERPARTS"}
+  - {label: "SECTION 7.10", raw_start: 130959, title: "BANK/BORROWER RELATIONSHIP"}
+  - {label: "SECTION 7.11", raw_start: 133512, title: "INDEMNIFICATION OF BANK"}
+  - {label: "SECTION 7.12", raw_start: 136042, title: "NO WAIVER BY BANK"}
+  - {label: "SECTION 7.13", raw_start: 137218, title: "GOVERNING LAW"}
+absent: []

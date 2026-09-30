@@ -1,0 +1,11 @@
+accession: 0001437749-25-008966
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  - {label: "ITEM 1", raw_start: 362546}
+  - {label: "ITEM 1A", raw_start: 436648}
+  - {label: "ITEM 1B", raw_start: 542613}
+  - {label: "ITEM 1C", raw_start: 543707}
+  - {label: "ITEM 6", raw_start: 574337}

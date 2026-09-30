@@ -1,0 +1,29 @@
+accession: 0001116502-09-000348
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 22648, title: ""}
+  - {label: "ITEM 1", raw_start: 23112, title: ""}
+  - {label: "ITEM 1A", raw_start: 53847, title: ""}
+  - {label: "ITEM 1B", raw_start: 88327, title: ""}
+  - {label: "ITEM 2", raw_start: 89015, title: ""}
+  - {label: "ITEM 3", raw_start: 90775, title: ""}
+  - {label: "ITEM 4", raw_start: 91653, title: ""}
+  - {label: "PART II", raw_start: 92513, title: ""}
+  - {label: "ITEM 5", raw_start: 92959, title: ""}
+  - {label: "ITEM 6", raw_start: 107265, title: ""}
+  - {label: "ITEM 7", raw_start: 129173, title: ""}
+  - {label: "ITEM 7A", raw_start: 190510, title: ""}
+  - {label: "ITEM 8", raw_start: 199641, title: ""}
+  - {label: "ITEM 9", raw_start: 461904, title: ""}
+  - {label: "ITEM 9B", raw_start: 466913, title: ""}
+  - {label: "PART III", raw_start: 467872, title: ""}
+  - {label: "ITEM 10", raw_start: 468339, title: ""}
+  - {label: "ITEM 11", raw_start: 469293, title: ""}
+  - {label: "ITEM 12", raw_start: 469987, title: ""}
+  - {label: "ITEM 13", raw_start: 470981, title: ""}
+  - {label: "ITEM 14", raw_start: 471950, title: ""}
+  - {label: "PART IV", raw_start: 473174, title: ""}
+  - {label: "ITEM 15", raw_start: 473640, title: ""}
+absent: []

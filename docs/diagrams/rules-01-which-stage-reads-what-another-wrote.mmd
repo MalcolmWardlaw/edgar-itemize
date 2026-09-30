@@ -1,0 +1,25 @@
+flowchart LR
+    grammar[grammar]
+    candidates[candidates]
+    toc[toc]
+    tree[tree]
+    tree_contract[tree_contract]
+    agenda[agenda]
+    headings[headings]
+    pipeline[pipeline]
+    eval[eval]
+    grammar -->|"gram.item.suffix_refused"| candidates
+    candidates -->|"rej.continued<br/>toc.leader_or_pageno"| toc
+    candidates -->|"gram.item.title_match<br/>lbl.item.multi<br/>multi.ITEM *<br/>rej.caption_ibr<br/>rej.caption_omission<br/>rej.caption_xref<br/>rej.continued<br/>rej.fm_table<br/>+6 more"| tree
+    candidates -->|"ctoc.region_relief<br/>pos.line*<br/>rej.ctoc_row<br/>rej.section_xref<br/>toc.leader_or_pageno"| tree_contract
+    candidates -->|"gram.item.title_match<br/>pos.in_table<br/>pos.table_row<br/>rej.continued<br/>rej.long_line<br/>rej.lowercase_title<br/>rej.prose<br/>rej.xref_phrase<br/>+2 more"| agenda
+    candidates -->|"multi.ITEM *"| pipeline
+    candidates -->|"multi.ITEM *"| eval
+    toc -->|"toc.vetoed_region"| candidates
+    toc -->|"toc.vetoed_region"| tree
+    toc -->|"toc.section_run<br/>toc.vetoed_region"| agenda
+    tree -->|"toc.member_rescued"| agenda
+    tree -->|"seq.out_of_order"| headings
+    tree -->|"gram.synth_part"| eval
+    tree_contract -->|"gram.synth_article<br/>toc.member_rescued"| agenda
+    pipeline -->|"rej.regab_back_matter"| tree

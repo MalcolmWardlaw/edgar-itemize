@@ -1,0 +1,31 @@
+accession: 0001493152-20-005127
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 43911, title: ""}
+  - {label: "ITEM 1", raw_start: 44291, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 85123, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 181932, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 182724, title: "Description of Property"}
+  - {label: "ITEM 3", raw_start: 183826, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 185099, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 186916, title: ""}
+  - {label: "ITEM 5", raw_start: 187298, title: "Market for Registrant’s Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 205911, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 206846, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 252722, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 253712, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 254554, title: "Changes In and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 255405, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 269509, title: "Other Information"}
+  - {label: "PART III", raw_start: 271318, title: ""}
+  - {label: "ITEM 10", raw_start: 271702, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 299811, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 427415, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 439928, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 441970, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 450879, title: ""}
+  - {label: "ITEM 15", raw_start: 451336, title: "Exhibits, Financial Statement Schedules"}
+  - {label: "ITEM 16", raw_start: 562292, title: "Form 10-K Summary"}
+absent: []

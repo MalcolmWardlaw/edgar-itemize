@@ -1,0 +1,33 @@
+accession: 0001104659-26-023561
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 324895, title: ""}
+  - {label: "ITEM 1", raw_start: 325051, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 479106, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 756763, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 1C", raw_start: 757304, title: "CYBERSECURITY"}
+  - {label: "ITEM 2", raw_start: 767198, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 784192, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 785378, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 786706, title: ""}
+  - {label: "ITEM 5", raw_start: 786903, title: "MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER M"}
+  - {label: "ITEM 6", raw_start: 795876, title: "[RESERVED]"}
+  - {label: "ITEM 7", raw_start: 796291, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 1361812, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 1366192, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 3794980, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 3795434, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 3803051, title: "OTHER INFORMATION"}
+  - {label: "ITEM 9C", raw_start: 3805242, title: "DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSP"}
+  - {label: "PART III", raw_start: 3805884, title: ""}
+  - {label: "ITEM 10", raw_start: 3806063, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 3808123, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 3808775, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 3809499, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 3810202, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 3811867, title: ""}
+  - {label: "ITEM 15", raw_start: 3812062, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"}
+  - {label: "ITEM 16", raw_start: 3815533, title: "FORM 10-K SUMMARY"}
+absent: []

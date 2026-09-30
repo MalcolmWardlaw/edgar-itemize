@@ -1,0 +1,97 @@
+accession: 0000008177-03-000060
+sequence: 4
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 288798, title: ""}
+  - {label: "SECTION 1.01", raw_start: 289023, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 348060, title: "Accounting Terms and Determinations"}
+  - {label: "SECTION 1.03", raw_start: 349882, title: "Use of Defined Terms"}
+  - {label: "SECTION 1.04", raw_start: 350262, title: "Terminology"}
+  - {label: "SECTION 1.05", raw_start: 350800, title: "References"}
+  - {label: "ARTICLE 2", raw_start: 351151, title: ""}
+  - {label: "SECTION 2.01", raw_start: 351377, title: "Commitment to Make the Term Loan"}
+  - {label: "SECTION 2.02", raw_start: 352472, title: "Conversion and Continuation of Loan"}
+  - {label: "SECTION 2.03", raw_start: 356005, title: "Notes"}
+  - {label: "SECTION 2.04", raw_start: 357873, title: "Mandatory Repayment of Loan"}
+  - {label: "SECTION 2.05", raw_start: 360825, title: "Interest Rates"}
+  - {label: "SECTION 2.06", raw_start: 371454, title: "Optional Prepayments"}
+  - {label: "SECTION 2.07", raw_start: 372872, title: "General Provisions as to Payments"}
+  - {label: "SECTION 2.08", raw_start: 378738, title: "Computation of Interest"}
+  - {label: "ARTICLE 3", raw_start: 379286, title: ""}
+  - {label: "SECTION 3.01", raw_start: 379518, title: "Conditions to Term Loan"}
+  - {label: "ARTICLE 4", raw_start: 386138, title: ""}
+  - {label: "SECTION 4.01", raw_start: 386548, title: "Corporate Existence and Power"}
+  - {label: "SECTION 4.02", raw_start: 387490, title: "Corporate and Governmental Authorization;"}
+  - {label: "SECTION 4.03", raw_start: 388566, title: "Binding Effect"}
+  - {label: "SECTION 4.04", raw_start: 389312, title: "Financial Information"}
+  - {label: "SECTION 4.05", raw_start: 391739, title: "Litigation"}
+  - {label: "SECTION 4.06", raw_start: 392467, title: "Compliance with ERISA"}
+  - {label: "SECTION 4.07", raw_start: 393707, title: "Taxes"}
+  - {label: "SECTION 4.08", raw_start: 394561, title: "Subsidiaries"}
+  - {label: "SECTION 4.09", raw_start: 396855, title: "Not an Investment Company"}
+  - {label: "SECTION 4.10", raw_start: 397206, title: "Public Utility Holding Company Act"}
+  - {label: "SECTION 4.11", raw_start: 397797, title: "Ownership of Property;"}
+  - {label: "SECTION 4.12", raw_start: 398245, title: "No Default"}
+  - {label: "SECTION 4.13", raw_start: 398763, title: "Full Disclosure"}
+  - {label: "SECTION 4.14", raw_start: 399660, title: "Environmental Matters"}
+  - {label: "SECTION 4.15", raw_start: 402371, title: "Compliance with Laws"}
+  - {label: "SECTION 4.16", raw_start: 402827, title: "Capital Stock"}
+  - {label: "SECTION 4.17", raw_start: 403854, title: "Margin Stock"}
+  - {label: "SECTION 4.18", raw_start: 404506, title: "Insolvency"}
+  - {label: "SECTION 4.19", raw_start: 405343, title: "Insurance"}
+  - {label: "SECTION 4.20", raw_start: 405941, title: "Debt and Redeemable Preferred Stock"}
+  - {label: "ARTICLE 5", raw_start: 406357, title: ""}
+  - {label: "SECTION 5.01", raw_start: 406829, title: "Information"}
+  - {label: "SECTION 5.02", raw_start: 415197, title: "Inspection of Property, Books and Records"}
+  - {label: "SECTION 5.03", raw_start: 416542, title: "Ratio of Funded Debt to Consolidated Total Capitalization"}
+  - {label: "SECTION 5.04", raw_start: 416874, title: "Ratio of Funded Debt to EBITDA"}
+  - {label: "SECTION 5.05", raw_start: 417341, title: "Minimum Consolidated Tangible Net Worth"}
+  - {label: "SECTION 5.06", raw_start: 417975, title: "Restricted Payments"}
+  - {label: "SECTION 5.07", raw_start: 419441, title: "Capital Expenditures"}
+  - {label: "SECTION 5.08", raw_start: 419895, title: "Loans or Advances"}
+  - {label: "SECTION 5.09", raw_start: 421239, title: "Investments"}
+  - {label: "SECTION 5.10", raw_start: 423246, title: "Negative Pledge"}
+  - {label: "SECTION 5.11", raw_start: 428764, title: "Maintenance of Existence"}
+  - {label: "SECTION 5.12", raw_start: 429758, title: "Dissolution"}
+  - {label: "SECTION 5.13", raw_start: 430268, title: "Consolidations, Mergers and Sales of Assets"}
+  - {label: "SECTION 5.14", raw_start: 432775, title: "Use of Proceeds"}
+  - {label: "SECTION 5.15", raw_start: 433468, title: "Compliance with Laws;"}
+  - {label: "SECTION 5.16", raw_start: 434574, title: "Insurance"}
+  - {label: "SECTION 5.17", raw_start: 435197, title: "Change in Fiscal Year"}
+  - {label: "SECTION 5.18", raw_start: 435476, title: "Maintenance of Property"}
+  - {label: "SECTION 5.19", raw_start: 435969, title: "Environmental Notices"}
+  - {label: "SECTION 5.20", raw_start: 436609, title: "Environmental Matters"}
+  - {label: "SECTION 5.21", raw_start: 437408, title: "Environmental Release"}
+  - {label: "SECTION 5.22", raw_start: 437944, title: "Additional Covenants, Etc"}
+  - {label: "SECTION 5.23", raw_start: 441487, title: "Transactions with Affiliates"}
+  - {label: "SECTION 5.24", raw_start: 442165, title: "Risk-Based Capital Ratio"}
+  - {label: "SECTION 5.25", raw_start: 442642, title: "Maintenance of Statutory Surplus"}
+  - {label: "SECTION 5.26", raw_start: 443139, title: "Minimum Investment in NAIC Rated Bonds;"}
+  - {label: "SECTION 5.27", raw_start: 443664, title: "Senior Indebtedness under Indenture"}
+  - {label: "SECTION 5.28", raw_start: 444119, title: "Other Obligations of Borrower"}
+  - {label: "ARTICLE 6", raw_start: 444606, title: ""}
+  - {label: "SECTION 6.01", raw_start: 444822, title: "Events of Default"}
+  - {label: "ARTICLE 7", raw_start: 459263, title: ""}
+  - {label: "SECTION 7.01", raw_start: 459509, title: "Basis for Determining Interest Rate Inadequate or Unfair"}
+  - {label: "SECTION 7.02", raw_start: 461343, title: "Illegality"}
+  - {label: "SECTION 7.03", raw_start: 463339, title: "Increased Cost and Reduced Return"}
+  - {label: "SECTION 7.04", raw_start: 470096, title: "Base Rate Loans Substituted for Affected Euro-Dollar Loans"}
+  - {label: "SECTION 7.05", raw_start: 472120, title: "Compensation"}
+  - {label: "ARTICLE 8", raw_start: 474997, title: ""}
+  - {label: "SECTION 8.01", raw_start: 475221, title: "Notices"}
+  - {label: "SECTION 8.02", raw_start: 476490, title: "No Waivers"}
+  - {label: "SECTION 8.03", raw_start: 477114, title: "Expenses;"}
+  - {label: "SECTION 8.04", raw_start: 480514, title: "CONSEQUENTIAL DAMAGES"}
+  - {label: "SECTION 8.05", raw_start: 480995, title: "Setoffs"}
+  - {label: "SECTION 8.06", raw_start: 482934, title: "Amendments and Waivers"}
+  - {label: "SECTION 8.07", raw_start: 483331, title: "Successors and Assigns"}
+  - {label: "SECTION 8.08", raw_start: 490728, title: "Confidentiality"}
+  - {label: "SECTION 8.09", raw_start: 492807, title: "Survival of Certain Obligations"}
+  - {label: "SECTION 8.10", raw_start: 493273, title: "Georgia Law"}
+  - {label: "SECTION 8.11", raw_start: 493578, title: "Severability"}
+  - {label: "SECTION 8.12", raw_start: 494160, title: "Interest"}
+  - {label: "SECTION 8.13", raw_start: 495020, title: "Interpretation"}
+  - {label: "SECTION 8.14", raw_start: 495514, title: "Consent to Jurisdiction"}
+  - {label: "SECTION 8.15", raw_start: 496745, title: "Counterparts"}
+absent: []

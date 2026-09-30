@@ -1,0 +1,30 @@
+accession: 0001193125-06-053861
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 69903, title: ""}
+  - {label: "ITEM 1", raw_start: 70040, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 171623, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 208566, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 208916, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 210139, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 230256, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 230988, title: ""}
+  - {label: "ITEM 5", raw_start: 231127, title: "MARKET FOR COMPANY'S COMMON EQUITY, RELATED STOCKHOLDER MATT"}
+  - {label: "ITEM 6", raw_start: 239768, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 270488, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 449161, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 464156, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 1037681, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 1038038, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 1044668, title: "OTHER INFORMATION"}
+  - {label: "PART III", raw_start: 1045230, title: ""}
+  - {label: "ITEM 10", raw_start: 1045370, title: "DIRECTORS AND EXECUTIVE OFFICERS OF INTERDIGITAL"}
+  - {label: "ITEM 11", raw_start: 1047749, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 1048712, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 1049453, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS"}
+  - {label: "ITEM 14", raw_start: 1049774, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 1050550, title: ""}
+  - {label: "ITEM 15", raw_start: 1050689, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"}
+absent: []

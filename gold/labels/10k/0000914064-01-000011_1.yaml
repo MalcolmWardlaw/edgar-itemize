@@ -1,0 +1,14 @@
+accession: 0000914064-01-000011
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 3851, title: ""}
+  - {label: "ITEM 1", raw_start: 3859, title: "Business"}
+  - {label: "ITEM 3", raw_start: 9715, title: "Legal Proceedings.*"}
+  - {label: "ITEM 4", raw_start: 9750, title: "Submission of Matters to a Vote of Security Holders.*"}
+  - {label: "PART II", raw_start: 9819, title: ""}
+  - {label: "ITEM 5", raw_start: 9828, title: "Market for Registrant's Common Equity and Related Stockholde"}
+  - {label: "PART IV", raw_start: 9909, title: ""}
+  - {label: "ITEM 14", raw_start: 9918, title: "Exhibits, Financial Statement Schedules, and Reports on Form"}
+absent: []

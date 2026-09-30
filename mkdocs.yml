@@ -1,0 +1,80 @@
+# The curated, public documentation of edgar-itemize: `manual/` is the source, built with
+# MkDocs (material theme). `docs/` is the development notebook and is not part of the site,
+# except for the files the manual pulls in verbatim with snippets (the output contract, the
+# versioning policy, the rule catalogue, the related-parsers survey, the diagram sources).
+#
+#   uv sync --extra docs
+#   uv run mkdocs serve              # http://127.0.0.1:8000
+#   uv run mkdocs build --strict     # what CI runs; broken links fail the build
+site_name: edgar-itemize
+site_description: Deterministic, citable agenda-structure parser for SEC EDGAR filings
+site_url: https://malcolmwardlaw.github.io/edgar-itemize/
+repo_url: https://github.com/MalcolmWardlaw/edgar-itemize
+repo_name: MalcolmWardlaw/edgar-itemize
+docs_dir: manual
+site_dir: site
+exclude_docs: |
+  _hooks.py
+strict: false   # `mkdocs build --strict` turns warnings into errors; CI passes the flag
+copyright: MIT licence. The vendored HTML parser is PSF-2.0.
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: dark mode
+    - scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: light mode
+
+hooks:
+  - manual/_hooks.py
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets:
+      base_path: ["."]
+      check_paths: true
+
+nav:
+  - Overview: index.md
+  - Getting started:
+      - Install: install.md
+      - Quickstart: quickstart.md
+  - Understanding the output:
+      - Concepts: concepts.md
+      - How the parser works: architecture.md
+      - Output contract: output-contract.md
+      - Rule ids and rejected reasons: rules.md
+  - Reference:
+      - Command line: cli.md
+      - Reproducibility and versions: reproducibility.md
+      - Evaluation: evaluation.md
+      - Related tools: related.md
+  - Project:
+      - Citing: citing.md
+      - Changelog: changelog.md
+      - Contributing: contributing.md
+      - Errata: errata.md

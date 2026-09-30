@@ -1,0 +1,25 @@
+# Citation metadata for edgar-itemize (Citation File Format 1.2.0).
+# GitHub and Zenodo read this file; `cffconvert --validate` checks it.
+# doi: added at the Zenodo mint (the concept DOI, so it resolves to every version).
+cff-version: 1.2.0
+type: software
+message: "If you use edgar-itemize in a paper, please cite it as below and name the version you ran."
+title: "edgar-itemize"
+abstract: "A deterministic, rule-based parser that recovers the agenda structure (Part, Item, sub-heading; Article, Section, clause) of SEC EDGAR filings and addresses every node by byte offset into the raw submission file, with no machine learning inside the parser."
+authors:
+  - family-names: Wardlaw
+    given-names: Malcolm
+    affiliation: "Terry College of Business, University of Georgia"
+version: 1.0.0
+# date-released: set to the tag date (YYYY-MM-DD) when v1.0.0 is tagged.
+repository-code: "https://github.com/MalcolmWardlaw/edgar-itemize"
+license: MIT
+keywords:
+  - SEC
+  - EDGAR
+  - "10-K"
+  - "10-Q"
+  - "credit agreements"
+  - "document structure"
+  - "text parsing"
+  - "corporate finance"

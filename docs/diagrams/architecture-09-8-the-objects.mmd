@@ -1,0 +1,77 @@
+classDiagram
+    class Submission {
+        path, accession
+        header
+        text : latin-1 str
+        documents : DocumentBlock[]
+        input_sha256, input_bytes
+        header_cik
+    }
+    class DocumentBlock {
+        sequence, type, filename, description
+        is_html
+        doc_start, doc_end
+        text_start, text_end
+    }
+    class Profile {
+        era
+        publisher, agent_cik
+        signals
+    }
+    class Prepared {
+        accession, doc, header_type
+        doc_types
+        profile
+        blocks : Block[]
+        normalized_text
+        input_sha256, input_bytes, header_cik
+    }
+    class Block {
+        idx, kind
+        text, lines
+        raw_start, raw_end
+        norm_start, norm_end
+        bold, underline, italic, center
+        caps_ratio, font_size_rel
+        in_table, row_text, row_raw_end
+        is_page_break, anchor_ids, href_targets
+    }
+    class Candidate {
+        block_idx, kind
+        label_raw, label_canon, title
+        head_raw_start, head_raw_end, norm_start
+        order_key, score
+        rule_ids, toc_hint, multi
+    }
+    class TocRegion {
+        first_cand, last_cand
+        block_start, block_end
+        reason
+    }
+    class Node {
+        node_id, parent_id, depth, level_kind
+        label_canon, label_raw, title
+        raw_start, raw_end, head_raw_start, head_raw_end
+        norm_start, norm_end
+        order_key, confidence
+        rule_ids, satisfies_item
+    }
+    class Rejected {
+        block_idx, kind, label_canon
+        score, reason, raw_start, text
+    }
+    class ParseResult {
+        candidates, toc, nodes, rejected
+        paths, profile_levels, ibr
+        grammar, cik, manifest_cik
+    }
+    Submission "1" --> "*" DocumentBlock
+    Prepared --> DocumentBlock
+    Prepared --> Profile
+    Prepared "1" --> "*" Block
+    Block "1" --> "0..*" Candidate
+    Candidate "*" --> "0..1" TocRegion
+    Candidate --> Node : chain winner
+    Candidate --> Rejected : chain loser
+    ParseResult --> Node
+    ParseResult --> Rejected

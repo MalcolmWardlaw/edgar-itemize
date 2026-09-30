@@ -1,0 +1,22 @@
+accession: 0001039684-18-000080
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 2", raw_start: 161972, title: ""}
+  - {label: "SECTION 2.01", raw_start: 161972, title: "Loans"}
+  - {label: "SECTION 2.11", raw_start: 175374, title: "Computation of Interest and Fees"}
+  - {label: "ARTICLE 5", raw_start: 258635, title: ""}
+  - {label: "SECTION 5.10", raw_start: 258635, title: "Insurance"}
+  - {label: "SECTION 5.14", raw_start: 263373, title: "Margin Regulations;"}
+  - {label: "ARTICLE 6", raw_start: 291348, title: ""}
+  - {label: "SECTION 6.13", raw_start: 291348, title: "Additional Guarantors"}
+  - {label: "ARTICLE 7", raw_start: 304254, title: ""}
+  - {label: "SECTION 7.02", raw_start: 304254, title: "Investments"}
+  - {label: "ARTICLE 9", raw_start: 344811, title: ""}
+  - {label: "SECTION 9.07", raw_start: 344811, title: "Non-Reliance on Administrative Agent and Other Lenders"}
+  - {label: "ARTICLE 10", raw_start: 403433, title: ""}
+  - {label: "SECTION 10.08", raw_start: 403433, title: "Set-off"}
+  - {label: "SECTION 10.15", raw_start: 412937, title: "Governing Law"}
+  - {label: "SECTION 10.19", raw_start: 421880, title: "Electronic Execution of Assignments and Certain Other Docume"}
+absent: []

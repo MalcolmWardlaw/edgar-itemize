@@ -1,0 +1,66 @@
+accession: 0001213900-26-044633
+sequence: 5
+doc_type: EX-10.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 680547, title: ""}
+  - {label: "SECTION 1", raw_start: 680547, title: "THE LOAN"}
+  - {label: "SECTION 1.01", raw_start: 681109, title: "Subject to the terms and conditions of this Agreement, Lende"}
+  - {label: "ARTICLE 2", raw_start: 681828, title: ""}
+  - {label: "SECTION 2", raw_start: 681828, title: "PURPOSE"}
+  - {label: "SECTION 2.01", raw_start: 682389, title: "The Loan funds shall be allocated for expenses associated wi"}
+  - {label: "ARTICLE 3", raw_start: 683218, title: ""}
+  - {label: "SECTION 3", raw_start: 683218, title: "ADVANCEMENT"}
+  - {label: "SECTION 3.01", raw_start: 683783, title: "On or before April 10, 2026, the Lender shall initiate the w"}
+  - {label: "ARTICLE 4", raw_start: 684476, title: ""}
+  - {label: "SECTION 4", raw_start: 684476, title: "MATURITY"}
+  - {label: "SECTION 4.01", raw_start: 685038, title: "The term of the Loan shall commence from the Advancement Dat"}
+  - {label: "ARTICLE 5", raw_start: 685829, title: ""}
+  - {label: "SECTION 5", raw_start: 685829, title: "SECURITY"}
+  - {label: "SECTION 5.01", raw_start: 686391, title: "The Loan is and shall remain at all times the unsecured obli"}
+  - {label: "ARTICLE 6", raw_start: 687527, title: ""}
+  - {label: "SECTION 6", raw_start: 687527, title: "INTEREST"}
+  - {label: "ARTICLE 7", raw_start: 689069, title: ""}
+  - {label: "SECTION 7", raw_start: 689069, title: "REPAYMENT AND PREPAYMENT"}
+  - {label: "SECTION 7.01", raw_start: 689647, title: "Subject to Section 7.2, Borrower shall repay the Total Accru"}
+  - {label: "SECTION 7.02", raw_start: 690223, title: "Notwithstanding Section 7.1, Borrower may prepay any or part"}
+  - {label: "ARTICLE 8", raw_start: 691065, title: ""}
+  - {label: "SECTION 8", raw_start: 691065, title: "CONVERSION RIGHT"}
+  - {label: "SECTION 8.01", raw_start: 691635, title: "Lender shall have the right, from time to time, to convert a"}
+  - {label: "SECTION 8.02", raw_start: 692722, title: "Any conversion notice pursuant to this Section 8 shall be ma"}
+  - {label: "SECTION 8.03", raw_start: 694119, title: "In no event shall any conversion of this Loan, whether in wh"}
+  - {label: "ARTICLE 9", raw_start: 699796, title: ""}
+  - {label: "SECTION 9", raw_start: 699796, title: "PAYMENTS"}
+  - {label: "ARTICLE 10", raw_start: 702060, title: ""}
+  - {label: "SECTION 10", raw_start: 702060, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 10.01", raw_start: 702645, title: "Representations and warranties of the Borrower"}
+  - {label: "ARTICLE 11", raw_start: 708230, title: ""}
+  - {label: "SECTION 11", raw_start: 708230, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 11.01", raw_start: 708802, title: "Each of the following events and circumstances shall be an “"}
+  - {label: "SECTION 11.02", raw_start: 716482, title: "Remedies on Events of Default"}
+  - {label: "ARTICLE 12", raw_start: 721113, title: ""}
+  - {label: "SECTION 12", raw_start: 721113, title: "FURTHER ASSURANCE"}
+  - {label: "SECTION 12.01", raw_start: 721685, title: "Each Party shall promptly execute and deliver all such docum"}
+  - {label: "ARTICLE 13", raw_start: 722600, title: ""}
+  - {label: "SECTION 13", raw_start: 722600, title: "DISCLOSURE OBLIGATIONS"}
+  - {label: "SECTION 13.01", raw_start: 723177, title: "The Borrower shall bear full responsibility for ensuring com"}
+  - {label: "ARTICLE 14", raw_start: 723910, title: ""}
+  - {label: "SECTION 14", raw_start: 723910, title: "WAIVER AND AMENDMENT"}
+  - {label: "SECTION 14.01", raw_start: 724485, title: "A failure or delay by a Party to exercise any right or remed"}
+  - {label: "SECTION 14.02", raw_start: 725411, title: "A waiver of any right or remedy under this Agreement shall o"}
+  - {label: "SECTION 14.03", raw_start: 725994, title: "No variation or amendment of this Agreement shall be valid u"}
+  - {label: "ARTICLE 15", raw_start: 726707, title: ""}
+  - {label: "SECTION 15", raw_start: 726707, title: "ASSIGNMENT"}
+  - {label: "ARTICLE 16", raw_start: 728230, title: ""}
+  - {label: "SECTION 16", raw_start: 728230, title: "COSTS"}
+  - {label: "ARTICLE 17", raw_start: 730443, title: ""}
+  - {label: "SECTION 17", raw_start: 730443, title: "SEPARATION"}
+  - {label: "ARTICLE 18", raw_start: 732199, title: ""}
+  - {label: "SECTION 18", raw_start: 732199, title: "COUNTERPARTS"}
+  - {label: "ARTICLE 19", raw_start: 733684, title: ""}
+  - {label: "SECTION 19", raw_start: 733684, title: "NOTICES"}
+  - {label: "ARTICLE 20", raw_start: 735797, title: ""}
+  - {label: "SECTION 20", raw_start: 735797, title: "GOVERNING LAW AND JURISDICTION"}
+  - {label: "ARTICLE 23", raw_start: 742583, title: ""}
+  - {label: "SECTION 23", raw_start: 742583, title: "DISCLOSURE"}
+absent: []

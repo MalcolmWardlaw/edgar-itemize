@@ -1,0 +1,30 @@
+accession: 0001213900-22-001080
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 36401, title: ""}
+  - {label: "ITEM 1", raw_start: 36677, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 76264, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 303112, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 303685, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 306021, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 311263, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 312569, title: ""}
+  - {label: "ITEM 5", raw_start: 312875, title: "MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER M"}
+  - {label: "ITEM 6", raw_start: 341246, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 341814, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 384949, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 385588, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 1116433, title: "CHANGES IN AND DISAGREEMENTS WITH INDEPENDENT CERTIFYING ACC"}
+  - {label: "ITEM 9A", raw_start: 1117056, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 1126135, title: "OTHER INFORMATION"}
+  - {label: "PART III", raw_start: 1127308, title: ""}
+  - {label: "ITEM 10", raw_start: 1127607, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 1142841, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 1225761, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 1238302, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 1262911, title: "PRINCIPAL ACCOUNTING FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 1270119, title: ""}
+  - {label: "ITEM 15", raw_start: 1270417, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES"}
+absent: []

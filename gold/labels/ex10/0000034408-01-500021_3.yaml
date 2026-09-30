@@ -1,0 +1,69 @@
+accession: 0000034408-01-500021
+sequence: 3
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 55063, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 81826, title: ""}
+  - {label: "SECTION 1.02", raw_start: 82758, title: ""}
+  - {label: "ARTICLE 2", raw_start: 83283, title: "LOANS"}
+  - {label: "SECTION 2.01", raw_start: 83348, title: ""}
+  - {label: "SECTION 2.02", raw_start: 85782, title: ""}
+  - {label: "SECTION 2.03", raw_start: 87604, title: ""}
+  - {label: "SECTION 2.04", raw_start: 91962, title: ""}
+  - {label: "SECTION 2.05", raw_start: 93954, title: ""}
+  - {label: "SECTION 2.06", raw_start: 94572, title: ""}
+  - {label: "SECTION 2.07", raw_start: 95663, title: ""}
+  - {label: "SECTION 2.08", raw_start: 95900, title: ""}
+  - {label: "SECTION 2.09", raw_start: 97819, title: ""}
+  - {label: "SECTION 2.10", raw_start: 98478, title: ""}
+  - {label: "SECTION 2.11", raw_start: 99018, title: ""}
+  - {label: "SECTION 2.12", raw_start: 99324, title: ""}
+  - {label: "SECTION 2.13", raw_start: 99752, title: ""}
+  - {label: "SECTION 2.14", raw_start: 100344, title: ""}
+  - {label: "SECTION 2.15", raw_start: 101038, title: ""}
+  - {label: "SECTION 2.16", raw_start: 101683, title: ""}
+  - {label: "ARTICLE 3", raw_start: 101968, title: "CHANGE IN CIRCUMSTANCES"}
+  - {label: "SECTION 3.01", raw_start: 102043, title: ""}
+  - {label: "SECTION 3.02", raw_start: 106676, title: ""}
+  - {label: "SECTION 3.03", raw_start: 107781, title: ""}
+  - {label: "SECTION 3.04", raw_start: 108609, title: ""}
+  - {label: "ARTICLE 4", raw_start: 110376, title: "CONDITIONS"}
+  - {label: "SECTION 4.01", raw_start: 110443, title: ""}
+  - {label: "SECTION 4.02", raw_start: 112296, title: ""}
+  - {label: "SECTION 4.03", raw_start: 113602, title: ""}
+  - {label: "ARTICLE 5", raw_start: 115178, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 5.01", raw_start: 115364, title: ""}
+  - {label: "SECTION 5.02", raw_start: 115814, title: ""}
+  - {label: "SECTION 5.03", raw_start: 116300, title: ""}
+  - {label: "SECTION 5.04", raw_start: 117600, title: ""}
+  - {label: "SECTION 5.05", raw_start: 117921, title: ""}
+  - {label: "SECTION 5.06", raw_start: 118303, title: ""}
+  - {label: "SECTION 5.07", raw_start: 118646, title: ""}
+  - {label: "SECTION 5.08", raw_start: 119108, title: ""}
+  - {label: "ARTICLE 6", raw_start: 119716, title: "COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 119933, title: ""}
+  - {label: "SECTION 6.02", raw_start: 122083, title: ""}
+  - {label: "SECTION 6.03", raw_start: 124090, title: ""}
+  - {label: "SECTION 6.04", raw_start: 128566, title: ""}
+  - {label: "SECTION 6.05", raw_start: 128715, title: ""}
+  - {label: "SECTION 6.06", raw_start: 129010, title: ""}
+  - {label: "SECTION 6.07", raw_start: 129950, title: ""}
+  - {label: "ARTICLE 7", raw_start: 130859, title: "DEFAULT"}
+  - {label: "SECTION 7.01", raw_start: 130926, title: ""}
+  - {label: "SECTION 7.02", raw_start: 137218, title: ""}
+  - {label: "ARTICLE 8", raw_start: 138730, title: "MISCELLANEOUS"}
+  - {label: "SECTION 8.01", raw_start: 138801, title: ""}
+  - {label: "SECTION 8.02", raw_start: 139905, title: ""}
+  - {label: "SECTION 8.03", raw_start: 140509, title: ""}
+  - {label: "SECTION 8.04", raw_start: 141510, title: ""}
+  - {label: "SECTION 8.05", raw_start: 141945, title: ""}
+  - {label: "SECTION 8.06", raw_start: 142334, title: ""}
+  - {label: "SECTION 8.07", raw_start: 142550, title: ""}
+  - {label: "SECTION 8.08", raw_start: 142848, title: ""}
+  - {label: "SECTION 8.09", raw_start: 143359, title: ""}
+  - {label: "SECTION 8.10", raw_start: 143944, title: ""}
+  - {label: "SECTION 8.11", raw_start: 145050, title: ""}
+  - {label: "SECTION 8.12", raw_start: 145495, title: ""}
+  - {label: "SECTION 8.13", raw_start: 145815, title: ""}
+absent: []

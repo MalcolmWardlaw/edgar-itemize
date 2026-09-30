@@ -1,0 +1,129 @@
+accession: 0000891092-08-001838
+sequence: 3
+doc_type: EX-10.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 139723, title: ""}
+  - {label: "SECTION 1", raw_start: 139723, title: "DEFINITIONS As used in this Agreement"}
+  - {label: "ARTICLE 2", raw_start: 166244, title: ""}
+  - {label: "SECTION 2", raw_start: 166244, title: "FINANCIAL COMMITMENTS"}
+  - {label: "SECTION 2.01", raw_start: 166469, title: "Revolving Loans and Collections"}
+  - {label: "SECTION 2.01.1", raw_start: 166514, title: "Amounts and Requests"}
+  - {label: "SECTION 2.01.2", raw_start: 168004, title: "Handling of Proceeds of Collateral;"}
+  - {label: "SECTION 2.01.3", raw_start: 170836, title: "Revolving Loan Account"}
+  - {label: "SECTION 2.01.4", raw_start: 171613, title: "Repayment of Overadvances"}
+  - {label: "SECTION 2.01.5", raw_start: 172234, title: "Application of Proceeds of Collateral"}
+  - {label: "SECTION 2.01.6", raw_start: 172949, title: "Monthly Statement"}
+  - {label: "SECTION 2.01.7", raw_start: 173705, title: "Access to CIT's System"}
+  - {label: "SECTION 2.02", raw_start: 176475, title: "Letters of Credit"}
+  - {label: "SECTION 2.02.1", raw_start: 176506, title: "Amounts and Form"}
+  - {label: "SECTION 2.02.2", raw_start: 177441, title: "Authority to Charge Revolving Loan Account"}
+  - {label: "SECTION 2.02.3", raw_start: 177967, title: "Compliance of Goods, Documents and Shipments with Agreed Ter"}
+  - {label: "SECTION 2.02.4", raw_start: 179127, title: "Handling of Goods, Documents and Shipments"}
+  - {label: "SECTION 2.02.5", raw_start: 181558, title: "Compliance with Laws;"}
+  - {label: "SECTION 2.02.6", raw_start: 183033, title: "Subrogation Rights"}
+  - {label: "ARTICLE 3", raw_start: 183613, title: ""}
+  - {label: "SECTION 3", raw_start: 183613, title: "INTEREST, FEES AND EXPENSES"}
+  - {label: "SECTION 3.01", raw_start: 183652, title: "Interest"}
+  - {label: "SECTION 3.01.1", raw_start: 183674, title: "Interest on Revolving Loan Account"}
+  - {label: "SECTION 3.01.2", raw_start: 184389, title: "Selection of Interest Rate"}
+  - {label: "SECTION 3.01.3", raw_start: 185938, title: "Default Interest Rate"}
+  - {label: "SECTION 3.01.4", raw_start: 186251, title: "Inability to Determine LIBOR Rate"}
+  - {label: "SECTION 3.02", raw_start: 187369, title: "Fees and Expenses"}
+  - {label: "SECTION 3.02.1", raw_start: 187400, title: "Loan Facility Fee"}
+  - {label: "SECTION 3.02.2", raw_start: 187696, title: "Line of Credit Fee"}
+  - {label: "SECTION 3.02.3", raw_start: 188273, title: "Annual Renewal Fee"}
+  - {label: "SECTION 3.02.4", raw_start: 188655, title: "Letter of Credit Guaranty Fees and Charges"}
+  - {label: "SECTION 3.02.5", raw_start: 189980, title: "Standard Operational Fees"}
+  - {label: "SECTION 3.02.6", raw_start: 190891, title: "Out-of-Pocket Expenses"}
+  - {label: "ARTICLE 4", raw_start: 191030, title: ""}
+  - {label: "SECTION 4", raw_start: 191030, title: "COLLATERAL"}
+  - {label: "SECTION 4.01", raw_start: 191052, title: "Grant of Security Interest"}
+  - {label: "SECTION 4.02", raw_start: 191595, title: "Nature of Security Interest"}
+  - {label: "SECTION 4.03", raw_start: 193321, title: "Limited License"}
+  - {label: "SECTION 4.04", raw_start: 194023, title: "Collateral Reporting"}
+  - {label: "SECTION 4.05", raw_start: 194281, title: "Collateral Representations, Warranties and Covenants"}
+  - {label: "SECTION 4.05.1", raw_start: 194346, title: "Generally"}
+  - {label: "SECTION 4.05.2", raw_start: 195429, title: "Agreements Regarding Accounts and Inventory"}
+  - {label: "SECTION 4.05.3", raw_start: 199065, title: "Agreements Regarding Equipment"}
+  - {label: "SECTION 4.05.4", raw_start: 199352, title: "Agreements Regarding General Intangibles"}
+  - {label: "SECTION 4.05.5", raw_start: 199865, title: "Letter of Credit Rights"}
+  - {label: "SECTION 4.05.6", raw_start: 200036, title: "Further Assurances"}
+  - {label: "ARTICLE 5", raw_start: 201424, title: ""}
+  - {label: "SECTION 5", raw_start: 201424, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 5.01", raw_start: 201456, title: "Conditions Precedent to Initial Funding"}
+  - {label: "SECTION 5.01.1", raw_start: 201748, title: "Loan Documents"}
+  - {label: "SECTION 5.01.2", raw_start: 201988, title: "Lien Searches"}
+  - {label: "SECTION 5.01.3", raw_start: 202327, title: "Insurance"}
+  - {label: "SECTION 5.01.4", raw_start: 202612, title: "UCC Filings"}
+  - {label: "SECTION 5.01.5", raw_start: 203304, title: "Resolutions"}
+  - {label: "SECTION 5.01.6", raw_start: 203822, title: "Organizational Documents"}
+  - {label: "SECTION 5.01.7", raw_start: 204142, title: "Officer's Certificate"}
+  - {label: "SECTION 5.01.8", raw_start: 204593, title: "Appraisals"}
+  - {label: "SECTION 5.01.9", raw_start: 204755, title: "Disbursement Authorizations"}
+  - {label: "SECTION 5.01.10", raw_start: 204990, title: "Examination & Verification"}
+  - {label: "SECTION 5.01.11", raw_start: 205201, title: "Depository Accounts"}
+  - {label: "SECTION 5.01.12", raw_start: 205499, title: "Opinions"}
+  - {label: "SECTION 5.01.13", raw_start: 205640, title: "Legal Restraints/Litigation"}
+  - {label: "SECTION 5.02", raw_start: 206161, title: "Conditions to Each Extension of Credit"}
+  - {label: "SECTION 5.02.1", raw_start: 206551, title: "Representations and Warranties"}
+  - {label: "SECTION 5.02.2", raw_start: 207044, title: "No Default or Material Adverse Change"}
+  - {label: "ARTICLE 6", raw_start: 207522, title: ""}
+  - {label: "SECTION 6", raw_start: 207522, title: "REPRESENTATIONS, WARRANTIES AND COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 207925, title: "Organization Matters;"}
+  - {label: "SECTION 6.02", raw_start: 208445, title: "Financial Condition"}
+  - {label: "SECTION 6.03", raw_start: 209058, title: "Power and Authority;"}
+  - {label: "SECTION 6.04", raw_start: 211245, title: "Compliance with Laws"}
+  - {label: "SECTION 6.05", raw_start: 211984, title: "Environmental Matters"}
+  - {label: "SECTION 6.06", raw_start: 213736, title: "Pending Litigation"}
+  - {label: "SECTION 6.07", raw_start: 214182, title: "Maintenance of Financial Records;"}
+  - {label: "SECTION 6.08", raw_start: 215651, title: "Asset Appraisals"}
+  - {label: "SECTION 6.09", raw_start: 216310, title: "Insurance"}
+  - {label: "SECTION 6.10", raw_start: 218098, title: "Taxes"}
+  - {label: "SECTION 6.11", raw_start: 219378, title: "Anti-Money Laundering and Terrorism Regulations"}
+  - {label: "SECTION 6.12", raw_start: 220359, title: "Financial and Other Reporting"}
+  - {label: "SECTION 6.13", raw_start: 221077, title: "Negative Covenants"}
+  - {label: "SECTION 6.13.1", raw_start: 221136, title: "Indebtedness"}
+  - {label: "SECTION 6.13.2", raw_start: 221619, title: "Sale of Assets"}
+  - {label: "SECTION 6.13.3", raw_start: 221886, title: "Pledge of Assets"}
+  - {label: "SECTION 6.13.5", raw_start: 222551, title: "Guaranty Obligations"}
+  - {label: "SECTION 6.13.6", raw_start: 222852, title: "Dividends and Distributions"}
+  - {label: "SECTION 6.13.7", raw_start: 223316, title: "Restricted Payments"}
+  - {label: "SECTION 6.13.8", raw_start: 223830, title: "Investments"}
+  - {label: "SECTION 6.13.9", raw_start: 224414, title: "Related Party Transactions"}
+  - {label: "ARTICLE 7", raw_start: 225684, title: ""}
+  - {label: "SECTION 7", raw_start: 225684, title: "POWERS"}
+  - {label: "ARTICLE 8", raw_start: 227361, title: ""}
+  - {label: "SECTION 8", raw_start: 227361, title: "EVENTS OF DEFAULT AND REMEDIES"}
+  - {label: "SECTION 8.01", raw_start: 227403, title: "Events of Default"}
+  - {label: "SECTION 8.01.1", raw_start: 227504, title: "The failure of the Company to pay any of the Obligations whe"}
+  - {label: "SECTION 8.01.2", raw_start: 227584, title: "The cessation of the business of the Company or the calling "}
+  - {label: "SECTION 8.01.3", raw_start: 227764, title: "The commencement by the Company of any bankruptcy, insolvenc"}
+  - {label: "SECTION 8.01.4", raw_start: 227992, title: "The commencement against the Company of any bankruptcy, inso"}
+  - {label: "SECTION 8.01.5", raw_start: 228568, title: "Any representation or warranty made or furnished by the Comp"}
+  - {label: "SECTION 8.01.6", raw_start: 228889, title: "The breach or violation by the Company of any covenant conta"}
+  - {label: "SECTION 8.01.7", raw_start: 229306, title: "The breach or violation by the Company of any warranty,"}
+  - {label: "SECTION 8.01.8", raw_start: 229475, title: "The occurrence of any default or event of default (after giv"}
+  - {label: "SECTION 8.01.9", raw_start: 229761, title: "The Company shall (i) engage in any 'prohibited transaction'"}
+  - {label: "SECTION 8.01.10", raw_start: 230559, title: "The Parent ceases to own and control 100% of the voting equi"}
+  - {label: "SECTION 8.01.11", raw_start: 230654, title: "A final judgment for the payment of money in excess of $100,"}
+  - {label: "SECTION 8.01.12", raw_start: 230911, title: "The occurrence of any default or event of default (after giv"}
+  - {label: "SECTION 8.01.13", raw_start: 231232, title: "The Company shall modify the terms or provisions of any agre"}
+  - {label: "SECTION 8.01.14", raw_start: 231688, title: "Any other event shall have occurred that has had or could"}
+  - {label: "SECTION 8.02", raw_start: 231872, title: "Remedies With Respect to Outstanding Obligations"}
+  - {label: "SECTION 8.03", raw_start: 233542, title: "Remedies With Respect to Collateral"}
+  - {label: "ARTICLE 9", raw_start: 237844, title: ""}
+  - {label: "SECTION 9", raw_start: 237844, title: "TERMINATION"}
+  - {label: "ARTICLE 10", raw_start: 239224, title: ""}
+  - {label: "SECTION 10", raw_start: 239224, title: "GENERAL INDEMNITY"}
+  - {label: "ARTICLE 11", raw_start: 243074, title: ""}
+  - {label: "SECTION 11", raw_start: 243074, title: "MISCELLANEOUS"}
+  - {label: "SECTION 11.01", raw_start: 243100, title: "Waivers"}
+  - {label: "SECTION 11.02", raw_start: 243948, title: "Entire Agreement;"}
+  - {label: "SECTION 11.03", raw_start: 246187, title: "Usury Limit"}
+  - {label: "SECTION 11.04", raw_start: 247220, title: "Severability"}
+  - {label: "SECTION 11.05", raw_start: 247749, title: "WAIVER OF JURY TRIAL;"}
+  - {label: "SECTION 11.06", raw_start: 248351, title: "Notices"}
+  - {label: "SECTION 11.07", raw_start: 250067, title: "Counterparts;"}
+  - {label: "SECTION 11.08", raw_start: 250985, title: "CHOICE OF LAW"}
+absent: []

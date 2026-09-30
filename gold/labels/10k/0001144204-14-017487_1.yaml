@@ -1,0 +1,26 @@
+accession: 0001144204-14-017487
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 62233, title: ""}
+  - {label: "ITEM 1", raw_start: 62470, title: "Business"}
+  - {label: "ITEM 2", raw_start: 294489, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 322178, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 323018, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 323681, title: ""}
+  - {label: "ITEM 5", raw_start: 323944, title: "Market for Registrant’s Common Equity, Related Stockholder M"}
+  - {label: "ITEM 7", raw_start: 359732, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 8", raw_start: 561887, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 562540, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 563206, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 569301, title: "Other Information"}
+  - {label: "PART III", raw_start: 569843, title: ""}
+  - {label: "ITEM 10", raw_start: 570107, title: "Directors, Executive Officers and Corporate Goverance"}
+  - {label: "ITEM 11", raw_start: 571014, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 571890, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 572788, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 573715, title: "Principal Accountant Fees and Services"}
+  - {label: "PART IV", raw_start: 575230, title: ""}
+  - {label: "ITEM 15", raw_start: 575500, title: "Exhibits and Financial Statement Schedules"}
+absent: []

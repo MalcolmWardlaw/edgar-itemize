@@ -1,0 +1,153 @@
+accession: 0000013239-18-000015
+sequence: 3
+doc_type: EX-10.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1807589, title: ""}
+  - {label: "ARTICLE 2", raw_start: 1867480, title: ""}
+  - {label: "SECTION 2.01", raw_start: 1868093, title: "In this Agreement, unless otherwise specified"}
+  - {label: "SECTION 2.02", raw_start: 1875680, title: "The table of contents and headings in this Agreement are ins"}
+  - {label: "SECTION 2.03", raw_start: 1876367, title: "In the event of a conflict between the terms and conditions "}
+  - {label: "SECTION 2.04", raw_start: 1877124, title: "Purchaser and Supplier acknowledge that (notwithstanding any"}
+  - {label: "ARTICLE 3", raw_start: 1880071, title: ""}
+  - {label: "SECTION 3.01", raw_start: 1880685, title: "Subject to Article 8.7 and Article 18, Shell as the Supplier"}
+  - {label: "SECTION 3.02", raw_start: 1882450, title: "Subject to Article 8.7 and Article 18, Hexion as the Supplie"}
+  - {label: "ARTICLE 4", raw_start: 1883925, title: ""}
+  - {label: "SECTION 4.01", raw_start: 1884664, title: "The SUMF Items (which cover the supply of utilities and the "}
+  - {label: "SECTION 4.02", raw_start: 1886565, title: "A description and, where appropriate, the technical specific"}
+  - {label: "SECTION 4.03", raw_start: 1887433, title: "Any Firm Capacity Reservation amounts for each SUMF Item as "}
+  - {label: "SECTION 4.04", raw_start: 1888184, title: "If the Purchaser or the Supplier subsequently wishes to chan"}
+  - {label: "SECTION 4.05", raw_start: 1889528, title: "Title to and risk of loss of a SUMF Item shall pass from the"}
+  - {label: "SECTION 4.06", raw_start: 1890179, title: "SUPPLIER MAKES NO REPRESENTATIONS OR WARRANTIES EXPRESS OR I"}
+  - {label: "ARTICLE 5", raw_start: 1891721, title: ""}
+  - {label: "SECTION 5.01", raw_start: 1892331, title: "In consideration of the supply of the SUMF Items by the Supp"}
+  - {label: "SECTION 5.02", raw_start: 1893296, title: "In addition to the SUMF Charges set forth in Article 5.1 and"}
+  - {label: "ARTICLE 6", raw_start: 1894813, title: ""}
+  - {label: "SECTION 6.01", raw_start: 1895706, title: "(a) Except as otherwise provided in this Article 6 or in the"}
+  - {label: "SECTION 6.02", raw_start: 1902495, title: "Costs will be ascertained and charged pursuant to the Suppli"}
+  - {label: "SECTION 6.03", raw_start: 1906196, title: "The Purchaser shall bear the costs of any redundancy program"}
+  - {label: "SECTION 6.04", raw_start: 1908349, title: "Unless the Parties agree otherwise in Exhibit A, the Parties"}
+  - {label: "SECTION 6.05", raw_start: 1909049, title: "Audit rights"}
+  - {label: "ARTICLE 7", raw_start: 1921443, title: ""}
+  - {label: "SECTION 7.01", raw_start: 1922054, title: "The Purchaser shall pay the SUMF Charges in the currency spe"}
+  - {label: "SECTION 7.02", raw_start: 1923189, title: "Unless otherwise set out in the relevant Schedules, the prov"}
+  - {label: "ARTICLE 8", raw_start: 1934869, title: ""}
+  - {label: "SECTION 8.01", raw_start: 1935496, title: "Annual Forecast"}
+  - {label: "SECTION 8.02", raw_start: 1936836, title: "[Intentionally omitted.]"}
+  - {label: "SECTION 8.03", raw_start: 1937363, title: "[Intentionally omitted.]"}
+  - {label: "SECTION 8.04", raw_start: 1938203, title: "[Intentionally omitted.]"}
+  - {label: "SECTION 8.05", raw_start: 1938729, title: "[Intentionally omitted.]"}
+  - {label: "SECTION 8.06", raw_start: 1939236, title: "[Intentionally omitted.]"}
+  - {label: "SECTION 8.07", raw_start: 1939908, title: "Curtailment"}
+  - {label: "ARTICLE 9", raw_start: 1942915, title: ""}
+  - {label: "SECTION 9.01", raw_start: 1943330, title: "Loss and Damage to Assets and Employees"}
+  - {label: "SECTION 9.02", raw_start: 1946890, title: "General Indemnification"}
+  - {label: "SECTION 9.03", raw_start: 1951996, title: "Limitations"}
+  - {label: "SECTION 9.04", raw_start: 1962375, title: "Sole Remedy"}
+  - {label: "SECTION 9.05", raw_start: 1963654, title: "Indemnification Procedures"}
+  - {label: "SECTION 9.06", raw_start: 1971195, title: "Insurance"}
+  - {label: "SECTION 9.07", raw_start: 1980053, title: "THE FOREGOING INDEMNITIES SET FORTH IN THIS ARTICLE 9 ARE IN"}
+  - {label: "SECTION 9.08", raw_start: 1981578, title: "The provision of this Article 9 are for the benefit of the P"}
+  - {label: "ARTICLE 10", raw_start: 1982494, title: ""}
+  - {label: "SECTION 10.01", raw_start: 1983113, title: "This Agreement shall be of full force and effect on and from"}
+  - {label: "SECTION 10.02", raw_start: 1983928, title: "Hexion may, in addition to its other remedies, terminate thi"}
+  - {label: "SECTION 10.03", raw_start: 1986825, title: "The Purchaser may, in addition to other remedies, terminate "}
+  - {label: "SECTION 10.04", raw_start: 1991464, title: "Shell may terminate this Agreement in its entirety in any of"}
+  - {label: "SECTION 10.05", raw_start: 1997619, title: "Upon termination of this Agreement hereunder, the Parties, a"}
+  - {label: "SECTION 10.06", raw_start: 1998882, title: "The Supplier may, in addition to other remedies, terminate t"}
+  - {label: "SECTION 10.07", raw_start: 2004168, title: "Each Party shall exercise its reasonable efforts to minimize"}
+  - {label: "SECTION 10.08", raw_start: 2004879, title: "Any termination of this Agreement, in whole or in part, incl"}
+  - {label: "SECTION 10.09", raw_start: 2005632, title: "Termination of this Agreement under this Article 10 shall no"}
+  - {label: "SECTION 10.10", raw_start: 2008833, title: "Within 60 days after termination of this Agreement, the Supp"}
+  - {label: "SECTION 10.11", raw_start: 2009960, title: "Any termination of this Agreement, either in whole or in par"}
+  - {label: "SECTION 10.12", raw_start: 2010794, title: "If there is a dispute regarding the termination of this Agre"}
+  - {label: "ARTICLE 11", raw_start: 2014218, title: ""}
+  - {label: "SECTION 11.01", raw_start: 2014845, title: "Neither this Agreement nor the performance by any of the Par"}
+  - {label: "SECTION 11.02", raw_start: 2015592, title: "The copyright, property and any other industrial property ri"}
+  - {label: "ARTICLE 12", raw_start: 2016165, title: ""}
+  - {label: "SECTION 12.01", raw_start: 2016779, title: "Subject to Article 12.2, each Party shall treat as strictly "}
+  - {label: "SECTION 12.02", raw_start: 2020349, title: "Either Party may disclose information which would otherwise "}
+  - {label: "SECTION 12.03", raw_start: 2027560, title: "The restrictions contained in Article 12.1 shall continue to"}
+  - {label: "ARTICLE 13", raw_start: 2028255, title: ""}
+  - {label: "SECTION 13.01", raw_start: 2028717, title: "Purchaser’s Optional Capital Improvement Project"}
+  - {label: "SECTION 13.02", raw_start: 2033057, title: "If a capital improvement to a SUMF Asset would not be otherw"}
+  - {label: "SECTION 13.03", raw_start: 2034388, title: "If either Party determines that a service has historically b"}
+  - {label: "SECTION 13.04", raw_start: 2035348, title: "In connection with the operations by the Supplier, the Suppl"}
+  - {label: "SECTION 13.05", raw_start: 2036272, title: "If Supplier must implement a capital improvement project to "}
+  - {label: "SECTION 13.06", raw_start: 2039092, title: "Capital improvement project cost amounts payable by the Purc"}
+  - {label: "ARTICLE 14", raw_start: 2039901, title: ""}
+  - {label: "SECTION 14.01", raw_start: 2040372, title: "If SUMF Assets are damaged or destroyed, the owner of the SU"}
+  - {label: "SECTION 14.02", raw_start: 2041016, title: "If the owner does not timely fulfill its obligation to resto"}
+  - {label: "SECTION 14.03", raw_start: 2041859, title: "A Party who causes damage to a SUMF Asset as a result of its"}
+  - {label: "ARTICLE 15", raw_start: 2043463, title: ""}
+  - {label: "SECTION 15.01", raw_start: 2043928, title: "Measurement and Metering"}
+  - {label: "SECTION 15.02", raw_start: 2046179, title: "Calibration"}
+  - {label: "SECTION 15.03", raw_start: 2047609, title: "Following any calibration test made pursuant to this Article"}
+  - {label: "SECTION 15.04", raw_start: 2049025, title: "The Parties acknowledge that special metering problems may a"}
+  - {label: "SECTION 15.05", raw_start: 2050297, title: "Should the Supplier or the Purchaser fail to obtain suitable"}
+  - {label: "SECTION 15.06", raw_start: 2052141, title: "If required, The Parties shall complete promptly the identif"}
+  - {label: "SECTION 15.07", raw_start: 2052976, title: "For Delivery Points where no Meter exists, allocation method"}
+  - {label: "SECTION 15.08", raw_start: 2054174, title: "Line losses shall be determined by engineering calculations"}
+  - {label: "ARTICLE 16", raw_start: 2055416, title: ""}
+  - {label: "SECTION 16.01", raw_start: 2056351, title: "Shell and Hexion shall jointly establish a committee (the “M"}
+  - {label: "SECTION 16.02", raw_start: 2057477, title: "The Monitoring Committee shall meet within three (3) months "}
+  - {label: "SECTION 16.03", raw_start: 2058290, title: "The Monitoring Committee shall use all reasonable endeavors "}
+  - {label: "SECTION 16.04", raw_start: 2059159, title: "The Monitoring Committee shall have the authority to develop"}
+  - {label: "ARTICLE 17", raw_start: 2061021, title: ""}
+  - {label: "SECTION 17.01", raw_start: 2061633, title: "Both Parties shall perform their respective duties under thi"}
+  - {label: "SECTION 17.02", raw_start: 2062560, title: "The services under this Agreement and all operations by the "}
+  - {label: "SECTION 17.03", raw_start: 2063865, title: "Planned Shutdowns"}
+  - {label: "SECTION 17.04", raw_start: 2067570, title: "Every two (2) years, or as often as either Party may reasona"}
+  - {label: "SECTION 17.05", raw_start: 2068284, title: "Shell stipulates to Hexion that some or part of the SUMF Ite"}
+  - {label: "SECTION 17.06", raw_start: 2069310, title: "The Supplier agrees to make available all procedures, polici"}
+  - {label: "SECTION 17.07", raw_start: 2069958, title: "Parties agree to comply with the anti-bribery or anti-money "}
+  - {label: "ARTICLE 18", raw_start: 2070523, title: ""}
+  - {label: "SECTION 18.01", raw_start: 2071135, title: "A Party will not be in breach of this Agreement (except for "}
+  - {label: "SECTION 18.02", raw_start: 2074637, title: "Upon remedying or overcoming the circumstances giving rise t"}
+  - {label: "SECTION 18.03", raw_start: 2075352, title: "If the Force Majeure in question prevails for a continuous p"}
+  - {label: "SECTION 18.04", raw_start: 2076140, title: "“Force Majeure” means, in relation to either Party, an event"}
+  - {label: "ARTICLE 19", raw_start: 2084300, title: ""}
+  - {label: "SECTION 19.01", raw_start: 2084917, title: "Any Dispute arising out of or in connection with this Agreem"}
+  - {label: "SECTION 19.02", raw_start: 2085829, title: "In the event of a Dispute between the Parties, the Parties s"}
+  - {label: "SECTION 19.03", raw_start: 2086534, title: "Any Dispute which cannot be resolved by the Parties shall be"}
+  - {label: "SECTION 19.04", raw_start: 2087353, title: "Any Dispute which cannot be resolved within thirty (30) days"}
+  - {label: "SECTION 19.05", raw_start: 2088311, title: "Any Dispute which cannot be resolved by the Steering Committ"}
+  - {label: "SECTION 19.06", raw_start: 2089743, title: "Any Dispute which cannot be resolved by the Persons appointe"}
+  - {label: "SECTION 19.07", raw_start: 2090652, title: "If the Parties are unable to select a mediator within fiftee"}
+  - {label: "SECTION 19.08", raw_start: 2092780, title: "Pending resolution of any dispute between the Parties, the P"}
+  - {label: "SECTION 19.09", raw_start: 2093553, title: "Resolution of any dispute between the Parties involving paym"}
+  - {label: "SECTION 19.10", raw_start: 2094566, title: "Each Party shall, in addition to all rights provided herein "}
+  - {label: "ARTICLE 20", raw_start: 2095073, title: ""}
+  - {label: "SECTION 20.01", raw_start: 2095717, title: "Each Party shall at its own cost, from time to time on reque"}
+  - {label: "ARTICLE 21", raw_start: 2097436, title: ""}
+  - {label: "ARTICLE 22", raw_start: 2098218, title: ""}
+  - {label: "SECTION 22.01", raw_start: 2098822, title: "Hexion shall be entitled to assign this Agreement, to any Af"}
+  - {label: "SECTION 22.02", raw_start: 2100037, title: "Except as provided above in Article 22.1, any other assignme"}
+  - {label: "SECTION 22.03", raw_start: 2103161, title: "Shell shall be entitled to assign this Agreement to any Affi"}
+  - {label: "SECTION 22.04", raw_start: 2103797, title: "Any assignment of this Agreement shall not relieve either Pa"}
+  - {label: "SECTION 22.05", raw_start: 2104997, title: "Each Party agrees to execute and deliver to the other Party "}
+  - {label: "SECTION 22.06", raw_start: 2105878, title: "A Supplier of a SUMF Item may at its discretion procure from"}
+  - {label: "ARTICLE 23", raw_start: 2106844, title: ""}
+  - {label: "SECTION 23.01", raw_start: 2107455, title: "If any of the provisions of this Agreement is or becomes ill"}
+  - {label: "SECTION 23.02", raw_start: 2108663, title: "The invalidity of one or more provisions of this Agreement s"}
+  - {label: "ARTICLE 24", raw_start: 2110308, title: ""}
+  - {label: "ARTICLE 25", raw_start: 2111478, title: ""}
+  - {label: "SECTION 25.01", raw_start: 2112096, title: "The delay or failure of either Party at any time in exercisi"}
+  - {label: "SECTION 25.02", raw_start: 2113816, title: "The single or partial exercise of any right, power or remedy"}
+  - {label: "SECTION 25.03", raw_start: 2114527, title: "The rights, powers and remedies provided in this Agreement a"}
+  - {label: "SECTION 25.04", raw_start: 2115637, title: "Shell and Hexion each acknowledges that it has had adequate "}
+  - {label: "ARTICLE 26", raw_start: 2116315, title: ""}
+  - {label: "SECTION 26.01", raw_start: 2116944, title: "Except as herein set forth, this Agreement constitutes the e"}
+  - {label: "SECTION 26.02", raw_start: 2117665, title: "Each of the Parties acknowledges on its own behalf and on be"}
+  - {label: "SECTION 26.03", raw_start: 2118399, title: "Each Party waives all rights and remedies which, but for thi"}
+  - {label: "SECTION 26.04", raw_start: 2119144, title: "Any amendment or modification of this Agreement shall be ine"}
+  - {label: "ARTICLE 27", raw_start: 2119646, title: ""}
+  - {label: "SECTION 27.01", raw_start: 2120252, title: "All notices, requests, waivers, demands, directions and othe"}
+  - {label: "SECTION 27.02", raw_start: 2121850, title: "Any such notice so delivered will comply with the terms of t"}
+  - {label: "SECTION 27.03", raw_start: 2122557, title: "A Party may change its notice details on giving notice to th"}
+  - {label: "ARTICLE 28", raw_start: 2123318, title: ""}
+  - {label: "ARTICLE 29", raw_start: 2124382, title: ""}
+  - {label: "ARTICLE 30", raw_start: 2125300, title: ""}
+  - {label: "SECTION 30.01", raw_start: 2125911, title: "This Agreement may be executed in any number of counterparts"}
+  - {label: "SECTION 30.02", raw_start: 2126603, title: "Each counterpart shall constitute an original of this Agreem"}
+absent: []

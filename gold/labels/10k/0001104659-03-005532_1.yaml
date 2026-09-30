@@ -1,0 +1,26 @@
+accession: 0001104659-03-005532
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 42975, title: ""}
+  - {label: "ITEM 1", raw_start: 43288, title: "Business"}
+  - {label: "ITEM 2", raw_start: 896577, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 910833, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 911477, title: "Submission of Matters to a Vote of Security Holders"}
+  - {label: "PART II", raw_start: 912815, title: ""}
+  - {label: "ITEM 5", raw_start: 913124, title: "Market for Registrant's Common Equity and Related Stockholde"}
+  - {label: "ITEM 6", raw_start: 946698, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 1396045, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 2524422, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 2852217, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 4490145, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "PART III", raw_start: 4490852, title: ""}
+  - {label: "ITEM 10", raw_start: 4491164, title: "Directors and Executive Officers of the Registrant"}
+  - {label: "ITEM 11", raw_start: 4492223, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 4493172, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 4494087, title: "Certain Relationships and Related Transactions"}
+  - {label: "ITEM 14", raw_start: 4494910, title: "Controls and Procedures"}
+  - {label: "PART IV", raw_start: 4496596, title: ""}
+  - {label: "ITEM 15", raw_start: 4496920, title: "Exhibits, Financial Statements, Schedules, and Reports on Fo"}
+absent: []

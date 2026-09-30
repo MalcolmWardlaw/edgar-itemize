@@ -1,0 +1,1 @@
+--8<-- "docs/OUTPUT_CONTRACT.md"

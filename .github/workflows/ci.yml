@@ -1,0 +1,81 @@
+# Tests on the Python matrix and `verify` on the fixture subset of the conformance set
+# (docs/RELEASE_PLAN.md section 4 item 9). No network, no EDGAR mirror: the runner has no
+# data root, so every mirror-backed conformance row is reported as `input missing` (which
+# does not fail the check, docs/VERSIONING.md section 6) and only the `fixtures` rows,
+# whose inputs live under tests/data/, are parsed and compared.
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+    tags-ignore: ["v*"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+          enable-cache: true
+
+      - name: Sync (locked)
+        run: uv sync --all-extras --frozen
+
+      - name: Tests (no data root; the mirror-backed tests skip)
+        run: uv run pytest -q
+
+      - name: Verify the fixture subset of the conformance set
+        run: |
+          mkdir -p "${RUNNER_TEMP}/empty-mirror"
+          uv run edgar-itemize verify --set "conformance/$(uv run python -c 'from edgar_itemize import __version__; print(__version__)')" \
+            --data-root "${RUNNER_TEMP}/empty-mirror" --workers 2
+
+  docs:
+    name: Build the manual (strict)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Sync (locked, docs extra)
+        run: uv sync --extra docs --frozen
+      - name: mkdocs build --strict
+        run: uv run mkdocs build --strict
+
+  build:
+    name: Build sdist, wheel and image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: uv build
+        run: uv build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: docker/setup-buildx-action@v3
+      - name: Build the image (not pushed)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          load: true
+          tags: edgar-itemize:ci
+      - name: Smoke the image
+        run: docker run --rm edgar-itemize:ci --help

@@ -1,0 +1,124 @@
+accession: 0000898430-95-001533
+sequence: 2
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 115501, title: ""}
+  - {label: "ARTICLE 2", raw_start: 181581, title: ""}
+  - {label: "SECTION 2.01", raw_start: 181729, title: "Revolving Credit"}
+  - {label: "SECTION 2.02", raw_start: 187597, title: "Interest and Fees"}
+  - {label: "SECTION 2.03", raw_start: 199189, title: "Payments"}
+  - {label: "SECTION 2.04", raw_start: 212682, title: "Swing Line"}
+  - {label: "ARTICLE 3", raw_start: 218416, title: ""}
+  - {label: "SECTION 3.01", raw_start: 218604, title: "Exchange of Notes"}
+  - {label: "SECTION 3.02", raw_start: 219421, title: "Transfer of Loan Balances"}
+  - {label: "SECTION 3.03", raw_start: 222216, title: "Release of Collateral"}
+  - {label: "ARTICLE 4", raw_start: 222972, title: ""}
+  - {label: "SECTION 4.01", raw_start: 223136, title: "Conditions to Initial Borrowing"}
+  - {label: "SECTION 4.02", raw_start: 229311, title: "Conditions to Each Loan"}
+  - {label: "SECTION 4.03", raw_start: 231415, title: "Conditions to Acquisition Loans"}
+  - {label: "SECTION 4.04", raw_start: 232720, title: "Conditions for the Benefit of the Agent and the Banks"}
+  - {label: "SECTION 4.05", raw_start: 233247, title: "Failure of Conditions"}
+  - {label: "ARTICLE 5", raw_start: 234154, title: ""}
+  - {label: "SECTION 5.01", raw_start: 234560, title: "Due Organization"}
+  - {label: "SECTION 5.02", raw_start: 235203, title: "Organization, Standing and Qualification of Subsidiaries and"}
+  - {label: "SECTION 5.03", raw_start: 237916, title: "Ownership Structure of Partnerships"}
+  - {label: "SECTION 5.04", raw_start: 238821, title: "Requisite Power"}
+  - {label: "SECTION 5.05", raw_start: 239693, title: "Authorization"}
+  - {label: "SECTION 5.06", raw_start: 240088, title: "Officer Authorization"}
+  - {label: "SECTION 5.07", raw_start: 240428, title: "Binding Nature"}
+  - {label: "SECTION 5.08", raw_start: 240939, title: "No Conflict"}
+  - {label: "SECTION 5.09", raw_start: 242541, title: "No Event of Default"}
+  - {label: "SECTION 5.10", raw_start: 242870, title: "Financial Statements"}
+  - {label: "SECTION 5.11", raw_start: 243936, title: "Projected Financial Statements and Projections"}
+  - {label: "SECTION 5.12", raw_start: 245306, title: "Real Property"}
+  - {label: "SECTION 5.13", raw_start: 246369, title: "Equipment"}
+  - {label: "SECTION 5.14", raw_start: 246689, title: "Contracts"}
+  - {label: "SECTION 5.15", raw_start: 248349, title: "Intellectual Property"}
+  - {label: "SECTION 5.16", raw_start: 249352, title: "Litigation and Contingent Liabilities"}
+  - {label: "SECTION 5.17", raw_start: 250049, title: "Tax Returns and Tax Matters"}
+  - {label: "SECTION 5.18", raw_start: 250721, title: "Partnership Interests"}
+  - {label: "SECTION 5.19", raw_start: 251593, title: "REIT Status"}
+  - {label: "SECTION 5.20", raw_start: 252060, title: "No Subordination"}
+  - {label: "SECTION 5.21", raw_start: 252388, title: "Employee Benefits"}
+  - {label: "SECTION 5.22", raw_start: 258525, title: "Environmental Matters"}
+  - {label: "SECTION 5.23", raw_start: 261443, title: "Insurance"}
+  - {label: "SECTION 5.24", raw_start: 262069, title: "Compliance with Laws"}
+  - {label: "SECTION 5.25", raw_start: 262639, title: "Statutory Regulation"}
+  - {label: "SECTION 5.26", raw_start: 263755, title: "Use of Proceeds;"}
+  - {label: "SECTION 5.27", raw_start: 264514, title: "Solvency"}
+  - {label: "SECTION 5.28", raw_start: 264927, title: "Fiscal Year"}
+  - {label: "ARTICLE 6", raw_start: 265163, title: ""}
+  - {label: "SECTION 6.01", raw_start: 265603, title: "Accounting Records"}
+  - {label: "SECTION 6.02", raw_start: 265918, title: "Financial Statements and Notices"}
+  - {label: "SECTION 6.03", raw_start: 277318, title: "Inspection of Property, Books and Records"}
+  - {label: "SECTION 6.04", raw_start: 279091, title: "Maintenance of Existence"}
+  - {label: "SECTION 6.05", raw_start: 279925, title: "Tax Returns"}
+  - {label: "SECTION 6.06", raw_start: 280464, title: "Qualifications To Do Business"}
+  - {label: "SECTION 6.07", raw_start: 280897, title: "Compliance with Laws"}
+  - {label: "SECTION 6.08", raw_start: 281209, title: "Key Contracts"}
+  - {label: "SECTION 6.09", raw_start: 281448, title: "REIT Status"}
+  - {label: "SECTION 6.10", raw_start: 281727, title: "Material Agreements"}
+  - {label: "SECTION 6.11", raw_start: 282113, title: "Insurance"}
+  - {label: "SECTION 6.12", raw_start: 283026, title: "Facilities"}
+  - {label: "SECTION 6.13", raw_start: 283427, title: "Taxes and Other Liabilities"}
+  - {label: "SECTION 6.14", raw_start: 284160, title: "Governmental Approvals"}
+  - {label: "SECTION 6.15", raw_start: 285057, title: "Compliance with Governmental Approvals and Governmental Requ"}
+  - {label: "SECTION 6.16", raw_start: 285592, title: "Compliance with Environmental Laws"}
+  - {label: "SECTION 6.17", raw_start: 286040, title: "Prevent Contamination"}
+  - {label: "SECTION 6.18", raw_start: 287188, title: "Tax Qualification"}
+  - {label: "SECTION 6.19", raw_start: 288373, title: "Funding"}
+  - {label: "SECTION 6.20", raw_start: 289056, title: "Financial Tests"}
+  - {label: "SECTION 6.21", raw_start: 290210, title: "Unencumbered Assets"}
+  - {label: "SECTION 6.22", raw_start: 290452, title: "Borrower's Account"}
+  - {label: "SECTION 6.23", raw_start: 290627, title: "Accounting Policies"}
+  - {label: "ARTICLE 7", raw_start: 290963, title: ""}
+  - {label: "SECTION 7.01", raw_start: 291407, title: "Mergers"}
+  - {label: "SECTION 7.02", raw_start: 292273, title: "Change of Business"}
+  - {label: "SECTION 7.03", raw_start: 292684, title: "Distributions"}
+  - {label: "SECTION 7.04", raw_start: 293329, title: "Accounting Policies"}
+  - {label: "SECTION 7.05", raw_start: 293639, title: "Investments"}
+  - {label: "SECTION 7.06", raw_start: 294085, title: "Liens"}
+  - {label: "SECTION 7.07", raw_start: 294844, title: "Contingent Obligations"}
+  - {label: "SECTION 7.08", raw_start: 295577, title: "Indebtedness"}
+  - {label: "SECTION 7.09", raw_start: 297470, title: "Sale of Assets"}
+  - {label: "SECTION 7.10", raw_start: 298269, title: "Sale-Leaseback Transactions"}
+  - {label: "SECTION 7.11", raw_start: 298608, title: "[Reserved]"}
+  - {label: "SECTION 7.12", raw_start: 298655, title: "Transactions with Affiliates"}
+  - {label: "SECTION 7.13", raw_start: 300018, title: "Restrictive Agreements"}
+  - {label: "SECTION 7.14", raw_start: 300521, title: "Key Contracts"}
+  - {label: "SECTION 7.15", raw_start: 301601, title: "Certain ERISA Payments"}
+  - {label: "SECTION 7.16", raw_start: 301911, title: "Compliance with ERISA"}
+  - {label: "SECTION 7.17", raw_start: 302972, title: "Changes in Partnerships"}
+  - {label: "SECTION 7.18", raw_start: 303648, title: "Other Contracts"}
+  - {label: "ARTICLE 8", raw_start: 304146, title: ""}
+  - {label: "SECTION 8.01", raw_start: 304306, title: "Events of Default"}
+  - {label: "SECTION 8.02", raw_start: 315342, title: "Termination of Commitment and Acceleration"}
+  - {label: "ARTICLE 9", raw_start: 316510, title: ""}
+  - {label: "SECTION 9.01", raw_start: 316662, title: "Appointment and Authorization"}
+  - {label: "SECTION 9.02", raw_start: 318022, title: "Delegation of Duties"}
+  - {label: "SECTION 9.03", raw_start: 318509, title: "Liability of Agent"}
+  - {label: "SECTION 9.04", raw_start: 320127, title: "Reliance by Agent"}
+  - {label: "SECTION 9.05", raw_start: 322209, title: "Notice of Default"}
+  - {label: "SECTION 9.06", raw_start: 323598, title: "Credit Decision"}
+  - {label: "SECTION 9.07", raw_start: 325411, title: "Indemnification"}
+  - {label: "SECTION 9.08", raw_start: 327631, title: "Agent in Individual Capacity"}
+  - {label: "SECTION 9.09", raw_start: 328424, title: "Successor Agent"}
+  - {label: "SECTION 9.10", raw_start: 329616, title: "Borrower's Reliance"}
+  - {label: "ARTICLE 10", raw_start: 330159, title: ""}
+  - {label: "SECTION 10.01", raw_start: 330317, title: "Successors and Assigns and Sale of Interests"}
+  - {label: "SECTION 10.02", raw_start: 335895, title: "No Implied Waiver"}
+  - {label: "SECTION 10.03", raw_start: 336589, title: "Amendments and Waivers"}
+  - {label: "SECTION 10.04", raw_start: 338730, title: "Remedies Cumulative"}
+  - {label: "SECTION 10.05", raw_start: 339194, title: "Severability"}
+  - {label: "SECTION 10.06", raw_start: 339654, title: "Costs, Expenses and Attorneys' Fees"}
+  - {label: "SECTION 10.07", raw_start: 341160, title: "General Indemnification"}
+  - {label: "SECTION 10.08", raw_start: 343737, title: "Environmental Indemnification"}
+  - {label: "SECTION 10.09", raw_start: 346124, title: "Notices"}
+  - {label: "SECTION 10.10", raw_start: 348513, title: "Entire Agreement"}
+  - {label: "SECTION 10.11", raw_start: 349273, title: "Governing Law and Consent to Jurisdiction"}
+  - {label: "SECTION 10.12", raw_start: 350552, title: "Counterparts"}
+  - {label: "SECTION 10.13", raw_start: 350843, title: "Waiver of Jury Trial"}
+  - {label: "SECTION 10.14", raw_start: 351266, title: "Headings"}
+  - {label: "SECTION 10.15", raw_start: 351504, title: "Supersession"}
+absent: []

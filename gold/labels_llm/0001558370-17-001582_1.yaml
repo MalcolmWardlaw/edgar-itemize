@@ -1,0 +1,14 @@
+accession: 0001558370-17-001582
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  # not a heading: PART II at 341014 (table_of_contents)
+  # not a heading: ITEM 8 at 341022 (table_of_contents)
+  # not a heading: PART II at 375947 (cross_reference)
+  # not a heading: ITEM 8 at 375955 (cross_reference)
+  # not a heading: PART I at 392723 (table_of_contents)
+  # not a heading: ITEM 1A at 392730 (table_of_contents)
+  # not a heading: PART II at 393655 (cross_reference)
+  # not a heading: ITEM 7 at 393663 (table_of_contents)

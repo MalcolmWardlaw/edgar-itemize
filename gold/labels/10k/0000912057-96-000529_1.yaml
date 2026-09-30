@@ -1,0 +1,10 @@
+accession: 0000912057-96-000529
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 4672, title: ""}
+  - {label: "PART II", raw_start: 61225, title: ""}
+  - {label: "PART III", raw_start: 110218, title: ""}
+  - {label: "PART IV", raw_start: 112008, title: ""}
+absent: []

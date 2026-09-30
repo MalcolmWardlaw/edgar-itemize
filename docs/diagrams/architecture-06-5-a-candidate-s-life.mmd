@@ -1,0 +1,24 @@
+stateDiagram-v2
+    [*] --> Block: normalisation
+    Block --> Candidate: candidates._try_match label matched a grammar level (the lbl and gram families)
+    state Candidate {
+        [*] --> Scored
+        Scored: score = style (the sty, pos and pub families) - penalties (rej.prose, rej.long_line, rej.lowercase_title, rej.xref_phrase, rej.continued ...) - index evidence (toc.leader_or_pageno, toc.href) gram.item.title_match waives the prose penalties
+        Scored --> Tagged: passes append tags, move no score (rej.caption_omission / _ibr / _xref, rej.fm_table, rej.page_repeat, rej.vetoed_index_row, rej.ctoc_row, rej.section_xref)
+    }
+    Candidate --> TocRegion: toc.detect_toc (run duplicated later / index evidence)
+    TocRegion --> Rejected_toc: condemned member
+    TocRegion --> Chain: toc.member_rescued / ctoc.region_relief
+    TocRegion --> Chain: toc.vetoed_region (region dropped, rows stay live)
+    Candidate --> Chain
+    Chain --> Node: won its slot (seq.regab_run, seq.strong_duplicate, seq.per_segment)
+    Chain --> Node: recovered out of order (seq.out_of_order)
+    Chain --> Rejected_nonmonotone
+    Chain --> Rejected_weak_duplicate
+    Chain --> Rejected_low_score
+    Node --> Node: paths and spans (the agenda, tree, ocr and kind families)
+    Node --> [*]: nodes table
+    Rejected_toc --> [*]: rejected table
+    Rejected_nonmonotone --> [*]: rejected table
+    Rejected_weak_duplicate --> [*]: rejected table
+    Rejected_low_score --> [*]: rejected table

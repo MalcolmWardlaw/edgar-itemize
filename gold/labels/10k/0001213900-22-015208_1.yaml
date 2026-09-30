@@ -1,0 +1,31 @@
+accession: 0001213900-22-015208
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 38517, title: ""}
+  - {label: "ITEM 1", raw_start: 38802, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 141824, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 399202, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 399770, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 401033, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 402070, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 403236, title: ""}
+  - {label: "ITEM 5", raw_start: 403494, title: "MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDERS "}
+  - {label: "ITEM 6", raw_start: 413723, title: "RESERVED"}
+  - {label: "ITEM 7", raw_start: 414174, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 491908, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 495456, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 830175, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 830760, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 837110, title: "OTHER INFORMATION"}
+  - {label: "ITEM 9C", raw_start: 837941, title: "Disclosure Regarding Foreign Jurisdictions that Prevent Insp"}
+  - {label: "PART III", raw_start: 839131, title: ""}
+  - {label: "ITEM 10", raw_start: 839369, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 950197, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 1019843, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 1043280, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 1045637, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 1053126, title: ""}
+  - {label: "ITEM 15", raw_start: 1053420, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES"}
+absent: []

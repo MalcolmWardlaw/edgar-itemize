@@ -1,0 +1,112 @@
+accession: 0000950135-00-001829
+sequence: 4
+doc_type: EX-10.28
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 114723, title: ""}
+  - {label: "SECTION 1.01", raw_start: 114787, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 131697, title: "Accounting Terms"}
+  - {label: "SECTION 1.03", raw_start: 131872, title: "Other Definitional Provisions"}
+  - {label: "ARTICLE 2", raw_start: 132242, title: ""}
+  - {label: "SECTION 2.01", raw_start: 132313, title: "Revolving Credit"}
+  - {label: "SECTION 2.02", raw_start: 134061, title: "Advances"}
+  - {label: "SECTION 2.02.1", raw_start: 134086, title: "Whenever the Borrower desires to obtain a LIBOR Loan hereund"}
+  - {label: "SECTION 2.02.2", raw_start: 135567, title: "No later than 3:00 p.m"}
+  - {label: "SECTION 2.02.3", raw_start: 136462, title: "Upon the Interim Maturity Date of any LIBOR Loan, unless the"}
+  - {label: "SECTION 2.03", raw_start: 137038, title: "Revolving Loan Account"}
+  - {label: "SECTION 2.04", raw_start: 138067, title: "Interest"}
+  - {label: "SECTION 2.04.1", raw_start: 138092, title: "The Borrower agrees to pay interest in respect of the unpaid"}
+  - {label: "SECTION 2.04.2", raw_start: 140359, title: "Overdue principal and (to the extent permitted by law) overd"}
+  - {label: "SECTION 2.04.3", raw_start: 140718, title: "Interest shall accrue from and including the date of any Adv"}
+  - {label: "SECTION 2.05", raw_start: 141144, title: "Interest Periods"}
+  - {label: "SECTION 2.06", raw_start: 142341, title: "Unused Commitment Fee"}
+  - {label: "SECTION 2.07", raw_start: 143448, title: "Deficiency Advances"}
+  - {label: "ARTICLE 3", raw_start: 145184, title: ""}
+  - {label: "SECTION 3.01", raw_start: 145252, title: "Payments"}
+  - {label: "SECTION 3.01.1", raw_start: 145277, title: "The Borrower shall have the right to prepay the Notes, in wh"}
+  - {label: "SECTION 3.01.2", raw_start: 146752, title: "All payments of principal and interest due under the Notes"}
+  - {label: "SECTION 3.01.3", raw_start: 147324, title: "Whenever any payment to be made hereunder or under any other"}
+  - {label: "SECTION 3.01.4", raw_start: 147893, title: "All payments made by the Borrower on the Notes shall be appl"}
+  - {label: "SECTION 3.02", raw_start: 148876, title: "Capital Adequacy"}
+  - {label: "SECTION 3.02.1", raw_start: 148909, title: "If, after the date of this Agreement, a Lender shall have"}
+  - {label: "SECTION 3.02.2", raw_start: 150353, title: "The Agent will notify the Borrower of any event occurring af"}
+  - {label: "SECTION 3.03", raw_start: 151230, title: "Special Provisions Governing LIBOR Loans"}
+  - {label: "SECTION 3.03.1", raw_start: 154982, title: "(b) as promptly as possible and, in any event, within the ti"}
+  - {label: "SECTION 3.03.2", raw_start: 155779, title: "Compensation"}
+  - {label: "SECTION 3.04", raw_start: 157308, title: "Taxes"}
+  - {label: "ARTICLE 4", raw_start: 159511, title: ""}
+  - {label: "SECTION 4.01", raw_start: 159869, title: "Organization, Existence and Power"}
+  - {label: "SECTION 4.02", raw_start: 160657, title: "Authorization of Loan Documents;"}
+  - {label: "SECTION 4.03", raw_start: 161100, title: "Authority"}
+  - {label: "SECTION 4.04", raw_start: 162035, title: "Capital Structure"}
+  - {label: "SECTION 4.05", raw_start: 163536, title: "Financial Condition"}
+  - {label: "SECTION 4.06", raw_start: 165245, title: "Pending Litigation"}
+  - {label: "SECTION 4.07", raw_start: 165784, title: "Certain Agreements;"}
+  - {label: "SECTION 4.08", raw_start: 166102, title: "Authorization, Etc"}
+  - {label: "SECTION 4.09", raw_start: 168058, title: "No Violation"}
+  - {label: "SECTION 4.10", raw_start: 169601, title: "Payment of Taxes"}
+  - {label: "SECTION 4.11", raw_start: 170503, title: "Transactions With Affiliates, Officers, Directors and 1%"}
+  - {label: "SECTION 4.12", raw_start: 170972, title: "ERISA"}
+  - {label: "SECTION 4.13", raw_start: 172622, title: "Ownership of Properties"}
+  - {label: "SECTION 4.14", raw_start: 173526, title: "Employment Matters"}
+  - {label: "SECTION 4.15", raw_start: 173852, title: "Insurance"}
+  - {label: "SECTION 4.16", raw_start: 174090, title: "Indebtedness"}
+  - {label: "SECTION 4.17", raw_start: 174353, title: "Securities Law Compliance"}
+  - {label: "SECTION 4.18", raw_start: 174636, title: "Accuracy of Information"}
+  - {label: "ARTICLE 5", raw_start: 175120, title: ""}
+  - {label: "SECTION 5.01", raw_start: 175304, title: "Each Advance"}
+  - {label: "SECTION 5.02", raw_start: 177753, title: "First Advance"}
+  - {label: "ARTICLE 6", raw_start: 180064, title: ""}
+  - {label: "SECTION 6.01", raw_start: 180427, title: "Reporting Requirements"}
+  - {label: "SECTION 6.02", raw_start: 185099, title: "Loan Proceeds"}
+  - {label: "SECTION 6.03", raw_start: 185541, title: "Maintenance of Business and Properties;"}
+  - {label: "SECTION 6.04", raw_start: 187284, title: "Payment of Taxes"}
+  - {label: "SECTION 6.05", raw_start: 188207, title: "Compliance with Laws, etc"}
+  - {label: "SECTION 6.06", raw_start: 189121, title: "Books, Records and Accounts"}
+  - {label: "SECTION 6.07", raw_start: 190416, title: "Further Assurances"}
+  - {label: "SECTION 6.08", raw_start: 190798, title: "Bank Accounts"}
+  - {label: "ARTICLE 7", raw_start: 190930, title: ""}
+  - {label: "SECTION 7.01", raw_start: 191293, title: "Sale of Assets;"}
+  - {label: "SECTION 7.02", raw_start: 193726, title: "Liens and Encumbrances"}
+  - {label: "SECTION 7.03", raw_start: 199855, title: "Sales and Leasebacks"}
+  - {label: "SECTION 7.04", raw_start: 200199, title: "Investments"}
+  - {label: "SECTION 7.05", raw_start: 203734, title: "Transactions with Affiliates"}
+  - {label: "SECTION 7.06", raw_start: 204198, title: "ERISA Compliance"}
+  - {label: "SECTION 7.07", raw_start: 205117, title: "Financial Covenants"}
+  - {label: "SECTION 7.08", raw_start: 206500, title: "Contracts Prohibiting Compliance with Agreement"}
+  - {label: "ARTICLE 8", raw_start: 206773, title: ""}
+  - {label: "SECTION 8.01", raw_start: 206842, title: "Default"}
+  - {label: "SECTION 8.02", raw_start: 213542, title: "Agent to Act"}
+  - {label: "SECTION 8.03", raw_start: 214112, title: "Cumulative Rights"}
+  - {label: "SECTION 8.04", raw_start: 214535, title: "No Waiver"}
+  - {label: "SECTION 8.05", raw_start: 215038, title: "Allocation of Proceeds"}
+  - {label: "ARTICLE 9", raw_start: 216116, title: ""}
+  - {label: "SECTION 9.01", raw_start: 216179, title: "Appointment"}
+  - {label: "SECTION 9.02", raw_start: 217121, title: "Limitation on Liability"}
+  - {label: "SECTION 9.03", raw_start: 218556, title: "Reliance"}
+  - {label: "SECTION 9.04", raw_start: 220058, title: "Notice of Default"}
+  - {label: "SECTION 9.05", raw_start: 221000, title: "No Representations"}
+  - {label: "SECTION 9.06", raw_start: 222639, title: "Indemnification"}
+  - {label: "SECTION 9.07", raw_start: 224132, title: "The Agent in its Individual Capacity"}
+  - {label: "SECTION 9.08", raw_start: 225117, title: "Resignation"}
+  - {label: "SECTION 9.09", raw_start: 226944, title: "Sharing of Payments, Etc"}
+  - {label: "SECTION 9.10", raw_start: 228634, title: "Fees"}
+  - {label: "ARTICLE 10", raw_start: 228842, title: ""}
+  - {label: "SECTION 10.01", raw_start: 228906, title: "Assignments and Participations"}
+  - {label: "SECTION 10.02", raw_start: 234335, title: "Survival of Representations, Etc"}
+  - {label: "SECTION 10.03", raw_start: 234622, title: "Right of Setoff"}
+  - {label: "SECTION 10.04", raw_start: 235739, title: "Indemnity;"}
+  - {label: "SECTION 10.05", raw_start: 238123, title: "Notices"}
+  - {label: "SECTION 10.06", raw_start: 240008, title: "MASSACHUSETTS LAW"}
+  - {label: "SECTION 10.07", raw_start: 240388, title: "Counterparts"}
+  - {label: "SECTION 10.08", raw_start: 240689, title: "JURISDICTION, SERVICE OF PROCESS"}
+  - {label: "SECTION 10.09", raw_start: 241937, title: "Limit on Interest"}
+  - {label: "SECTION 10.10", raw_start: 243859, title: "Amendments"}
+  - {label: "SECTION 10.11", raw_start: 246145, title: "Headings"}
+  - {label: "SECTION 10.12", raw_start: 246334, title: "WAIVER OF NOTICE"}
+  - {label: "SECTION 10.13", raw_start: 247395, title: "Severability"}
+  - {label: "SECTION 10.14", raw_start: 247817, title: "Entire Agreement"}
+  - {label: "SECTION 10.15", raw_start: 248185, title: "Compliance with Covenants"}
+  - {label: "SECTION 10.16", raw_start: 248922, title: "Termination"}
+  - {label: "SECTION 10.17", raw_start: 249588, title: "WAIVER OF TRIAL BY JURY"}
+absent: []

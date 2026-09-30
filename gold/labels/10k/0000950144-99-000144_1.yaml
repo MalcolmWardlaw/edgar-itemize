@@ -1,0 +1,25 @@
+accession: 0000950144-99-000144
+sequence: 1
+doc_type: 10-K405
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 5027, title: ""}
+  - {label: "ITEM 1", raw_start: 5036, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 47463, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 49148, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 49470, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 59296, title: ""}
+  - {label: "ITEM 5", raw_start: 59306, title: "MARKET FOR COMPANY'S COMMON EQUITY AND RELATED STOCKHOLDER M"}
+  - {label: "ITEM 6", raw_start: 60875, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 69748, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 114140, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 114505, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 193021, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "PART III", raw_start: 193178, title: ""}
+  - {label: "ITEM 10", raw_start: 193188, title: "DIRECTORS AND EXECUTIVE OFFICERS OF THE COMPANY"}
+  - {label: "ITEM 11", raw_start: 193780, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 194257, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 194833, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS"}
+  - {label: "PART IV", raw_start: 195474, title: ""}
+  - {label: "ITEM 14", raw_start: 195483, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES AND REPORTS ON FORM "}
+absent: []

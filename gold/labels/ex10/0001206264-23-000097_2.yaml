@@ -1,0 +1,77 @@
+accession: 0001206264-23-000097
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 70354, title: ""}
+  - {label: "SECTION 1.01", raw_start: 70738, title: "The Commitments"}
+  - {label: "SECTION 1.02", raw_start: 73409, title: "Requesting Advances"}
+  - {label: "SECTION 1.03", raw_start: 83729, title: "Reductions"}
+  - {label: "SECTION 1.04", raw_start: 87727, title: "Payment Requirements"}
+  - {label: "SECTION 1.05", raw_start: 89844, title: "Deemed Collections"}
+  - {label: "SECTION 1.06", raw_start: 91485, title: "Interest"}
+  - {label: "SECTION 1.07", raw_start: 94014, title: "Circumstances Affecting Benchmark Availability;"}
+  - {label: "SECTION 1.08", raw_start: 100815, title: "No Warranty"}
+  - {label: "SECTION 1.09", raw_start: 102151, title: "Benchmark Replacement Adjustment"}
+  - {label: "SECTION 1.10", raw_start: 112164, title: "Designated Funding Offices"}
+  - {label: "SECTION 1.11", raw_start: 114147, title: "Taxes"}
+  - {label: "SECTION 1.12", raw_start: 133929, title: "Defaulting Lenders;"}
+  - {label: "SECTION 1.13", raw_start: 140555, title: "Divisions"}
+  - {label: "ARTICLE 2", raw_start: 141457, title: ""}
+  - {label: "SECTION 2.01", raw_start: 141854, title: "Collections During the Revolving Period"}
+  - {label: "SECTION 2.02", raw_start: 151886, title: "Collections During the Liquidation Period"}
+  - {label: "SECTION 2.03", raw_start: 158674, title: "Payment Rescission"}
+  - {label: "ARTICLE 3", raw_start: 159796, title: ""}
+  - {label: "SECTION 3.01", raw_start: 160217, title: "Representations and Warranties of Borrower"}
+  - {label: "SECTION 3.02", raw_start: 189922, title: "Representations and Warranties of Master Servicer"}
+  - {label: "ARTICLE 4", raw_start: 215163, title: ""}
+  - {label: "SECTION 4.01", raw_start: 215573, title: "Conditions Precedent to Effectiveness of this Agreement"}
+  - {label: "SECTION 4.02", raw_start: 218157, title: "Conditions Precedent to Each Advance after the Second Amendm"}
+  - {label: "ARTICLE 5", raw_start: 222914, title: ""}
+  - {label: "SECTION 5.01", raw_start: 223312, title: "Affirmative Covenants of Borrower and Master Servicer"}
+  - {label: "SECTION 5.02", raw_start: 272602, title: "Negative Covenants of Loan Parties"}
+  - {label: "ARTICLE 6", raw_start: 286194, title: ""}
+  - {label: "SECTION 6.01", raw_start: 287219, title: "Designation of Master Servicer"}
+  - {label: "SECTION 6.02", raw_start: 291527, title: "Duties of Master Servicer"}
+  - {label: "SECTION 6.03", raw_start: 298978, title: "Collection Accounts"}
+  - {label: "SECTION 6.04", raw_start: 301005, title: "Collection Notices"}
+  - {label: "SECTION 6.05", raw_start: 302970, title: "Responsibilities of Borrower"}
+  - {label: "SECTION 6.06", raw_start: 304017, title: "Reports"}
+  - {label: "SECTION 6.07", raw_start: 306113, title: "Servicing Fees"}
+  - {label: "ARTICLE 7", raw_start: 307502, title: ""}
+  - {label: "SECTION 7.01", raw_start: 307920, title: "Facility Termination Events"}
+  - {label: "SECTION 7.02", raw_start: 330944, title: "Remedies"}
+  - {label: "ARTICLE 8", raw_start: 333422, title: ""}
+  - {label: "SECTION 8.01", raw_start: 333829, title: "Indemnities by Borrower"}
+  - {label: "SECTION 8.02", raw_start: 351607, title: "Indemnities by Master Servicer"}
+  - {label: "SECTION 8.03", raw_start: 362770, title: "Costs and Expenses"}
+  - {label: "ARTICLE 9", raw_start: 366475, title: ""}
+  - {label: "SECTION 9.01", raw_start: 366885, title: "Appointment and Authorization of Administrative Agent"}
+  - {label: "SECTION 9.02", raw_start: 369521, title: "Delegation of Duties"}
+  - {label: "SECTION 9.03", raw_start: 370510, title: "Exculpatory Provisions"}
+  - {label: "SECTION 9.04", raw_start: 372637, title: "Reliance by the Administrative Agent"}
+  - {label: "SECTION 9.05", raw_start: 374402, title: "Notice of Events"}
+  - {label: "SECTION 9.06", raw_start: 376848, title: "Non-Reliance on Other Lenders"}
+  - {label: "SECTION 9.07", raw_start: 379496, title: "Indemnification of Administrative Agent"}
+  - {label: "SECTION 9.08", raw_start: 381472, title: "Administrative Agent in its Individual Capacity"}
+  - {label: "SECTION 9.09", raw_start: 383222, title: "UCC Filings"}
+  - {label: "ARTICLE 10", raw_start: 384478, title: ""}
+  - {label: "SECTION 10.01", raw_start: 384898, title: "Successors and Assigns"}
+  - {label: "ARTICLE 11", raw_start: 396135, title: ""}
+  - {label: "SECTION 11.01", raw_start: 396551, title: "Grant of Security Interest"}
+  - {label: "ARTICLE 12", raw_start: 398523, title: ""}
+  - {label: "SECTION 12.01", raw_start: 399533, title: "Waivers and Amendments"}
+  - {label: "SECTION 12.02", raw_start: 406601, title: "Notices"}
+  - {label: "SECTION 12.03", raw_start: 409324, title: "Setoff"}
+  - {label: "SECTION 12.04", raw_start: 411578, title: "Protection of Security Interests"}
+  - {label: "SECTION 12.05", raw_start: 417483, title: "Confidentiality"}
+  - {label: "SECTION 12.06", raw_start: 422895, title: "Power of Attorney"}
+  - {label: "SECTION 12.07", raw_start: 426544, title: "Limitation of Liability"}
+  - {label: "SECTION 12.08", raw_start: 427701, title: "CHOICE OF LAW"}
+  - {label: "SECTION 12.09", raw_start: 429310, title: "CONSENT TO JURISDICTION"}
+  - {label: "SECTION 12.10", raw_start: 431837, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 12.11", raw_start: 432711, title: "Integration;"}
+  - {label: "SECTION 12.12", raw_start: 436682, title: "Counterparts;"}
+  - {label: "SECTION 12.13", raw_start: 439801, title: "Patriot Act"}
+  - {label: "SECTION 12.14", raw_start: 440812, title: "Acknowledgement Regarding Any Supported QFCs"}
+absent: []

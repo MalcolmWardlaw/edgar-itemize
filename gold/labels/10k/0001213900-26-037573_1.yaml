@@ -1,0 +1,28 @@
+accession: 0001213900-26-037573
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 58918, title: ""}
+  - {label: "ITEM 1", raw_start: 59134, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 604244, title: "Risk Factors"}
+  - {label: "ITEM 2", raw_start: 762294, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 763576, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 764227, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 765551, title: ""}
+  - {label: "ITEM 5", raw_start: 765789, title: "Market for Registrant’s Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 770087, title: "[Reserved]"}
+  - {label: "ITEM 7", raw_start: 771109, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 9", raw_start: 822318, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 822840, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 828108, title: "Other Information"}
+  - {label: "ITEM 9C", raw_start: 829442, title: "Disclosure Regarding Foreign Jurisdictions that Prevent Insp"}
+  - {label: "PART III", raw_start: 830704, title: ""}
+  - {label: "ITEM 10", raw_start: 830922, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 865414, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 932778, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 948354, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 954582, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 962674, title: ""}
+  - {label: "ITEM 15", raw_start: 962891, title: "Exhibits, Financial Statement Schedules"}
+absent: []

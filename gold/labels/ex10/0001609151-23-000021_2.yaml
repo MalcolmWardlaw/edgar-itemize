@@ -1,0 +1,120 @@
+accession: 0001609151-23-000021
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1579475, title: ""}
+  - {label: "SECTION 1", raw_start: 1579475, title: "ACCOUNTING AND OTHER TERMS"}
+  - {label: "ARTICLE 2", raw_start: 1580506, title: ""}
+  - {label: "SECTION 2", raw_start: 1580506, title: "LOAN AND TERMS OF PAYMENT"}
+  - {label: "SECTION 2.01", raw_start: 1580899, title: "Promise to Pay"}
+  - {label: "SECTION 2.02", raw_start: 1581584, title: "Revolving Line"}
+  - {label: "SECTION 2.03", raw_start: 1583663, title: "Growth Capital Advance"}
+  - {label: "SECTION 2.04", raw_start: 1591576, title: "Overadvances"}
+  - {label: "SECTION 2.05", raw_start: 1592837, title: "Payment of Interest on the Credit Extensions"}
+  - {label: "SECTION 2.06", raw_start: 1607002, title: "Fees"}
+  - {label: "SECTION 2.07", raw_start: 1610726, title: "Payments;"}
+  - {label: "SECTION 2.08", raw_start: 1614086, title: "Withholding"}
+  - {label: "ARTICLE 3", raw_start: 1616187, title: ""}
+  - {label: "SECTION 3", raw_start: 1616187, title: "CONDITIONS OF LOANS"}
+  - {label: "SECTION 3.01", raw_start: 1616574, title: "Conditions Precedent to Initial Credit Extension"}
+  - {label: "SECTION 3.02", raw_start: 1623801, title: "Conditions Precedent to all Credit Extensions"}
+  - {label: "SECTION 3.03", raw_start: 1627601, title: "Covenant to Deliver"}
+  - {label: "SECTION 3.04", raw_start: 1628546, title: "Procedures for Borrowing"}
+  - {label: "ARTICLE 4", raw_start: 1632930, title: ""}
+  - {label: "SECTION 4", raw_start: 1632930, title: "CREATION OF SECURITY INTEREST"}
+  - {label: "SECTION 4.01", raw_start: 1633327, title: "Grant of Security Interest"}
+  - {label: "SECTION 4.02", raw_start: 1637198, title: "Priority of Security Interest"}
+  - {label: "SECTION 4.03", raw_start: 1638505, title: "Authorization to File Financing Statements"}
+  - {label: "ARTICLE 5", raw_start: 1639608, title: ""}
+  - {label: "SECTION 5", raw_start: 1639608, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 5.01", raw_start: 1640252, title: "Due Organization, Authorization;"}
+  - {label: "SECTION 5.02", raw_start: 1646311, title: "Collateral"}
+  - {label: "SECTION 5.03", raw_start: 1649859, title: "Eligible Customer Accounts"}
+  - {label: "SECTION 5.04", raw_start: 1651596, title: "Litigation"}
+  - {label: "SECTION 5.05", raw_start: 1652329, title: "Financial Statements;"}
+  - {label: "SECTION 5.06", raw_start: 1653405, title: "Solvency"}
+  - {label: "SECTION 5.07", raw_start: 1654227, title: "Regulatory Compliance"}
+  - {label: "SECTION 5.08", raw_start: 1656463, title: "Subsidiaries;"}
+  - {label: "SECTION 5.09", raw_start: 1657096, title: "Tax Returns and Payments;"}
+  - {label: "SECTION 5.10", raw_start: 1660071, title: "Use of Proceeds"}
+  - {label: "SECTION 5.11", raw_start: 1660838, title: "Full Disclosure"}
+  - {label: "SECTION 5.12", raw_start: 1662267, title: "Definition of “Knowledge.” For purposes of the Loan Document"}
+  - {label: "ARTICLE 6", raw_start: 1663688, title: ""}
+  - {label: "SECTION 6", raw_start: 1663688, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 1664318, title: "Government Compliance"}
+  - {label: "SECTION 6.02", raw_start: 1666275, title: "Financial Statements, Reports, Certificates"}
+  - {label: "SECTION 6.03", raw_start: 1679292, title: "Accounts Receivable"}
+  - {label: "SECTION 6.04", raw_start: 1689065, title: "Remittance of Proceeds"}
+  - {label: "SECTION 6.05", raw_start: 1690867, title: "Taxes;"}
+  - {label: "SECTION 6.06", raw_start: 1692023, title: "Access to Collateral;"}
+  - {label: "SECTION 6.07", raw_start: 1694354, title: "Insurance"}
+  - {label: "SECTION 6.08", raw_start: 1697507, title: "Accounts"}
+  - {label: "SECTION 6.09", raw_start: 1700449, title: "Adjusted Quick Ratio"}
+  - {label: "SECTION 6.10", raw_start: 1701169, title: "Protection of Intellectual Property Rights"}
+  - {label: "SECTION 6.11", raw_start: 1704258, title: "Litigation Cooperation"}
+  - {label: "SECTION 6.12", raw_start: 1705169, title: "Online Banking"}
+  - {label: "SECTION 6.13", raw_start: 1707346, title: "Formation or Acquisition of Subsidiaries"}
+  - {label: "SECTION 6.14", raw_start: 1710010, title: "Further Assurances"}
+  - {label: "ARTICLE 7", raw_start: 1711146, title: ""}
+  - {label: "SECTION 7", raw_start: 1711146, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 7.01", raw_start: 1711820, title: "Dispositions"}
+  - {label: "SECTION 7.02", raw_start: 1713948, title: "Changes in Business, Management, Control, or Business Locati"}
+  - {label: "SECTION 7.03", raw_start: 1716438, title: "Mergers, Amalgamations, or Acquisitions"}
+  - {label: "SECTION 7.04", raw_start: 1717955, title: "Indebtedness"}
+  - {label: "SECTION 7.05", raw_start: 1718564, title: "Encumbrance"}
+  - {label: "SECTION 7.06", raw_start: 1719882, title: "Maintenance of Collateral Accounts"}
+  - {label: "SECTION 7.07", raw_start: 1720477, title: "Distributions;"}
+  - {label: "SECTION 7.08", raw_start: 1721913, title: "Transactions with Affiliates"}
+  - {label: "SECTION 7.09", raw_start: 1723042, title: "Subordinated Debt"}
+  - {label: "SECTION 7.10", raw_start: 1723998, title: "Compliance"}
+  - {label: "ARTICLE 8", raw_start: 1726551, title: ""}
+  - {label: "SECTION 8", raw_start: 1726551, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 8.01", raw_start: 1727505, title: "Payment Default"}
+  - {label: "SECTION 8.02", raw_start: 1728562, title: "Covenant Default"}
+  - {label: "SECTION 8.03", raw_start: 1731088, title: "Material Adverse Change"}
+  - {label: "SECTION 8.04", raw_start: 1731618, title: "Attachment;"}
+  - {label: "SECTION 8.05", raw_start: 1734078, title: "Insolvency"}
+  - {label: "SECTION 8.06", raw_start: 1735105, title: "Other Agreements"}
+  - {label: "SECTION 8.07", raw_start: 1736117, title: "Judgments;"}
+  - {label: "SECTION 8.08", raw_start: 1737414, title: "Misrepresentations"}
+  - {label: "SECTION 8.09", raw_start: 1738255, title: "Subordinated Debt"}
+  - {label: "SECTION 8.10", raw_start: 1739263, title: "Governmental Approvals"}
+  - {label: "ARTICLE 9", raw_start: 1740812, title: ""}
+  - {label: "SECTION 9", raw_start: 1740812, title: "BANK’S RIGHTS AND REMEDIES"}
+  - {label: "SECTION 9.01", raw_start: 1741212, title: "Rights and Remedies"}
+  - {label: "SECTION 9.02", raw_start: 1753044, title: "Power of Attorney"}
+  - {label: "SECTION 9.03", raw_start: 1755444, title: "Protective Payments"}
+  - {label: "SECTION 9.04", raw_start: 1756749, title: "Application of Payments and Proceeds"}
+  - {label: "SECTION 9.05", raw_start: 1758735, title: "Bank’s Liability for Collateral"}
+  - {label: "SECTION 9.06", raw_start: 1759762, title: "No Waiver;"}
+  - {label: "SECTION 9.07", raw_start: 1761261, title: "Demand Waiver"}
+  - {label: "SECTION 9.08", raw_start: 1762043, title: "Co-Borrower Liability"}
+  - {label: "ARTICLE 10", raw_start: 1765627, title: ""}
+  - {label: "SECTION 10", raw_start: 1765627, title: "NOTICES"}
+  - {label: "ARTICLE 11", raw_start: 1768149, title: ""}
+  - {label: "SECTION 11", raw_start: 1768149, title: "CHOICE OF LAW, VENUE, JURY TRIAL WAIVER AND JUDICIAL REFEREN"}
+  - {label: "ARTICLE 12", raw_start: 1775013, title: ""}
+  - {label: "SECTION 12", raw_start: 1775013, title: "GENERAL PROVISIONS"}
+  - {label: "SECTION 12.01", raw_start: 1775400, title: "Termination Prior to Revolving Line Maturity Date or Growth "}
+  - {label: "SECTION 12.02", raw_start: 1777470, title: "Successors and Assigns"}
+  - {label: "SECTION 12.03", raw_start: 1778630, title: "Indemnification"}
+  - {label: "SECTION 12.04", raw_start: 1780837, title: "Time of Essence"}
+  - {label: "SECTION 12.05", raw_start: 1781403, title: "Severability of Provisions"}
+  - {label: "SECTION 12.06", raw_start: 1782024, title: "Correction of Loan Documents"}
+  - {label: "SECTION 12.07", raw_start: 1782644, title: "Amendments in Writing;"}
+  - {label: "SECTION 12.08", raw_start: 1784722, title: "Counterparts"}
+  - {label: "SECTION 12.09", raw_start: 1785426, title: "Confidentiality"}
+  - {label: "SECTION 12.10", raw_start: 1788178, title: "Attorneys’ Fees, Costs and Expenses"}
+  - {label: "SECTION 12.11", raw_start: 1788980, title: "Electronic Execution of Documents"}
+  - {label: "SECTION 12.12", raw_start: 1790039, title: "Right of Setoff"}
+  - {label: "SECTION 12.13", raw_start: 1791927, title: "Captions"}
+  - {label: "SECTION 12.14", raw_start: 1792525, title: "Construction of Agreement"}
+  - {label: "SECTION 12.15", raw_start: 1793286, title: "Relationship"}
+  - {label: "SECTION 12.16", raw_start: 1794084, title: "Third Parties"}
+  - {label: "SECTION 12.17", raw_start: 1795095, title: "Effect of Amendment and Restatement"}
+  - {label: "SECTION 12.18", raw_start: 1795911, title: "Waiver"}
+  - {label: "ARTICLE 13", raw_start: 1797601, title: ""}
+  - {label: "SECTION 13", raw_start: 1797601, title: "DEFINITIONS"}
+  - {label: "SECTION 13.01", raw_start: 1797981, title: "Definitions"}
+absent: []

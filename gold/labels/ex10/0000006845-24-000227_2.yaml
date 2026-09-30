@@ -1,0 +1,17 @@
+accession: 0000006845-24-000227
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 163549, title: ""}
+  - {label: "ARTICLE 2", raw_start: 739086, title: ""}
+  - {label: "ARTICLE 3", raw_start: 1067136, title: ""}
+  - {label: "ARTICLE 4", raw_start: 1164189, title: ""}
+  - {label: "ARTICLE 5", raw_start: 1189581, title: ""}
+  - {label: "ARTICLE 6", raw_start: 1233041, title: ""}
+  - {label: "ARTICLE 7", raw_start: 1285484, title: ""}
+  - {label: "ARTICLE 8", raw_start: 1399038, title: ""}
+  - {label: "ARTICLE 9", raw_start: 1438275, title: ""}
+  - {label: "ARTICLE 10", raw_start: 1503656, title: ""}
+  - {label: "ARTICLE 11", raw_start: 1526704, title: ""}
+absent: []

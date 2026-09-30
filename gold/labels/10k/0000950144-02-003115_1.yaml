@@ -1,0 +1,10 @@
+accession: 0000950144-02-003115
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 9015, title: "1. Business"}
+  - {label: "PART II", raw_start: 9411, title: "5. Market for Registrant's Common Equity and Related Stockho"}
+  - {label: "PART III", raw_start: 10370, title: "10. Directors and Executive Officers of the Registrant"}
+  - {label: "PART IV", raw_start: 11093, title: "14. Exhibits, Financial Statement Schedules and Reports on F"}
+absent: []

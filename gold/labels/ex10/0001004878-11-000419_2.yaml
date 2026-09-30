@@ -1,0 +1,87 @@
+accession: 0001004878-11-000419
+sequence: 2
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 17356, title: "Interpretation and Definitions"}
+  - {label: "SECTION 1.01", raw_start: 17484, title: "Rules of Interpretation"}
+  - {label: "SECTION 1.02", raw_start: 19107, title: "Definitions"}
+  - {label: "ARTICLE 2", raw_start: 48279, title: "Amount and Terms of the Loan"}
+  - {label: "SECTION 2.01", raw_start: 48405, title: "The Loan"}
+  - {label: "SECTION 2.02", raw_start: 50145, title: "Manner of Borrowing under the Note"}
+  - {label: "SECTION 2.03", raw_start: 50863, title: "Payment Procedure"}
+  - {label: "SECTION 2.04", raw_start: 51228, title: "Interest"}
+  - {label: "SECTION 2.05", raw_start: 52396, title: "Order of Application"}
+  - {label: "SECTION 2.06", raw_start: 53173, title: "Facility Fee"}
+  - {label: "SECTION 2.07", raw_start: 53269, title: "Adjustment of Commitment Limit or Collateral"}
+  - {label: "SECTION 2.08", raw_start: 55037, title: "Termination of Existing Bank of Choice Note"}
+  - {label: "SECTION 2.09", raw_start: 56316, title: "Limitations on Release of Collateral"}
+  - {label: "ARTICLE 3", raw_start: 57587, title: "Collateral"}
+  - {label: "ARTICLE 4", raw_start: 58635, title: "Representations and Warranties"}
+  - {label: "SECTION 4.01", raw_start: 58885, title: "Authorization"}
+  - {label: "SECTION 4.02", raw_start: 59324, title: "Enforceable Obligations"}
+  - {label: "SECTION 4.03", raw_start: 59688, title: "No Conflicts or Consents"}
+  - {label: "SECTION 4.04", raw_start: 60748, title: "Other Obligations"}
+  - {label: "SECTION 4.05", raw_start: 61532, title: "Investments and Guarantees"}
+  - {label: "SECTION 4.06", raw_start: 61876, title: "Litigation"}
+  - {label: "SECTION 4.07", raw_start: 62551, title: "Taxes"}
+  - {label: "SECTION 4.08", raw_start: 63260, title: "Title to Properties;"}
+  - {label: "SECTION 4.09", raw_start: 63478, title: "Leases"}
+  - {label: "SECTION 4.10", raw_start: 63653, title: "No Default"}
+  - {label: "SECTION 4.11", raw_start: 63943, title: "ERISA Plans"}
+  - {label: "SECTION 4.12", raw_start: 64092, title: "Principal Business Office and Location of Records"}
+  - {label: "SECTION 4.13", raw_start: 64426, title: "Licenses, Permits and Franchises, etc"}
+  - {label: "SECTION 4.14", raw_start: 64803, title: "No Material Omissions or Misstatements"}
+  - {label: "SECTION 4.15", raw_start: 65562, title: "Subsidiaries"}
+  - {label: "SECTION 4.16", raw_start: 65628, title: "Environmental Matters"}
+  - {label: "SECTION 4.17", raw_start: 70061, title: "Financial Information"}
+  - {label: "ARTICLE 5", raw_start: 71056, title: "Conditions Precedent"}
+  - {label: "SECTION 5.01", raw_start: 71174, title: "Conditions to Initial Advance"}
+  - {label: "SECTION 5.02", raw_start: 75123, title: "Conditions to All Advances"}
+  - {label: "ARTICLE 6", raw_start: 77422, title: "Affirmative Covenants"}
+  - {label: "SECTION 6.01", raw_start: 77832, title: "Financial Statements and Other Information"}
+  - {label: "SECTION 6.11", raw_start: 89352, title: "Compliance Certificate"}
+  - {label: "SECTION 6.12", raw_start: 90229, title: "Use of Proceeds"}
+  - {label: "SECTION 6.13", raw_start: 91130, title: "Performance"}
+  - {label: "SECTION 6.14", raw_start: 91394, title: "Change of Location"}
+  - {label: "SECTION 6.15", raw_start: 91584, title: "Title to Assets and Property"}
+  - {label: "SECTION 6.16", raw_start: 91737, title: "Banking Relationship;"}
+  - {label: "SECTION 6.17", raw_start: 91981, title: "Other Information"}
+  - {label: "SECTION 6.18", raw_start: 92168, title: "Additional Assurances"}
+  - {label: "ARTICLE 7", raw_start: 92562, title: "Negative Covenants"}
+  - {label: "SECTION 7.01", raw_start: 92841, title: "Liens"}
+  - {label: "SECTION 7.02", raw_start: 93061, title: "Merger, Etc"}
+  - {label: "SECTION 7.03", raw_start: 93174, title: "Extensions of Credit"}
+  - {label: "SECTION 7.04", raw_start: 93752, title: "Borrowings"}
+  - {label: "SECTION 7.05", raw_start: 94663, title: "Dividends and Distributions"}
+  - {label: "SECTION 7.06", raw_start: 95358, title: "Modification of Organizational Documents"}
+  - {label: "SECTION 7.07", raw_start: 96178, title: "Change in Nature of Business"}
+  - {label: "SECTION 7.08", raw_start: 96378, title: "Arm's Length Transactions"}
+  - {label: "SECTION 7.09", raw_start: 96645, title: "Subsidiaries"}
+  - {label: "SECTION 7.10", raw_start: 96772, title: "Plan Obligations"}
+  - {label: "ARTICLE 8", raw_start: 97063, title: "Financial Covenants"}
+  - {label: "SECTION 8.01", raw_start: 97336, title: "Definitions"}
+  - {label: "SECTION 8.02", raw_start: 100554, title: "Minimum Debt-Service Coverage"}
+  - {label: "SECTION 8.03", raw_start: 101040, title: "Debt to Capitalization Ratio"}
+  - {label: "SECTION 8.04", raw_start: 101472, title: "Testing - Effect of Derivative Contracts"}
+  - {label: "ARTICLE 9", raw_start: 101781, title: "Default and Remedies"}
+  - {label: "SECTION 9.01", raw_start: 101899, title: "Events of Default"}
+  - {label: "SECTION 9.02", raw_start: 105761, title: "Remedies"}
+  - {label: "ARTICLE 10", raw_start: 113352, title: ""}
+  - {label: "SECTION 10.03", raw_start: 113352, title: "Binding on Successors"}
+  - {label: "SECTION 10.04", raw_start: 113722, title: "Choice of Law and Venue"}
+  - {label: "SECTION 10.05", raw_start: 116586, title: "Waiver of Jury Trial"}
+  - {label: "SECTION 10.06", raw_start: 116851, title: "Usury Savings Clause"}
+  - {label: "SECTION 10.07", raw_start: 118902, title: "Severability"}
+  - {label: "SECTION 10.08", raw_start: 119268, title: "Non-Waiver"}
+  - {label: "SECTION 10.09", raw_start: 119750, title: "Counterparts"}
+  - {label: "SECTION 10.10", raw_start: 120480, title: "Amendments and Waivers"}
+  - {label: "SECTION 10.11", raw_start: 120830, title: "Terms and Headings"}
+  - {label: "SECTION 10.12", raw_start: 121171, title: "Conflicts"}
+  - {label: "SECTION 10.13", raw_start: 121737, title: "Environmental Indemnity"}
+  - {label: "SECTION 10.14", raw_start: 123908, title: "Renewal, Extension or Rearrangement"}
+  - {label: "SECTION 10.15", raw_start: 124376, title: "Negotiation, Representation and Construction"}
+  - {label: "ARTICLE 11", raw_start: 276090, title: ""}
+  - {label: "SECTION 11.01", raw_start: 276090, title: "Governing Law"}
+  - {label: "SECTION 11.02", raw_start: 276343, title: "Waiver of Jury Trial"}
+absent: []

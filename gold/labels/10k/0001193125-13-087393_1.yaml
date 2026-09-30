@@ -1,0 +1,30 @@
+accession: 0001193125-13-087393
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 53699, title: ""}
+  - {label: "ITEM 1", raw_start: 54019, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 274321, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 423770, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 424390, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 425921, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 426706, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 427616, title: ""}
+  - {label: "ITEM 5", raw_start: 427938, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 462890, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 565189, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 777383, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 779330, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 780289, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 780961, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 782674, title: "Other Information"}
+  - {label: "PART III", raw_start: 783569, title: ""}
+  - {label: "ITEM 10", raw_start: 784309, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 785398, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 786414, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 787568, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 788653, title: "Principal Accountant Fees and Services"}
+  - {label: "PART IV", raw_start: 789989, title: ""}
+  - {label: "ITEM 15", raw_start: 790311, title: "Exhibits and Financial Statement Schedule"}
+absent: []

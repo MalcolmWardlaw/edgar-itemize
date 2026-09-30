@@ -1,0 +1,216 @@
+accession: 0001193125-10-204868
+sequence: 11
+doc_type: EX-10.10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 10511226, title: ""}
+  - {label: "SECTION 1.01", raw_start: 10511226, title: "Definitions 6"}
+  - {label: "SECTION 1.02", raw_start: 10511786, title: "Principles of Construction 60"}
+  - {label: "SECTION 1.03", raw_start: 10512362, title: "Direction of Mortgage Borrower or with Respect to the Proper"}
+  - {label: "ARTICLE 2", raw_start: 10865103, title: ""}
+  - {label: "SECTION 2.01", raw_start: 10865103, title: "Loan Commitment;"}
+  - {label: "SECTION 2.01.1", raw_start: 10865302, title: "Agreement to Lend and Borrow"}
+  - {label: "SECTION 2.01.2", raw_start: 10865574, title: "Single Borrowing"}
+  - {label: "SECTION 2.01.3", raw_start: 10865810, title: "The Notes, the Pledge Agreement and Loan Documents"}
+  - {label: "SECTION 2.01.4", raw_start: 10866245, title: "Use of Proceeds"}
+  - {label: "SECTION 2.01.5", raw_start: 10866929, title: "Component Notes"}
+  - {label: "SECTION 2.02", raw_start: 10870712, title: "Interest Rate"}
+  - {label: "SECTION 2.02.1", raw_start: 10870883, title: "Interest Generally"}
+  - {label: "SECTION 2.02.2", raw_start: 10871893, title: "Interest Calculation"}
+  - {label: "SECTION 2.02.3", raw_start: 10872510, title: "Determination of Interest Rate"}
+  - {label: "SECTION 2.02.4", raw_start: 10885014, title: "Additional Costs"}
+  - {label: "SECTION 2.02.5", raw_start: 10886101, title: "Default Rate"}
+  - {label: "SECTION 2.02.6", raw_start: 10886705, title: "Usury Savings"}
+  - {label: "SECTION 2.02.7", raw_start: 10888527, title: "Interest Rate Cap Agreement"}
+  - {label: "SECTION 2.03", raw_start: 10906001, title: "Loan Payment"}
+  - {label: "SECTION 2.03.1", raw_start: 10906171, title: "Payments Generally"}
+  - {label: "SECTION 2.03.2", raw_start: 10909837, title: "Payment on Maturity Date"}
+  - {label: "SECTION 2.03.3", raw_start: 10910507, title: "Late Payment Charge"}
+  - {label: "SECTION 2.03.4", raw_start: 10912016, title: "Method and Place of Payment"}
+  - {label: "SECTION 2.04", raw_start: 10912753, title: "Prepayments"}
+  - {label: "SECTION 2.04.1", raw_start: 10912922, title: "Voluntary Prepayments"}
+  - {label: "SECTION 2.04.2", raw_start: 10918917, title: "Intentionally Omitted"}
+  - {label: "SECTION 2.04.3", raw_start: 10919084, title: "Mandatory Prepayments from Net Proceeds"}
+  - {label: "SECTION 2.04.4", raw_start: 10924569, title: "Prepayments After Default"}
+  - {label: "SECTION 2.05", raw_start: 10926360, title: "Release of Collateral"}
+  - {label: "SECTION 2.05.1", raw_start: 10926804, title: "Release of Individual Property"}
+  - {label: "SECTION 2.05.2", raw_start: 10934999, title: "Release of Convention Center Parcel"}
+  - {label: "SECTION 2.05.3", raw_start: 10942712, title: "Release of O'Shea's"}
+  - {label: "SECTION 2.05.4", raw_start: 10954717, title: "RDE Project"}
+  - {label: "SECTION 2.05.5", raw_start: 10985408, title: "Release on Payment in Full"}
+  - {label: "SECTION 2.06", raw_start: 10986262, title: "Cash Management;"}
+  - {label: "SECTION 2.06.1", raw_start: 10986477, title: "Establishment of Collection Accounts"}
+  - {label: "SECTION 2.06.2", raw_start: 10994418, title: "Disbursements from, Security Interest in, Collection Account"}
+  - {label: "SECTION 2.06.3", raw_start: 11001710, title: "Blocked Account;"}
+  - {label: "SECTION 2.06.4", raw_start: 11005360, title: "Mezzanine Collection Account"}
+  - {label: "SECTION 2.07", raw_start: 11009404, title: "Extension of the Maturity Date"}
+  - {label: "ARTICLE 4", raw_start: 11018750, title: ""}
+  - {label: "SECTION 4.01", raw_start: 11018750, title: "Borrower Representations"}
+  - {label: "SECTION 4.01.1", raw_start: 11019559, title: "Organization"}
+  - {label: "SECTION 4.01.2", raw_start: 11024472, title: "Proceedings"}
+  - {label: "SECTION 4.01.3", raw_start: 11025417, title: "No Conflicts;"}
+  - {label: "SECTION 4.01.4", raw_start: 11028540, title: "Litigation"}
+  - {label: "SECTION 4.01.5", raw_start: 11030212, title: "Agreements"}
+  - {label: "SECTION 4.01.6", raw_start: 11032631, title: "Title"}
+  - {label: "SECTION 4.01.7", raw_start: 11035199, title: "Solvency"}
+  - {label: "SECTION 4.01.8", raw_start: 11038058, title: "Full and Accurate Disclosure"}
+  - {label: "SECTION 4.01.9", raw_start: 11038740, title: "No Plan Assets"}
+  - {label: "SECTION 4.01.10", raw_start: 11039699, title: "Compliance"}
+  - {label: "SECTION 4.01.11", raw_start: 11041057, title: "Financial Information"}
+  - {label: "SECTION 4.01.12", raw_start: 11043705, title: "Condemnation"}
+  - {label: "SECTION 4.01.13", raw_start: 11044137, title: "Federal Reserve Regulations"}
+  - {label: "SECTION 4.01.14", raw_start: 11044784, title: "Utilities and Public Access"}
+  - {label: "SECTION 4.01.15", raw_start: 11045783, title: "Not a Foreign Person"}
+  - {label: "SECTION 4.01.16", raw_start: 11046053, title: "Separate Lots"}
+  - {label: "SECTION 4.01.17", raw_start: 11046732, title: "Assessments"}
+  - {label: "SECTION 4.01.18", raw_start: 11047180, title: "Enforceability"}
+  - {label: "SECTION 4.01.19", raw_start: 11048087, title: "No Prior Assignment"}
+  - {label: "SECTION 4.01.20", raw_start: 11048623, title: "Insurance"}
+  - {label: "SECTION 4.01.21", raw_start: 11049340, title: "Use of Properties"}
+  - {label: "SECTION 4.01.22", raw_start: 11049632, title: "Gaming Licenses and Operating Permits"}
+  - {label: "SECTION 4.01.23", raw_start: 11060765, title: "Intentionally Omitted"}
+  - {label: "SECTION 4.01.24", raw_start: 11060933, title: "Intentionally Omitted"}
+  - {label: "SECTION 4.01.25", raw_start: 11061101, title: "Intentionally Omitted"}
+  - {label: "SECTION 4.01.26", raw_start: 11061269, title: "Leases"}
+  - {label: "SECTION 4.01.27", raw_start: 11066880, title: "Intentionally Omitted"}
+  - {label: "SECTION 4.01.28", raw_start: 11067048, title: "Principal Place of Business;"}
+  - {label: "SECTION 4.01.29", raw_start: 11068214, title: "Filing and Recording Taxes"}
+  - {label: "SECTION 4.01.30", raw_start: 11069346, title: "Special Purpose Entity/Separateness"}
+  - {label: "SECTION 4.01.31", raw_start: 11073987, title: "Operating Leases;"}
+  - {label: "SECTION 4.01.32", raw_start: 11074750, title: "Illegal Activity"}
+  - {label: "SECTION 4.01.33", raw_start: 11075038, title: "Reserved"}
+  - {label: "SECTION 4.01.34", raw_start: 11075201, title: "Investment Company Act"}
+  - {label: "SECTION 4.01.35", raw_start: 11075564, title: "Embargoed Person"}
+  - {label: "SECTION 4.01.36", raw_start: 11077316, title: "Intentionally Omitted"}
+  - {label: "SECTION 4.01.37", raw_start: 11077484, title: "Taxes including Gaming Taxes and Fees"}
+  - {label: "SECTION 4.01.38", raw_start: 11080302, title: "Loan Proceeds;"}
+  - {label: "SECTION 4.01.39", raw_start: 11080748, title: "Intentionally Omitted"}
+  - {label: "SECTION 4.01.40", raw_start: 11080916, title: "Operation of Properties"}
+  - {label: "SECTION 4.01.41", raw_start: 11084383, title: "Management Agreement"}
+  - {label: "SECTION 4.01.42", raw_start: 11085052, title: "Mortgage Loan Representations and Warranties"}
+  - {label: "SECTION 4.01.43", raw_start: 11085797, title: "Affiliates"}
+  - {label: "SECTION 4.02", raw_start: 11086299, title: "Survival of Representations"}
+  - {label: "ARTICLE 5", raw_start: 11087215, title: ""}
+  - {label: "SECTION 5.01", raw_start: 11087215, title: "Affirmative Covenants"}
+  - {label: "SECTION 5.01.1", raw_start: 11087863, title: "Existence;"}
+  - {label: "SECTION 5.01.2", raw_start: 11092603, title: "Taxes and Other Charges"}
+  - {label: "SECTION 5.01.3", raw_start: 11096724, title: "Litigation"}
+  - {label: "SECTION 5.01.4", raw_start: 11098119, title: "Access to Properties"}
+  - {label: "SECTION 5.01.5", raw_start: 11098725, title: "Notice of Default"}
+  - {label: "SECTION 5.01.6", raw_start: 11099145, title: "Cooperate in Legal Proceedings"}
+  - {label: "SECTION 5.01.7", raw_start: 11099684, title: "Perform Loan Documents"}
+  - {label: "SECTION 5.01.8", raw_start: 11100107, title: "Award and Insurance Benefits"}
+  - {label: "SECTION 5.01.9", raw_start: 11100890, title: "Further Assurances"}
+  - {label: "SECTION 5.01.10", raw_start: 11103184, title: "Supplemental Mortgage Affidavits"}
+  - {label: "SECTION 5.01.11", raw_start: 11103550, title: "Financial Reporting"}
+  - {label: "SECTION 5.01.12", raw_start: 11128316, title: "Business and Operations"}
+  - {label: "SECTION 5.01.13", raw_start: 11129071, title: "Title to the Properties, Senior Mezzanine Collateral and the"}
+  - {label: "SECTION 5.01.14", raw_start: 11131735, title: "Costs of Enforcement"}
+  - {label: "SECTION 5.01.15", raw_start: 11133373, title: "Estoppel Statement"}
+  - {label: "SECTION 5.01.16", raw_start: 11136786, title: "Reserved"}
+  - {label: "SECTION 5.01.17", raw_start: 11136941, title: "Performance by Borrower"}
+  - {label: "SECTION 5.01.18", raw_start: 11137621, title: "Intentionally Omitted"}
+  - {label: "SECTION 5.01.19", raw_start: 11137789, title: "No Joint Assessment"}
+  - {label: "SECTION 5.01.20", raw_start: 11138580, title: "Leasing Matters"}
+  - {label: "SECTION 5.01.21", raw_start: 11149279, title: "Alterations"}
+  - {label: "SECTION 5.01.22", raw_start: 11158693, title: "Operation of Property;"}
+  - {label: "SECTION 5.01.23", raw_start: 11183387, title: "Mortgage Loan Reserve Funds"}
+  - {label: "SECTION 5.01.24", raw_start: 11185264, title: "Notices"}
+  - {label: "SECTION 5.01.25", raw_start: 11187515, title: "Special Distributions"}
+  - {label: "SECTION 5.01.26", raw_start: 11188199, title: "Curing"}
+  - {label: "SECTION 5.01.27", raw_start: 11189701, title: "Mortgage Borrower and Senior Mezzanine Borrower Covenants"}
+  - {label: "SECTION 5.02", raw_start: 11190497, title: "Negative Covenants"}
+  - {label: "SECTION 5.02.1", raw_start: 11191099, title: "Operation of Property"}
+  - {label: "SECTION 5.02.2", raw_start: 11194186, title: "Liens/Indebtedness"}
+  - {label: "SECTION 5.02.3", raw_start: 11196664, title: "Dissolution"}
+  - {label: "SECTION 5.02.4", raw_start: 11198428, title: "Change in Business"}
+  - {label: "SECTION 5.02.5", raw_start: 11199991, title: "Debt Cancellation"}
+  - {label: "SECTION 5.02.6", raw_start: 11201337, title: "Zoning"}
+  - {label: "SECTION 5.02.7", raw_start: 11201986, title: "Intentionally Omitted"}
+  - {label: "SECTION 5.02.8", raw_start: 11202153, title: "Principal Place of Business and Organization"}
+  - {label: "SECTION 5.02.9", raw_start: 11203245, title: "ERISA"}
+  - {label: "SECTION 5.02.10", raw_start: 11205755, title: "Transfers"}
+  - {label: "SECTION 5.02.11", raw_start: 11228310, title: "Limitations on Distributions"}
+  - {label: "SECTION 5.02.12", raw_start: 11229175, title: "Other Limitations"}
+  - {label: "SECTION 5.02.13", raw_start: 11229973, title: "Refinancing or Prepayment"}
+  - {label: "SECTION 5.03", raw_start: 11230883, title: "General"}
+  - {label: "ARTICLE 6", raw_start: 11231601, title: ""}
+  - {label: "SECTION 6.01", raw_start: 11231601, title: "Insurance"}
+  - {label: "SECTION 6.02", raw_start: 11234905, title: "Casualty"}
+  - {label: "SECTION 6.03", raw_start: 11236615, title: "Condemnation"}
+  - {label: "SECTION 6.04", raw_start: 11239229, title: "Restoration"}
+  - {label: "ARTICLE 7", raw_start: 11239901, title: ""}
+  - {label: "SECTION 7.01", raw_start: 11239901, title: "Intentionally Omitted"}
+  - {label: "SECTION 7.02", raw_start: 11240080, title: "Tax and Insurance Escrow Fund"}
+  - {label: "SECTION 7.02.1", raw_start: 11243711, title: "Waiver of Tax Escrow"}
+  - {label: "SECTION 7.02.2", raw_start: 11244337, title: "Tax and Insurance Escrow Funds After Debt Paid"}
+  - {label: "SECTION 7.03", raw_start: 11244781, title: "FF&E Reserve Account"}
+  - {label: "SECTION 7.03.1", raw_start: 11244963, title: "FF&E Reserve Fund"}
+  - {label: "SECTION 7.03.2", raw_start: 11248487, title: "Disbursements from FF&E Reserve Account"}
+  - {label: "SECTION 7.03.3", raw_start: 11251595, title: "Balance in the FF&E Reserve Account"}
+  - {label: "SECTION 7.03.4", raw_start: 11251978, title: "Waiver of FF&E Reserve"}
+  - {label: "SECTION 7.03.5", raw_start: 11253008, title: "FF&E Reserve Funds After Debt Paid"}
+  - {label: "SECTION 7.04", raw_start: 11253429, title: "Intentionally Omitted"}
+  - {label: "SECTION 7.05", raw_start: 11253608, title: "Intentionally Omitted"}
+  - {label: "SECTION 7.06", raw_start: 11253787, title: "Reserve Funds, Generally"}
+  - {label: "SECTION 7.07", raw_start: 11258974, title: "Transfer of Reserve Funds Under Mortgage Loan"}
+  - {label: "ARTICLE 8", raw_start: 11260286, title: ""}
+  - {label: "SECTION 8.01", raw_start: 11260286, title: "Event of Default"}
+  - {label: "SECTION 8.02", raw_start: 11277563, title: "Remedies"}
+  - {label: "SECTION 8.03", raw_start: 11291218, title: "Intentionally Omitted"}
+  - {label: "SECTION 8.04", raw_start: 11291397, title: "Costs of Collection"}
+  - {label: "ARTICLE 9", raw_start: 11292621, title: ""}
+  - {label: "SECTION 9.01", raw_start: 11292621, title: "Servicer"}
+  - {label: "SECTION 9.02", raw_start: 11302639, title: "Exculpation"}
+  - {label: "SECTION 9.03", raw_start: 11315922, title: "Assignments"}
+  - {label: "SECTION 9.04", raw_start: 11318862, title: "Participation"}
+  - {label: "SECTION 9.05", raw_start: 11321066, title: "Borrower's Facilitation of Transfer"}
+  - {label: "SECTION 9.06", raw_start: 11323152, title: "Notice;"}
+  - {label: "SECTION 9.07", raw_start: 11324632, title: "Registry"}
+  - {label: "SECTION 9.08", raw_start: 11327053, title: "Cooperation in Syndication"}
+  - {label: "SECTION 9.09", raw_start: 11331871, title: "Sale of Notes and Securitization"}
+  - {label: "SECTION 9.10", raw_start: 11340008, title: "Securitization Indemnification"}
+  - {label: "SECTION 9.11", raw_start: 11355694, title: "Amendments to the Co-Lender Agreement, Intercreditor Agreeme"}
+  - {label: "SECTION 9.12", raw_start: 11359396, title: "Collateral Agent"}
+  - {label: "ARTICLE 10", raw_start: 11373749, title: ""}
+  - {label: "SECTION 10.01", raw_start: 11373749, title: "Survival"}
+  - {label: "SECTION 10.02", raw_start: 11375082, title: "Lender's Discretion"}
+  - {label: "SECTION 10.03", raw_start: 11375960, title: "Governing Law"}
+  - {label: "SECTION 10.04", raw_start: 11380402, title: "Amendments and Waivers"}
+  - {label: "SECTION 10.05", raw_start: 11383118, title: "Delay Not a Waiver"}
+  - {label: "SECTION 10.06", raw_start: 11384268, title: "Notices"}
+  - {label: "SECTION 10.07", raw_start: 11397888, title: "Trial by Jury"}
+  - {label: "SECTION 10.08", raw_start: 11398743, title: "Headings"}
+  - {label: "SECTION 10.09", raw_start: 11399117, title: "Severability"}
+  - {label: "SECTION 10.10", raw_start: 11400018, title: "Preferences"}
+  - {label: "SECTION 10.11", raw_start: 11401087, title: "Waiver of Notice"}
+  - {label: "SECTION 10.12", raw_start: 11401688, title: "Remedies of Borrower"}
+  - {label: "SECTION 10.13", raw_start: 11403306, title: "Expenses;"}
+  - {label: "SECTION 10.14", raw_start: 11412484, title: "Schedules Incorporated"}
+  - {label: "SECTION 10.15", raw_start: 11412811, title: "Offsets, Counterclaims and Defenses"}
+  - {label: "SECTION 10.16", raw_start: 11413942, title: "No Joint Venture or Partnership;"}
+  - {label: "SECTION 10.17", raw_start: 11416322, title: "Conversion to LLC;"}
+  - {label: "SECTION 10.18", raw_start: 11419132, title: "Cross-Default;"}
+  - {label: "SECTION 10.19", raw_start: 11421488, title: "Waiver of Counterclaim"}
+  - {label: "SECTION 10.20", raw_start: 11421839, title: "Conflict;"}
+  - {label: "SECTION 10.21", raw_start: 11423993, title: "Brokers and Financial Advisors"}
+  - {label: "SECTION 10.22", raw_start: 11425195, title: "Prior Agreements"}
+  - {label: "SECTION 10.23", raw_start: 11425991, title: "Counterparts"}
+  - {label: "SECTION 10.24", raw_start: 11426412, title: "Intentionally Omitted"}
+  - {label: "SECTION 10.25", raw_start: 11426593, title: "Gaming Laws"}
+  - {label: "SECTION 10.26", raw_start: 11430678, title: "Certain Additional Rights of Lender (VCOC)"}
+  - {label: "ARTICLE 11", raw_start: 11433636, title: ""}
+  - {label: "SECTION 11.01", raw_start: 11433636, title: "Joint and Several Liability;"}
+  - {label: "SECTION 11.02", raw_start: 11434350, title: "Waivers"}
+  - {label: "SECTION 11.02.1", raw_start: 11434779, title: "No Duty To Pursue Others"}
+  - {label: "SECTION 11.02.2", raw_start: 11436152, title: "Waivers"}
+  - {label: "SECTION 11.02.3", raw_start: 11438064, title: "Waiver of Subrogation, Reimbursement and Contribution"}
+  - {label: "SECTION 11.02.4", raw_start: 11439065, title: "Events And Circumstances Not Reducing Or Discharging Guarant"}
+  - {label: "SECTION 11.03", raw_start: 11448041, title: "Other Actions Taken or Omitted"}
+  - {label: "SECTION 11.04", raw_start: 11449036, title: "No Release or Novation"}
+  - {label: "SECTION 11.05", raw_start: 11450075, title: "Intentionally Omitted"}
+  - {label: "SECTION 11.06", raw_start: 11450255, title: "Intentionally Omitted"}
+  - {label: "SECTION 11.07", raw_start: 11450435, title: "Platform;"}
+  - {label: "SECTION 11.08", raw_start: 11454458, title: "Confidentiality"}
+  - {label: "SECTION 11.09", raw_start: 11462887, title: "Amendment and Restatement"}
+absent: []

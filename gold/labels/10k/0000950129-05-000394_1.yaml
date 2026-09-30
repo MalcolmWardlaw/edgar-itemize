@@ -1,0 +1,28 @@
+accession: 0000950129-05-000394
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 25497, title: ""}
+  - {label: "ITEM 1", raw_start: 25636, title: "Business"}
+  - {label: "ITEM 2", raw_start: 65852, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 70618, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 71150, title: "Submission of Matters to a Vote of Security Holders"}
+  - {label: "PART II", raw_start: 77545, title: ""}
+  - {label: "ITEM 5", raw_start: 77790, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 84826, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 103178, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 288049, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 302851, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 598702, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 599036, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 600493, title: "Other Information"}
+  - {label: "PART III", raw_start: 600721, title: ""}
+  - {label: "ITEM 10", raw_start: 601446, title: "Directors and Executive Officers of the Registrant"}
+  - {label: "ITEM 11", raw_start: 603078, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 603600, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 604450, title: "Certain Relationships and Related Transactions"}
+  - {label: "ITEM 14", raw_start: 606004, title: "Principal Accountant's Fees and Services"}
+  - {label: "PART IV", raw_start: 606677, title: ""}
+  - {label: "ITEM 15", raw_start: 606878, title: "Exhibits and Financial Statement Schedules"}
+absent: []

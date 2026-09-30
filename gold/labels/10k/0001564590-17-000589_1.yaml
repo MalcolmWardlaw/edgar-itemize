@@ -1,0 +1,30 @@
+accession: 0001564590-17-000589
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 71323, title: ""}
+  - {label: "ITEM 1", raw_start: 71695, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 156639, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 205710, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 206294, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 208148, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 209211, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 210299, title: ""}
+  - {label: "ITEM 5", raw_start: 210718, title: "Market for Schlumberger’s Common Stock, Related Stockholder "}
+  - {label: "ITEM 6", raw_start: 322588, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 432300, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 1348684, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 1833210, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 6466812, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 6467486, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 6470150, title: "Other Information"}
+  - {label: "PART III", raw_start: 6473413, title: ""}
+  - {label: "ITEM 10", raw_start: 6473772, title: "Directors, Executive Officers and Corporate Governance of Sc"}
+  - {label: "ITEM 11", raw_start: 6475870, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 6476884, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 6477960, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 6478962, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 6480312, title: ""}
+  - {label: "ITEM 15", raw_start: 6480686, title: "Exhibits and Financial Statement Schedules"}
+absent: []

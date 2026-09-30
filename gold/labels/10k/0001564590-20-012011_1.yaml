@@ -1,0 +1,29 @@
+accession: 0001564590-20-012011
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 75349, title: ""}
+  - {label: "ITEM 1", raw_start: 76010, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 213434, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 372424, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 373025, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 408033, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 408967, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 409993, title: ""}
+  - {label: "ITEM 5", raw_start: 410734, title: "Market For Registrant’s Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 454847, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 682714, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 2603415, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 2604170, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 7461304, title: "A Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 7467103, title: "Other Information"}
+  - {label: "PART III", raw_start: 7468347, title: ""}
+  - {label: "ITEM 10", raw_start: 7468797, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 7545020, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 8098812, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 8173143, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 8176193, title: "Principal Accountant Fees and Services"}
+  - {label: "ITEM 15", raw_start: 8195143, title: "Index to Exhibits"}
+  - {label: "ITEM 16", raw_start: 8252313, title: "Form 10-K Summary"}
+absent: []

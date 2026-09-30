@@ -1,0 +1,11 @@
+accession: 0001295345-18-000009
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  - {label: "PART I", raw_start: 18005}
+  # not a heading: ITEM 1B at 71946 (table_of_contents)
+  - {label: "ITEM 2", raw_start: 72173}
+  - {label: "ITEM 7", raw_start: 91435}
+  - {label: "ITEM 7A", raw_start: 96620}

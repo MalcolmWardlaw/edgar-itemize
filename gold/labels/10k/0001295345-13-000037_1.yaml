@@ -1,0 +1,29 @@
+accession: 0001295345-13-000037
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 25152, title: ""}
+  - {label: "ITEM 1", raw_start: 25291, title: "DESCRIPTION OF BUSINESS Back to Table of Contents"}
+  - {label: "ITEM 1A", raw_start: 46092, title: "RISK FACTORS RELATED TO OUR BUSINESS Back to Table of Conten"}
+  - {label: "ITEM 1B", raw_start: 78207, title: "UNRESOLVED STAFF COMMENTS Back to Table of Contents"}
+  - {label: "ITEM 2", raw_start: 78668, title: "DESCRIPTION OF PROPERTIES Back to Table of Contents"}
+  - {label: "ITEM 3", raw_start: 79510, title: "LEGAL PROCEEDING Back to Table of Contents"}
+  - {label: "ITEM 4", raw_start: 79995, title: "MINE SAFETY DISCLOSURES Back to Table of Contents"}
+  - {label: "PART II", raw_start: 80621, title: ""}
+  - {label: "ITEM 5", raw_start: 80805, title: "MARKET FOR REGISTRANT'S COMMON STOCK AND RELATED STOCKHOLDER"}
+  - {label: "ITEM 6", raw_start: 111176, title: "SELECTED FINANCIAL DATA Back to Table of Contents"}
+  - {label: "ITEM 7", raw_start: 111544, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS"}
+  - {label: "ITEM 7A", raw_start: 119532, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURE ABOUT MARKET RISK Ba"}
+  - {label: "ITEM 8", raw_start: 120107, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA Back to Table of"}
+  - {label: "ITEM 9", raw_start: 120755, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 121122, title: "CONTROLS AND PROCEDURES Back to Table of Contents"}
+  - {label: "ITEM 9B", raw_start: 124548, title: "OTHER INFORMATION Back to Table of Contents"}
+  - {label: "PART III", raw_start: 125022, title: ""}
+  - {label: "ITEM 10", raw_start: 125169, title: "DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT AND CORPO"}
+  - {label: "ITEM 11", raw_start: 130482, title: "EXECUTIVE COMPENSATION Back to Table of Contents"}
+  - {label: "ITEM 12", raw_start: 143345, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 148444, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS AND DIRECTORS"}
+  - {label: "ITEM 14", raw_start: 149102, title: "PRINCIPAL ACCOUNTING FEES AND SERVICES Back to Table of Cont"}
+  - {label: "ITEM 15", raw_start: 156409, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES Back to Table of "}
+absent: []

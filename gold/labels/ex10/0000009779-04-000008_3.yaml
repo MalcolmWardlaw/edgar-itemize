@@ -1,0 +1,199 @@
+accession: 0000009779-04-000008
+sequence: 3
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 180013, title: ""}
+  - {label: "SECTION 1.01", raw_start: 180234, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 272946, title: "Principles of Construction"}
+  - {label: "ARTICLE 2", raw_start: 273825, title: ""}
+  - {label: "SECTION 2.01", raw_start: 274160, title: "Loan Commitment;"}
+  - {label: "SECTION 2.01.1", raw_start: 274350, title: "Agreement to Lend and Borrow"}
+  - {label: "SECTION 2.01.2", raw_start: 274734, title: "Single Disbursement to Borrower"}
+  - {label: "SECTION 2.01.3", raw_start: 275138, title: "The Note, Mortgage and Loan Documents"}
+  - {label: "SECTION 2.01.4", raw_start: 275496, title: "Use of Proceeds"}
+  - {label: "SECTION 2.02", raw_start: 276342, title: "Interest Rate"}
+  - {label: "SECTION 2.02.1", raw_start: 276504, title: "Initial Interest Rate"}
+  - {label: "SECTION 2.02.2", raw_start: 276883, title: "Interest Calculation"}
+  - {label: "SECTION 2.02.3", raw_start: 277433, title: "Default Rate"}
+  - {label: "SECTION 2.02.4", raw_start: 278118, title: "Usury Savings"}
+  - {label: "SECTION 2.03", raw_start: 279839, title: "Loan Payment"}
+  - {label: "SECTION 2.03.1", raw_start: 280000, title: "Payment Before Maturity Date"}
+  - {label: "SECTION 2.03.2", raw_start: 280961, title: "Payments Generally"}
+  - {label: "SECTION 2.03.3", raw_start: 282286, title: "Payment on Maturity Date"}
+  - {label: "SECTION 2.03.4", raw_start: 282745, title: "Late Payment Charge"}
+  - {label: "SECTION 2.03.5", raw_start: 283601, title: "Method and Place of Payment"}
+  - {label: "SECTION 2.04", raw_start: 284388, title: "Prepayments"}
+  - {label: "SECTION 2.04.1", raw_start: 284548, title: "Voluntary Prepayments"}
+  - {label: "SECTION 2.04.2", raw_start: 285356, title: "Mandatory Prepayments"}
+  - {label: "SECTION 2.04.3", raw_start: 286317, title: "Prepayments After Default"}
+  - {label: "SECTION 2.04.4", raw_start: 287377, title: "Prepayment During Defeasance Lockout"}
+  - {label: "SECTION 2.05", raw_start: 289090, title: "Defeasance"}
+  - {label: "SECTION 2.05.1", raw_start: 289249, title: "Voluntary Defeasance"}
+  - {label: "SECTION 2.05.2", raw_start: 297201, title: "Collateral"}
+  - {label: "SECTION 2.05.3", raw_start: 298258, title: "Successor Borrower"}
+  - {label: "SECTION 2.06", raw_start: 299807, title: "Release of Property"}
+  - {label: "SECTION 2.06.1", raw_start: 300205, title: "Release upon Defeasance"}
+  - {label: "SECTION 2.06.2", raw_start: 301957, title: "Release on Payment in Full"}
+  - {label: "SECTION 2.07", raw_start: 302375, title: "Cash Management"}
+  - {label: "SECTION 2.07.1", raw_start: 302539, title: "Lockbox Account"}
+  - {label: "SECTION 2.07.2", raw_start: 304925, title: "Cash Management Account"}
+  - {label: "SECTION 2.07.3", raw_start: 310434, title: "Payments Received Under the Cash Management Agreement"}
+  - {label: "ARTICLE 3", raw_start: 311563, title: ""}
+  - {label: "SECTION 3.01", raw_start: 311878, title: "Conditions Precedent to Closing"}
+  - {label: "SECTION 3.01.1", raw_start: 312242, title: "Representations and Warranties;"}
+  - {label: "SECTION 3.01.2", raw_start: 313057, title: "Loan Agreement and Note"}
+  - {label: "SECTION 3.01.3", raw_start: 313398, title: "Delivery of Loan Documents;"}
+  - {label: "SECTION 3.01.4", raw_start: 319387, title: "Related Documents"}
+  - {label: "SECTION 3.01.5", raw_start: 319955, title: "Delivery of Organizational Documents"}
+  - {label: "SECTION 3.01.6", raw_start: 320758, title: "Opinions of Borrower's Counsel"}
+  - {label: "SECTION 3.01.7", raw_start: 321348, title: "Budgets"}
+  - {label: "SECTION 3.01.8", raw_start: 321652, title: "Basic Carrying Costs"}
+  - {label: "SECTION 3.01.9", raw_start: 322219, title: "Completion of Proceedings"}
+  - {label: "SECTION 3.01.10", raw_start: 322846, title: "Payments"}
+  - {label: "SECTION 3.01.11", raw_start: 323245, title: "Tenant Estoppels"}
+  - {label: "SECTION 3.01.12", raw_start: 323883, title: "Transaction Costs"}
+  - {label: "SECTION 3.01.13", raw_start: 324512, title: "Material Adverse Change"}
+  - {label: "SECTION 3.01.14", raw_start: 325282, title: "Leases and Rent Roll"}
+  - {label: "SECTION 3.01.15", raw_start: 325748, title: "Subordination and Attornment"}
+  - {label: "SECTION 3.01.16", raw_start: 326796, title: "Tax Lot"}
+  - {label: "SECTION 3.01.17", raw_start: 327183, title: "Physical Conditions Reports"}
+  - {label: "SECTION 3.01.18", raw_start: 327545, title: "Management Agreement"}
+  - {label: "SECTION 3.01.19", raw_start: 327876, title: "Appraisal"}
+  - {label: "SECTION 3.01.20", raw_start: 328191, title: "Financial Statements"}
+  - {label: "SECTION 3.01.21", raw_start: 328702, title: "Further Documents"}
+  - {label: "ARTICLE 4", raw_start: 329203, title: ""}
+  - {label: "SECTION 4.01", raw_start: 329416, title: "Borrower Representations"}
+  - {label: "SECTION 4.01.1", raw_start: 329673, title: "Organization"}
+  - {label: "SECTION 4.01.2", raw_start: 330754, title: "Proceedings"}
+  - {label: "SECTION 4.01.3", raw_start: 331668, title: "No Conflicts"}
+  - {label: "SECTION 4.01.4", raw_start: 333136, title: "Litigation"}
+  - {label: "SECTION 4.01.5", raw_start: 334134, title: "Agreements"}
+  - {label: "SECTION 4.01.6", raw_start: 335479, title: "Title"}
+  - {label: "SECTION 4.01.7", raw_start: 338471, title: "Solvency"}
+  - {label: "SECTION 4.01.8", raw_start: 340948, title: "Full and Accurate Disclosure"}
+  - {label: "SECTION 4.01.9", raw_start: 341745, title: "No Plan Assets"}
+  - {label: "SECTION 4.01.10", raw_start: 342835, title: "Compliance"}
+  - {label: "SECTION 4.01.11", raw_start: 343818, title: "Financial Information"}
+  - {label: "SECTION 4.01.12", raw_start: 345348, title: "Condemnation"}
+  - {label: "SECTION 4.01.13", raw_start: 345855, title: "Federal Reserve Regulations"}
+  - {label: "SECTION 4.01.14", raw_start: 346592, title: "Utilities and Public Access"}
+  - {label: "SECTION 4.01.15", raw_start: 347606, title: "Not a Foreign Person"}
+  - {label: "SECTION 4.01.16", raw_start: 347911, title: "Separate Lots"}
+  - {label: "SECTION 4.01.17", raw_start: 348307, title: "Assessments"}
+  - {label: "SECTION 4.01.18", raw_start: 348763, title: "Enforceability"}
+  - {label: "SECTION 4.01.19", raw_start: 349653, title: "No Prior Assignment"}
+  - {label: "SECTION 4.01.20", raw_start: 350021, title: "Insurance"}
+  - {label: "SECTION 4.01.21", raw_start: 350605, title: "Use of Property"}
+  - {label: "SECTION 4.01.22", raw_start: 350912, title: "Certificate of Occupancy;"}
+  - {label: "SECTION 4.01.23", raw_start: 351729, title: "Flood Zone"}
+  - {label: "SECTION 4.01.24", raw_start: 352249, title: "Physical Condition"}
+  - {label: "SECTION 4.01.25", raw_start: 353420, title: "Boundaries"}
+  - {label: "SECTION 4.01.26", raw_start: 354141, title: "Leases"}
+  - {label: "SECTION 4.01.27", raw_start: 356900, title: "Survey"}
+  - {label: "SECTION 4.01.28", raw_start: 357380, title: "Principal Place of Business;"}
+  - {label: "SECTION 4.01.29", raw_start: 357910, title: "Filing and Recording Taxes"}
+  - {label: "SECTION 4.01.30", raw_start: 359184, title: "Special Purpose Entity/Separateness"}
+  - {label: "SECTION 4.01.31", raw_start: 361268, title: "Management Agreement"}
+  - {label: "SECTION 4.01.32", raw_start: 361729, title: "Illegal Activity"}
+  - {label: "SECTION 4.01.33", raw_start: 362029, title: "No Change in Facts or Circumstances;"}
+  - {label: "SECTION 4.01.34", raw_start: 363364, title: "Investment Company Act"}
+  - {label: "SECTION 4.01.35", raw_start: 364277, title: "Embargoed Person"}
+  - {label: "SECTION 4.01.36", raw_start: 366126, title: "Cash Management Account"}
+  - {label: "SECTION 4.02", raw_start: 368481, title: "Survival of Representations"}
+  - {label: "ARTICLE 5", raw_start: 369243, title: ""}
+  - {label: "SECTION 5.01", raw_start: 369554, title: "Affirmative Covenants"}
+  - {label: "SECTION 5.01.1", raw_start: 370056, title: "Existence;"}
+  - {label: "SECTION 5.01.2", raw_start: 374437, title: "Taxes and Other Charges"}
+  - {label: "SECTION 5.01.3", raw_start: 378160, title: "Litigation"}
+  - {label: "SECTION 5.01.4", raw_start: 378699, title: "Access to Property"}
+  - {label: "SECTION 5.01.5", raw_start: 379080, title: "Notice of Default"}
+  - {label: "SECTION 5.01.6", raw_start: 379536, title: "Cooperate in Legal Proceedings"}
+  - {label: "SECTION 5.01.7", raw_start: 380156, title: "Perform Loan Documents"}
+  - {label: "SECTION 5.01.8", raw_start: 380640, title: "Award and Insurance Benefits"}
+  - {label: "SECTION 5.01.9", raw_start: 381401, title: "Further Assurances"}
+  - {label: "SECTION 5.01.10", raw_start: 383317, title: "Mortgage Taxes"}
+  - {label: "SECTION 5.01.11", raw_start: 383688, title: "Financial Reporting"}
+  - {label: "SECTION 5.01.12", raw_start: 403968, title: "Business and Operations"}
+  - {label: "SECTION 5.01.13", raw_start: 404637, title: "Title to the Property"}
+  - {label: "SECTION 5.01.14", raw_start: 405570, title: "Costs of Enforcement"}
+  - {label: "SECTION 5.01.15", raw_start: 406775, title: "Estoppel Statement"}
+  - {label: "SECTION 5.01.16", raw_start: 408248, title: "Loan Proceeds"}
+  - {label: "SECTION 5.01.17", raw_start: 408583, title: "Performance by Borrower"}
+  - {label: "SECTION 5.01.18", raw_start: 409254, title: "Confirmation of Representations"}
+  - {label: "SECTION 5.01.19", raw_start: 410019, title: "No Joint Assessment"}
+  - {label: "SECTION 5.01.20", raw_start: 410769, title: "Leasing Matters"}
+  - {label: "SECTION 5.01.21", raw_start: 413634, title: "Tenant Security Deposits"}
+  - {label: "SECTION 5.01.22", raw_start: 415590, title: "Alterations"}
+  - {label: "SECTION 5.01.23", raw_start: 419145, title: "Operation of Property"}
+  - {label: "SECTION 5.02", raw_start: 421055, title: "Negative Covenants"}
+  - {label: "SECTION 5.02.1", raw_start: 421716, title: "Operation of Property"}
+  - {label: "SECTION 5.02.2", raw_start: 424274, title: "Liens"}
+  - {label: "SECTION 5.02.3", raw_start: 427034, title: "Dissolution"}
+  - {label: "SECTION 5.02.4", raw_start: 428879, title: "Change in Business"}
+  - {label: "SECTION 5.02.5", raw_start: 429897, title: "Debt Cancellation"}
+  - {label: "SECTION 5.02.6", raw_start: 430846, title: "Zoning"}
+  - {label: "SECTION 5.02.7", raw_start: 431978, title: "No Joint Assessment"}
+  - {label: "SECTION 5.02.8", raw_start: 433138, title: "Principal Place of Business and Organization"}
+  - {label: "SECTION 5.02.9", raw_start: 434654, title: "ERISA"}
+  - {label: "SECTION 5.02.10", raw_start: 439524, title: "Transfers"}
+  - {label: "ARTICLE 6", raw_start: 461666, title: ""}
+  - {label: "SECTION 6.01", raw_start: 461900, title: "Insurance"}
+  - {label: "SECTION 6.02", raw_start: 479913, title: "Casualty"}
+  - {label: "SECTION 6.03", raw_start: 481120, title: "Condemnation"}
+  - {label: "SECTION 6.04", raw_start: 483042, title: "Restoration"}
+  - {label: "ARTICLE 7", raw_start: 513992, title: ""}
+  - {label: "SECTION 7.01", raw_start: 514328, title: "Required Repair Funds"}
+  - {label: "SECTION 7.01.1", raw_start: 514498, title: "Deposits"}
+  - {label: "SECTION 7.01.2", raw_start: 516572, title: "Release of Required Repair Funds"}
+  - {label: "SECTION 7.02", raw_start: 519513, title: "Tax and Insurance Escrow Fund"}
+  - {label: "SECTION 7.03", raw_start: 522463, title: "Replacements and Replacement Reserve"}
+  - {label: "SECTION 7.03.1", raw_start: 522648, title: "Replacement Reserve Fund"}
+  - {label: "SECTION 7.03.2", raw_start: 523979, title: "Disbursements from Replacement Reserve Account"}
+  - {label: "SECTION 7.03.3", raw_start: 525241, title: "Balance in the Replacement Reserve Account"}
+  - {label: "SECTION 7.04", raw_start: 525688, title: "Rollover Reserve"}
+  - {label: "SECTION 7.04.1", raw_start: 525853, title: "Deposits to Rollover Reserve Fund"}
+  - {label: "SECTION 7.04.2", raw_start: 527782, title: "Withdrawal of Rollover Reserve Funds"}
+  - {label: "SECTION 7.05", raw_start: 529132, title: "Environmental Reserve Fund"}
+  - {label: "SECTION 7.05.1", raw_start: 529307, title: "Deposits to the Environmental Reserve"}
+  - {label: "SECTION 7.05.2", raw_start: 532694, title: "Withdrawal of Environmental Reserve Funds"}
+  - {label: "SECTION 7.06", raw_start: 534667, title: "Environmental Well Reserve"}
+  - {label: "SECTION 7.06.1", raw_start: 534841, title: "Deposits to the Environmental Well Reserve"}
+  - {label: "SECTION 7.06.2", raw_start: 538824, title: "Withdrawal of Environmental Well Reserve Funds"}
+  - {label: "SECTION 7.07", raw_start: 541835, title: "Reserve Funds, Generally"}
+  - {label: "ARTICLE 8", raw_start: 546667, title: ""}
+  - {label: "SECTION 8.01", raw_start: 546860, title: "Event of Default"}
+  - {label: "SECTION 8.02", raw_start: 556729, title: "Remedies"}
+  - {label: "ARTICLE 9", raw_start: 562167, title: ""}
+  - {label: "SECTION 9.01", raw_start: 562479, title: "Sale of Notes and Securitization"}
+  - {label: "SECTION 9.02", raw_start: 569866, title: "Securitization Indemnification"}
+  - {label: "SECTION 9.03", raw_start: 584564, title: "Achievements"}
+  - {label: "SECTION 9.04", raw_start: 585929, title: "Exculpation"}
+  - {label: "SECTION 9.05", raw_start: 595104, title: "Matters Concerning Manager"}
+  - {label: "SECTION 9.06", raw_start: 595877, title: "Servicer"}
+  - {label: "ARTICLE 10", raw_start: 596636, title: ""}
+  - {label: "SECTION 10.01", raw_start: 596942, title: "Survival"}
+  - {label: "SECTION 10.02", raw_start: 597871, title: "Lender's Discretion"}
+  - {label: "SECTION 10.03", raw_start: 598582, title: "Governing Law"}
+  - {label: "SECTION 10.04", raw_start: 603268, title: "Modification, Waiver in Writing"}
+  - {label: "SECTION 10.05", raw_start: 604087, title: "Delay Not a Waiver"}
+  - {label: "SECTION 10.06", raw_start: 605178, title: "Notices"}
+  - {label: "SECTION 10.07", raw_start: 607881, title: "Trial by Jury"}
+  - {label: "SECTION 10.08", raw_start: 608858, title: "Headings"}
+  - {label: "SECTION 10.09", raw_start: 609221, title: "Severability"}
+  - {label: "SECTION 10.10", raw_start: 609790, title: "Preferences"}
+  - {label: "SECTION 10.11", raw_start: 610697, title: "Waiver of Notice"}
+  - {label: "SECTION 10.12", raw_start: 611165, title: "[INTENTIONALLY OMITTED]"}
+  - {label: "SECTION 10.13", raw_start: 611319, title: "Expenses;"}
+  - {label: "SECTION 10.14", raw_start: 617092, title: "Schedules Incorporated"}
+  - {label: "SECTION 10.15", raw_start: 617398, title: "Offsets, Counterclaims and Defenses"}
+  - {label: "SECTION 10.16", raw_start: 618197, title: "No Joint Venture or Partnership;"}
+  - {label: "SECTION 10.17", raw_start: 620077, title: "Publicity"}
+  - {label: "SECTION 10.18", raw_start: 620593, title: "Waiver of Marshalling of Assets"}
+  - {label: "SECTION 10.19", raw_start: 621658, title: "Waiver of Counterclaim"}
+  - {label: "SECTION 10.20", raw_start: 621988, title: "Conflict;"}
+  - {label: "SECTION 10.21", raw_start: 623687, title: "Brokers and Financial Advisors"}
+  - {label: "SECTION 10.22", raw_start: 624573, title: "Prior Agreements"}
+  - {label: "SECTION 10.23", raw_start: 625083, title: "Counterparts"}
+  - {label: "SECTION 10.24", raw_start: 625710, title: "Area of Taking;"}
+absent: []

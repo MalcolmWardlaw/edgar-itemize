@@ -1,0 +1,77 @@
+accession: 0001081316-22-000004
+sequence: 8
+doc_type: EX-10.23
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 21897077, title: ""}
+  - {label: "SECTION 1.01", raw_start: 21897555, title: "Certain Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 22108663, title: "Computation of Time Periods"}
+  - {label: "SECTION 1.03", raw_start: 22109593, title: "Accounting Terms"}
+  - {label: "SECTION 1.04", raw_start: 22112366, title: "Classification of Loans"}
+  - {label: "SECTION 1.05", raw_start: 22113804, title: "Other Interpretive Provisions"}
+  - {label: "SECTION 1.06", raw_start: 22115931, title: "Term SOFR Notification"}
+  - {label: "ARTICLE 2", raw_start: 22118729, title: ""}
+  - {label: "SECTION 2.01", raw_start: 22119205, title: "The Loans"}
+  - {label: "SECTION 2.02", raw_start: 22120945, title: "Making the Loans"}
+  - {label: "SECTION 2.03", raw_start: 22129426, title: "[Reserved]"}
+  - {label: "SECTION 2.04", raw_start: 22129833, title: "[Reserved]"}
+  - {label: "SECTION 2.05", raw_start: 22130223, title: "Fees"}
+  - {label: "SECTION 2.06", raw_start: 22131835, title: "[Reserved]"}
+  - {label: "SECTION 2.07", raw_start: 22132242, title: "Increase of the Commitments"}
+  - {label: "SECTION 2.08", raw_start: 22139986, title: "Termination or Reduction of the Commitment"}
+  - {label: "SECTION 2.09", raw_start: 22144336, title: "Repayment of Loans"}
+  - {label: "SECTION 2.10", raw_start: 22146074, title: "Evidence of Indebtedness"}
+  - {label: "SECTION 2.11", raw_start: 22150647, title: "Interest on Loans"}
+  - {label: "SECTION 2.12", raw_start: 22153663, title: "Availability of Types of Loans;"}
+  - {label: "SECTION 2.13", raw_start: 22165735, title: "Conversion of Loans"}
+  - {label: "SECTION 2.14", raw_start: 22173360, title: "Optional Prepayments of Loans"}
+  - {label: "SECTION 2.15", raw_start: 22175543, title: "Increased Costs"}
+  - {label: "SECTION 2.16", raw_start: 22184133, title: "Illegality"}
+  - {label: "SECTION 2.17", raw_start: 22187987, title: "Payments and Computations"}
+  - {label: "SECTION 2.18", raw_start: 22195846, title: "Taxes"}
+  - {label: "SECTION 2.19", raw_start: 22220330, title: "Sharing of Payments, Etc"}
+  - {label: "SECTION 2.20", raw_start: 22224851, title: "Mitigation Obligations;"}
+  - {label: "SECTION 2.21", raw_start: 22233447, title: "Defaulting Lenders"}
+  - {label: "ARTICLE 3", raw_start: 22244495, title: ""}
+  - {label: "SECTION 3.01", raw_start: 22244962, title: "Conditions Precedent to Effectiveness"}
+  - {label: "SECTION 3.02", raw_start: 22258720, title: "Conditions Precedent to each Funding of Loans"}
+  - {label: "ARTICLE 4", raw_start: 22262540, title: ""}
+  - {label: "SECTION 4.01", raw_start: 22263016, title: "Representations and Warranties of the Borrower"}
+  - {label: "ARTICLE 5", raw_start: 22284993, title: ""}
+  - {label: "SECTION 5.01", raw_start: 22285463, title: "Affirmative Covenants"}
+  - {label: "SECTION 5.02", raw_start: 22311676, title: "Negative Covenants"}
+  - {label: "SECTION 5.03", raw_start: 22327612, title: "Financial Covenant"}
+  - {label: "ARTICLE 6", raw_start: 22328583, title: ""}
+  - {label: "SECTION 6.01", raw_start: 22329047, title: "Events of Default"}
+  - {label: "ARTICLE 7", raw_start: 22343518, title: ""}
+  - {label: "SECTION 7.01", raw_start: 22343989, title: "Appointment and Authority"}
+  - {label: "SECTION 7.02", raw_start: 22346020, title: "Rights as a Lender"}
+  - {label: "SECTION 7.03", raw_start: 22347560, title: "Exculpatory Provisions"}
+  - {label: "SECTION 7.04", raw_start: 22354570, title: "Reliance by Administrative Agent"}
+  - {label: "SECTION 7.05", raw_start: 22356533, title: "Resignation of Administrative Agent"}
+  - {label: "SECTION 7.06", raw_start: 22364052, title: "Non-Reliance on Administrative Agent and Other Lenders"}
+  - {label: "SECTION 7.07", raw_start: 22366018, title: "Indemnification"}
+  - {label: "SECTION 7.08", raw_start: 22369468, title: "No Other Duties, etc"}
+  - {label: "SECTION 7.09", raw_start: 22370541, title: "Collateral Release Matters"}
+  - {label: "SECTION 7.10", raw_start: 22375471, title: "Erroneous Payments"}
+  - {label: "ARTICLE 8", raw_start: 22391600, title: ""}
+  - {label: "SECTION 8.01", raw_start: 22392061, title: "Amendments, Etc"}
+  - {label: "SECTION 8.02", raw_start: 22396437, title: "Notices, Etc"}
+  - {label: "SECTION 8.03", raw_start: 22409782, title: "No Waiver;"}
+  - {label: "SECTION 8.04", raw_start: 22410844, title: "Costs and Expenses;"}
+  - {label: "SECTION 8.05", raw_start: 22422761, title: "Right of Set-off"}
+  - {label: "SECTION 8.06", raw_start: 22426068, title: "Binding Effect"}
+  - {label: "SECTION 8.07", raw_start: 22427291, title: "Assignments and Participations"}
+  - {label: "SECTION 8.08", raw_start: 22456357, title: "Confidentiality"}
+  - {label: "SECTION 8.09", raw_start: 22459948, title: "Governing Law"}
+  - {label: "SECTION 8.10", raw_start: 22460910, title: "Severability"}
+  - {label: "SECTION 8.11", raw_start: 22461861, title: "Execution in Counterparts"}
+  - {label: "SECTION 8.12", raw_start: 22463078, title: "Jurisdiction, Etc"}
+  - {label: "SECTION 8.13", raw_start: 22467314, title: "Waiver of Jury Trial"}
+  - {label: "SECTION 8.14", raw_start: 22469364, title: "USA Patriot Act"}
+  - {label: "SECTION 8.15", raw_start: 22471533, title: "No Fiduciary Duty"}
+  - {label: "SECTION 8.16", raw_start: 22474803, title: "Acknowledgement and Consent to Bail-In of Affected Financial"}
+  - {label: "SECTION 8.17", raw_start: 22479081, title: "[Reserved]"}
+  - {label: "SECTION 8.18", raw_start: 22479489, title: "Certain ERISA Matters"}
+  - {label: "SECTION 8.19", raw_start: 22486610, title: "Acknowledgement Regarding Any Supported QFCs"}
+absent: []

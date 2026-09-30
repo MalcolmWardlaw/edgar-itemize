@@ -1,0 +1,23 @@
+accession: 0000912057-02-012260
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 16615, title: ""}
+  - {label: "ITEM 1", raw_start: 16756, title: "Business"}
+  - {label: "ITEM 2", raw_start: 77719, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 87553, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 88034, title: "Submission of Matters to a Vote of the Security Holders"}
+  - {label: "PART II", raw_start: 98361, title: ""}
+  - {label: "ITEM 5", raw_start: 98527, title: "Market for the Registrant's Common Equity and Related Securi"}
+  - {label: "ITEM 6", raw_start: 104687, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 133729, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 315075, title: "Qualitative and Quantitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 327389, title: "Financial Statements and Supplementary Schedules"}
+  - {label: "ITEM 9", raw_start: 993729, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "PART III", raw_start: 994202, title: ""}
+  - {label: "ITEM 10", raw_start: 994362, title: "Directors and Executive Officers of the Registrant"}
+  - {label: "ITEM 11", raw_start: 995296, title: "Executive Compensation and Security Ownership of Certain Ben"}
+  - {label: "ITEM 13", raw_start: 995824, title: "Certain Relationships and Related Transactions"}
+  - {label: "ITEM 14", raw_start: 996137, title: "Exhibits and Reports on Form 8-K"}
+absent: []

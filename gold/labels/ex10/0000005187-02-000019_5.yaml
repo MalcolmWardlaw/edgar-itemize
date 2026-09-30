@@ -1,0 +1,93 @@
+accession: 0000005187-02-000019
+sequence: 5
+doc_type: EX-10.7
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 161941, title: ""}
+  - {label: "SECTION 1", raw_start: 161941, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 161975, title: "Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 209518, title: "Other Definitional Provisions"}
+  - {label: "ARTICLE 2", raw_start: 210553, title: ""}
+  - {label: "SECTION 2", raw_start: 210553, title: "THE COMMITTED RATE LOANS;"}
+  - {label: "SECTION 2.01", raw_start: 210633, title: "The Committed Rate Loans"}
+  - {label: "SECTION 2.02", raw_start: 213622, title: "The Bid Loans"}
+  - {label: "SECTION 2.03", raw_start: 224372, title: "Denomination of Committed Rate Loans"}
+  - {label: "SECTION 2.04", raw_start: 224574, title: "Fees"}
+  - {label: "SECTION 2.05", raw_start: 225212, title: "Reductions in Commitments"}
+  - {label: "SECTION 2.06", raw_start: 228377, title: "Prepayments"}
+  - {label: "SECTION 2.07", raw_start: 229532, title: "Minimum Principal Amount of Tranches"}
+  - {label: "SECTION 2.08", raw_start: 229931, title: "Committed Rate Loan Interest Rates and Payment Dates"}
+  - {label: "SECTION 2.09", raw_start: 231778, title: "Conversion Options"}
+  - {label: "SECTION 2.10", raw_start: 233983, title: "Computation of Interest and Fees"}
+  - {label: "SECTION 2.11", raw_start: 236407, title: "Pro Rata Treatment, Payments and Evidence of Debt"}
+  - {label: "SECTION 2.12", raw_start: 241325, title: "Non-Receipt of Funds by the Administrative Agent"}
+  - {label: "SECTION 2.13", raw_start: 244769, title: "Inability to Determine Interest Rate"}
+  - {label: "SECTION 2.14", raw_start: 247117, title: "Illegality"}
+  - {label: "SECTION 2.15", raw_start: 248973, title: "Requirements of Law"}
+  - {label: "SECTION 2.16", raw_start: 255421, title: "Indemnity"}
+  - {label: "SECTION 2.17", raw_start: 257190, title: "Taxes"}
+  - {label: "SECTION 2.18", raw_start: 265875, title: "Replacement of Lenders"}
+  - {label: "SECTION 2.19", raw_start: 269071, title: "Commitment Increases"}
+  - {label: "ARTICLE 3", raw_start: 271798, title: ""}
+  - {label: "SECTION 3", raw_start: 271798, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 3.01", raw_start: 272052, title: "Financial Condition"}
+  - {label: "SECTION 3.02", raw_start: 273560, title: "No Change"}
+  - {label: "SECTION 3.03", raw_start: 273690, title: "Existence;"}
+  - {label: "SECTION 3.04", raw_start: 274709, title: "Power;"}
+  - {label: "SECTION 3.05", raw_start: 275841, title: "No Legal Bar;"}
+  - {label: "SECTION 3.06", raw_start: 276642, title: "No Material Litigation"}
+  - {label: "SECTION 3.07", raw_start: 277131, title: "Investment Company Act"}
+  - {label: "SECTION 3.08", raw_start: 277338, title: "Federal Regulations"}
+  - {label: "SECTION 3.09", raw_start: 277800, title: "ERISA"}
+  - {label: "SECTION 3.10", raw_start: 279302, title: "Environmental Matters"}
+  - {label: "SECTION 3.11", raw_start: 282384, title: "Purpose of Loans"}
+  - {label: "SECTION 3.12", raw_start: 282588, title: "Restrictions on Subsidiaries"}
+  - {label: "ARTICLE 4", raw_start: 283137, title: ""}
+  - {label: "SECTION 4", raw_start: 283137, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 4.01", raw_start: 283230, title: "Conditions to Effective Date"}
+  - {label: "SECTION 4.02", raw_start: 285195, title: "Conditions to All Loans"}
+  - {label: "ARTICLE 5", raw_start: 286950, title: ""}
+  - {label: "SECTION 5", raw_start: 286950, title: "COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 287529, title: "Financial Statements"}
+  - {label: "SECTION 5.02", raw_start: 289708, title: "Certificates;"}
+  - {label: "SECTION 5.03", raw_start: 291888, title: "Payment of Obligations"}
+  - {label: "SECTION 5.04", raw_start: 292497, title: "Conduct of Business and Maintenance of Existence"}
+  - {label: "SECTION 5.05", raw_start: 293283, title: "Maintenance of Property;"}
+  - {label: "SECTION 5.06", raw_start: 293973, title: "Inspection of Property;"}
+  - {label: "SECTION 5.07", raw_start: 295013, title: "Notices"}
+  - {label: "SECTION 5.08", raw_start: 296948, title: "Environmental Laws"}
+  - {label: "SECTION 5.09", raw_start: 299076, title: "Consolidated Adjusted Indebtedness to Adjusted Capitalizatio"}
+  - {label: "SECTION 5.10", raw_start: 299284, title: "Liens, Etc"}
+  - {label: "SECTION 5.11", raw_start: 300551, title: "Availability"}
+  - {label: "ARTICLE 6", raw_start: 301066, title: ""}
+  - {label: "SECTION 6", raw_start: 301066, title: "EVENTS OF DEFAULT"}
+  - {label: "ARTICLE 7", raw_start: 311097, title: ""}
+  - {label: "SECTION 7", raw_start: 311097, title: "THE ADMINISTRATIVE AGENT"}
+  - {label: "SECTION 7.01", raw_start: 311144, title: "Appointment"}
+  - {label: "SECTION 7.02", raw_start: 312210, title: "Delegation of Duties"}
+  - {label: "SECTION 7.03", raw_start: 312613, title: "Exculpatory Provisions"}
+  - {label: "SECTION 7.04", raw_start: 313909, title: "Reliance by Administrative Agent"}
+  - {label: "SECTION 7.05", raw_start: 315835, title: "Notice of Default"}
+  - {label: "SECTION 7.06", raw_start: 316834, title: "Non-Reliance on Administrative Agent and Other Lenders"}
+  - {label: "SECTION 7.07", raw_start: 318843, title: "Indemnification"}
+  - {label: "SECTION 7.08", raw_start: 320293, title: "Administrative Agent in Its Individual Capacity"}
+  - {label: "SECTION 7.09", raw_start: 320908, title: "Successor Administrative Agent"}
+  - {label: "ARTICLE 8", raw_start: 322015, title: ""}
+  - {label: "SECTION 8", raw_start: 322015, title: "MISCELLANEOUS"}
+  - {label: "SECTION 8.01", raw_start: 322051, title: "Amendments and Waivers"}
+  - {label: "SECTION 8.02", raw_start: 324417, title: "Notices"}
+  - {label: "SECTION 8.03", raw_start: 326455, title: "No Waiver;"}
+  - {label: "SECTION 8.04", raw_start: 327051, title: "Survival of Representations and Warranties"}
+  - {label: "SECTION 8.05", raw_start: 327566, title: "Payment of Expenses and Taxes"}
+  - {label: "SECTION 8.06", raw_start: 330676, title: "Successors and Assigns;"}
+  - {label: "SECTION 8.07", raw_start: 339373, title: "Adjustments;"}
+  - {label: "SECTION 8.08", raw_start: 343207, title: "Table of Contents and Section Headings"}
+  - {label: "SECTION 8.09", raw_start: 343416, title: "Counterparts"}
+  - {label: "SECTION 8.10", raw_start: 343794, title: "Severability"}
+  - {label: "SECTION 8.11", raw_start: 344220, title: "Integration"}
+  - {label: "SECTION 8.12", raw_start: 344600, title: "Governing Law"}
+  - {label: "SECTION 8.13", raw_start: 344819, title: "Consent to Jurisdiction and Service of Process"}
+  - {label: "SECTION 8.14", raw_start: 346503, title: "Confidentiality"}
+  - {label: "SECTION 8.15", raw_start: 348032, title: "Acknowledgments"}
+  - {label: "SECTION 8.16", raw_start: 348731, title: "Waivers Of Jury Trial"}
+absent: []

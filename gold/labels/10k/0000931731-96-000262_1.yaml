@@ -1,0 +1,24 @@
+accession: 0000931731-96-000262
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 4086, title: ""}
+  - {label: "PART II", raw_start: 4387, title: ""}
+  - {label: "PART III", raw_start: 4923, title: ""}
+  - {label: "ITEM 1", raw_start: 5628, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 20858, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 20950, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 21198, title: ""}
+  - {label: "ITEM 5", raw_start: 21776, title: ""}
+  - {label: "ITEM 6", raw_start: 23143, title: ""}
+  - {label: "ITEM 7", raw_start: 24492, title: ""}
+  - {label: "ITEM 8", raw_start: 25882, title: ""}
+  - {label: "ITEM 9", raw_start: 26043, title: ""}
+  - {label: "ITEM 10", raw_start: 26245, title: ""}
+  - {label: "ITEM 11", raw_start: 30882, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 32058, title: ""}
+  - {label: "ITEM 13", raw_start: 35127, title: ""}
+  - {label: "PART IV", raw_start: 41333, title: ""}
+  - {label: "ITEM 14", raw_start: 41351, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES, AND REPORTS ON FORM"}
+absent: []

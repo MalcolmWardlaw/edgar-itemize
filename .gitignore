@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+runs/
+*.parquet
+!gold/*.parquet
+!conformance/*/*.parquet
+
+# local Claude session state (worktrees)
+/.claude/
+
+# Obsidian/Syncthing side files (docs/ is bind-mounted into the KnowledgeBase vault)
+*.sync-conflict-*
+.stfolder/
+.stignore
+.DS_Store
+
+# caged external comparators (docs/TURN13_PLAN.md)
+tools_ext/
+
+# rendered diagram PNGs (scripts/render_diagrams.py --png); the SVGs are committed
+docs/diagrams/*.png
+
+# mkdocs output (uv run mkdocs build)
+site/

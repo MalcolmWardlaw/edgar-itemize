@@ -1,0 +1,99 @@
+accession: 0000003333-04-000014
+sequence: 8
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 497974, title: "CERTAIN DEFINITIONS"}
+  - {label: "ARTICLE 2", raw_start: 517855, title: "EXISTING CREDIT FACILITIES"}
+  - {label: "SECTION 2.01", raw_start: 517926, title: "Documents"}
+  - {label: "SECTION 2.01.1", raw_start: 518079, title: "Multi-Year Credit Agreement"}
+  - {label: "SECTION 2.01.2", raw_start: 518125, title: "Continuing Reimbursement Agreement for Letters of Credit dat"}
+  - {label: "ARTICLE 3", raw_start: 518255, title: "REVOLVING LOANS"}
+  - {label: "SECTION 3.01", raw_start: 518322, title: "Maximum Amount"}
+  - {label: "SECTION 3.02", raw_start: 518793, title: "Use of Proceeds"}
+  - {label: "SECTION 3.03", raw_start: 518966, title: "Revolving Note"}
+  - {label: "SECTION 3.04", raw_start: 519319, title: "Interest"}
+  - {label: "SECTION 3.05", raw_start: 519498, title: "Principal Payments"}
+  - {label: "SECTION 3.06", raw_start: 519768, title: "Additional Payments"}
+  - {label: "SECTION 3.07", raw_start: 520136, title: "Requests for Revolving Advances"}
+  - {label: "SECTION 3.08", raw_start: 520411, title: "Overnight Borrowing"}
+  - {label: "SECTION 3.08.1", raw_start: 520681, title: "Interest Rate for Overnight Borrowing"}
+  - {label: "SECTION 3.08.2", raw_start: 520844, title: "Requests for Overnight Borrowing"}
+  - {label: "SECTION 3.09", raw_start: 521185, title: "Term Loan Option"}
+  - {label: "ARTICLE 4", raw_start: 523078, title: "LETTERS OF CREDIT"}
+  - {label: "SECTION 4.01", raw_start: 523145, title: "Maximum Amount of Credits"}
+  - {label: "SECTION 4.02", raw_start: 523523, title: "Use of Letters of Credit"}
+  - {label: "SECTION 4.03", raw_start: 523696, title: "L/C Agreement"}
+  - {label: "SECTION 4.04", raw_start: 523817, title: "L/C Applications"}
+  - {label: "SECTION 4.05", raw_start: 524424, title: "Expiry Date"}
+  - {label: "SECTION 4.06", raw_start: 524828, title: "Reimbursement"}
+  - {label: "SECTION 4.07", raw_start: 525346, title: "Certain Fees"}
+  - {label: "SECTION 4.07.1", raw_start: 525468, title: "With respect to each Letter of Credit and each draft drawn"}
+  - {label: "SECTION 4.07.2", raw_start: 525684, title: "With respect to each commercial Letter of Credit issued thro"}
+  - {label: "SECTION 4.07.3", raw_start: 526044, title: "With respect to each Commercial Letter of Credit not issued"}
+  - {label: "SECTION 4.07.4", raw_start: 526431, title: "With respect to each standby Letter of Credit, an issuing fe"}
+  - {label: "ARTICLE 5", raw_start: 526763, title: "LOAN FEES"}
+  - {label: "SECTION 5.01", raw_start: 526956, title: "A Facility Fee, payable at the end of each of calendar quart"}
+  - {label: "SECTION 5.02", raw_start: 528134, title: "A Closing Fee of $100,000, payable on the Closing Date"}
+  - {label: "ARTICLE 6", raw_start: 528231, title: "ADDITIONAL TERMS APPLICABLE TO CERTAIN CREDIT FACILITIES"}
+  - {label: "SECTION 6.01", raw_start: 528318, title: "Representation and Warranty of Credit Availability"}
+  - {label: "ARTICLE 7", raw_start: 529179, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 7.01", raw_start: 529248, title: "Conditions of Initial Loans"}
+  - {label: "SECTION 7.02", raw_start: 534232, title: "Conditions to All Borrowings"}
+  - {label: "ARTICLE 8", raw_start: 536550, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 8.01", raw_start: 536672, title: "Corporate Existence and Power"}
+  - {label: "SECTION 8.02", raw_start: 536991, title: "Subsidiaries"}
+  - {label: "SECTION 8.03", raw_start: 537359, title: "Corporate and Governmental Authorization;"}
+  - {label: "SECTION 8.04", raw_start: 538084, title: "Binding Effect"}
+  - {label: "SECTION 8.05", raw_start: 538479, title: "Litigation"}
+  - {label: "SECTION 8.06", raw_start: 538917, title: "ERISA Compliance"}
+  - {label: "SECTION 8.07", raw_start: 539242, title: "Use of Proceeds;"}
+  - {label: "SECTION 8.08", raw_start: 539418, title: "Title to Properties;"}
+  - {label: "SECTION 8.09", raw_start: 539911, title: "Taxes"}
+  - {label: "SECTION 8.10", raw_start: 540591, title: "Financial Information"}
+  - {label: "SECTION 8.11", raw_start: 541246, title: "Environmental Matters"}
+  - {label: "SECTION 8.12", raw_start: 541668, title: "Regulated Entities"}
+  - {label: "SECTION 8.13", raw_start: 542176, title: "Insurance"}
+  - {label: "SECTION 8.14", raw_start: 542640, title: "Access Laws"}
+  - {label: "SECTION 8.15", raw_start: 543003, title: "Disclosure"}
+  - {label: "ARTICLE 9", raw_start: 543405, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 9.01", raw_start: 543775, title: "Information"}
+  - {label: "SECTION 9.02", raw_start: 549744, title: "Conduct of Business and Maintenance of Existence"}
+  - {label: "SECTION 9.03", raw_start: 550626, title: "Maintenance of Property"}
+  - {label: "SECTION 9.04", raw_start: 550999, title: "Insurance"}
+  - {label: "SECTION 9.05", raw_start: 551575, title: "Payment of Obligations"}
+  - {label: "SECTION 9.06", raw_start: 552053, title: "Compliance With Laws"}
+  - {label: "SECTION 9.07", raw_start: 552584, title: "Inspection of Property, Books and Records"}
+  - {label: "SECTION 9.08", raw_start: 553499, title: "Use of Proceeds"}
+  - {label: "SECTION 9.09", raw_start: 553787, title: "Further Assurances"}
+  - {label: "ARTICLE 10", raw_start: 554159, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 10.01", raw_start: 554400, title: "Limitation on Liens"}
+  - {label: "SECTION 10.02", raw_start: 559259, title: "Disposition of Assets"}
+  - {label: "SECTION 10.03", raw_start: 559792, title: "Limitation on Subsidiary Indebtedness and Swap Contracts"}
+  - {label: "SECTION 10.04", raw_start: 561241, title: "Use of Proceeds"}
+  - {label: "SECTION 10.05", raw_start: 561733, title: "Minimum Consolidated Tangible Net Worth"}
+  - {label: "SECTION 10.06", raw_start: 562904, title: "Fixed Charge Coverage Ratio"}
+  - {label: "ARTICLE 11", raw_start: 563124, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 11.01", raw_start: 563191, title: "Events of Default"}
+  - {label: "SECTION 11.02", raw_start: 570094, title: "Remedies"}
+  - {label: "SECTION 11.03", raw_start: 571401, title: "Rights Not Exclusive"}
+  - {label: "ARTICLE 12", raw_start: 571755, title: "MISCELLANEOUS"}
+  - {label: "SECTION 12.01", raw_start: 571821, title: "No Waiver by Lender"}
+  - {label: "SECTION 12.02", raw_start: 572458, title: "Costs and Fees"}
+  - {label: "SECTION 12.03", raw_start: 572841, title: "Agreements Enforceable"}
+  - {label: "SECTION 12.04", raw_start: 573173, title: "Notices"}
+  - {label: "SECTION 12.05", raw_start: 574334, title: "Collection Costs and Attorney Fees"}
+  - {label: "SECTION 12.06", raw_start: 575047, title: "Integration;"}
+  - {label: "SECTION 12.07", raw_start: 575667, title: "Governing Law and Jurisdiction"}
+  - {label: "SECTION 12.07.1", raw_start: 575715, title: "THIS AGREEMENT AND THE NOTES SHALL BE GOVERNED BY, AND"}
+  - {label: "SECTION 12.07.2", raw_start: 575954, title: "ANY LEGAL ACTION OR PROCEEDING WITH RESPECT TO THIS AGREEMEN"}
+  - {label: "SECTION 12.08", raw_start: 576909, title: "Additional Acts"}
+  - {label: "SECTION 12.09", raw_start: 577191, title: "Documents Satisfactory to Lender"}
+  - {label: "SECTION 12.10", raw_start: 577387, title: "Waiver of Jury Trial"}
+  - {label: "SECTION 12.11", raw_start: 578471, title: "Exhibits"}
+  - {label: "SECTION 12.12", raw_start: 578616, title: "Computations"}
+  - {label: "SECTION 12.13", raw_start: 578788, title: "References"}
+  - {label: "SECTION 12.13.1", raw_start: 578812, title: "References to any Loan Document shall mean such Loan Documen"}
+  - {label: "SECTION 12.13.2", raw_start: 579037, title: "References to governmental laws, statutes, ordinances, rules"}
+  - {label: "SECTION 12.14", raw_start: 579234, title: "Counterparts"}
+absent: []

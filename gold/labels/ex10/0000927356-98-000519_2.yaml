@@ -1,0 +1,105 @@
+accession: 0000927356-98-000519
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 7512, title: ""}
+  - {label: "SECTION 1.01", raw_start: 7576, title: "Certain Definitions"}
+  - {label: "SECTION 1.02", raw_start: 24905, title: "Accounting Principles"}
+  - {label: "ARTICLE 2", raw_start: 25719, title: ""}
+  - {label: "SECTION 2.01", raw_start: 25783, title: "Lender's Agreement to Make Loan"}
+  - {label: "SECTION 2.02", raw_start: 26237, title: "Payment Procedures"}
+  - {label: "SECTION 2.03", raw_start: 27134, title: "Loan Prepayment at Lender's Option"}
+  - {label: "SECTION 2.04", raw_start: 27619, title: "Collateral for the Loan"}
+  - {label: "SECTION 2.05", raw_start: 27843, title: "Borrower's Assignment of Certain Rights"}
+  - {label: "ARTICLE 3", raw_start: 28322, title: ""}
+  - {label: "SECTION 3.01", raw_start: 28812, title: "Corporate Existence"}
+  - {label: "SECTION 3.02", raw_start: 29812, title: "Corporate Power and Authorization"}
+  - {label: "SECTION 3.03", raw_start: 30476, title: "Binding Obligations"}
+  - {label: "SECTION 3.04", raw_start: 31014, title: "No Violations"}
+  - {label: "SECTION 3.05", raw_start: 32102, title: "No Required Consents or Approvals"}
+  - {label: "SECTION 3.06", raw_start: 32675, title: "Capitalization"}
+  - {label: "SECTION 3.07", raw_start: 34483, title: "Financial Statements"}
+  - {label: "SECTION 3.08", raw_start: 35233, title: "No Undisclosed Liabilities"}
+  - {label: "SECTION 3.09", raw_start: 35845, title: "Absence of Certain Changes"}
+  - {label: "SECTION 3.10", raw_start: 36262, title: "No Litigation"}
+  - {label: "SECTION 3.11", raw_start: 36570, title: "Taxes"}
+  - {label: "SECTION 3.12", raw_start: 38733, title: "Title to and Condition of Property"}
+  - {label: "SECTION 3.13", raw_start: 44504, title: "Contracts"}
+  - {label: "SECTION 3.14", raw_start: 45411, title: "Casualties;"}
+  - {label: "SECTION 3.15", raw_start: 46042, title: "Compliance with Governmental Requirements"}
+  - {label: "SECTION 3.16", raw_start: 46436, title: "Employment Benefit Plans"}
+  - {label: "SECTION 3.17", raw_start: 58411, title: "Securities Law and SRO Requirements"}
+  - {label: "SECTION 3.18", raw_start: 59380, title: "Trade Rights"}
+  - {label: "SECTION 3.19", raw_start: 60868, title: "Permits"}
+  - {label: "SECTION 3.20", raw_start: 61411, title: "Labor Matters"}
+  - {label: "SECTION 3.21", raw_start: 63174, title: "Accounts Receivable"}
+  - {label: "SECTION 3.22", raw_start: 63632, title: "Inventory"}
+  - {label: "SECTION 3.23", raw_start: 63964, title: "Insurance"}
+  - {label: "SECTION 3.24", raw_start: 65292, title: "Environmental Matters"}
+  - {label: "SECTION 3.25", raw_start: 66710, title: "Ownership of Collateral Shares"}
+  - {label: "SECTION 3.26", raw_start: 67727, title: "Value of Repurchase Rights"}
+  - {label: "SECTION 3.27", raw_start: 67926, title: "Product Warranties and Product Liability"}
+  - {label: "SECTION 3.28", raw_start: 69313, title: "Unifiber Purchase Agreement"}
+  - {label: "SECTION 3.29", raw_start: 69575, title: "Benefit of the Loan to the Shareholders"}
+  - {label: "SECTION 3.30", raw_start: 70190, title: "Brokers"}
+  - {label: "SECTION 3.31", raw_start: 70742, title: "No Material Misstatements or Omissions"}
+  - {label: "SECTION 3.32", raw_start: 71325, title: "No Usury"}
+  - {label: "ARTICLE 4", raw_start: 71731, title: ""}
+  - {label: "SECTION 4.01", raw_start: 71985, title: "Financial Statements and Reports"}
+  - {label: "SECTION 4.02", raw_start: 76095, title: "Certificates of Compliance"}
+  - {label: "SECTION 4.03", raw_start: 77086, title: "Taxes and Liens"}
+  - {label: "SECTION 4.04", raw_start: 77989, title: "Maintenance of Rights and Property"}
+  - {label: "SECTION 4.05", raw_start: 78765, title: "Insurance"}
+  - {label: "SECTION 4.06", raw_start: 79122, title: "Accounts and Records"}
+  - {label: "SECTION 4.07", raw_start: 79700, title: "Right of Inspection"}
+  - {label: "SECTION 4.08", raw_start: 80652, title: "Notice of Certain Events"}
+  - {label: "SECTION 4.09", raw_start: 82333, title: "ERISA Information and Compliance"}
+  - {label: "SECTION 4.10", raw_start: 83726, title: "Use of Proceeds"}
+  - {label: "SECTION 4.11", raw_start: 84226, title: "NASDAQ Small Cap Exchange Listing"}
+  - {label: "SECTION 4.12", raw_start: 84698, title: "Subsidiary Dividends"}
+  - {label: "SECTION 4.13", raw_start: 85154, title: "First Anniversary Reset"}
+  - {label: "SECTION 4.14", raw_start: 86396, title: "Maturity Date Reset"}
+  - {label: "SECTION 4.15", raw_start: 88010, title: "Prepayment Reset"}
+  - {label: "SECTION 4.16", raw_start: 89717, title: "Voting of Collateral Shares"}
+  - {label: "SECTION 4.17", raw_start: 90141, title: "Indemnification"}
+  - {label: "SECTION 4.18", raw_start: 90664, title: "Proceeds of Securities Offerings"}
+  - {label: "SECTION 4.19", raw_start: 91137, title: "Voting of Collateral Shares"}
+  - {label: "ARTICLE 5", raw_start: 92694, title: ""}
+  - {label: "SECTION 5.01", raw_start: 92914, title: "Indebtedness"}
+  - {label: "SECTION 5.02", raw_start: 93810, title: "Liens"}
+  - {label: "SECTION 5.03", raw_start: 94267, title: "Investments, Loans and Advances"}
+  - {label: "SECTION 5.04", raw_start: 94602, title: "Grants of Stock Rights, Dividends, Distributions and"}
+  - {label: "SECTION 5.05", raw_start: 95522, title: "Fundamental Transactions"}
+  - {label: "SECTION 5.06", raw_start: 96502, title: "Sales and Leasebacks"}
+  - {label: "SECTION 5.07", raw_start: 97209, title: "ERISA Compliance"}
+  - {label: "SECTION 5.08", raw_start: 97853, title: "Nature of Business"}
+  - {label: "SECTION 5.09", raw_start: 98120, title: "Margin Stock"}
+  - {label: "SECTION 5.10", raw_start: 98731, title: "NASDAQ Small Cap Exchange Listing"}
+  - {label: "ARTICLE 6", raw_start: 99243, title: ""}
+  - {label: "SECTION 6.01", raw_start: 99309, title: "Events"}
+  - {label: "SECTION 6.02", raw_start: 105109, title: "Remedies"}
+  - {label: "SECTION 6.03", raw_start: 107075, title: "Right of Set-off"}
+  - {label: "ARTICLE 7", raw_start: 108211, title: ""}
+  - {label: "SECTION 7.01", raw_start: 108506, title: "Closing"}
+  - {label: "SECTION 7.02", raw_start: 108731, title: "Conditions Precedent to the Loan"}
+  - {label: "SECTION 7.03", raw_start: 113297, title: "Closing Deliveries of the Lender"}
+  - {label: "SECTION 7.04", raw_start: 113717, title: "Subsequent Delivery"}
+  - {label: "ARTICLE 8", raw_start: 114557, title: ""}
+  - {label: "SECTION 8.01", raw_start: 114621, title: "Proof of Indebtedness"}
+  - {label: "SECTION 8.02", raw_start: 115107, title: "Time of Essence"}
+  - {label: "SECTION 8.03", raw_start: 115306, title: "Notices"}
+  - {label: "SECTION 8.04", raw_start: 117923, title: "Amendments and Waivers"}
+  - {label: "SECTION 8.05", raw_start: 118870, title: "Severability"}
+  - {label: "SECTION 8.06", raw_start: 119466, title: "Survival"}
+  - {label: "SECTION 8.07", raw_start: 119947, title: "Successors and Assigns"}
+  - {label: "SECTION 8.08", raw_start: 120487, title: "Renewal, Extension or Rearrangement"}
+  - {label: "SECTION 8.09", raw_start: 121037, title: "Cumulative Rights"}
+  - {label: "SECTION 8.10", raw_start: 121398, title: "Further Assurances"}
+  - {label: "SECTION 8.11", raw_start: 121900, title: "Governing Law"}
+  - {label: "SECTION 8.12", raw_start: 122226, title: "Entire Agreement"}
+  - {label: "SECTION 8.13", raw_start: 122681, title: "Schedules and Exhibits"}
+  - {label: "SECTION 8.14", raw_start: 123179, title: "Counterparts"}
+  - {label: "SECTION 8.15", raw_start: 123614, title: "Headings"}
+  - {label: "SECTION 8.16", raw_start: 123893, title: "Usury Savings Clause"}
+absent: []

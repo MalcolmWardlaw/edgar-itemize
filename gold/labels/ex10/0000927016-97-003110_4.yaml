@@ -1,0 +1,127 @@
+accession: 0000927016-97-003110
+sequence: 4
+doc_type: EX-10.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 119606, title: ""}
+  - {label: "SECTION 1.01", raw_start: 119606, title: "Specific Definitions"}
+  - {label: "SECTION 1.02", raw_start: 136423, title: "Other Interpretative Provisions"}
+  - {label: "SECTION 1.03", raw_start: 138067, title: "Accounting Principles"}
+  - {label: "ARTICLE 2", raw_start: 138440, title: ""}
+  - {label: "SECTION 2.01", raw_start: 138440, title: "Straight Loan"}
+  - {label: "SECTION 2.02", raw_start: 139276, title: "Convertible Loan"}
+  - {label: "SECTION 2.03", raw_start: 140125, title: "Interest"}
+  - {label: "SECTION 2.04", raw_start: 140901, title: "Default Interest"}
+  - {label: "SECTION 2.05", raw_start: 141430, title: "Highest Lawful Rate of Interest"}
+  - {label: "SECTION 2.06", raw_start: 142176, title: "Notes"}
+  - {label: "SECTION 2.07", raw_start: 142977, title: "Computations"}
+  - {label: "SECTION 2.08", raw_start: 143240, title: "Prepayments"}
+  - {label: "SECTION 2.09", raw_start: 144262, title: "Funding Losses"}
+  - {label: "SECTION 2.10", raw_start: 145088, title: "Use of Proceeds"}
+  - {label: "SECTION 2.11", raw_start: 146994, title: "Nature and Place of Payments"}
+  - {label: "SECTION 2.12", raw_start: 149243, title: "Payments on Business Days"}
+  - {label: "SECTION 2.13", raw_start: 149904, title: "Allocation of Payments Received"}
+  - {label: "ARTICLE 3", raw_start: 150787, title: ""}
+  - {label: "SECTION 3.01", raw_start: 150787, title: "Collateral Security;"}
+  - {label: "SECTION 3.02", raw_start: 151781, title: "Stock Conversion Rights"}
+  - {label: "SECTION 3.03", raw_start: 152380, title: "Registration Rights"}
+  - {label: "ARTICLE 4", raw_start: 152885, title: ""}
+  - {label: "SECTION 4.01", raw_start: 152885, title: "Documentation"}
+  - {label: "SECTION 4.02", raw_start: 158173, title: "Amounts Payable"}
+  - {label: "SECTION 4.03", raw_start: 158363, title: "Distribution and Financing Agreement"}
+  - {label: "SECTION 4.04", raw_start: 158625, title: "Other Acts"}
+  - {label: "SECTION 4.05", raw_start: 159287, title: "Other Documentation"}
+  - {label: "SECTION 4.06", raw_start: 159922, title: "Representations and Warranties True"}
+  - {label: "SECTION 4.07", raw_start: 160170, title: "No Default or Event of Default"}
+  - {label: "ARTICLE 5", raw_start: 160655, title: ""}
+  - {label: "SECTION 5.01", raw_start: 160655, title: "Financial Statements"}
+  - {label: "SECTION 5.02", raw_start: 160972, title: "No Material Adverse Change"}
+  - {label: "SECTION 5.03", raw_start: 161208, title: "Corporate Existence;"}
+  - {label: "SECTION 5.04", raw_start: 162047, title: "Corporate Power;"}
+  - {label: "SECTION 5.05", raw_start: 162943, title: "No Legal Bar"}
+  - {label: "SECTION 5.06", raw_start: 163442, title: "No Material Litigation"}
+  - {label: "SECTION 5.07", raw_start: 163865, title: "Taxes"}
+  - {label: "SECTION 5.08", raw_start: 164400, title: "Investment Company Act"}
+  - {label: "SECTION 5.09", raw_start: 164734, title: "Subsidiaries"}
+  - {label: "SECTION 5.10", raw_start: 165229, title: "Federal Reserve Board Regulations"}
+  - {label: "SECTION 5.11", raw_start: 166064, title: "Assets"}
+  - {label: "SECTION 5.12", raw_start: 166537, title: "Securities Acts"}
+  - {label: "SECTION 5.13", raw_start: 167098, title: "Consents, etc"}
+  - {label: "SECTION 5.14", raw_start: 167670, title: "Regulated Entities"}
+  - {label: "SECTION 5.15", raw_start: 168082, title: "Intellectual Property"}
+  - {label: "SECTION 5.16", raw_start: 170459, title: "ERISA"}
+  - {label: "SECTION 5.17", raw_start: 170622, title: "Insurance"}
+  - {label: "SECTION 5.18", raw_start: 171103, title: "Capitalization and Voting Rights"}
+  - {label: "SECTION 5.19", raw_start: 172125, title: "Valid Issuance of Shares"}
+  - {label: "SECTION 5.20", raw_start: 172730, title: "Full Disclosure"}
+  - {label: "ARTICLE 6", raw_start: 173725, title: ""}
+  - {label: "SECTION 6.01", raw_start: 173725, title: "Authorization"}
+  - {label: "SECTION 6.02", raw_start: 173940, title: "Purchase Entirely for Own Account"}
+  - {label: "SECTION 6.03", raw_start: 174961, title: "Investment Experience"}
+  - {label: "SECTION 6.04", raw_start: 175343, title: "Restricted Securities"}
+  - {label: "SECTION 6.05", raw_start: 176037, title: "Legends"}
+  - {label: "ARTICLE 7", raw_start: 176983, title: ""}
+  - {label: "SECTION 7.01", raw_start: 176983, title: "Reporting Requirements"}
+  - {label: "SECTION 7.02", raw_start: 178798, title: "Payment of Indebtedness"}
+  - {label: "SECTION 7.03", raw_start: 179471, title: "Maintenance of Existence and Properties"}
+  - {label: "SECTION 7.04", raw_start: 180133, title: "Inspection of Property;"}
+  - {label: "SECTION 7.05", raw_start: 181174, title: "Notices"}
+  - {label: "SECTION 7.06", raw_start: 181701, title: "Expenses"}
+  - {label: "SECTION 7.07", raw_start: 182496, title: "Loan Documents"}
+  - {label: "SECTION 7.08", raw_start: 182822, title: "Insurance"}
+  - {label: "SECTION 7.09", raw_start: 183339, title: "Indemnification"}
+  - {label: "SECTION 7.10", raw_start: 186225, title: "Compliance with Laws, Etc"}
+  - {label: "SECTION 7.11", raw_start: 186481, title: "Cooperation"}
+  - {label: "ARTICLE 8", raw_start: 187047, title: ""}
+  - {label: "SECTION 8.01", raw_start: 187047, title: "Indebtedness"}
+  - {label: "SECTION 8.02", raw_start: 187460, title: "Liens"}
+  - {label: "SECTION 8.03", raw_start: 187613, title: "Consolidation and Merger"}
+  - {label: "SECTION 8.04", raw_start: 188056, title: "Sale of Collateral"}
+  - {label: "SECTION 8.05", raw_start: 188265, title: "Conduct of Business, Etc"}
+  - {label: "SECTION 8.06", raw_start: 188588, title: "Modifications to Contracts"}
+  - {label: "SECTION 8.07", raw_start: 188826, title: "Transactions with Affiliates"}
+  - {label: "SECTION 8.08", raw_start: 189636, title: "ERISA"}
+  - {label: "SECTION 8.09", raw_start: 190059, title: "Assignment of Royalties"}
+  - {label: "ARTICLE 9", raw_start: 190668, title: ""}
+  - {label: "SECTION 9.01", raw_start: 190668, title: "The Borrower shall fail to pay any principal or interest on "}
+  - {label: "SECTION 9.02", raw_start: 190824, title: "Any representation or warranty made by the Borrower or PixTe"}
+  - {label: "SECTION 9.03", raw_start: 191055, title: "The Borrower or PixTech S.A"}
+  - {label: "SECTION 9.04", raw_start: 191147, title: "The Borrower shall default in any material respect in the ob"}
+  - {label: "SECTION 9.05", raw_start: 191509, title: "The Borrower shall fail to observe or perform in any materia"}
+  - {label: "SECTION 9.06", raw_start: 191807, title: "The Borrower shall default in any payment of principal of or"}
+  - {label: "SECTION 9.07", raw_start: 192205, title: "(a) The Borrower or PixTech S.A"}
+  - {label: "SECTION 9.08", raw_start: 194215, title: "One or more judgments or decrees for an aggregate amount in "}
+  - {label: "SECTION 9.09", raw_start: 194622, title: "Any Material Adverse Effect shall occur;"}
+  - {label: "SECTION 9.10", raw_start: 194678, title: "The Lender shall fail to have an enforceable Lien (subject o"}
+  - {label: "SECTION 9.11", raw_start: 194846, title: "Any financial or other information delivered by the Borrower"}
+  - {label: "SECTION 9.12", raw_start: 195010, title: "PixTech S.A"}
+  - {label: "SECTION 9.13", raw_start: 195276, title: "The Distribution and Financing Agreement dated July 21, 1997"}
+  - {label: "SECTION 9.14", raw_start: 195405, title: "The CEA Letter shall for any reason, cease to be in full for"}
+  - {label: "ARTICLE 10", raw_start: 196587, title: ""}
+  - {label: "SECTION 10.01", raw_start: 196587, title: "Definitions"}
+  - {label: "SECTION 10.02", raw_start: 198772, title: "Request for Registration"}
+  - {label: "SECTION 10.03", raw_start: 200755, title: "Borrower Registration"}
+  - {label: "SECTION 10.04", raw_start: 202223, title: "Obligations of the Borrower"}
+  - {label: "SECTION 10.05", raw_start: 205711, title: "Expenses of Demand Registration"}
+  - {label: "SECTION 10.06", raw_start: 207103, title: "Expenses of Borrower Registration"}
+  - {label: "SECTION 10.07", raw_start: 207781, title: "Underwriting Requirements"}
+  - {label: "SECTION 10.08", raw_start: 209398, title: "Indemnification"}
+  - {label: "SECTION 10.09", raw_start: 215285, title: "Reports Under Securities 1934 Act"}
+  - {label: "SECTION 10.10", raw_start: 217106, title: "No Right to Assign Registration Rights"}
+  - {label: "SECTION 10.11", raw_start: 217495, title: "Limitations on Subsequent Registration Rights"}
+  - {label: "SECTION 10.12", raw_start: 218550, title: "Amendment of Registration Rights"}
+  - {label: "SECTION 10.13", raw_start: 219029, title: "Termination"}
+  - {label: "ARTICLE 11", raw_start: 219618, title: ""}
+  - {label: "SECTION 11.01", raw_start: 219618, title: "No Assignment"}
+  - {label: "SECTION 11.02", raw_start: 220069, title: "Amendments"}
+  - {label: "SECTION 11.03", raw_start: 220284, title: "Cumulative Rights;"}
+  - {label: "SECTION 11.04", raw_start: 220946, title: "Entire Agreement"}
+  - {label: "SECTION 11.05", raw_start: 221300, title: "Governing Law"}
+  - {label: "SECTION 11.06", raw_start: 221560, title: "Waiver of Jury Trial"}
+  - {label: "SECTION 11.07", raw_start: 222091, title: "Counterparts"}
+  - {label: "SECTION 11.08", raw_start: 222341, title: "Notices"}
+  - {label: "SECTION 11.09", raw_start: 223770, title: "Successors and Assigns"}
+  - {label: "SECTION 11.10", raw_start: 224214, title: "Counterparts"}
+  - {label: "SECTION 11.11", raw_start: 224463, title: "Severability"}
+  - {label: "SECTION 11.12", raw_start: 225316, title: "English Language"}
+absent: []

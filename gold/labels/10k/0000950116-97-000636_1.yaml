@@ -1,0 +1,18 @@
+accession: 0000950116-97-000636
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 6332, title: ""}
+  - {label: "ITEM 1", raw_start: 6340, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 65926, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 67673, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 68090, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 68453, title: ""}
+  - {label: "ITEM 5", raw_start: 68462, title: "MARKET FOR COMMON EQUITY AND RELATED STOCKHOLDER MATTERS"}
+  - {label: "ITEM 9", raw_start: 72232, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "PART III", raw_start: 72394, title: ""}
+  - {label: "ITEM 10", raw_start: 72405, title: "THROUGH 13"}
+  - {label: "PART IV", raw_start: 72978, title: ""}
+  - {label: "ITEM 14", raw_start: 72988, title: "EXHIBITS AND REPORTS ON FORM 8-K"}
+absent: []

@@ -1,0 +1,30 @@
+accession: 0001193125-22-092120
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "ITEM 1", raw_start: 236958, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 499209, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 780954, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 2", raw_start: 781556, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 782762, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 783543, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 784172, title: ""}
+  - {label: "ITEM 5", raw_start: 784489, title: "Market for Registrant’s Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 790671, title: "Reserved"}
+  - {label: "ITEM 7", raw_start: 792101, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 1032481, title: "Qualitative and Quantitative Disclosures about Market Risk"}
+  - {label: "ITEM 9", raw_start: 1036564, title: "Changes in and Disagreements With Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 1038115, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 1048849, title: "Other Information"}
+  - {label: "ITEM 9C", raw_start: 1049514, title: "Disclosure Regarding Foreign Jurisdictions that Prevent Insp"}
+  - {label: "PART III", raw_start: 1051158, title: ""}
+  - {label: "ITEM 10", raw_start: 1051536, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 1053904, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 1054856, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 1055880, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 1056883, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 1059410, title: ""}
+  - {label: "ITEM 15", raw_start: 1059764, title: "Exhibits, Financial Statement Schedules"}
+  - {label: "ITEM 16", raw_start: 1070054, title: "Form"}
+absent: []

@@ -1,0 +1,13 @@
+flowchart LR
+    idx["SEC full index<br/>master.idx"] --> manifest["edgar-itemize manifest<br/>(manifest.py)"]
+    manifest --> fetch["edgar-itemize fetch<br/>(fetch.py, fair-access rules)"]
+    fetch --> root[("EDGAR_ITEMIZE_DATA_ROOT<br/>raw .txt submissions,<br/>latin-1, one char = one byte")]
+    root --> parse["edgar-itemize parse<br/>(cli.py)"]
+    parse --> nodes[("nodes-*.parquet")]
+    parse --> docs[("documents-*.parquet<br/>input_sha256 per file")]
+    parse --> rej[("rejected-*.parquet")]
+    nodes --> verify["edgar-itemize verify<br/>(conformance.py): same bytes in,<br/>same rows out, on any machine"]
+    nodes --> viewer["viewer (viewer/):<br/>text with agenda bands,<br/>candidates, rejections"]
+    nodes --> gate["scripts/run_diff.py:<br/>before/after gate on<br/>every tree change"]
+    nodes --> judge["judge banks (llm.py, scripts/judge_*):<br/>evaluation only, never<br/>inside the parser"]
+    nodes --> paper["a researcher:<br/>'sections A, B, C with<br/>edgar-itemize vX.Y'"]

@@ -1,0 +1,14 @@
+accession: 0001019687-16-006020
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 44675, title: "General credit line"}
+  - {label: "ARTICLE 2", raw_start: 46030, title: "Availability period"}
+  - {label: "ARTICLE 3", raw_start: 47146, title: "Loan interest calculation"}
+  - {label: "ARTICLE 4", raw_start: 49594, title: "Overdue interest and penalty"}
+  - {label: "ARTICLE 7", raw_start: 52697, title: "Fees"}
+  - {label: "ARTICLE 8", raw_start: 53743, title: "Foreign exchange rate risk"}
+  - {label: "ARTICLE 21", raw_start: 80047, title: "The Promisor and Guarantor agree that, for the purpose of as"}
+  - {label: "ARTICLE 22", raw_start: 80767, title: "(Business engagement): The Promisor and Guarantor agree that"}
+absent: []

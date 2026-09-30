@@ -1,0 +1,13 @@
+accession: 0001193125-05-052818
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  - {label: "ITEM 1", raw_start: 17165}
+  - {label: "ITEM 1", raw_start: 39474}
+  - {label: "ITEM 9A", raw_start: 63447}
+  - {label: "ITEM 10", raw_start: 68752}
+  - {label: "ITEM 10", raw_start: 84950}
+  - {label: "ITEM 15", raw_start: 102770}
+  - {label: "ITEM 15", raw_start: 110013}

@@ -1,0 +1,14 @@
+flowchart TD
+    k{"--kind"}
+    k -- 10k --> sel["select.select_primary picks the<br/>primary document of the submission"]
+    k -- ex10 / ex13 --> seq["the manifest row's sequence<br/>picks the exhibit"]
+    k -- text --> raw["sgml.load_text_submission: the file is the document,<br/>synthetic EX-10 type (the private contracts-text corpus)"]
+    sel --> gf
+    seq --> gf
+    raw --> gf
+    gf{"pipeline.grammar_for<br/>doc TYPE, header CONFORMED SUBMISSION TYPE"}
+    gf -- "TYPE EX-*" --> C["ContractGrammar<br/>ARTICLE -> Section a.bb -> (a) -> (i) -> (A) -> (1)"]
+    gf -- "TYPE 10-Q*, header 10-K" --> K1["Form10KGrammar<br/>+ gram.form_from_header on the root"]
+    gf -- "TYPE 10-Q*" --> Q["Form10QGrammar<br/>Part I Items 1-4, Part II Items 1-6;<br/>order key encodes the Part"]
+    gf -- otherwise --> K["Form10KGrammar<br/>Parts I-IV, Items 1-16 with suffixes,<br/>Reg-AB Items 1100-1123"]
+    k -- ex13 --> X["Form10KGrammar with synth_root:<br/>no Item text, headings under a<br/>synthetic root, ars_kind classification"]

@@ -1,0 +1,23 @@
+accession: 0001193125-03-011653
+sequence: 3
+doc_type: EX-10.01
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 33653, title: ""}
+  - {label: "SECTION 1", raw_start: 33653, title: "Definitions;"}
+  - {label: "ARTICLE 2", raw_start: 34489, title: ""}
+  - {label: "SECTION 2", raw_start: 34489, title: "New Definitions Relating to the Creation of the Real Estate "}
+  - {label: "ARTICLE 3", raw_start: 38525, title: ""}
+  - {label: "SECTION 3", raw_start: 38525, title: "Addition of Form of SPV Guarantee;"}
+  - {label: "ARTICLE 4", raw_start: 40556, title: ""}
+  - {label: "SECTION 4", raw_start: 40556, title: "Overriding Provisions Regarding Qualifying SPV's"}
+  - {label: "ARTICLE 5", raw_start: 44040, title: ""}
+  - {label: "SECTION 5", raw_start: 44040, title: "Provisions Regarding the Holding and the Disposition of Riga"}
+  - {label: "SECTION 5.15", raw_start: 47816, title: "Real Property Proceeds Account"}
+  - {label: "ARTICLE 6", raw_start: 50890, title: ""}
+  - {label: "SECTION 6", raw_start: 50890, title: "Extended Time Period for Delivery of The Long-Term Budget"}
+  - {label: "ARTICLE 7", raw_start: 52548, title: ""}
+  - {label: "SECTION 7", raw_start: 52548, title: "GOVERNING LAW"}
+  - {label: "ARTICLE 8", raw_start: 53369, title: ""}
+  - {label: "SECTION 8", raw_start: 53369, title: "Counterparts;"}
+absent: []

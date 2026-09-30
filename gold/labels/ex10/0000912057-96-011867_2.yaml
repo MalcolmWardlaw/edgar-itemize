@@ -1,0 +1,111 @@
+accession: 0000912057-96-011867
+sequence: 2
+doc_type: EX-10.18
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 52861, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 52888, title: "DEFINITIONS"}
+  - {label: "SECTION 1.02", raw_start: 117002, title: "ACCOUNTING AND OTHER TERMS"}
+  - {label: "SECTION 1.03", raw_start: 117561, title: "COVENANT CALCULATIONS"}
+  - {label: "ARTICLE 2", raw_start: 117945, title: "AMOUNTS AND TERMS OF ADVANCES"}
+  - {label: "SECTION 2.01", raw_start: 117991, title: "THE ADVANCES"}
+  - {label: "SECTION 2.02", raw_start: 118751, title: "MAKING ADVANCES"}
+  - {label: "SECTION 2.03", raw_start: 123082, title: "EVIDENCE OF INDEBTEDNESS"}
+  - {label: "SECTION 2.04", raw_start: 123510, title: "PREPAYMENTS"}
+  - {label: "SECTION 2.05", raw_start: 125505, title: "REPAYMENT"}
+  - {label: "SECTION 2.06", raw_start: 126984, title: "INTEREST"}
+  - {label: "SECTION 2.07", raw_start: 128987, title: "DEFAULT INTEREST"}
+  - {label: "SECTION 2.08", raw_start: 129704, title: "CONTINUATION AND CONVERSION ELECTIONS"}
+  - {label: "SECTION 2.09", raw_start: 132561, title: "FEES"}
+  - {label: "SECTION 2.10", raw_start: 134283, title: "REDUCTION OF COMMITMENT"}
+  - {label: "SECTION 2.11", raw_start: 135267, title: "FUNDING LOSSES"}
+  - {label: "SECTION 2.12", raw_start: 136783, title: "COMPUTATIONS AND MANNER OF PAYMENTS"}
+  - {label: "SECTION 2.13", raw_start: 139801, title: "YIELD PROTECTION;"}
+  - {label: "SECTION 2.14", raw_start: 147476, title: "USE OF PROCEEDS"}
+  - {label: "SECTION 2.15", raw_start: 147702, title: "LETTERS OF CREDIT"}
+  - {label: "ARTICLE 3", raw_start: 164404, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 3.01", raw_start: 164442, title: "CONDITIONS PRECEDENT TO EFFECTIVENESS"}
+  - {label: "SECTION 3.02", raw_start: 170947, title: "CONDITIONS PRECEDENT TO ALL ADVANCES AND LETTERS OF CREDIT"}
+  - {label: "ARTICLE 4", raw_start: 172915, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 173080, title: "ORGANIZATION AND QUALIFICATION"}
+  - {label: "SECTION 4.02", raw_start: 175589, title: "DUE AUTHORIZATION;"}
+  - {label: "SECTION 4.03", raw_start: 176394, title: "CONFLICTING AGREEMENTS AND OTHER MATTERS"}
+  - {label: "SECTION 4.04", raw_start: 177086, title: "FINANCIAL STATEMENTS;"}
+  - {label: "SECTION 4.05", raw_start: 178429, title: "LITIGATION"}
+  - {label: "SECTION 4.06", raw_start: 179033, title: "COMPLIANCE WITH LAWS REGULATING THE INCURRENCE OF DEBT"}
+  - {label: "SECTION 4.07", raw_start: 180409, title: "LICENSES, TITLE TO PROPERTIES, AND RELATED MATTERS"}
+  - {label: "SECTION 4.08", raw_start: 181258, title: "OUTSTANDING DEBT;"}
+  - {label: "SECTION 4.09", raw_start: 181802, title: "TAXES"}
+  - {label: "SECTION 4.10", raw_start: 182711, title: "ERISA"}
+  - {label: "SECTION 4.11", raw_start: 183566, title: "ENVIRONMENTAL LAWS"}
+  - {label: "SECTION 4.12", raw_start: 185540, title: "INVESTMENTS;"}
+  - {label: "SECTION 4.13", raw_start: 186059, title: "CERTAIN FEES"}
+  - {label: "SECTION 4.14", raw_start: 186556, title: "CABP"}
+  - {label: "SECTION 4.15", raw_start: 187130, title: "DISCLOSURE"}
+  - {label: "ARTICLE 5", raw_start: 188385, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 188609, title: "CURRENT RATIO"}
+  - {label: "SECTION 5.02", raw_start: 188755, title: "TANGIBLE NET WORTH"}
+  - {label: "SECTION 5.03", raw_start: 189174, title: "FUNDED DEBT TO EBITDA RATIO"}
+  - {label: "SECTION 5.04", raw_start: 189309, title: "FIXED CHARGES COVERAGE RATIO"}
+  - {label: "SECTION 5.05", raw_start: 189453, title: "RESTRICTED PAYMENT"}
+  - {label: "SECTION 5.06", raw_start: 190529, title: "CAPITAL EXPENDITURES"}
+  - {label: "SECTION 5.07", raw_start: 190786, title: "DEBT"}
+  - {label: "SECTION 5.08", raw_start: 192538, title: "DISPOSITIONS OF ASSETS"}
+  - {label: "SECTION 5.09", raw_start: 192738, title: "MERGER;"}
+  - {label: "SECTION 5.10", raw_start: 195032, title: "LIENS"}
+  - {label: "SECTION 5.11", raw_start: 196390, title: "FISCAL YEAR AND ACCOUNTING METHOD"}
+  - {label: "SECTION 5.12", raw_start: 196629, title: "ISSUANCE OF CAPITAL STOCK;"}
+  - {label: "SECTION 5.13", raw_start: 197468, title: "CHANGE OF OWNERSHIP"}
+  - {label: "SECTION 5.14", raw_start: 197715, title: "SALE AND LEASEBACK"}
+  - {label: "SECTION 5.15", raw_start: 198241, title: "BUSINESS"}
+  - {label: "SECTION 5.16", raw_start: 198385, title: "TRANSACTIONS WITH AFFILIATES"}
+  - {label: "SECTION 5.17", raw_start: 198741, title: "COMPLIANCE WITH ERISA"}
+  - {label: "SECTION 5.18", raw_start: 200313, title: "NOTE PURCHASE AGREEMENT"}
+  - {label: "SECTION 5.19", raw_start: 201170, title: "SWAP EXPOSURE"}
+  - {label: "SECTION 5.20", raw_start: 201527, title: "SUBSIDIARIES AND OBLIGORS"}
+  - {label: "ARTICLE 6", raw_start: 201694, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 201922, title: "PRESERVATION OF EXISTENCE AND SIMILAR MATTERS"}
+  - {label: "SECTION 6.02", raw_start: 202652, title: "LICENSES AND MATERIAL AGREEMENTS"}
+  - {label: "SECTION 6.03", raw_start: 202862, title: "COMPLIANCE WITH LAWS"}
+  - {label: "SECTION 6.04", raw_start: 202970, title: "MAINTENANCE OF PROPERTIES"}
+  - {label: "SECTION 6.05", raw_start: 203319, title: "PAYMENT OF TAXES AND OTHER INDEBTEDNESS"}
+  - {label: "SECTION 6.06", raw_start: 203929, title: "ERISA COMPLIANCE"}
+  - {label: "SECTION 6.07", raw_start: 204846, title: "INSURANCE"}
+  - {label: "SECTION 6.08", raw_start: 210076, title: "INSPECTION RIGHTS"}
+  - {label: "SECTION 6.09", raw_start: 210430, title: "RECORDS AND BOOKS OF ACCOUNT;"}
+  - {label: "SECTION 6.10", raw_start: 210573, title: "REPORTING REQUIREMENTS"}
+  - {label: "SECTION 6.11", raw_start: 218245, title: "SOLVENCY"}
+  - {label: "SECTION 6.12", raw_start: 218310, title: "SUBSIDIARIES AND OBLIGOR"}
+  - {label: "SECTION 6.13", raw_start: 218477, title: "FURTHER ASSURANCES"}
+  - {label: "ARTICLE 7", raw_start: 218923, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 7.01", raw_start: 218958, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 7.02", raw_start: 226000, title: "REMEDIES UPON DEFAULT"}
+  - {label: "SECTION 7.03", raw_start: 227469, title: "CUMULATIVE RIGHTS"}
+  - {label: "SECTION 7.04", raw_start: 227893, title: "WAIVERS"}
+  - {label: "SECTION 7.05", raw_start: 228710, title: "PERFORMANCE BY AGENT OR ANY LENDER"}
+  - {label: "SECTION 7.06", raw_start: 229270, title: "EXPENDITURES"}
+  - {label: "SECTION 7.07", raw_start: 229715, title: "CONTROL"}
+  - {label: "ARTICLE 8", raw_start: 230413, title: "THE AGENT"}
+  - {label: "SECTION 8.01", raw_start: 230441, title: "AUTHORIZATION AND ACTION"}
+  - {label: "SECTION 8.02", raw_start: 231836, title: "AGENT'S RELIANCE, ETC"}
+  - {label: "SECTION 8.03", raw_start: 233890, title: "NATIONSBANK OF TEXAS, NATIONAL ASSOCIATION AND AFFILIATES"}
+  - {label: "SECTION 8.04", raw_start: 234583, title: "LENDER CREDIT DECISION"}
+  - {label: "SECTION 8.05", raw_start: 235319, title: "INDEMNIFICATION BY LENDERS"}
+  - {label: "SECTION 8.06", raw_start: 236852, title: "SUCCESSOR AGENT"}
+  - {label: "ARTICLE 9", raw_start: 238378, title: "MISCELLANEOUS"}
+  - {label: "SECTION 9.01", raw_start: 238408, title: "AMENDMENTS AND WAIVERS"}
+  - {label: "SECTION 9.02", raw_start: 240119, title: "NOTICES"}
+  - {label: "SECTION 9.03", raw_start: 243747, title: "PARTIES IN INTEREST"}
+  - {label: "SECTION 9.04", raw_start: 244304, title: "ASSIGNMENTS AND PARTICIPATIONS"}
+  - {label: "SECTION 9.05", raw_start: 247282, title: "SHARING OF PAYMENTS"}
+  - {label: "SECTION 9.06", raw_start: 248448, title: "RIGHT OF SET-OFF"}
+  - {label: "SECTION 9.07", raw_start: 249733, title: "COSTS, EXPENSES, AND TAXES"}
+  - {label: "SECTION 9.08", raw_start: 252629, title: "INDEMNIFICATION BY BORROWER"}
+  - {label: "SECTION 9.09", raw_start: 253833, title: "RATE PROVISION"}
+  - {label: "SECTION 9.10", raw_start: 255966, title: "SEVERABILITY"}
+  - {label: "SECTION 9.11", raw_start: 256790, title: "EXCEPTIONS TO COVENANTS"}
+  - {label: "SECTION 9.12", raw_start: 257149, title: "COUNTERPARTS"}
+  - {label: "SECTION 9.13", raw_start: 257522, title: "GOVERNING LAW;"}
+  - {label: "SECTION 9.14", raw_start: 258973, title: "RESTATEMENT"}
+  - {label: "SECTION 9.15", raw_start: 259211, title: "ENTIRE AGREEMENT"}
+absent: []

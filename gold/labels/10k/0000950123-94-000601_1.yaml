@@ -1,0 +1,24 @@
+accession: 0000950123-94-000601
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 7139, title: ""}
+  - {label: "ITEM 1", raw_start: 7148, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 52336, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 52455, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 52567, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 52773, title: ""}
+  - {label: "ITEM 5", raw_start: 52783, title: "MARKET FOR THE REGISTRANT'S COMMON EQUITY AND RELATED STOCKH"}
+  - {label: "ITEM 6", raw_start: 53068, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 79834, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF RESULTS OF OPERATION"}
+  - {label: "ITEM 8", raw_start: 81279, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 172315, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "PART III", raw_start: 172567, title: ""}
+  - {label: "ITEM 10", raw_start: 172578, title: "DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT"}
+  - {label: "ITEM 11", raw_start: 172688, title: "EXECUTIVE COMPENSATION. Omitted"}
+  - {label: "ITEM 12", raw_start: 172768, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 172890, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS"}
+  - {label: "PART IV", raw_start: 173093, title: ""}
+  - {label: "ITEM 14", raw_start: 173103, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES, AND REPORTS ON FORM"}
+absent: []

@@ -1,0 +1,64 @@
+accession: 0000950129-03-005445
+sequence: 8
+doc_type: EX-10.4
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1234949, title: "DEFINITIONS AND ACCOUNTING TERMS"}
+  - {label: "SECTION 1.01", raw_start: 1235026, title: "Certain Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 1277489, title: "Computation of Time Periods"}
+  - {label: "SECTION 1.03", raw_start: 1277751, title: "Accounting Terms;"}
+  - {label: "SECTION 1.04", raw_start: 1278706, title: "Miscellaneous"}
+  - {label: "SECTION 1.05", raw_start: 1279101, title: "Ratings"}
+  - {label: "ARTICLE 2", raw_start: 1280678, title: "AMOUNTS AND TERMS OF THE ADVANCES"}
+  - {label: "SECTION 2.01", raw_start: 1280757, title: "The Advances"}
+  - {label: "SECTION 2.02", raw_start: 1281819, title: "Making the Advances"}
+  - {label: "SECTION 2.03", raw_start: 1285610, title: "Repayment of Advances"}
+  - {label: "SECTION 2.04", raw_start: 1286193, title: "Termination and Reduction of Commitments"}
+  - {label: "SECTION 2.05", raw_start: 1287608, title: "Prepayments"}
+  - {label: "SECTION 2.06", raw_start: 1290519, title: "Fees"}
+  - {label: "SECTION 2.07", raw_start: 1291210, title: "Interest"}
+  - {label: "SECTION 2.08", raw_start: 1294561, title: "Additional Interest on Eurodollar Rate Advances"}
+  - {label: "SECTION 2.09", raw_start: 1295639, title: "Interest Rate Determination"}
+  - {label: "SECTION 2.10", raw_start: 1299194, title: "Payments and Computations"}
+  - {label: "SECTION 2.11", raw_start: 1303481, title: "Increased Costs and Capital Requirements"}
+  - {label: "SECTION 2.12", raw_start: 1307687, title: "Taxes"}
+  - {label: "SECTION 2.13", raw_start: 1318591, title: "Sharing of Payments, Etc"}
+  - {label: "SECTION 2.14", raw_start: 1320529, title: "Illegality"}
+  - {label: "SECTION 2.15", raw_start: 1323415, title: "Conversion of Advances"}
+  - {label: "SECTION 2.16", raw_start: 1325072, title: "Replacement or Removal of Bank"}
+  - {label: "SECTION 2.17", raw_start: 1328694, title: "Evidence of Indebtedness"}
+  - {label: "ARTICLE 3", raw_start: 1329775, title: "CONDITIONS OF LENDING"}
+  - {label: "SECTION 3.01", raw_start: 1329849, title: "Conditions Precedent to Effectiveness"}
+  - {label: "SECTION 3.02", raw_start: 1344510, title: "Conditions Precedent to Each Advance"}
+  - {label: "SECTION 3.03", raw_start: 1346715, title: "Determinations Under Section 3.01"}
+  - {label: "ARTICLE 4", raw_start: 1347625, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 1347702, title: "Representations and Warranties of the Borrower"}
+  - {label: "ARTICLE 5", raw_start: 1358398, title: "COVENANTS OF THE BORROWER"}
+  - {label: "SECTION 5.01", raw_start: 1358472, title: "Affirmative Covenants"}
+  - {label: "SECTION 5.02", raw_start: 1371188, title: "Negative Covenants"}
+  - {label: "SECTION 5.03", raw_start: 1389853, title: "Financial Covenants"}
+  - {label: "ARTICLE 6", raw_start: 1390440, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 6.01", raw_start: 1390511, title: "Events of Default"}
+  - {label: "ARTICLE 7", raw_start: 1399472, title: "THE AGENT"}
+  - {label: "SECTION 7.01", raw_start: 1399540, title: "Authorization and Action"}
+  - {label: "SECTION 7.02", raw_start: 1400729, title: "Agent's Reliance, Etc"}
+  - {label: "SECTION 7.03", raw_start: 1402608, title: "The Agent and its Affiliates"}
+  - {label: "SECTION 7.04", raw_start: 1403523, title: "Bank Credit Decision"}
+  - {label: "SECTION 7.05", raw_start: 1404184, title: "Indemnification"}
+  - {label: "SECTION 7.06", raw_start: 1406648, title: "Successor Agent"}
+  - {label: "SECTION 7.07", raw_start: 1408230, title: "Co-Lead Arrangers, Syndication Agent, Documentation Agent"}
+  - {label: "ARTICLE 8", raw_start: 1408488, title: "MISCELLANEOUS"}
+  - {label: "SECTION 8.01", raw_start: 1408559, title: "Amendments, Etc"}
+  - {label: "SECTION 8.02", raw_start: 1410055, title: "Notices, Etc"}
+  - {label: "SECTION 8.03", raw_start: 1415953, title: "No Waiver;"}
+  - {label: "SECTION 8.04", raw_start: 1416396, title: "Expenses and Taxes;"}
+  - {label: "SECTION 8.05", raw_start: 1422026, title: "Right of Set-Off"}
+  - {label: "SECTION 8.06", raw_start: 1423566, title: "Limitation and Adjustment of Interest"}
+  - {label: "SECTION 8.07", raw_start: 1427864, title: "Binding Effect"}
+  - {label: "SECTION 8.08", raw_start: 1428396, title: "Assignments and Participations"}
+  - {label: "SECTION 8.09", raw_start: 1437649, title: "Execution in Counterparts"}
+  - {label: "SECTION 8.10", raw_start: 1438187, title: "Jurisdiction;"}
+  - {label: "SECTION 8.11", raw_start: 1440743, title: "Confidentiality"}
+  - {label: "SECTION 8.12", raw_start: 1443029, title: "Governing Law"}
+  - {label: "SECTION 8.13", raw_start: 1444015, title: "Waiver of Jury Trial"}
+absent: []

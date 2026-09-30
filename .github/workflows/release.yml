@@ -1,0 +1,152 @@
+# On a `v*` tag: build sdist + wheel with uv, publish to PyPI through trusted publishing (no
+# token secret: the PyPI project must list this repository and workflow file as a trusted
+# publisher), build and push the container image to ghcr.io/malcolmwardlaw/edgar-itemize:<tag>,
+# and attach the release's conformance set as a release asset
+# (docs/RELEASE_PLAN.md section 4 items 8-9, section 5).
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Tag matches the package version
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - id: v
+        run: |
+          pkg="$(uv run --frozen --no-dev python -c 'from edgar_itemize import __version__; print(__version__)')"
+          tag="${GITHUB_REF_NAME#v}"
+          if [ "$pkg" != "$tag" ]; then
+            echo "tag v$tag but pyproject version is $pkg" >&2
+            exit 1
+          fi
+          test -f "conformance/$pkg/expected.parquet" || { echo "conformance/$pkg is missing" >&2; exit 1; }
+          echo "version=$pkg" >> "$GITHUB_OUTPUT"
+
+  test:
+    name: Tests on Python ${{ matrix.python }}
+    needs: check
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        python: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --all-extras --frozen
+      - run: uv run pytest -q
+
+  dist:
+    name: Build sdist and wheel
+    needs: [check, test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          if-no-files-found: error
+
+  pypi:
+    name: Publish to PyPI (trusted publishing)
+    needs: [check, dist]
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/edgar-itemize/${{ needs.check.outputs.version }}/
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/
+
+  image:
+    name: Build and push the container image
+    needs: [check, test]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      digest: ${{ steps.push.outputs.digest }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/malcolmwardlaw/edgar-itemize
+          tags: |
+            type=raw,value=${{ github.ref_name }}
+            type=raw,value=${{ needs.check.outputs.version }}
+            type=raw,value=latest,enable=${{ !contains(github.ref_name, 'rc') }}
+          labels: |
+            org.opencontainers.image.source=https://github.com/MalcolmWardlaw/edgar-itemize
+            org.opencontainers.image.version=${{ needs.check.outputs.version }}
+      - id: push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          provenance: false
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+      - name: Image digest
+        run: echo "ghcr.io/malcolmwardlaw/edgar-itemize@${{ steps.push.outputs.digest }}"
+
+  release:
+    name: GitHub release with the conformance set
+    needs: [check, dist, pypi, image]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - name: Pack conformance/${{ needs.check.outputs.version }}
+        run: |
+          v="${{ needs.check.outputs.version }}"
+          tar -czf "edgar-itemize-conformance-$v.tar.gz" "conformance/$v"
+          sha256sum "edgar-itemize-conformance-$v.tar.gz" dist/* > SHA256SUMS
+          echo "container image: ghcr.io/malcolmwardlaw/edgar-itemize@${{ needs.image.outputs.digest }}" > IMAGE_DIGEST
+      - uses: softprops/action-gh-release@v2
+        with:
+          prerelease: ${{ contains(github.ref_name, 'rc') }}
+          generate_release_notes: false
+          body_path: IMAGE_DIGEST
+          files: |
+            edgar-itemize-conformance-${{ needs.check.outputs.version }}.tar.gz
+            dist/*
+            SHA256SUMS

@@ -1,0 +1,20 @@
+accession: 0000912057-96-019158
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 4591, title: ""}
+  - {label: "ITEM 1", raw_start: 4599, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 48561, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 53208, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 53560, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 56502, title: ""}
+  - {label: "ITEM 5", raw_start: 56511, title: "MARKET FOR REGISTRANT'S COMMON EQUITY AND RELATED STOCKHOLDE"}
+  - {label: "ITEM 6", raw_start: 58205, title: "SELECTED CONSOLIDATED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 63480, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 8", raw_start: 87030, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 94647, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "PART III", raw_start: 94802, title: ""}
+  - {label: "PART IV", raw_start: 95287, title: ""}
+  - {label: "ITEM 14", raw_start: 95296, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES AND REPORTS ON FORM "}
+absent: []

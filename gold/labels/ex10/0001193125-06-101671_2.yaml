@@ -1,0 +1,85 @@
+accession: 0001193125-06-101671
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 483537, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 483878, title: "Terms Defined"}
+  - {label: "SECTION 1.02", raw_start: 505022, title: "Accounting Terms"}
+  - {label: "SECTION 1.03", raw_start: 505845, title: "Rules of Construction"}
+  - {label: "SECTION 1.04", raw_start: 507180, title: "Incorporation of Recitals and Exhibits"}
+  - {label: "ARTICLE 2", raw_start: 507785, title: "REVOLVING LOAN"}
+  - {label: "SECTION 2.01", raw_start: 508130, title: "Loan Commitment"}
+  - {label: "SECTION 2.02", raw_start: 509623, title: "Use of Proceeds"}
+  - {label: "SECTION 2.03", raw_start: 510415, title: "Revolving Note"}
+  - {label: "SECTION 2.04", raw_start: 511103, title: "Interest"}
+  - {label: "SECTION 2.05", raw_start: 512984, title: "Repayment"}
+  - {label: "SECTION 2.06", raw_start: 513931, title: "Fundings"}
+  - {label: "SECTION 2.07", raw_start: 516668, title: "Revolving Loan Fee"}
+  - {label: "SECTION 2.08", raw_start: 517385, title: "Manner of Payment"}
+  - {label: "SECTION 2.09", raw_start: 518372, title: "Maximum Interest Rate"}
+  - {label: "SECTION 2.10", raw_start: 519565, title: "Late Charge"}
+  - {label: "SECTION 2.11", raw_start: 520922, title: "Increased Costs"}
+  - {label: "ARTICLE 3", raw_start: 524830, title: "CONDITIONS PRECEDENT FOR FUNDINGS UNDER THE REVOLVING LOAN"}
+  - {label: "SECTION 3.01", raw_start: 525220, title: "Conditions Precedent for Initial Funding"}
+  - {label: "SECTION 3.02", raw_start: 528737, title: "Conditions Precedent to Each Subsequent Funding"}
+  - {label: "ARTICLE 4", raw_start: 531018, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 4.01", raw_start: 531768, title: "Financial Data"}
+  - {label: "SECTION 4.02", raw_start: 534994, title: "Licenses and Permits"}
+  - {label: "SECTION 4.03", raw_start: 536365, title: "Maintenance of Properties"}
+  - {label: "SECTION 4.04", raw_start: 537231, title: "Payment of Charges"}
+  - {label: "SECTION 4.05", raw_start: 539524, title: "Insurance"}
+  - {label: "SECTION 4.06", raw_start: 540578, title: "Inspection"}
+  - {label: "SECTION 4.07", raw_start: 541581, title: "Hazardous Substances"}
+  - {label: "SECTION 4.08", raw_start: 543746, title: "Preservation of Existence"}
+  - {label: "SECTION 4.09", raw_start: 545367, title: "Notice of Disputes and Other Matters"}
+  - {label: "SECTION 4.10", raw_start: 547687, title: "Exchange of Note"}
+  - {label: "SECTION 4.11", raw_start: 548794, title: "Additional Guarantors"}
+  - {label: "SECTION 4.12", raw_start: 550103, title: "Further Assurances"}
+  - {label: "ARTICLE 5", raw_start: 550853, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 551607, title: "Dividends and Distributions"}
+  - {label: "SECTION 5.02", raw_start: 552748, title: "Transactions With Affiliates"}
+  - {label: "SECTION 5.03", raw_start: 553819, title: "Liens"}
+  - {label: "SECTION 5.04", raw_start: 557835, title: "Advances and Loans"}
+  - {label: "SECTION 5.05", raw_start: 560449, title: "Investments"}
+  - {label: "SECTION 5.06", raw_start: 561333, title: "Consolidation, Merger and Sale of Assets"}
+  - {label: "SECTION 5.07", raw_start: 563498, title: "Pension Plan"}
+  - {label: "ARTICLE 6", raw_start: 564689, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 6.01", raw_start: 565549, title: "Existence, Qualification and Power;"}
+  - {label: "SECTION 6.02", raw_start: 567094, title: "Authorization;"}
+  - {label: "SECTION 6.03", raw_start: 568322, title: "Governmental Authorization;"}
+  - {label: "SECTION 6.04", raw_start: 569211, title: "Binding Effect"}
+  - {label: "SECTION 6.05", raw_start: 570390, title: "Financial Statements;"}
+  - {label: "SECTION 6.06", raw_start: 572059, title: "Litigation"}
+  - {label: "SECTION 6.07", raw_start: 573256, title: "No Default"}
+  - {label: "SECTION 6.08", raw_start: 574151, title: "Ownership of Property;"}
+  - {label: "SECTION 6.09", raw_start: 575423, title: "Environmental Compliance"}
+  - {label: "SECTION 6.10", raw_start: 576623, title: "Insurance"}
+  - {label: "SECTION 6.11", raw_start: 577549, title: "Taxes"}
+  - {label: "SECTION 6.12", raw_start: 579136, title: "Pension Plans"}
+  - {label: "SECTION 6.13", raw_start: 580313, title: "Subsidiaries"}
+  - {label: "SECTION 6.14", raw_start: 581620, title: "Margin Regulations;"}
+  - {label: "SECTION 6.15", raw_start: 583155, title: "Intellectual Property;"}
+  - {label: "SECTION 6.16", raw_start: 584563, title: "Solvency"}
+  - {label: "SECTION 6.17", raw_start: 585272, title: "Disclosure"}
+  - {label: "ARTICLE 7", raw_start: 586641, title: "EVENTS OF DEFAULT; REMEDIES"}
+  - {label: "SECTION 7.01", raw_start: 587000, title: "Events of Default"}
+  - {label: "SECTION 7.02", raw_start: 593986, title: "Acceleration;"}
+  - {label: "ARTICLE 8", raw_start: 597045, title: "MISCELLANEOUS"}
+  - {label: "SECTION 8.01", raw_start: 597391, title: "Notices"}
+  - {label: "SECTION 8.02", raw_start: 601385, title: "Payment of Expenses"}
+  - {label: "SECTION 8.03", raw_start: 604396, title: "Setoff"}
+  - {label: "SECTION 8.04", raw_start: 606083, title: "Waiver of Setoff"}
+  - {label: "SECTION 8.05", raw_start: 607011, title: "Fees and Commissions"}
+  - {label: "SECTION 8.06", raw_start: 608024, title: "No Waiver"}
+  - {label: "SECTION 8.07", raw_start: 609502, title: "Entire Agreement and Amendments"}
+  - {label: "SECTION 8.08", raw_start: 610594, title: "Benefit of Agreement"}
+  - {label: "SECTION 8.09", raw_start: 612159, title: "Severability"}
+  - {label: "SECTION 8.10", raw_start: 612998, title: "Descriptive Headings"}
+  - {label: "SECTION 8.11", raw_start: 613740, title: "Governing Law"}
+  - {label: "SECTION 8.12", raw_start: 614682, title: "Consent to Jurisdiction, Service and Venue"}
+  - {label: "SECTION 8.13", raw_start: 616249, title: "Counterparts"}
+  - {label: "SECTION 8.14", raw_start: 617245, title: "Patriot Act"}
+  - {label: "SECTION 8.15", raw_start: 618262, title: "Jury Waiver"}
+  - {label: "SECTION 8.16", raw_start: 619317, title: "Statutory Notice"}
+absent: []

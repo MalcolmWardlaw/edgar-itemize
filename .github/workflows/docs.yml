@@ -1,0 +1,48 @@
+# Build the manual (mkdocs.yml, source under manual/) and publish it to GitHub Pages on
+# every push to main of the PUBLIC repository only (MalcolmWardlaw/edgar-itemize, release
+# plan D2). In the private notebook repository both jobs are skipped, so nothing is
+# deployed and nothing fails; the strict build of the manual still runs there in ci.yml.
+# Pages must be enabled once on the public repository with "GitHub Actions" as the source.
+name: Docs
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: github.repository == 'MalcolmWardlaw/edgar-itemize'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Sync (locked, docs extra)
+        run: uv sync --extra docs --frozen
+      - name: Build strictly
+        run: uv run mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: github.repository == 'MalcolmWardlaw/edgar-itemize'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

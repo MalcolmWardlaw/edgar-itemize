@@ -1,0 +1,49 @@
+accession: 0001213900-13-005720
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 31594, title: ""}
+  - {label: "SECTION 1.01", raw_start: 31594, title: "Upon the terms and conditions set forth in this Agreement, L"}
+  - {label: "SECTION 1.02", raw_start: 32731, title: "The Loan has already been wired to Borrower, via its subsidi"}
+  - {label: "ARTICLE 3", raw_start: 35960, title: ""}
+  - {label: "SECTION 3.01", raw_start: 35960, title: "Borrower shall repay the entire Loan, with all accrued Inter"}
+  - {label: "SECTION 3.02", raw_start: 37080, title: "Notwithstanding the foregoing, as of the Loan Date, there wi"}
+  - {label: "ARTICLE 4", raw_start: 41592, title: ""}
+  - {label: "SECTION 4.01", raw_start: 41592, title: "Notwithstanding Lender’s declaration that, as at the date he"}
+  - {label: "SECTION 4.02", raw_start: 43320, title: "Conversion will be by means of written notice by Borrower to"}
+  - {label: "SECTION 4.03", raw_start: 44514, title: "Any and all amounts of the outstanding Loan and accrued Inte"}
+  - {label: "ARTICLE 6", raw_start: 48703, title: ""}
+  - {label: "SECTION 6.01", raw_start: 48703, title: "The Parties hereby confirm and agree that Borrower requested"}
+  - {label: "SECTION 6.02", raw_start: 49975, title: "Borrower hereby undertakes to use the Loan solely for the Sp"}
+  - {label: "SECTION 6.03", raw_start: 51003, title: "Borrower hereby recognizes and acknowledges that Lender’s co"}
+  - {label: "ARTICLE 7", raw_start: 53103, title: ""}
+  - {label: "SECTION 7.01", raw_start: 53103, title: "Borrower shall keep proper records and books of account in a"}
+  - {label: "SECTION 7.02", raw_start: 54250, title: "Borrower shall conduct its affairs in such manner as is appr"}
+  - {label: "SECTION 7.03", raw_start: 55322, title: "Other than in the ordinary course of business or otherwise a"}
+  - {label: "ARTICLE 8", raw_start: 60198, title: ""}
+  - {label: "SECTION 8.01", raw_start: 60198, title: "that it is duly organized and existing under the laws of the"}
+  - {label: "SECTION 8.02", raw_start: 61375, title: "that this Agreement is valid and binding upon it and it is b"}
+  - {label: "SECTION 8.03", raw_start: 62789, title: "that all actions on its part and on the part of its director"}
+  - {label: "SECTION 8.04", raw_start: 64104, title: "that this Agreement and the entire contents thereof do not r"}
+  - {label: "ARTICLE 9", raw_start: 66911, title: ""}
+  - {label: "SECTION 9.01", raw_start: 66911, title: "Borrower shall fail to make any payment which it is obliged "}
+  - {label: "SECTION 9.02", raw_start: 67972, title: "for the avoidance of doubt it is hereby stipulated and empha"}
+  - {label: "SECTION 9.03", raw_start: 69360, title: "Borrower shall default in the performance of any material co"}
+  - {label: "SECTION 9.04", raw_start: 70521, title: "Borrower uses and/or attempts and/or permits use of the Loan"}
+  - {label: "SECTION 9.05", raw_start: 71520, title: "any representation or warranty made by or on behalf of Borro"}
+  - {label: "SECTION 9.06", raw_start: 72584, title: "any judgment materially affecting the ability of Borrower to"}
+  - {label: "SECTION 9.07", raw_start: 73849, title: "any proceedings seeking to declare Borrower bankrupt, or ins"}
+  - {label: "SECTION 9.08", raw_start: 75122, title: "any event shall occur materially affecting the ability of Bo"}
+  - {label: "ARTICLE 10", raw_start: 79240, title: ""}
+  - {label: "SECTION 10.01", raw_start: 79240, title: "In view of the fact that Lender is the majority shareholder "}
+  - {label: "SECTION 10.02", raw_start: 80659, title: "Lender shall be entitled, at any time and without requiring "}
+  - {label: "SECTION 10.03", raw_start: 81877, title: "No Amendment to this Agreement, or any part thereof, shall b"}
+  - {label: "SECTION 10.04", raw_start: 82894, title: "As used in this Agreement, the term “including”, and all der"}
+  - {label: "SECTION 10.05", raw_start: 84337, title: "No failure or delay on the part of any party in exercising a"}
+  - {label: "SECTION 10.06", raw_start: 85607, title: "In case any provision of the Agreement shall be declared inv"}
+  - {label: "SECTION 10.07", raw_start: 86733, title: "This Agreement constitutes the entire agreement between the "}
+  - {label: "SECTION 10.08", raw_start: 87853, title: "This Agreement shall be governed by and construed in accorda"}
+  - {label: "SECTION 10.09", raw_start: 89298, title: "Notices sent by one party to the other under this Agreement "}
+  - {label: "SECTION 10.10", raw_start: 90723, title: "This Agreement may be executed in any number of counterparts"}
+absent: []

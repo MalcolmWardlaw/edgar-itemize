@@ -1,0 +1,110 @@
+accession: 0000950124-06-000988
+sequence: 2
+doc_type: EX-10.52
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1381618, title: ""}
+  - {label: "SECTION 1", raw_start: 1381618, title: "DEFINITIONS AND RULES OF INTERPRETATION"}
+  - {label: "SECTION 1.01", raw_start: 1381676, title: "DEFINITIONS"}
+  - {label: "SECTION 1.02", raw_start: 1412157, title: "RULES OF INTERPRETATION"}
+  - {label: "ARTICLE 2", raw_start: 1413885, title: ""}
+  - {label: "SECTION 2", raw_start: 1413885, title: "THE CREDIT FACILITY"}
+  - {label: "SECTION 2.01", raw_start: 1413923, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.02", raw_start: 1413965, title: "COMMITMENT TO LEND TERM LOAN"}
+  - {label: "SECTION 2.03", raw_start: 1414269, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.04", raw_start: 1414311, title: "INTEREST ON LOANS"}
+  - {label: "SECTION 2.05", raw_start: 1415338, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.06", raw_start: 1415380, title: "FUNDS FOR LOANS"}
+  - {label: "SECTION 2.07", raw_start: 1418115, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.08", raw_start: 1418157, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.09", raw_start: 1418199, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.10", raw_start: 1418241, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.11", raw_start: 1418284, title: "EVIDENCE OF DEBT"}
+  - {label: "ARTICLE 3", raw_start: 1420952, title: ""}
+  - {label: "SECTION 3", raw_start: 1420952, title: "REPAYMENT OF THE LOANS"}
+  - {label: "SECTION 3.01", raw_start: 1420993, title: "STATED MATURITY"}
+  - {label: "SECTION 3.02", raw_start: 1421281, title: "MANDATORY PREPAYMENTS"}
+  - {label: "SECTION 3.03", raw_start: 1421736, title: "OPTIONAL PREPAYMENTS"}
+  - {label: "SECTION 3.04", raw_start: 1422550, title: "PARTIAL PREPAYMENTS"}
+  - {label: "SECTION 3.05", raw_start: 1423005, title: "EFFECT OF PREPAYMENTS"}
+  - {label: "ARTICLE 4", raw_start: 1423111, title: ""}
+  - {label: "SECTION 4", raw_start: 1423111, title: "CERTAIN GENERAL PROVISIONS"}
+  - {label: "SECTION 4.01", raw_start: 1423156, title: "CONVERSION OPTIONS"}
+  - {label: "SECTION 4.02", raw_start: 1425962, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.03", raw_start: 1426004, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.04", raw_start: 1426046, title: "FUNDS FOR PAYMENTS"}
+  - {label: "SECTION 4.05", raw_start: 1429494, title: "COMPUTATIONS"}
+  - {label: "SECTION 4.06", raw_start: 1430209, title: "SUSPENSION OF LIBOR RATE LOANS"}
+  - {label: "SECTION 4.07", raw_start: 1431236, title: "ILLEGALITY"}
+  - {label: "SECTION 4.08", raw_start: 1432114, title: "ADDITIONAL INTEREST"}
+  - {label: "SECTION 4.09", raw_start: 1432814, title: "ADDITIONAL COSTS, ETC"}
+  - {label: "SECTION 4.10", raw_start: 1436181, title: "CAPITAL ADEQUACY"}
+  - {label: "SECTION 4.11", raw_start: 1437683, title: "INDEMNITY OF BORROWER"}
+  - {label: "SECTION 4.12", raw_start: 1438345, title: "INTEREST ON OVERDUE AMOUNTS;"}
+  - {label: "SECTION 4.13", raw_start: 1439737, title: "CERTIFICATE"}
+  - {label: "SECTION 4.14", raw_start: 1440060, title: "LIMITATION ON INTEREST"}
+  - {label: "SECTION 4.15", raw_start: 1441834, title: "INTENTIONALLY OMITTED"}
+  - {label: "ARTICLE 5", raw_start: 1441872, title: ""}
+  - {label: "SECTION 5", raw_start: 1441872, title: "UNSECURED OBLIGATION;"}
+  - {label: "SECTION 5.01", raw_start: 1441921, title: "COLLATERAL"}
+  - {label: "SECTION 5.02", raw_start: 1442165, title: "NEW GUARANTORS"}
+  - {label: "ARTICLE 6", raw_start: 1445528, title: ""}
+  - {label: "SECTION 6", raw_start: 1445528, title: "REPRESENTATIONS AND WARRANTIES OF THE TRUST AND THE BORROWER"}
+  - {label: "SECTION 6.01", raw_start: 1445725, title: "CORPORATE AUTHORITY, ETC"}
+  - {label: "SECTION 6.02", raw_start: 1450277, title: "GOVERNMENTAL APPROVALS"}
+  - {label: "SECTION 6.03", raw_start: 1450696, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 6.04", raw_start: 1450738, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 6.05", raw_start: 1450780, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 6.06", raw_start: 1450822, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 6.07", raw_start: 1450864, title: "LITIGATION"}
+  - {label: "ARTICLE 12", raw_start: 1487449, title: ""}
+  - {label: "SECTION 12.02", raw_start: 1487449, title: "LIMITATION OF CURE PERIODS"}
+  - {label: "SECTION 12.03", raw_start: 1488003, title: "TERMINATION OF COMMITMENTS"}
+  - {label: "SECTION 12.04", raw_start: 1488540, title: "REMEDIES"}
+  - {label: "SECTION 12.05", raw_start: 1490045, title: "DISTRIBUTION OF PROCEEDS"}
+  - {label: "ARTICLE 13", raw_start: 1492229, title: ""}
+  - {label: "SECTION 13", raw_start: 1492229, title: "SETOFF"}
+  - {label: "ARTICLE 14", raw_start: 1494066, title: ""}
+  - {label: "SECTION 14", raw_start: 1494066, title: "THE AGENT"}
+  - {label: "SECTION 14.01", raw_start: 1494095, title: "AUTHORIZATION"}
+  - {label: "SECTION 14.02", raw_start: 1495498, title: "EMPLOYEES AND AGENTS"}
+  - {label: "SECTION 14.03", raw_start: 1495984, title: "NO LIABILITY"}
+  - {label: "SECTION 14.04", raw_start: 1497140, title: "NO REPRESENTATIONS"}
+  - {label: "SECTION 14.05", raw_start: 1499735, title: "PAYMENTS"}
+  - {label: "ARTICLE 15", raw_start: 1512739, title: ""}
+  - {label: "SECTION 15", raw_start: 1512739, title: "EXPENSES"}
+  - {label: "ARTICLE 16", raw_start: 1515621, title: ""}
+  - {label: "SECTION 16", raw_start: 1515621, title: "INDEMNIFICATION"}
+  - {label: "ARTICLE 17", raw_start: 1519002, title: ""}
+  - {label: "SECTION 17", raw_start: 1519002, title: "SURVIVAL OF COVENANTS, ETC"}
+  - {label: "ARTICLE 18", raw_start: 1520392, title: ""}
+  - {label: "SECTION 18", raw_start: 1520392, title: "ASSIGNMENT AND PARTICIPATION"}
+  - {label: "SECTION 18.01", raw_start: 1520440, title: "CONDITIONS TO ASSIGNMENT BY BANKS"}
+  - {label: "SECTION 18.10", raw_start: 1531153, title: "TITLED AGENTS"}
+  - {label: "ARTICLE 19", raw_start: 1531324, title: ""}
+  - {label: "SECTION 19", raw_start: 1531324, title: "NOTICES"}
+  - {label: "ARTICLE 20", raw_start: 1534479, title: ""}
+  - {label: "SECTION 20", raw_start: 1534479, title: "RELATIONSHIP"}
+  - {label: "ARTICLE 21", raw_start: 1535163, title: ""}
+  - {label: "SECTION 21", raw_start: 1535163, title: "GOVERNING LAW"}
+  - {label: "ARTICLE 22", raw_start: 1536180, title: ""}
+  - {label: "SECTION 22", raw_start: 1536180, title: "HEADINGS"}
+  - {label: "ARTICLE 23", raw_start: 1536331, title: ""}
+  - {label: "SECTION 23", raw_start: 1536331, title: "COUNTERPARTS"}
+  - {label: "ARTICLE 24", raw_start: 1536780, title: ""}
+  - {label: "SECTION 24", raw_start: 1536780, title: "ENTIRE AGREEMENT, ETC"}
+  - {label: "ARTICLE 27", raw_start: 1539196, title: ""}
+  - {label: "SECTION 27", raw_start: 1539196, title: "CONSENTS, AMENDMENTS, WAIVERS, ETC"}
+  - {label: "ARTICLE 28", raw_start: 1542181, title: ""}
+  - {label: "SECTION 28", raw_start: 1542181, title: "SEVERABILITY"}
+  - {label: "ARTICLE 29", raw_start: 1542667, title: ""}
+  - {label: "SECTION 29", raw_start: 1542667, title: "TIME OF THE ESSENCE"}
+  - {label: "ARTICLE 30", raw_start: 1542876, title: ""}
+  - {label: "SECTION 30", raw_start: 1542876, title: "NO UNWRITTEN AGREEMENTS"}
+  - {label: "ARTICLE 31", raw_start: 1543248, title: ""}
+  - {label: "SECTION 31", raw_start: 1543248, title: "REPLACEMENT OF NOTES"}
+  - {label: "ARTICLE 32", raw_start: 1543950, title: ""}
+  - {label: "SECTION 32", raw_start: 1543950, title: "TRUST EXCULPATION"}
+  - {label: "ARTICLE 33", raw_start: 1547326, title: ""}
+  - {label: "SECTION 33", raw_start: 1547326, title: "PATRIOT ACT"}
+absent: []

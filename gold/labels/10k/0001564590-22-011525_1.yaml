@@ -1,0 +1,32 @@
+accession: 0001564590-22-011525
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 278236, title: ""}
+  - {label: "ITEM 1", raw_start: 278467, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 521766, title: "Risk factors"}
+  - {label: "ITEM 1B", raw_start: 959475, title: "Unresolved staff comments"}
+  - {label: "ITEM 2", raw_start: 960079, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 961920, title: "Legal proceedings"}
+  - {label: "ITEM 4", raw_start: 964949, title: "Mine safety disclosures"}
+  - {label: "PART II", raw_start: 965761, title: ""}
+  - {label: "ITEM 5", raw_start: 966018, title: "Market for registrant’s common equity, related stockholder m"}
+  - {label: "ITEM 6", raw_start: 968905, title: "Reserved"}
+  - {label: "ITEM 7", raw_start: 969223, title: "Management’s discussion and analysis of financial condition "}
+  - {label: "ITEM 7A", raw_start: 1279235, title: "Quantitative and qualitative disclosures about market risk"}
+  - {label: "ITEM 8", raw_start: 1280026, title: "Financial statements and supplementary data"}
+  - {label: "ITEM 9", raw_start: 1281100, title: "Change in and disagreements with accountants on accounting a"}
+  - {label: "ITEM 9A", raw_start: 1281654, title: "Controls and procedures"}
+  - {label: "ITEM 9B", raw_start: 1293271, title: "Other information"}
+  - {label: "ITEM 9C", raw_start: 1297151, title: "Disclosure regarding foreign jurisdictions that prevent insp"}
+  - {label: "PART III", raw_start: 1297988, title: ""}
+  - {label: "ITEM 10", raw_start: 1298246, title: "Directors, executive officers, and corporate governance"}
+  - {label: "ITEM 11", raw_start: 1299057, title: "Executive compensation"}
+  - {label: "ITEM 12", raw_start: 1299794, title: "Security ownership of certain beneficial owners and manageme"}
+  - {label: "ITEM 13", raw_start: 1300603, title: "Certain relationships and related transactions, and director"}
+  - {label: "ITEM 14", raw_start: 1301392, title: "Principal accountant fees and services"}
+  - {label: "PART IV", raw_start: 1302681, title: ""}
+  - {label: "ITEM 15", raw_start: 1302938, title: "Exhibits and financial statement schedules"}
+  - {label: "ITEM 16", raw_start: 1466406, title: "Form 10-K summary"}
+absent: []

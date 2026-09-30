@@ -1,0 +1,131 @@
+accession: 0001193125-08-084713
+sequence: 3
+doc_type: EX-10.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 335386, title: ""}
+  - {label: "SECTION 1.01", raw_start: 335681, title: "Terms"}
+  - {label: "SECTION 1.02", raw_start: 386413, title: "Interpretation"}
+  - {label: "SECTION 1.03", raw_start: 390745, title: "Exhibits"}
+  - {label: "SECTION 1.04", raw_start: 391000, title: "UCC"}
+  - {label: "ARTICLE 2", raw_start: 391564, title: ""}
+  - {label: "SECTION 2.01", raw_start: 391846, title: "Advance Commitments;"}
+  - {label: "SECTION 2.02", raw_start: 394742, title: "Authorization to Make Advances"}
+  - {label: "SECTION 2.03", raw_start: 396586, title: "Interest"}
+  - {label: "SECTION 2.04", raw_start: 398873, title: "Principal Repayment"}
+  - {label: "SECTION 2.05", raw_start: 403596, title: "Lender Fees"}
+  - {label: "SECTION 2.06", raw_start: 404766, title: "Agent Fees"}
+  - {label: "SECTION 2.07", raw_start: 405460, title: "Term and Renewal Date"}
+  - {label: "ARTICLE 3", raw_start: 407174, title: ""}
+  - {label: "SECTION 3.01", raw_start: 407456, title: "Conditions Precedent to Effective Date"}
+  - {label: "SECTION 3.02", raw_start: 414976, title: "Conditions Precedent to Each Advance"}
+  - {label: "SECTION 3.03", raw_start: 419204, title: "Post Closing Deliveries and Actions"}
+  - {label: "ARTICLE 4", raw_start: 419551, title: ""}
+  - {label: "SECTION 4.01", raw_start: 420012, title: "Grant of Security Interest"}
+  - {label: "SECTION 4.02", raw_start: 427562, title: "Security for Obligations"}
+  - {label: "SECTION 4.03", raw_start: 427827, title: "Superpriority Nature of Obligations;"}
+  - {label: "SECTION 4.04", raw_start: 431559, title: "Financing Statements"}
+  - {label: "SECTION 4.05", raw_start: 432094, title: "Agent Appointed Attorney-in-Fact"}
+  - {label: "ARTICLE 5", raw_start: 434762, title: ""}
+  - {label: "SECTION 5.01", raw_start: 435394, title: "Due Incorporation and Qualification"}
+  - {label: "SECTION 5.02", raw_start: 436144, title: "Due Authorization"}
+  - {label: "SECTION 5.03", raw_start: 436895, title: "Location of Inventory and Equipment"}
+  - {label: "SECTION 5.04", raw_start: 437492, title: "Relocation of Chief Executive Office"}
+  - {label: "SECTION 5.05", raw_start: 437847, title: "Permits and Licenses"}
+  - {label: "SECTION 5.06", raw_start: 438222, title: "Due Execution;"}
+  - {label: "SECTION 5.07", raw_start: 439230, title: "The Orders"}
+  - {label: "SECTION 5.08", raw_start: 439623, title: "Compliance with Articles;"}
+  - {label: "SECTION 5.09", raw_start: 440131, title: "Accuracy of Information and No Material Adverse Change in Fi"}
+  - {label: "SECTION 5.10", raw_start: 443841, title: "Use of Proceeds"}
+  - {label: "SECTION 5.11", raw_start: 444750, title: "Defaults and Events of Default"}
+  - {label: "SECTION 5.12", raw_start: 445004, title: "Administrative Expenses and Lien"}
+  - {label: "SECTION 5.13", raw_start: 445687, title: "Reliance by Agent and Lenders;"}
+  - {label: "SECTION 5.14", raw_start: 446590, title: "Right to Inspect"}
+  - {label: "SECTION 5.15", raw_start: 448260, title: "Title to Assets;"}
+  - {label: "SECTION 5.16", raw_start: 450121, title: "SBA License Application and Related Requirements"}
+  - {label: "SECTION 5.17", raw_start: 450745, title: "Small Business Administration Documentation"}
+  - {label: "SECTION 5.18", raw_start: 451897, title: "Small Business Concern"}
+  - {label: "ARTICLE 6", raw_start: 452317, title: ""}
+  - {label: "SECTION 6.01", raw_start: 452947, title: "Notices and Other Reports"}
+  - {label: "SECTION 6.02", raw_start: 456230, title: "Tax Returns, Receipts"}
+  - {label: "SECTION 6.03", raw_start: 456777, title: "Title to Equipment"}
+  - {label: "SECTION 6.04", raw_start: 457116, title: "Maintenance of Equipment"}
+  - {label: "SECTION 6.05", raw_start: 457600, title: "Taxes"}
+  - {label: "SECTION 6.06", raw_start: 458599, title: "Insurance"}
+  - {label: "SECTION 6.07", raw_start: 460128, title: "Compliance With Law"}
+  - {label: "SECTION 6.08", raw_start: 460493, title: "Compliance with Bankruptcy Court"}
+  - {label: "SECTION 6.09", raw_start: 460826, title: "Cash Management System and Collateral Account"}
+  - {label: "SECTION 6.10", raw_start: 461837, title: "Schedule of Financial Affairs"}
+  - {label: "SECTION 6.11", raw_start: 462283, title: "Use of Cash Collateral"}
+  - {label: "SECTION 6.12", raw_start: 462771, title: "Delivery of Copy of Financing Order"}
+  - {label: "SECTION 6.13", raw_start: 463090, title: "Sale Process"}
+  - {label: "SECTION 6.14", raw_start: 463550, title: "Prior Notice of Filings"}
+  - {label: "ARTICLE 7", raw_start: 464530, title: ""}
+  - {label: "SECTION 7.01", raw_start: 465132, title: "Extraordinary Transactions and Disposal of Assets"}
+  - {label: "SECTION 7.02", raw_start: 466570, title: ""}
+  - {label: "SECTION 7.03", raw_start: 466953, title: "Restructure"}
+  - {label: "SECTION 7.04", raw_start: 467257, title: "Payments"}
+  - {label: "SECTION 7.05", raw_start: 467724, title: "Investments, Loans and Advances"}
+  - {label: "SECTION 7.06", raw_start: 468133, title: "Capital Expenditures"}
+  - {label: "SECTION 7.07", raw_start: 468748, title: "Accounting Methods"}
+  - {label: "SECTION 7.08", raw_start: 469321, title: "Business Suspension"}
+  - {label: "SECTION 7.09", raw_start: 469543, title: "Bankruptcy Case"}
+  - {label: "SECTION 7.10", raw_start: 470280, title: "Limitation on Issuances of Capital Stock and Dividends"}
+  - {label: "SECTION 7.11", raw_start: 470761, title: "Use of Proceeds"}
+  - {label: "SECTION 7.12", raw_start: 471787, title: "Reclamation Claims"}
+  - {label: "SECTION 7.13", raw_start: 472965, title: "Chapter 11 Claims"}
+  - {label: "SECTION 7.14", raw_start: 473328, title: "Fundamental Changes, Line of Business"}
+  - {label: "ARTICLE 8", raw_start: 473999, title: ""}
+  - {label: "SECTION 8.01", raw_start: 474502, title: ""}
+  - {label: "SECTION 8.02", raw_start: 474943, title: "Failure to Perform"}
+  - {label: "SECTION 8.03", raw_start: 475643, title: "Misrepresentation"}
+  - {label: "SECTION 8.04", raw_start: 476573, title: "Material Adverse Change"}
+  - {label: "SECTION 8.05", raw_start: 476763, title: "Injunction Against Borrower"}
+  - {label: "SECTION 8.06", raw_start: 477354, title: "Bankruptcy Court"}
+  - {label: "SECTION 8.07", raw_start: 486864, title: "Actions"}
+  - {label: "SECTION 8.08", raw_start: 488490, title: "Reorganization Plan"}
+  - {label: "SECTION 8.09", raw_start: 489008, title: "Budget Variances"}
+  - {label: "SECTION 8.10", raw_start: 489477, title: "ERISA Compliance"}
+  - {label: "SECTION 8.11", raw_start: 491449, title: "Unauthorized Payments"}
+  - {label: "SECTION 8.12", raw_start: 492128, title: "Validity of Loan Documents and Superpriority Claims"}
+  - {label: "SECTION 8.13", raw_start: 492896, title: "Failure to Achieve a Sale Milestone"}
+  - {label: "SECTION 8.14", raw_start: 493369, title: "Failure to Deliver a Variation Report"}
+  - {label: "SECTION 8.15", raw_start: 493664, title: ""}
+  - {label: "SECTION 8.16", raw_start: 493925, title: "Failure to Make Post Closing Deliveries"}
+  - {label: "ARTICLE 9", raw_start: 494602, title: ""}
+  - {label: "SECTION 9.01", raw_start: 494888, title: "Rights and Remedies"}
+  - {label: "SECTION 9.02", raw_start: 497565, title: "No Waiver"}
+  - {label: "ARTICLE 10", raw_start: 498323, title: ""}
+  - {label: "SECTION 10.01", raw_start: 498637, title: "Payment of Expenses"}
+  - {label: "SECTION 10.02", raw_start: 502930, title: "Taxes"}
+  - {label: "SECTION 10.03", raw_start: 508530, title: "Payments by Lenders"}
+  - {label: "ARTICLE 11", raw_start: 510346, title: ""}
+  - {label: "ARTICLE 12", raw_start: 511313, title: ""}
+  - {label: "ARTICLE 13", raw_start: 518750, title: ""}
+  - {label: "SECTION 13.01", raw_start: 519009, title: "Appointment"}
+  - {label: "SECTION 13.02", raw_start: 521027, title: "Nature of Duties"}
+  - {label: "SECTION 13.03", raw_start: 522907, title: "Lack of Reliance on Agent and Resignation"}
+  - {label: "SECTION 13.04", raw_start: 525897, title: "Certain Rights of Agent"}
+  - {label: "SECTION 13.05", raw_start: 526683, title: "Reliance"}
+  - {label: "SECTION 13.06", raw_start: 527519, title: "Notice of Default"}
+  - {label: "SECTION 13.07", raw_start: 528871, title: "Indemnification"}
+  - {label: "SECTION 13.08", raw_start: 529921, title: "Agent in its Individual Capacity"}
+  - {label: "SECTION 13.09", raw_start: 530762, title: "Borrower's Undertaking to Agent"}
+  - {label: "SECTION 13.10", raw_start: 531503, title: "No Reliance on Agent's Customer Identification Program"}
+  - {label: "SECTION 13.11", raw_start: 532697, title: "Release of Guaranty and Collateral"}
+  - {label: "ARTICLE 14", raw_start: 533557, title: ""}
+  - {label: "SECTION 14.01", raw_start: 533829, title: "Effectiveness"}
+  - {label: "SECTION 14.02", raw_start: 534050, title: "Successors and Assigns"}
+  - {label: "SECTION 14.03", raw_start: 534940, title: "Section Headings"}
+  - {label: "SECTION 14.04", raw_start: 535158, title: "Interpretation"}
+  - {label: "SECTION 14.05", raw_start: 535727, title: "Severability of Provisions"}
+  - {label: "SECTION 14.06", raw_start: 536057, title: "Amendments in Writing"}
+  - {label: "SECTION 14.07", raw_start: 536504, title: ""}
+  - {label: "SECTION 14.08", raw_start: 536875, title: "Survival of Representations and Warranties"}
+  - {label: "SECTION 14.09", raw_start: 537609, title: "Absence of Prejudice to the Lenders with Respect to Matters "}
+  - {label: "SECTION 14.10", raw_start: 538831, title: "Further Assurances"}
+  - {label: "SECTION 14.11", raw_start: 539523, title: "Surcharge Waiver"}
+  - {label: "SECTION 14.12", raw_start: 539959, title: "Release"}
+  - {label: "ARTICLE 15", raw_start: 540432, title: ""}
+  - {label: "ARTICLE 16", raw_start: 543125, title: ""}
+absent: []

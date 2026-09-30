@@ -1,0 +1,21 @@
+accession: 0001193125-09-169732
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 29437, title: ""}
+  - {label: "SECTION 1", raw_start: 29437, title: "Amendments"}
+  - {label: "ARTICLE 2", raw_start: 47204, title: ""}
+  - {label: "SECTION 2.15", raw_start: 47204, title: "Additional Amendment' shall have the meaning provided in Sec"}
+  - {label: "SECTION 2.16", raw_start: 91381, title: "Defaulting Lenders"}
+  - {label: "ARTICLE 3", raw_start: 139294, title: ""}
+  - {label: "SECTION 3", raw_start: 139294, title: "Conditions to Effectiveness of Amendment"}
+  - {label: "ARTICLE 4", raw_start: 141850, title: ""}
+  - {label: "SECTION 4", raw_start: 141850, title: "Counterparts"}
+  - {label: "ARTICLE 5", raw_start: 142452, title: ""}
+  - {label: "SECTION 5", raw_start: 142452, title: "Applicable Law"}
+  - {label: "ARTICLE 6", raw_start: 142723, title: ""}
+  - {label: "SECTION 6", raw_start: 142723, title: "Headings"}
+  - {label: "ARTICLE 7", raw_start: 142999, title: ""}
+  - {label: "SECTION 7", raw_start: 142999, title: "Effect of Amendment"}
+absent: []

@@ -1,0 +1,12 @@
+accession: 0000916641-02-000426
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  - {label: "ITEM 9", raw_start: 21949}
+  - {label: "PART III", raw_start: 23009}
+  - {label: "ITEM 10", raw_start: 23202}
+  - {label: "ITEM 5", raw_start: 30519}
+  # not a heading: ITEM 5 at 32391 (table_of_contents)
+  # not a heading: ITEM 5 at 33384 (table_of_contents)

@@ -1,0 +1,21 @@
+accession: 0000950152-01-000472
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 5693, title: ""}
+  - {label: "ITEM 1", raw_start: 5702, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 12777, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 13656, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 14260, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 14439, title: ""}
+  - {label: "ITEM 5", raw_start: 14888, title: "MARKET FOR THE REGISTRANT'S COMMON EQUITY AND RELATED STOCKH"}
+  - {label: "ITEM 6", raw_start: 15065, title: "SELECTED FINANCIAL DATA 22"}
+  - {label: "ITEM 7", raw_start: 15146, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 15362, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK N"}
+  - {label: "ITEM 8", raw_start: 15499, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA 3"}
+  - {label: "ITEM 9", raw_start: 15625, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING"}
+  - {label: "PART III", raw_start: 15926, title: ""}
+  - {label: "PART IV", raw_start: 16514, title: ""}
+  - {label: "ITEM 14", raw_start: 16523, title: "EXHIBITS, FINANCIAL STATEMENT SCHEDULES AND REPORTS ON FORM "}
+absent: []

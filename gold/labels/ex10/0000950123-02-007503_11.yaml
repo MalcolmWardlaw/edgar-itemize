@@ -1,0 +1,246 @@
+accession: 0000950123-02-007503
+sequence: 11
+doc_type: EX-10.I.C.2
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1730050, title: ""}
+  - {label: "SECTION 1.01", raw_start: 1730050, title: "DEFINITIONS"}
+  - {label: "SECTION 1.02", raw_start: 1765045, title: "PRINCIPLES OF CONSTRUCTION"}
+  - {label: "ARTICLE 2", raw_start: 1766061, title: ""}
+  - {label: "SECTION 2.01", raw_start: 1766061, title: "THE LOAN AND ADVANCES"}
+  - {label: "SECTION 2.01.1", raw_start: 1766109, title: "AGREEMENT TO LEND AND BORROW"}
+  - {label: "SECTION 2.01.2", raw_start: 1767419, title: "NO REBORROWINGS"}
+  - {label: "SECTION 2.01.3", raw_start: 1767555, title: "THE NOTE"}
+  - {label: "SECTION 2.01.4", raw_start: 1768307, title: "USE OF PROCEEDS"}
+  - {label: "SECTION 2.01.5", raw_start: 1769454, title: "LOAN TERM AND EXTENSION OPTIONS"}
+  - {label: "SECTION 2.01.6", raw_start: 1770324, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.01.7", raw_start: 1770366, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.01.8", raw_start: 1770408, title: "ADVANCES"}
+  - {label: "SECTION 2.01.9", raw_start: 1771671, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.01.10", raw_start: 1771713, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.01.11", raw_start: 1771756, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.01.12", raw_start: 1771799, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.01.13", raw_start: 1771893, title: "REQUIRED EQUITY"}
+  - {label: "SECTION 2.02", raw_start: 1774784, title: "INTEREST RATE"}
+  - {label: "SECTION 2.02.1", raw_start: 1774824, title: "INTEREST"}
+  - {label: "SECTION 2.02.2", raw_start: 1778562, title: "MINIMUM AMOUNTS AND MAXIMUM NUMBER OF INTEREST PERIODS"}
+  - {label: "SECTION 2.02.3", raw_start: 1779291, title: "CERTAIN NOTICES"}
+  - {label: "SECTION 2.02.4", raw_start: 1781810, title: "ADDITIONAL COSTS"}
+  - {label: "SECTION 2.02.5", raw_start: 1790311, title: "LIBO RATE"}
+  - {label: "SECTION 2.02.6", raw_start: 1792044, title: "ILLEGALITY"}
+  - {label: "SECTION 2.02.7", raw_start: 1793366, title: "BREAKAGE COSTS"}
+  - {label: "SECTION 2.02.8", raw_start: 1795101, title: "WITHHOLDING TAXES"}
+  - {label: "SECTION 2.03", raw_start: 1797593, title: "USURY SAVINGS"}
+  - {label: "SECTION 2.03.1", raw_start: 1797633, title: "USURY SAVINGS"}
+  - {label: "SECTION 2.04", raw_start: 1799091, title: "LOAN PAYMENTS"}
+  - {label: "SECTION 2.04.1", raw_start: 1799131, title: "PAYMENT BEFORE MATURITY DATE"}
+  - {label: "SECTION 2.04.2", raw_start: 1799681, title: "PAYMENT ON MATURITY DATE"}
+  - {label: "SECTION 2.04.3", raw_start: 1800015, title: "LATE PAYMENT PREMIUM"}
+  - {label: "SECTION 2.04.4", raw_start: 1800727, title: "INTEREST RATE AND PAYMENT AFTER DEFAULT"}
+  - {label: "SECTION 2.04.5", raw_start: 1801210, title: "METHOD AND PLACE OF PAYMENT"}
+  - {label: "SECTION 2.05", raw_start: 1801975, title: "PREPAYMENT"}
+  - {label: "SECTION 2.05.1", raw_start: 1802012, title: "VOLUNTARY PREPAYMENTS"}
+  - {label: "SECTION 2.05.2", raw_start: 1804162, title: "MANDATORY PREPAYMENTS"}
+  - {label: "SECTION 2.05.3", raw_start: 1805468, title: "MISCELLANEOUS"}
+  - {label: "SECTION 2.06", raw_start: 1806035, title: "PAYMENTS NOT CONDITIONAL"}
+  - {label: "SECTION 2.06.1", raw_start: 1806086, title: "PAYMENTS NOT CONDITIONAL"}
+  - {label: "SECTION 2.07", raw_start: 1806410, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 2.07.1", raw_start: 1806457, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 2.08", raw_start: 1806745, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.09", raw_start: 1806793, title: "CONDITIONS PRECEDENT TO DISBURSEMENT OF SUPPLEMENTAL"}
+  - {label: "SECTION 2.09.1", raw_start: 1806886, title: "CONDITIONS OF ADVANCES"}
+  - {label: "SECTION 2.09.2", raw_start: 1819393, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.09.3", raw_start: 1819435, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.09.4", raw_start: 1819477, title: "NO RELIANCE"}
+  - {label: "SECTION 2.10", raw_start: 1819955, title: "BORROWING PROCEDURES"}
+  - {label: "SECTION 2.10.1", raw_start: 1820003, title: "DRAW REQUESTS"}
+  - {label: "SECTION 2.10.2", raw_start: 1822382, title: "ONE ADVANCE PER MONTH"}
+  - {label: "SECTION 2.10.3", raw_start: 1822542, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.10.4", raw_start: 1822585, title: "PROCEDURE OF ADVANCES"}
+  - {label: "SECTION 2.10.5", raw_start: 1829260, title: "FUNDS ADVANCED"}
+  - {label: "SECTION 2.10.6", raw_start: 1829598, title: "DIRECT ADVANCES TO THIRD PARTIES"}
+  - {label: "SECTION 2.10.7", raw_start: 1829847, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.10.8", raw_start: 1829890, title: "ADVANCES DO NOT CONSTITUTE A WAIVER"}
+  - {label: "SECTION 2.10.9", raw_start: 1830257, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.10.10", raw_start: 1830300, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 2.10.11", raw_start: 1830344, title: "ADVANCES AND DISBURSEMENTS UNDER COMPLETION GUARANTY"}
+  - {label: "ARTICLE 3", raw_start: 1830783, title: ""}
+  - {label: "SECTION 3.01", raw_start: 1830783, title: "BORROWER REPRESENTATIONS"}
+  - {label: "SECTION 3.01.1", raw_start: 1830886, title: "ORGANIZATION"}
+  - {label: "SECTION 3.01.2", raw_start: 1831091, title: "PROCEEDINGS"}
+  - {label: "SECTION 3.01.3", raw_start: 1831346, title: "NO CONFLICTS"}
+  - {label: "SECTION 3.01.4", raw_start: 1831551, title: "LITIGATION"}
+  - {label: "SECTION 3.01.5", raw_start: 1831754, title: "GOVERNMENTAL ORDERS"}
+  - {label: "SECTION 3.01.6", raw_start: 1831966, title: "CONSENTS"}
+  - {label: "SECTION 3.01.7", raw_start: 1832167, title: "TITLE"}
+  - {label: "SECTION 3.01.8", raw_start: 1832581, title: "NO PLAN ASSETS"}
+  - {label: "SECTION 3.01.9", raw_start: 1832788, title: "COMPLIANCE"}
+  - {label: "SECTION 3.01.10", raw_start: 1832991, title: "FINANCIAL AND OTHER INFORMATION"}
+  - {label: "SECTION 3.01.11", raw_start: 1833215, title: "CONDEMNATION"}
+  - {label: "SECTION 3.01.12", raw_start: 1833421, title: "UTILITIES AND PUBLIC ACCESS"}
+  - {label: "SECTION 3.01.13", raw_start: 1833641, title: "SEPARATE LOTS"}
+  - {label: "SECTION 3.01.14", raw_start: 1833899, title: "ASSESSMENTS"}
+  - {label: "SECTION 3.01.15", raw_start: 1834103, title: "ENFORCEABILITY"}
+  - {label: "SECTION 3.01.16", raw_start: 1834527, title: "ASSIGNMENT OF LEASES"}
+  - {label: "SECTION 3.01.17", raw_start: 1834741, title: "INSURANCE"}
+  - {label: "SECTION 3.01.18", raw_start: 1835169, title: "LICENSES"}
+  - {label: "SECTION 3.01.19", raw_start: 1835371, title: "FLOOD ZONE"}
+  - {label: "SECTION 3.01.20", raw_start: 1835575, title: "PHYSICAL CONDITION"}
+  - {label: "SECTION 3.01.21", raw_start: 1835787, title: "BOUNDARIES"}
+  - {label: "SECTION 3.01.22", raw_start: 1835991, title: "LEASES"}
+  - {label: "SECTION 3.01.23", raw_start: 1836191, title: "FILING AND RECORDING TAXES"}
+  - {label: "SECTION 3.01.24", raw_start: 1836678, title: "SINGLE PURPOSE"}
+  - {label: "SECTION 3.01.25", raw_start: 1836900, title: "TAX FILINGS"}
+  - {label: "SECTION 3.01.26", raw_start: 1837105, title: "SOLVENCY"}
+  - {label: "SECTION 3.01.27", raw_start: 1837308, title: "FEDERAL RESERVE REGULATIONS"}
+  - {label: "SECTION 3.01.28", raw_start: 1837529, title: "MEZZANINE DEBT"}
+  - {label: "SECTION 3.01.29", raw_start: 1837737, title: "OFFICES;"}
+  - {label: "SECTION 3.01.30", raw_start: 1837969, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 3.01.31", raw_start: 1838012, title: "CONSTRUCTION MANAGEMENT AGREEMENTS"}
+  - {label: "SECTION 3.01.32", raw_start: 1838240, title: "ACCESS"}
+  - {label: "SECTION 3.01.33", raw_start: 1838440, title: "NO DEFAULT"}
+  - {label: "SECTION 3.01.34", raw_start: 1838524, title: "ARCHITECT'S CONTRACT"}
+  - {label: "SECTION 3.01.35", raw_start: 1838738, title: "PLANS AND SPECIFICATIONS"}
+  - {label: "SECTION 3.01.36", raw_start: 1838956, title: "ZONING"}
+  - {label: "SECTION 3.01.37", raw_start: 1839207, title: "BUDGET"}
+  - {label: "SECTION 3.01.38", raw_start: 1839797, title: "FEASIBILITY"}
+  - {label: "SECTION 3.01.39", raw_start: 1840002, title: "SUBWAY AGREEMENT"}
+  - {label: "SECTION 3.01.40", raw_start: 1840212, title: "BLOOMBERG LEASE"}
+  - {label: "SECTION 3.01.41", raw_start: 1840421, title: "CONDOMINIUM DOCUMENTS"}
+  - {label: "SECTION 3.01.42", raw_start: 1840636, title: "UNIT CONTRACTS"}
+  - {label: "SECTION 3.01.43", raw_start: 1840844, title: "ZLDA"}
+  - {label: "SECTION 3.01.44", raw_start: 1841042, title: "FULL AND ACCURATE DISCLOSURE"}
+  - {label: "SECTION 3.01.45", raw_start: 1841264, title: "FOREIGN PERSON"}
+  - {label: "SECTION 3.01.46", raw_start: 1841472, title: "INVESTMENT COMPANY ACT"}
+  - {label: "SECTION 3.01.47", raw_start: 1841688, title: "ORGANIZATIONAL STRUCTURE"}
+  - {label: "SECTION 3.01.48", raw_start: 1841957, title: "TAX CERTIFICATES"}
+  - {label: "SECTION 3.01.49", raw_start: 1842167, title: "INCLUSIONARY HOUSING PROGRAM"}
+  - {label: "SECTION 3.02", raw_start: 1842389, title: "CONTINUING EFFECTIVENESS AND SURVIVAL OF"}
+  - {label: "ARTICLE 4", raw_start: 1843755, title: ""}
+  - {label: "SECTION 4.01", raw_start: 1843755, title: "BORROWER AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 4.01.1", raw_start: 1843868, title: "EXISTENCE;"}
+  - {label: "SECTION 4.01.2", raw_start: 1844065, title: "TAXES AND OTHER CHARGES"}
+  - {label: "SECTION 4.01.3", raw_start: 1844240, title: "LITIGATION"}
+  - {label: "SECTION 4.01.4", raw_start: 1844402, title: "ACCESS TO PROPERTY"}
+  - {label: "SECTION 4.01.5", raw_start: 1844623, title: "FURTHER ASSURANCES;"}
+  - {label: "SECTION 4.01.6", raw_start: 1845775, title: "FINANCIAL REPORTING"}
+  - {label: "SECTION 4.01.7", raw_start: 1845946, title: "TITLE TO THE PROPERTY"}
+  - {label: "SECTION 4.01.8", raw_start: 1846515, title: "ESTOPPEL STATEMENT"}
+  - {label: "SECTION 4.01.9", raw_start: 1848440, title: "LEASES"}
+  - {label: "SECTION 4.01.10", raw_start: 1848598, title: "ALTERATIONS"}
+  - {label: "SECTION 4.01.11", raw_start: 1848762, title: "FINANCIAL COVENANTS"}
+  - {label: "SECTION 4.01.12", raw_start: 1848934, title: "UPDATED APPRAISAL"}
+  - {label: "SECTION 4.01.13", raw_start: 1849104, title: "FACILITY FEE AND ADMINISTRATIVE FEE"}
+  - {label: "SECTION 4.01.14", raw_start: 1849273, title: "INTEREST RATE PROTECTION AGREEMENT"}
+  - {label: "SECTION 4.01.15", raw_start: 1849460, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.16", raw_start: 1849503, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.17", raw_start: 1849546, title: "INSURANCE"}
+  - {label: "SECTION 4.01.18", raw_start: 1849708, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.19", raw_start: 1849751, title: "SUPPLEMENTAL LOAN COSTS AND EXPENSES"}
+  - {label: "SECTION 4.01.20", raw_start: 1850147, title: "FEES"}
+  - {label: "SECTION 4.01.21", raw_start: 1852431, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.22", raw_start: 1852474, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.23", raw_start: 1852517, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.24", raw_start: 1852560, title: "CONSTRUCTION CONSULTANT/DUTIES AND ACCESS"}
+  - {label: "SECTION 4.01.25", raw_start: 1854381, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.26", raw_start: 1854424, title: "BOOKS AND RECORDS"}
+  - {label: "SECTION 4.01.27", raw_start: 1854594, title: "INDEBTEDNESS"}
+  - {label: "SECTION 4.01.28", raw_start: 1855324, title: "MAINTAIN EXISTENCE"}
+  - {label: "SECTION 4.01.29", raw_start: 1855495, title: "BONDS"}
+  - {label: "SECTION 4.01.30", raw_start: 1855653, title: "FINANCING PUBLICITY"}
+  - {label: "SECTION 4.01.31", raw_start: 1855825, title: "EASEMENTS AND RESTRICTIONS;"}
+  - {label: "SECTION 4.01.32", raw_start: 1856012, title: "LABORERS, SUBCONTRACTORS AND MATERIALMEN"}
+  - {label: "SECTION 4.01.33", raw_start: 1856205, title: "OWNERSHIP OF PERSONALTY"}
+  - {label: "SECTION 4.01.34", raw_start: 1856381, title: "COMPLY WITH OTHER SUPPLEMENTAL LOAN DOCUMENTS"}
+  - {label: "SECTION 4.01.35", raw_start: 1856577, title: "PURCHASE OF MATERIAL UNDER CONDITIONAL SALE CONTRACT"}
+  - {label: "SECTION 4.01.36", raw_start: 1856782, title: "FURTHER ASSURANCE OF TITLE"}
+  - {label: "SECTION 4.01.37", raw_start: 1858057, title: "CONDOMINIUM"}
+  - {label: "SECTION 4.01.38", raw_start: 1858221, title: "TAX BENEFITS"}
+  - {label: "SECTION 4.01.39", raw_start: 1858386, title: "INCLUSIONARY HOUSING PROGRAM"}
+  - {label: "SECTION 4.01.40", raw_start: 1858567, title: "ERISA"}
+  - {label: "SECTION 4.01.41", raw_start: 1858725, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.42", raw_start: 1858768, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 4.01.43", raw_start: 1858811, title: "REA"}
+  - {label: "SECTION 4.02", raw_start: 1858967, title: "BORROWER NEGATIVE COVENANTS"}
+  - {label: "SECTION 4.02.1", raw_start: 1859070, title: "DUE ON SALE AND ENCUMBRANCE;"}
+  - {label: "SECTION 4.02.2", raw_start: 1859269, title: "LIENS"}
+  - {label: "SECTION 4.02.3", raw_start: 1859429, title: "DISSOLUTION"}
+  - {label: "SECTION 4.02.4", raw_start: 1859595, title: "CHANGE IN BUSINESS"}
+  - {label: "SECTION 4.02.5", raw_start: 1859819, title: "DEBT CANCELLATION"}
+  - {label: "SECTION 4.02.6", raw_start: 1859991, title: "AFFILIATE TRANSACTIONS"}
+  - {label: "SECTION 4.02.7", raw_start: 1860168, title: "ZONING"}
+  - {label: "SECTION 4.02.8", raw_start: 1860329, title: "ASSETS"}
+  - {label: "SECTION 4.02.9", raw_start: 1860490, title: "NO JOINT ASSESSMENT"}
+  - {label: "SECTION 4.02.10", raw_start: 1860664, title: "PRINCIPAL PLACE OF BUSINESS"}
+  - {label: "SECTION 4.02.11", raw_start: 1860847, title: "ERISA"}
+  - {label: "SECTION 4.02.12", raw_start: 1861008, title: "NO DISTRIBUTIONS"}
+  - {label: "SECTION 4.02.13", raw_start: 1861180, title: "CHANGE ORDERS"}
+  - {label: "SECTION 4.02.14", raw_start: 1861349, title: "INDEBTEDNESS"}
+  - {label: "SECTION 4.02.15", raw_start: 1861518, title: "ORGANIZATIONAL DOCUMENTS"}
+  - {label: "ARTICLE 5", raw_start: 1861751, title: ""}
+  - {label: "SECTION 5.01.1", raw_start: 1861751, title: "INSURANCE COVERAGE"}
+  - {label: "SECTION 5.01.2", raw_start: 1861989, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 5.01.3", raw_start: 1862031, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 5.02", raw_start: 1862073, title: "CASUALTY AND CONDEMNATION"}
+  - {label: "SECTION 5.03", raw_start: 1862317, title: "DELIVERY OF NET PROCEEDS"}
+  - {label: "ARTICLE 6", raw_start: 1862546, title: ""}
+  - {label: "SECTION 6.01", raw_start: 1862546, title: "DEPOSITS OF NCF FUNDS"}
+  - {label: "SECTION 6.02", raw_start: 1862735, title: "INTENTIONALLY OMITTED"}
+  - {label: "SECTION 6.03", raw_start: 1862783, title: "SECURITY INTEREST IN FUNDS"}
+  - {label: "SECTION 6.04", raw_start: 1862977, title: "CASH MANAGEMENT"}
+  - {label: "ARTICLE 7", raw_start: 1863206, title: ""}
+  - {label: "SECTION 7.01", raw_start: 1863206, title: "THE MANAGEMENT AGREEMENT"}
+  - {label: "SECTION 7.02", raw_start: 1863398, title: "PROHIBITION AGAINST TERMINATION OR MODIFICATION"}
+  - {label: "SECTION 7.03", raw_start: 1863613, title: "REPLACEMENT OF MANAGER"}
+  - {label: "ARTICLE 8", raw_start: 1863832, title: ""}
+  - {label: "SECTION 8.01", raw_start: 1863832, title: "AGENT'S AND LENDERS' RELIANCE"}
+  - {label: "SECTION 8.02", raw_start: 1864835, title: "NO TRANSFERS"}
+  - {label: "SECTION 8.03", raw_start: 1865426, title: "PERMITTED TRANSFERS"}
+  - {label: "SECTION 8.03.1", raw_start: 1865472, title: "PERMITTED TRANSFERS"}
+  - {label: "ARTICLE 9", raw_start: 1869741, title: ""}
+  - {label: "SECTION 9.01", raw_start: 1869741, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 9.02", raw_start: 1871259, title: "RIGHTS AND REMEDIES OF AGENT AND LENDERS"}
+  - {label: "SECTION 9.02.1", raw_start: 1871326, title: "REMEDIES"}
+  - {label: "SECTION 9.02.2", raw_start: 1883418, title: "POWER OF ATTORNEY"}
+  - {label: "SECTION 9.02.3", raw_start: 1884047, title: "REMEDIES CUMULATIVE"}
+  - {label: "SECTION 9.02.4", raw_start: 1884746, title: "ANNULMENT OF DEFAULTS"}
+  - {label: "SECTION 9.02.5", raw_start: 1885229, title: "WAIVERS"}
+  - {label: "SECTION 9.02.6", raw_start: 1885899, title: "COURSE OF DEALING, ETC"}
+  - {label: "SECTION 9.03", raw_start: 1887766, title: "REMEDIES CUMULATIVE"}
+  - {label: "ARTICLE 10", raw_start: 1888869, title: ""}
+  - {label: "SECTION 10.01", raw_start: 1888869, title: "SUCCESSORS AND ASSIGNS"}
+  - {label: "SECTION 10.02", raw_start: 1889132, title: "AGENT'S AND LENDER'S DISCRETION"}
+  - {label: "SECTION 10.03", raw_start: 1889710, title: "GOVERNING LAW, JURISDICTION AND AGENT FOR SERVICE"}
+  - {label: "SECTION 10.04", raw_start: 1893526, title: "MODIFICATION, WAIVER IN WRITING"}
+  - {label: "SECTION 10.05", raw_start: 1894278, title: "DELAY NOT A WAIVER"}
+  - {label: "SECTION 10.06", raw_start: 1895211, title: "NOTICES"}
+  - {label: "SECTION 10.07", raw_start: 1895388, title: "TRIAL BY JURY"}
+  - {label: "SECTION 10.08", raw_start: 1896171, title: "HEADINGS"}
+  - {label: "SECTION 10.09", raw_start: 1896427, title: "SEVERABILITY"}
+  - {label: "SECTION 10.10", raw_start: 1896951, title: "PREFERENCES"}
+  - {label: "SECTION 10.11", raw_start: 1897793, title: "WAIVER OF NOTICE"}
+  - {label: "SECTION 10.12", raw_start: 1898552, title: "REMEDIES OF BORROWER"}
+  - {label: "SECTION 10.13", raw_start: 1899637, title: "EXPENSES;"}
+  - {label: "SECTION 10.14", raw_start: 1899879, title: "SCHEDULES AND EXHIBITS INCORPORATED"}
+  - {label: "SECTION 10.15", raw_start: 1900114, title: "OFFSETS, COUNTERCLAIMS AND DEFENSES"}
+  - {label: "SECTION 10.16", raw_start: 1900816, title: "NO JOINT VENTURE OR PARTNERSHIP;"}
+  - {label: "SECTION 10.17", raw_start: 1901049, title: "PUBLICITY"}
+  - {label: "SECTION 10.18", raw_start: 1901230, title: "RESERVED"}
+  - {label: "SECTION 10.19", raw_start: 1901267, title: "WAIVER OF OFFSETS/DEFENSES/COUNTERCLAIMS"}
+  - {label: "SECTION 10.20", raw_start: 1901840, title: "CONFLICT;"}
+  - {label: "SECTION 10.21", raw_start: 1903644, title: "BROKERS AND FINANCIAL ADVISORS"}
+  - {label: "SECTION 10.22", raw_start: 1904347, title: "PRIOR AGREEMENTS"}
+  - {label: "SECTION 10.23", raw_start: 1904850, title: "JOINT AND SEVERAL LIABILITY"}
+  - {label: "SECTION 10.24", raw_start: 1906225, title: "ASSIGNMENTS"}
+  - {label: "SECTION 10.25", raw_start: 1914951, title: "ADJUSTMENTS;"}
+  - {label: "SECTION 10.26", raw_start: 1915143, title: "COUNTERPARTS"}
+  - {label: "ARTICLE 11", raw_start: 1915392, title: ""}
+  - {label: "SECTION 11.01", raw_start: 1915392, title: "PERFORMANCE BY AGENT"}
+  - {label: "SECTION 11.02", raw_start: 1916562, title: "ACTIONS"}
+  - {label: "SECTION 11.03", raw_start: 1917662, title: "NONLIABILITY OF AGENT AND LENDERS"}
+  - {label: "SECTION 11.04", raw_start: 1917865, title: "AUTHORIZATION AND ACTION"}
+  - {label: "SECTION 11.05", raw_start: 1928056, title: "AGENT'S RELIANCE, ETC"}
+  - {label: "SECTION 11.06", raw_start: 1929974, title: "AGENT AS A LENDER"}
+  - {label: "SECTION 11.07", raw_start: 1930339, title: "DISTRIBUTION OF PAYMENTS BY AGENT TO LENDERS"}
+  - {label: "SECTION 11.08", raw_start: 1931754, title: "ASSIGNMENT UPON REPAYMENT"}
+absent: []

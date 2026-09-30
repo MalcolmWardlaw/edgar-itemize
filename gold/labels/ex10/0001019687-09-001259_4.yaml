@@ -1,0 +1,157 @@
+accession: 0001019687-09-001259
+sequence: 4
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 185694, title: ""}
+  - {label: "SECTION 1", raw_start: 185694, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 185816, title: "'ACCELERATION NOTICE' shall have the meaning ascribed to suc"}
+  - {label: "SECTION 1.02", raw_start: 185919, title: "'ACTION' shall mean any action, suit, proceeding (including "}
+  - {label: "SECTION 1.03", raw_start: 186291, title: "'ADVANCE DATE' shall mean the Initial Advance Date and each"}
+  - {label: "SECTION 1.04", raw_start: 186393, title: "'AFFILIATE' shall mean, when used with respect to a specifie"}
+  - {label: "SECTION 1.05", raw_start: 186880, title: "'AGREEMENT' shall have the meaning ascribed to such term in "}
+  - {label: "SECTION 1.06", raw_start: 186989, title: "'APPLICABLE EMPLOYMENT AGREEMENT' shall mean, with respect t"}
+  - {label: "SECTION 1.07", raw_start: 187154, title: "'APPLICABLE SUBSEQUENT ADVANCE AMOUNT' shall mean, with resp"}
+  - {label: "SECTION 1.08", raw_start: 187649, title: "'BUSINESS DAY' shall mean any day other than a Saturday, Sun"}
+  - {label: "SECTION 1.09", raw_start: 187813, title: "'CLOSING' shall have the meaning ascribed to such term in"}
+  - {label: "SECTION 1.10", raw_start: 187950, title: "'CLOSING DATE' shall have the meaning ascribed to such term "}
+  - {label: "SECTION 1.11", raw_start: 188042, title: "'COLLATERAL' shall mean all of the property, assets, rights "}
+  - {label: "SECTION 1.12", raw_start: 188236, title: "'COMMISSION' shall mean the Securities and Exchange Commissi"}
+  - {label: "SECTION 1.13", raw_start: 188318, title: "'COMMON STOCK' shall mean the Company's common stock, no par"}
+  - {label: "SECTION 1.14", raw_start: 188414, title: "'COMPANY' shall have the meaning ascribed to such term in th"}
+  - {label: "SECTION 1.15", raw_start: 188522, title: "'COMPANY ACCOUNT' shall mean the account specified on ANNEX "}
+  - {label: "SECTION 1.16", raw_start: 188603, title: "'COMPANY REPORTS' shall have the meaning ascribed to such te"}
+  - {label: "SECTION 1.17", raw_start: 188703, title: "'CONVERSION DATE' shall mean the date on which the entire"}
+  - {label: "SECTION 1.18", raw_start: 188964, title: "'CONVERSION SHARES' shall have the meaning ascribed to such"}
+  - {label: "SECTION 1.19", raw_start: 189066, title: "'DEFAULT' shall mean any event which is, or after notice or"}
+  - {label: "SECTION 1.20", raw_start: 189199, title: "'DISCLOSURE SCHEDULES' shall have the meaning ascribed to su"}
+  - {label: "SECTION 1.21", raw_start: 189299, title: "'DRAWDOWN NOTICE' shall have the meaning ascribed to such te"}
+  - {label: "SECTION 1.22", raw_start: 189399, title: "'ENVIRONMENTAL LAWS' shall have the meaning ascribed to such"}
+  - {label: "SECTION 1.23", raw_start: 189500, title: "'EVENT OF DEFAULT' shall have the meaning ascribed to such t"}
+  - {label: "SECTION 1.24", raw_start: 189598, title: "'EXCHANGE ACT' shall mean the Securities Exchange Act of 193"}
+  - {label: "SECTION 1.25", raw_start: 189691, title: "'FORGONE INTEREST AMOUNT' shall mean, in respect of any"}
+  - {label: "SECTION 1.26", raw_start: 190202, title: "'GAAP' shall mean United States generally accepted accountin"}
+  - {label: "SECTION 1.27", raw_start: 190375, title: "'HAZARDOUS MATERIALS' shall have the meaning ascribed to suc"}
+  - {label: "SECTION 1.28", raw_start: 190477, title: "'INDEBTEDNESS' of any Person shall mean, without duplication"}
+  - {label: "SECTION 1.29", raw_start: 192662, title: "'INITIAL ADVANCE DATE' shall mean means the date on which th"}
+  - {label: "SECTION 1.30", raw_start: 192927, title: "'INSOLVENCY EVENT' shall have the meaning ascribed to such t"}
+  - {label: "SECTION 1.31", raw_start: 193027, title: "'INTELLECTUAL PROPERTY RIGHTS' shall mean all patents, paten"}
+  - {label: "SECTION 1.32", raw_start: 193345, title: "'KNOWLEDGE OF THE COMPANY' means the actual knowledge of any"}
+  - {label: "SECTION 1.33", raw_start: 193851, title: "'LENDER' shall have the meaning ascribed to such term in the"}
+  - {label: "SECTION 1.34", raw_start: 194008, title: "'LENDER PARTY' shall mean the Lender and its Affiliates and"}
+  - {label: "SECTION 1.35", raw_start: 194207, title: "'LIEN' shall mean, with respect to any asset, (i) any mortga"}
+  - {label: "SECTION 1.36", raw_start: 194751, title: "'LOAN DOCUMENTS' shall mean this Agreement, the Note, the"}
+  - {label: "SECTION 1.37", raw_start: 194922, title: "'LOANS' shall have the meaning ascribed to such term in SECT"}
+  - {label: "SECTION 1.38", raw_start: 195009, title: "'LOSS' shall mean any and all losses, liabilities, obligatio"}
+  - {label: "SECTION 1.39", raw_start: 195284, title: "'MATERIAL ADVERSE EFFECT' shall mean (i) a material adverse"}
+  - {label: "SECTION 1.40", raw_start: 196194, title: "'MATERIAL CONTRACTS' shall have the meaning ascribed to such"}
+  - {label: "SECTION 1.41", raw_start: 196295, title: "'MATURITY DATE' shall have the meaning ascribed to such term"}
+  - {label: "SECTION 1.42", raw_start: 196387, title: "'MAXIMUM PRINCIPAL BALANCE' shall mean $2,500,000"}
+  - {label: "SECTION 1.43", raw_start: 196456, title: "'NOMINEE AND SHARING AGREEMENT' shall mean that certain Nomi"}
+  - {label: "SECTION 1.44", raw_start: 196645, title: "'NOTE' shall have the meaning ascribed to such term in SECTI"}
+  - {label: "SECTION 1.45", raw_start: 196731, title: "'PARTY' shall have the meaning ascribed to such term in the"}
+  - {label: "SECTION 1.46", raw_start: 196837, title: "'PERMITTED LIENS' shall mean (a) Liens for taxes not yet due"}
+  - {label: "SECTION 1.47", raw_start: 198805, title: "'PERSON' shall mean an individual or corporation, partnershi"}
+  - {label: "SECTION 1.48", raw_start: 199078, title: "'QUALIFIED FINANCING' shall have the meaning ascribed to suc"}
+  - {label: "SECTION 1.49", raw_start: 199176, title: "'QUALIFIED FINANCING CONVERSION STOCK' shall have the meanin"}
+  - {label: "SECTION 1.50", raw_start: 199291, title: "'SEC REPORTS' shall mean, collectively, (i) the Company's"}
+  - {label: "SECTION 1.51", raw_start: 200179, title: "'SECURITIES ACT' shall mean the Securities Act of 1933, as"}
+  - {label: "SECTION 1.52", raw_start: 200265, title: "'SECURITY AGREEMENT' shall mean that certain Security"}
+  - {label: "SECTION 1.53", raw_start: 200546, title: "'SECURITY DOCUMENTS' shall mean the Security Agreement and e"}
+  - {label: "SECTION 1.54", raw_start: 200928, title: "'SEVERANCE AMENDMENTS' shall have the meaning ascribed to su"}
+  - {label: "SECTION 1.55", raw_start: 201033, title: "'SUBJECT EMPLOYEE' shall mean each of Steven Gluckstern, And"}
+  - {label: "SECTION 1.56", raw_start: 201185, title: "'SUBSEQUENT ADVANCE DATE' shall mean each of May 1, 2009, Ju"}
+  - {label: "SECTION 1.57", raw_start: 201461, title: "'WARRANT' shall have the meaning ascribed to such term in"}
+  - {label: "SECTION 1.58", raw_start: 201553, title: "'WARRANT SHARES' shall have the meaning ascribed to such ter"}
+  - {label: "ARTICLE 2", raw_start: 201646, title: ""}
+  - {label: "SECTION 2", raw_start: 201646, title: "BORROWINGS;"}
+  - {label: "SECTION 2.01", raw_start: 201704, title: "THE LOANS"}
+  - {label: "SECTION 2.02", raw_start: 202398, title: "USE OF PROCEEDS"}
+  - {label: "SECTION 2.03", raw_start: 202568, title: "BORROWINGS"}
+  - {label: "SECTION 2.04", raw_start: 205302, title: "NO VOLUNTARY PREPAYMENT"}
+  - {label: "SECTION 2.05", raw_start: 205494, title: "MANDATORY PREPAYMENT"}
+  - {label: "SECTION 2.06", raw_start: 206232, title: "REPAYMENT AT MATURITY"}
+  - {label: "SECTION 2.07", raw_start: 206677, title: "ISSUANCE OF THE NOTE AND WARRANT"}
+  - {label: "SECTION 2.08", raw_start: 207295, title: "OPTIONAL LOAN ADVANCE IN CONNECTION WITH CONVERSION"}
+  - {label: "ARTICLE 3", raw_start: 208693, title: ""}
+  - {label: "SECTION 3", raw_start: 208693, title: "THE CLOSING"}
+  - {label: "ARTICLE 4", raw_start: 209198, title: ""}
+  - {label: "SECTION 4", raw_start: 209198, title: "CONDITION TO THE OBLIGATIONS OF THE COMPANY TO ISSUE THE NOT"}
+  - {label: "SECTION 4.01", raw_start: 209496, title: "THIS AGREEMENT"}
+  - {label: "ARTICLE 5", raw_start: 209604, title: ""}
+  - {label: "SECTION 5", raw_start: 209604, title: "REPRESENTATIONS OF THE COMPANY"}
+  - {label: "SECTION 5.01", raw_start: 210133, title: "ORGANIZATION AND CORPORATE POWER"}
+  - {label: "SECTION 5.02", raw_start: 210876, title: "CAPITALIZATION"}
+  - {label: "SECTION 5.03", raw_start: 212808, title: "SUBSIDIARIES, ETC"}
+  - {label: "SECTION 5.04", raw_start: 213154, title: "ISSUANCE AND DELIVERY OF THE NOTE AND WARRANT;"}
+  - {label: "SECTION 5.05", raw_start: 216397, title: "AUTHORITY FOR AGREEMENT;"}
+  - {label: "SECTION 5.06", raw_start: 221524, title: "LITIGATION"}
+  - {label: "SECTION 5.07", raw_start: 222929, title: "TITLE TO ASSETS"}
+  - {label: "SECTION 5.08", raw_start: 223785, title: "COMPANY REPORTS;"}
+  - {label: "SECTION 5.09", raw_start: 229588, title: "MATERIAL CHANGES"}
+  - {label: "SECTION 5.10", raw_start: 231119, title: "TAX MATTERS"}
+  - {label: "SECTION 5.11", raw_start: 232512, title: "LOANS AND ADVANCES"}
+  - {label: "SECTION 5.12", raw_start: 232930, title: "ASSUMPTIONS, GUARANTIES, ETC"}
+  - {label: "SECTION 5.13", raw_start: 233555, title: "TRANSACTIONS WITH AFFILIATES"}
+  - {label: "SECTION 5.14", raw_start: 234692, title: "PROPRIETARY RIGHTS;"}
+  - {label: "SECTION 5.15", raw_start: 237251, title: "PROPRIETARY INFORMATION OF THIRD PARTIES"}
+  - {label: "SECTION 5.16", raw_start: 238072, title: "BUSINESS;"}
+  - {label: "SECTION 5.17", raw_start: 238649, title: "ENVIRONMENTAL COMPLIANCE"}
+  - {label: "SECTION 5.18", raw_start: 240851, title: "CONTRACTS"}
+  - {label: "SECTION 5.19", raw_start: 241986, title: "BROKERAGE"}
+  - {label: "SECTION 5.20", raw_start: 242295, title: "EMPLOYEE BENEFIT PLANS"}
+  - {label: "SECTION 5.21", raw_start: 243616, title: "EMPLOYEES"}
+  - {label: "SECTION 5.22", raw_start: 244894, title: "NASDAQ CAPITAL MARKET"}
+  - {label: "SECTION 5.23", raw_start: 245770, title: "NO SOLICITATION OR ADVERTISEMENT"}
+  - {label: "SECTION 5.24", raw_start: 246135, title: "NO MANIPULATION OF STOCK"}
+  - {label: "SECTION 5.25", raw_start: 246455, title: "SECURITIES ACT REGISTRATION"}
+  - {label: "SECTION 5.26", raw_start: 248038, title: "SOLVENCY"}
+  - {label: "SECTION 5.27", raw_start: 249112, title: "SECURITY AGREEMENT"}
+  - {label: "SECTION 5.28", raw_start: 250653, title: "NO DEFAULT OR EVENT OF DEFAULT"}
+  - {label: "SECTION 5.29", raw_start: 250766, title: "INVESTMENT COMPANY ACT"}
+  - {label: "SECTION 5.30", raw_start: 250921, title: "ACKNOWLEDGMENT REGARDING LENDER'S STATUS"}
+  - {label: "SECTION 5.31", raw_start: 252021, title: "U.S"}
+  - {label: "SECTION 5.32", raw_start: 252235, title: "DISCLOSURE"}
+  - {label: "ARTICLE 6", raw_start: 252545, title: ""}
+  - {label: "SECTION 6", raw_start: 252545, title: "REPRESENTATIONS OF THE LENDER"}
+  - {label: "SECTION 6.01", raw_start: 252654, title: "AUTHORITY"}
+  - {label: "SECTION 6.02", raw_start: 253126, title: "VALIDITY;"}
+  - {label: "SECTION 6.03", raw_start: 255029, title: "PURCHASE ENTIRELY FOR OWN ACCOUNT"}
+  - {label: "SECTION 6.04", raw_start: 256235, title: "RELIANCE UPON LENDER'S REPRESENTATIONS"}
+  - {label: "SECTION 6.05", raw_start: 256851, title: "RESTRICTED SECURITIES"}
+  - {label: "SECTION 6.06", raw_start: 259049, title: "ECONOMIC RISK;"}
+  - {label: "SECTION 6.07", raw_start: 259827, title: "ACCREDITED INVESTOR"}
+  - {label: "SECTION 6.08", raw_start: 259999, title: "BROKERAGE"}
+  - {label: "SECTION 6.09", raw_start: 260246, title: "ACCESS TO INFORMATION"}
+  - {label: "SECTION 6.10", raw_start: 261179, title: "CERTAIN TRADING ACTIVITIES"}
+  - {label: "SECTION 6.11", raw_start: 263188, title: "INDEPENDENT INVESTMENT DECISION"}
+  - {label: "SECTION 6.12", raw_start: 263801, title: "NO GOVERNMENTAL REVIEW"}
+  - {label: "SECTION 6.13", raw_start: 264208, title: "REGULATION M"}
+  - {label: "SECTION 6.14", raw_start: 264436, title: "RESIDENCY"}
+  - {label: "ARTICLE 7", raw_start: 264538, title: ""}
+  - {label: "SECTION 7", raw_start: 264538, title: "CONDITIONS TO THE OBLIGATIONS OF THE LENDER TO MAKE LOANS"}
+  - {label: "SECTION 7.01", raw_start: 264664, title: "CONDITIONS TO THE OBLIGATIONS OF THE LENDER TO MAKE A LOAN O"}
+  - {label: "SECTION 7.02", raw_start: 271297, title: "CONDITIONS TO THE OBLIGATIONS OF THE LENDER TO MAKE A LOAN O"}
+  - {label: "ARTICLE 8", raw_start: 272423, title: ""}
+  - {label: "SECTION 8", raw_start: 272423, title: "COVENANTS OF THE COMPANY"}
+  - {label: "SECTION 8.01", raw_start: 272465, title: "COVENANTS WITH RESPECT TO THE LOANS"}
+  - {label: "SECTION 8.02", raw_start: 289390, title: "COVENANTS WITH RESPECT TO THE WARRANT"}
+  - {label: "SECTION 8.03", raw_start: 290660, title: "GENERAL COVENANTS"}
+  - {label: "SECTION 8.04", raw_start: 293478, title: "INDEMNIFICATION OF THE LENDER"}
+  - {label: "ARTICLE 9", raw_start: 299459, title: ""}
+  - {label: "SECTION 9", raw_start: 299459, title: "EVENTS OF DEFAULT AND REMEDIES"}
+  - {label: "SECTION 9.01", raw_start: 299507, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 9.02", raw_start: 306236, title: "REMEDIES"}
+  - {label: "ARTICLE 10", raw_start: 307795, title: ""}
+  - {label: "SECTION 10", raw_start: 307795, title: "MISCELLANEOUS"}
+  - {label: "SECTION 10.01", raw_start: 307827, title: "EXPENSES"}
+  - {label: "SECTION 10.02", raw_start: 308276, title: "SURVIVAL OF REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 10.03", raw_start: 308518, title: "NOTICES"}
+  - {label: "SECTION 10.04", raw_start: 310221, title: "SUCCESSOR AND ASSIGNS"}
+  - {label: "SECTION 10.05", raw_start: 310429, title: "ENTIRE AGREEMENT"}
+  - {label: "SECTION 10.06", raw_start: 310711, title: "AMENDMENTS AND WAIVERS"}
+  - {label: "SECTION 10.07", raw_start: 311794, title: "COUNTERPARTS;"}
+  - {label: "SECTION 10.08", raw_start: 312131, title: "SECTION HEADINGS"}
+  - {label: "SECTION 10.09", raw_start: 312326, title: "SEVERABILITY"}
+  - {label: "SECTION 10.10", raw_start: 312518, title: "GOVERNING LAW"}
+absent: []

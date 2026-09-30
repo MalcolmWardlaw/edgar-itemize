@@ -1,0 +1,124 @@
+accession: 0000950134-97-002910
+sequence: 5
+doc_type: EX-10.4
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 239779, title: ""}
+  - {label: "SECTION 1", raw_start: 239779, title: "DEFINITIONS AND CONSTRUCTION"}
+  - {label: "SECTION 1.01", raw_start: 239821, title: "DEFINITIONS"}
+  - {label: "SECTION 1.02", raw_start: 256726, title: "CONSTRUCTION"}
+  - {label: "SECTION 1.03", raw_start: 257377, title: "CALCULATIONS AND DETERMINATIONS"}
+  - {label: "ARTICLE 2", raw_start: 258113, title: ""}
+  - {label: "SECTION 2", raw_start: 258113, title: "PURCHASES OF ACCOUNTS AND ACCOUNT PAYMENTS"}
+  - {label: "SECTION 2.01", raw_start: 258169, title: "ACCOUNT PAYMENTS"}
+  - {label: "SECTION 2.02", raw_start: 258760, title: "PURCHASE PRICE"}
+  - {label: "SECTION 2.03", raw_start: 259781, title: "NOTICE OF SALES"}
+  - {label: "SECTION 2.04", raw_start: 260776, title: "VERIFICATION"}
+  - {label: "SECTION 2.05", raw_start: 262338, title: "SALE OF ACCOUNTS"}
+  - {label: "SECTION 2.06", raw_start: 264251, title: "EXCESS BATCH BALANCE"}
+  - {label: "ARTICLE 3", raw_start: 264792, title: ""}
+  - {label: "SECTION 3", raw_start: 264792, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 3.01", raw_start: 264825, title: "CONDITIONS PRECEDENT TO INITIAL PURCHASE"}
+  - {label: "ARTICLE 4", raw_start: 266877, title: ""}
+  - {label: "SECTION 4", raw_start: 266877, title: "DISCOUNTS, FEES, EXPENSES AND TAXES"}
+  - {label: "SECTION 4.01", raw_start: 266926, title: "DISCOUNTS"}
+  - {label: "SECTION 4.02", raw_start: 269779, title: "COMMITMENT FEE"}
+  - {label: "SECTION 4.03", raw_start: 270539, title: "This Section has been intentionally omitted"}
+  - {label: "SECTION 4.04", raw_start: 270594, title: "ATTORNEYS' FEES"}
+  - {label: "SECTION 4.05", raw_start: 271972, title: "EXPENSES"}
+  - {label: "SECTION 4.06", raw_start: 273081, title: "DEFAULT RATE"}
+  - {label: "SECTION 4.07", raw_start: 274015, title: "TAXES"}
+  - {label: "ARTICLE 5", raw_start: 274334, title: ""}
+  - {label: "SECTION 5", raw_start: 274334, title: "RESERVE"}
+  - {label: "SECTION 5.01", raw_start: 274355, title: "ESTABLISHMENT OF RESERVE"}
+  - {label: "SECTION 5.02", raw_start: 274927, title: "OFFSET AGAINST RESERVE"}
+  - {label: "SECTION 5.03", raw_start: 275136, title: "DISTRIBUTION OF THE RESERVE"}
+  - {label: "ARTICLE 6", raw_start: 275517, title: ""}
+  - {label: "SECTION 6", raw_start: 275517, title: "REPRESENTATIONS AND WARRANTIES OF SELLER"}
+  - {label: "SECTION 6.01", raw_start: 275776, title: "EXISTENCE"}
+  - {label: "SECTION 6.02", raw_start: 276266, title: "NO VIOLATION OF LAW"}
+  - {label: "SECTION 6.03", raw_start: 276728, title: "BINDING OBLIGATIONS"}
+  - {label: "SECTION 6.04", raw_start: 277385, title: "CHIEF EXECUTIVE OFFICE"}
+  - {label: "SECTION 6.05", raw_start: 277665, title: "POSSESSION OF INVOICES AND RELATED DATA"}
+  - {label: "SECTION 6.06", raw_start: 278612, title: "TRUE AND CORRECT INFORMATION"}
+  - {label: "SECTION 6.07", raw_start: 279036, title: "TAXES"}
+  - {label: "SECTION 6.08", raw_start: 279713, title: "FULL DISCLOSURE"}
+  - {label: "SECTION 6.09", raw_start: 280176, title: "ERISA COMPLIANCE"}
+  - {label: "SECTION 6.10", raw_start: 280397, title: "COMPLIANCE WITH LAWS"}
+  - {label: "SECTION 6.11", raw_start: 281516, title: "ASSUMED NAMES"}
+  - {label: "ARTICLE 7", raw_start: 281776, title: ""}
+  - {label: "SECTION 7", raw_start: 281776, title: "ACCOUNTS"}
+  - {label: "SECTION 7.01", raw_start: 281929, title: "OWNER"}
+  - {label: "SECTION 7.02", raw_start: 282361, title: "AUTHORITY TO SELL"}
+  - {label: "SECTION 7.03", raw_start: 282801, title: "FULL PAYMENT EXPECTED"}
+  - {label: "SECTION 7.04", raw_start: 283142, title: "BONA FIDE ACCOUNT"}
+  - {label: "SECTION 7.05", raw_start: 283814, title: "PAYABLE IN U.S"}
+  - {label: "SECTION 7.06", raw_start: 284294, title: "ACCOUNT IS NOT PAST DUE"}
+  - {label: "SECTION 7.07", raw_start: 285107, title: "U.S"}
+  - {label: "SECTION 7.08", raw_start: 285749, title: "REMITTANCE ADDRESS"}
+  - {label: "ARTICLE 8", raw_start: 285921, title: ""}
+  - {label: "SECTION 8", raw_start: 285921, title: "COLLATERAL"}
+  - {label: "SECTION 8.01", raw_start: 285945, title: "GRANT OF SECURITY INTEREST"}
+  - {label: "SECTION 8.02", raw_start: 288596, title: "PERFECTION"}
+  - {label: "SECTION 8.03", raw_start: 289078, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 8.04", raw_start: 290352, title: "EXISTING SECURITY INTEREST"}
+  - {label: "SECTION 8.05", raw_start: 291008, title: "CROSS-COLLATERALIZATION;"}
+  - {label: "ARTICLE 9", raw_start: 291827, title: ""}
+  - {label: "SECTION 9", raw_start: 291827, title: "COVENANTS"}
+  - {label: "SECTION 9.01", raw_start: 292025, title: "SALE OF ACCOUNTS"}
+  - {label: "SECTION 9.02", raw_start: 292316, title: "BOOKS AND RECORDS"}
+  - {label: "SECTION 9.03", raw_start: 292674, title: "NO OTHER LIENS"}
+  - {label: "SECTION 9.04", raw_start: 292881, title: "NOTICE OF FALSE REPRESENTATION"}
+  - {label: "SECTION 9.05", raw_start: 293162, title: "NOTICE OF DISPUTED ACCOUNT"}
+  - {label: "SECTION 9.06", raw_start: 293964, title: "RIGHT OF INSPECTION"}
+  - {label: "SECTION 9.07", raw_start: 294546, title: "NOTICE OF MATERIAL CHANGE/LITIGATION"}
+  - {label: "SECTION 9.08", raw_start: 294950, title: "NOTICE OF NAME OR ADDRESS CHANGE"}
+  - {label: "SECTION 9.09", raw_start: 295830, title: "PROPER REPORTING"}
+  - {label: "SECTION 9.10", raw_start: 296279, title: "DELIVERY OF AVAILABILITY CERTIFICATE"}
+  - {label: "SECTION 9.11", raw_start: 296665, title: "ACCOUNTS AGING"}
+  - {label: "SECTION 9.12", raw_start: 296842, title: "FINANCIAL STATEMENTS"}
+  - {label: "SECTION 9.13", raw_start: 300557, title: "FINANCIAL COVENANTS"}
+  - {label: "SECTION 9.14", raw_start: 302068, title: "TAXES AND OTHER OBLIGATIONS"}
+  - {label: "SECTION 9.15", raw_start: 302468, title: "LIMITATIONS ON FUNDAMENTAL CHANGES;"}
+  - {label: "SECTION 9.16", raw_start: 305618, title: "LIENS"}
+  - {label: "ARTICLE 10", raw_start: 306016, title: ""}
+  - {label: "SECTION 10", raw_start: 306016, title: "RIGHTS OF KBK"}
+  - {label: "SECTION 10.01", raw_start: 306044, title: "NOTIFICATION OF ACCOUNT DEBTORS"}
+  - {label: "SECTION 10.02", raw_start: 306629, title: "COLLECTIONS"}
+  - {label: "SECTION 10.03", raw_start: 306765, title: "RIGHT TO COLLECT"}
+  - {label: "SECTION 10.04", raw_start: 309382, title: "POWER OF ATTORNEY"}
+  - {label: "SECTION 10.05", raw_start: 310862, title: "UCC FILINGS"}
+  - {label: "SECTION 10.06", raw_start: 311366, title: "RIGHT TO PERFORM"}
+  - {label: "SECTION 10.07", raw_start: 311922, title: "RIGHT OF SETOFF"}
+  - {label: "ARTICLE 11", raw_start: 312260, title: ""}
+  - {label: "SECTION 11", raw_start: 312260, title: "SERVICING"}
+  - {label: "SECTION 11.01", raw_start: 312284, title: "APPOINTMENT OF SERVICING AGENT"}
+  - {label: "SECTION 11.02", raw_start: 313025, title: "PROTECTION OF KBK'S RIGHTS"}
+  - {label: "SECTION 11.03", raw_start: 313391, title: "PROCEEDS OR RETURNED GOODS RECEIVED BY SELLER"}
+  - {label: "SECTION 11.04", raw_start: 314491, title: "DELIVERY OF INVOICES AND RELATED DATA"}
+  - {label: "SECTION 11.05", raw_start: 314983, title: "ADDITIONAL DOCUMENTATION;"}
+  - {label: "ARTICLE 12", raw_start: 315668, title: ""}
+  - {label: "SECTION 12", raw_start: 315668, title: "EVENTS OF DEFAULT"}
+  - {label: "ARTICLE 13", raw_start: 322098, title: ""}
+  - {label: "SECTION 13", raw_start: 322098, title: "REMEDIES AND APPLICATION OF PROCEEDS"}
+  - {label: "SECTION 13.01", raw_start: 322149, title: "REMEDIES"}
+  - {label: "SECTION 13.02", raw_start: 325095, title: "APPLICATION OF PROCEEDS"}
+  - {label: "ARTICLE 14", raw_start: 327042, title: ""}
+  - {label: "SECTION 14", raw_start: 327042, title: "MISCELLANEOUS"}
+  - {label: "SECTION 14.01", raw_start: 327070, title: "EQUITABLE RELIEF"}
+  - {label: "SECTION 14.02", raw_start: 327955, title: "CUMULATIVE RIGHTS"}
+  - {label: "SECTION 14.03", raw_start: 329055, title: "NOTICES"}
+  - {label: "SECTION 14.04", raw_start: 330148, title: "TERM;"}
+  - {label: "SECTION 14.05", raw_start: 332540, title: "NOTICE OF OFFER"}
+  - {label: "SECTION 14.06", raw_start: 333440, title: "SEVERABILITY"}
+  - {label: "SECTION 14.07", raw_start: 333843, title: "INDEMNITY"}
+  - {label: "SECTION 14.08", raw_start: 335887, title: "BENEFITS;"}
+  - {label: "SECTION 14.09", raw_start: 337437, title: "CAPTIONS"}
+  - {label: "SECTION 14.10", raw_start: 337576, title: "GOVERNING LAW, SUBMISSION TO PROCESS"}
+  - {label: "SECTION 14.11", raw_start: 339058, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 14.12", raw_start: 339440, title: "ENTIRE AGREEMENT"}
+  - {label: "SECTION 14.13", raw_start: 340013, title: "AMENDMENTS"}
+  - {label: "SECTION 14.14", raw_start: 340242, title: "EFFECTIVENESS OF AGREEMENT"}
+  - {label: "SECTION 14.15", raw_start: 340660, title: "USURY SAVINGS"}
+  - {label: "SECTION 14.16", raw_start: 347692, title: "APPLICABILITY OF ARTICLE 5069-1.14"}
+absent: []

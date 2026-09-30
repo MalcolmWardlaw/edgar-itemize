@@ -1,0 +1,23 @@
+accession: 0001144204-16-074455
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 27822, title: ""}
+  - {label: "ITEM 1", raw_start: 29570, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 35897, title: "RISK FACTORS"}
+  - {label: "ITEM 2", raw_start: 65161, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 66164, title: "LEGAL PROCEEDINGS"}
+  - {label: "PART II", raw_start: 67495, title: ""}
+  - {label: "ITEM 5", raw_start: 67870, title: "MARKET FOR COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND IS"}
+  - {label: "ITEM 7", raw_start: 79458, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 8", raw_start: 85610, title: "FINANCIAL STATEMENTS AND SUPPLEMENTAL DATA"}
+  - {label: "ITEM 9A", raw_start: 86452, title: "CONTROLS AND PROCEDURES"}
+  - {label: "PART III", raw_start: 97220, title: ""}
+  - {label: "ITEM 10", raw_start: 97596, title: "DIRECTORS, EXECUTIVE OFFICERS, AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 109949, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 125018, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 131599, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS AND DIRECTOR "}
+  - {label: "ITEM 14", raw_start: 134243, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "ITEM 15", raw_start: 137825, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"}
+absent: []

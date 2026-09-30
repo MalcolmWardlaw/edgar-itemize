@@ -1,0 +1,152 @@
+accession: 0001081316-20-000003
+sequence: 2
+doc_type: EX-10.3
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 16129394, title: "INTERPRETATION"}
+  - {label: "SECTION 1.01", raw_start: 16129953, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 16303377, title: "References"}
+  - {label: "SECTION 1.03", raw_start: 16305426, title: "Headings"}
+  - {label: "SECTION 1.04", raw_start: 16306377, title: "Included Words"}
+  - {label: "SECTION 1.05", raw_start: 16307351, title: "Accounting Terms"}
+  - {label: "SECTION 1.06", raw_start: 16310446, title: "Time"}
+  - {label: "SECTION 1.07", raw_start: 16311306, title: "Currency"}
+  - {label: "SECTION 1.08", raw_start: 16312251, title: "Certificates and Opinions"}
+  - {label: "SECTION 1.09", raw_start: 16315764, title: "Amendment and Restatement;"}
+  - {label: "SECTION 1.10", raw_start: 16317309, title: "Schedules"}
+  - {label: "ARTICLE 2", raw_start: 16325435, title: "AMOUNT AND TERMS OF THE CREDIT FACILITY"}
+  - {label: "SECTION 2.01", raw_start: 16326039, title: "Credit Facility"}
+  - {label: "SECTION 2.02", raw_start: 16329109, title: "Cancellation"}
+  - {label: "SECTION 2.03", raw_start: 16330574, title: "Use of Proceeds"}
+  - {label: "SECTION 2.04", raw_start: 16331638, title: "Particulars of Borrowings"}
+  - {label: "SECTION 2.05", raw_start: 16334680, title: "Borrowing Notice"}
+  - {label: "SECTION 2.06", raw_start: 16343751, title: "Books of Account"}
+  - {label: "SECTION 2.07", raw_start: 16346448, title: "Co-ordination of Prime Rate and U.S"}
+  - {label: "SECTION 2.08", raw_start: 16350120, title: "Bankers’ Acceptances"}
+  - {label: "SECTION 2.09", raw_start: 16379239, title: "LIBOR Loans"}
+  - {label: "SECTION 2.10", raw_start: 16390393, title: "Safekeeping of Drafts"}
+  - {label: "SECTION 2.11", raw_start: 16391526, title: "Certification to Third Parties"}
+  - {label: "SECTION 2.12", raw_start: 16392623, title: "Successor LIBOR and CDOR Rate"}
+  - {label: "ARTICLE 3", raw_start: 16403005, title: "DOCUMENTARY CREDITS"}
+  - {label: "SECTION 3.01", raw_start: 16403589, title: "Documentary Credits"}
+  - {label: "SECTION 3.02", raw_start: 16405242, title: "Procedure for Issue"}
+  - {label: "SECTION 3.03", raw_start: 16410003, title: "Form of Documentary Credits"}
+  - {label: "SECTION 3.04", raw_start: 16411325, title: "Reimbursements of Amounts Drawn"}
+  - {label: "SECTION 3.05", raw_start: 16414498, title: "Documentary Credit Participation"}
+  - {label: "SECTION 3.06", raw_start: 16418906, title: "Risk of Documentary Credits"}
+  - {label: "SECTION 3.07", raw_start: 16426007, title: "Fees"}
+  - {label: "SECTION 3.08", raw_start: 16429691, title: "Repayments"}
+  - {label: "SECTION 3.09", raw_start: 16434231, title: "Documentary Credits Outstanding Upon Default"}
+  - {label: "ARTICLE 4", raw_start: 16436453, title: "INTEREST"}
+  - {label: "SECTION 4.01", raw_start: 16437026, title: "Interest on Loans"}
+  - {label: "SECTION 4.02", raw_start: 16443426, title: "LIBOR Interest Period Determination"}
+  - {label: "SECTION 4.03", raw_start: 16445072, title: "Interest on Overdue Amounts"}
+  - {label: "SECTION 4.04", raw_start: 16446457, title: "Other Interest"}
+  - {label: "SECTION 4.05", raw_start: 16447611, title: "Interest Act (Canada)"}
+  - {label: "SECTION 4.06", raw_start: 16450663, title: "Deemed Reinvestment Principle"}
+  - {label: "SECTION 4.07", raw_start: 16451858, title: "Maximum Return"}
+  - {label: "ARTICLE 5", raw_start: 16453001, title: "FEES"}
+  - {label: "SECTION 5.01", raw_start: 16453648, title: "Acceptance Fees"}
+  - {label: "SECTION 5.02", raw_start: 16454943, title: "Commitment Fee"}
+  - {label: "SECTION 5.03", raw_start: 16457016, title: "Basis of Calculation of Fees"}
+  - {label: "ARTICLE 6", raw_start: 16457820, title: "PAYMENT"}
+  - {label: "SECTION 6.01", raw_start: 16458392, title: "Voluntary Repayment of Outstanding Accommodation"}
+  - {label: "SECTION 6.02", raw_start: 16470434, title: "Repayment on Maturity Date and Extension"}
+  - {label: "SECTION 6.03", raw_start: 16475056, title: "Excess Accommodation"}
+  - {label: "SECTION 6.04", raw_start: 16478018, title: "Illegality"}
+  - {label: "ARTICLE 7", raw_start: 16480195, title: "PAYMENTS AND INDEMNITIES"}
+  - {label: "SECTION 7.01", raw_start: 16480801, title: "Payments on Non-Business Days"}
+  - {label: "SECTION 7.02", raw_start: 16481889, title: "Method and Place of Payment"}
+  - {label: "SECTION 7.03", raw_start: 16483007, title: "Net Payments"}
+  - {label: "SECTION 7.04", raw_start: 16484374, title: "Agent May Debit Account"}
+  - {label: "SECTION 7.05", raw_start: 16485356, title: "Currency of Payment"}
+  - {label: "SECTION 7.06", raw_start: 16488766, title: "General Indemnity"}
+  - {label: "SECTION 7.07", raw_start: 16495921, title: "Early Termination of LIBOR Interest Period"}
+  - {label: "SECTION 7.08", raw_start: 16498065, title: "Outstanding Bankers’ Acceptances"}
+  - {label: "ARTICLE 8", raw_start: 16500418, title: "SECURITY"}
+  - {label: "SECTION 8.01", raw_start: 16500991, title: "Security"}
+  - {label: "ARTICLE 9", raw_start: 16502510, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 9.01", raw_start: 16503183, title: "Representations and Warranties"}
+  - {label: "SECTION 9.02", raw_start: 16537382, title: "Survival of Representations and Warranties"}
+  - {label: "ARTICLE 10", raw_start: 16539186, title: "COVENANTS"}
+  - {label: "SECTION 10.01", raw_start: 16540093, title: "Reporting Covenants"}
+  - {label: "SECTION 10.02", raw_start: 16547584, title: "Payments Under This Agreement and Loan Documents"}
+  - {label: "SECTION 10.03", raw_start: 16548609, title: "Proceeds"}
+  - {label: "SECTION 10.04", raw_start: 16549478, title: "Inspection of Property, Books and Records, Discussions"}
+  - {label: "SECTION 10.05", raw_start: 16551134, title: "Notices"}
+  - {label: "SECTION 10.06", raw_start: 16557287, title: "Disbursements under Master Trust Indenture"}
+  - {label: "SECTION 10.07", raw_start: 16558250, title: "Cure Defects"}
+  - {label: "SECTION 10.08", raw_start: 16559512, title: "Carrying on Business"}
+  - {label: "SECTION 10.09", raw_start: 16560950, title: "Insurance and Insurance Proceeds"}
+  - {label: "SECTION 10.10", raw_start: 16564332, title: "Compliance with Laws and Agreements"}
+  - {label: "SECTION 10.11", raw_start: 16565456, title: "Taxes"}
+  - {label: "SECTION 10.12", raw_start: 16567242, title: "Further Assurances"}
+  - {label: "SECTION 10.13", raw_start: 16568380, title: "Limitation on Indebtedness"}
+  - {label: "SECTION 10.14", raw_start: 16571051, title: "Negative Pledge"}
+  - {label: "SECTION 10.15", raw_start: 16572031, title: "Investments"}
+  - {label: "SECTION 10.16", raw_start: 16574476, title: "Change in Business and Ownership of AltaLink and Subsidiarie"}
+  - {label: "SECTION 10.17", raw_start: 16575846, title: "Mergers, Etc"}
+  - {label: "SECTION 10.18", raw_start: 16576945, title: "Acquisitions"}
+  - {label: "SECTION 10.19", raw_start: 16579127, title: "Transactions with Non-Arm’s Length Persons"}
+  - {label: "SECTION 10.20", raw_start: 16580526, title: "Environmental Covenants"}
+  - {label: "SECTION 10.21", raw_start: 16586225, title: "Hedging Agreements"}
+  - {label: "SECTION 10.22", raw_start: 16587232, title: "Distributions"}
+  - {label: "SECTION 10.23", raw_start: 16588442, title: "Fiscal Year"}
+  - {label: "SECTION 10.24", raw_start: 16589288, title: "Financial Covenants"}
+  - {label: "SECTION 10.25", raw_start: 16592307, title: "Master Trust Indenture"}
+  - {label: "ARTICLE 11", raw_start: 16594102, title: "CONDITIONS PRECEDENT TO BORROWINGS"}
+  - {label: "SECTION 11.01", raw_start: 16594702, title: "Conditions Precedent to the Closing"}
+  - {label: "SECTION 11.02", raw_start: 16603850, title: "Conditions Precedent to All Borrowings, Conversions"}
+  - {label: "SECTION 11.03", raw_start: 16608108, title: "Waiver"}
+  - {label: "ARTICLE 12", raw_start: 16609160, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 12.01", raw_start: 16609817, title: "Events of Default"}
+  - {label: "SECTION 12.02", raw_start: 16631562, title: "Remedies"}
+  - {label: "SECTION 12.03", raw_start: 16636146, title: "Remedies Cumulative"}
+  - {label: "SECTION 12.04", raw_start: 16638094, title: "Appropriation of Moneys Received"}
+  - {label: "SECTION 12.05", raw_start: 16639222, title: "Non-Merger"}
+  - {label: "SECTION 12.06", raw_start: 16640404, title: "Waiver"}
+  - {label: "SECTION 12.07", raw_start: 16641698, title: "Set-off"}
+  - {label: "ARTICLE 13", raw_start: 16644168, title: "YIELD PROTECTION"}
+  - {label: "SECTION 13.01", raw_start: 16644824, title: "Increased Costs"}
+  - {label: "SECTION 13.02", raw_start: 16655504, title: "Taxes"}
+  - {label: "SECTION 13.03", raw_start: 16668699, title: "Mitigation Obligations"}
+  - {label: "SECTION 13.04", raw_start: 16677554, title: "Illegality"}
+  - {label: "ARTICLE 14", raw_start: 16679411, title: "RIGHT OF SETOFF"}
+  - {label: "SECTION 14.01", raw_start: 16680070, title: "Right of Setoff"}
+  - {label: "ARTICLE 15", raw_start: 16682317, title: "SHARING OF PAYMENTS BY LENDERS"}
+  - {label: "SECTION 15.01", raw_start: 16682991, title: "Sharing of Payments by Lenders"}
+  - {label: "ARTICLE 16", raw_start: 16688745, title: "AGENT’S CLAWBACK"}
+  - {label: "SECTION 16.01", raw_start: 16689350, title: "Agent’s Clawback"}
+  - {label: "ARTICLE 17", raw_start: 16694121, title: "AGENCY"}
+  - {label: "SECTION 17.01", raw_start: 16694767, title: "Appointment and Authority"}
+  - {label: "SECTION 17.02", raw_start: 16696086, title: "Rights as a Lender"}
+  - {label: "SECTION 17.03", raw_start: 16698325, title: "Exculpatory Provisions"}
+  - {label: "SECTION 17.04", raw_start: 16705470, title: "Reliance by Agent"}
+  - {label: "SECTION 17.05", raw_start: 16707478, title: "Indemnification of Agent"}
+  - {label: "SECTION 17.06", raw_start: 16708949, title: "Delegation of Duties"}
+  - {label: "SECTION 17.07", raw_start: 16710514, title: "Replacement of Agent"}
+  - {label: "SECTION 17.08", raw_start: 16716271, title: "Non-Reliance on Agent and Other Lenders"}
+  - {label: "SECTION 17.09", raw_start: 16718384, title: "Collective Action of the Lenders"}
+  - {label: "SECTION 17.10", raw_start: 16720814, title: "No Other Duties, etc"}
+  - {label: "ARTICLE 18", raw_start: 16721742, title: "NOTICES: EFFECTIVENESS; ELECTRONIC COMMUNICATION"}
+  - {label: "SECTION 18.01", raw_start: 16722373, title: "Notices, etc"}
+  - {label: "SECTION 18.02", raw_start: 16728861, title: "Notice Details"}
+  - {label: "ARTICLE 19", raw_start: 16732281, title: "EXPENSES; INDEMNITY: DAMAGE WAIVER"}
+  - {label: "SECTION 19.01", raw_start: 16732955, title: "Expenses;"}
+  - {label: "ARTICLE 20", raw_start: 16743846, title: "SUCCESSORS AND ASSIGNS"}
+  - {label: "SECTION 20.01", raw_start: 16744451, title: "Successors and Assigns"}
+  - {label: "ARTICLE 21", raw_start: 16762497, title: "AMENDMENTS AND WAIVERS"}
+  - {label: "SECTION 21.01", raw_start: 16763102, title: "Amendments and Waivers"}
+  - {label: "SECTION 21.02", raw_start: 16767316, title: "Judgment Currency"}
+  - {label: "ARTICLE 22", raw_start: 16770556, title: "GOVERNING LAW; JURISDICTION; ETC"}
+  - {label: "SECTION 22.01", raw_start: 16771172, title: "Governing Law;"}
+  - {label: "ARTICLE 23", raw_start: 16775806, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 23.01", raw_start: 16776409, title: "Waiver of Jury Trial"}
+  - {label: "ARTICLE 24", raw_start: 16777830, title: "COUNTERPARTS; INTEGRATION; EFFECTIVENESS; ELECTRONIC EXECUTI"}
+  - {label: "SECTION 24.01", raw_start: 16779075, title: "Counterparts;"}
+  - {label: "ARTICLE 25", raw_start: 16782999, title: "TREATMENT OF CERTAIN INFORMATION: CONFIDENTIALITY"}
+  - {label: "SECTION 25.01", raw_start: 16783631, title: "Treatment of Certain Information"}
+  - {label: "ARTICLE 26", raw_start: 16790591, title: "MISCELLANEOUS"}
+  - {label: "SECTION 26.01", raw_start: 16791187, title: "Further Assurances"}
+  - {label: "SECTION 26.02", raw_start: 16792199, title: "Acknowledgement"}
+absent: []

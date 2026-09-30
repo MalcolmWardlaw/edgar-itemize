@@ -1,0 +1,32 @@
+accession: 0001558370-23-000097
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 201681, title: ""}
+  - {label: "ITEM 1", raw_start: 201996, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 368618, title: "​ ​RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 449044, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 450137, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 482069, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 483932, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 500527, title: ""}
+  - {label: "ITEM 5", raw_start: 500843, title: "MARKET FOR REGISTRANT'S COMMON EQUITY, RELATED STOCKHOLDER M"}
+  - {label: "ITEM 6", raw_start: 506027, title: "​ ​RESERVED"}
+  - {label: "ITEM 7", raw_start: 507118, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 734817, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 845575, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 2796127, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 2797057, title: "CONTROLS AND PROCEDURES"}
+  - {label: "ITEM 9B", raw_start: 2800453, title: "OTHER INFORMATION"}
+  - {label: "ITEM 9C", raw_start: 2829816, title: "DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSP"}
+  - {label: "PART III", raw_start: 2830767, title: ""}
+  - {label: "ITEM 10", raw_start: 2831140, title: "DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE"}
+  - {label: "ITEM 11", raw_start: 2832420, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 2833347, title: "​ ​SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAG"}
+  - {label: "ITEM 13", raw_start: 2834763, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 2835868, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 2837556, title: ""}
+  - {label: "ITEM 15", raw_start: 2837872, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"}
+  - {label: "ITEM 16", raw_start: 2963463, title: "FORM 10-K SUMMARY"}
+absent: []

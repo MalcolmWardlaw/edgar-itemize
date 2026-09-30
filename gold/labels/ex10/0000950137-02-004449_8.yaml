@@ -1,0 +1,115 @@
+accession: 0000950137-02-004449
+sequence: 8
+doc_type: EX-10.6
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1476372, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 1476402, title: "Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 1489920, title: "Exhibits Incorporated"}
+  - {label: "ARTICLE 2", raw_start: 1490132, title: "LOAN"}
+  - {label: "SECTION 2.01", raw_start: 1490155, title: "Loan"}
+  - {label: "SECTION 2.02", raw_start: 1490914, title: "Loan Documents"}
+  - {label: "SECTION 2.03", raw_start: 1491472, title: "Effective Date"}
+  - {label: "SECTION 2.04", raw_start: 1491856, title: "Maturity Date;"}
+  - {label: "SECTION 2.05", raw_start: 1492342, title: "Credit for Principal Payments"}
+  - {label: "SECTION 2.06", raw_start: 1492837, title: "Full Repayment and Reconveyance"}
+  - {label: "SECTION 2.07", raw_start: 1494118, title: "Certificates of Approval"}
+  - {label: "ARTICLE 3", raw_start: 1494786, title: "DISBURSEMENT"}
+  - {label: "SECTION 3.01", raw_start: 1494817, title: "Conditions Precedent"}
+  - {label: "SECTION 3.02", raw_start: 1500396, title: "Account, Pledge and Assignment, and Disbursement Authorizati"}
+  - {label: "SECTION 3.03", raw_start: 1501175, title: "Borrower's Funds Account, Pledge and Assignment"}
+  - {label: "SECTION 3.04", raw_start: 1501745, title: "Loan Disbursements"}
+  - {label: "SECTION 3.05", raw_start: 1502436, title: "Working Capital"}
+  - {label: "SECTION 3.06", raw_start: 1503422, title: "Pre-Closing Loan Disbursements"}
+  - {label: "ARTICLE 4", raw_start: 1503976, title: "CONSTRUCTION"}
+  - {label: "SECTION 4.01", raw_start: 1504007, title: "Commencement and Completion"}
+  - {label: "SECTION 4.02", raw_start: 1504244, title: "Commencement and Completion of Offsite Improvements"}
+  - {label: "SECTION 4.03", raw_start: 1504720, title: "Force Majeure"}
+  - {label: "SECTION 4.04", raw_start: 1506075, title: "Construction Agreement"}
+  - {label: "SECTION 4.05", raw_start: 1506833, title: "Architect's Agreement"}
+  - {label: "SECTION 4.06", raw_start: 1507571, title: "Plans and Specifications"}
+  - {label: "SECTION 4.07", raw_start: 1510775, title: "Contractor/Construction Information"}
+  - {label: "SECTION 4.08", raw_start: 1512445, title: "Prohibited Contracts"}
+  - {label: "SECTION 4.09", raw_start: 1513266, title: "Liens and Stop Notices"}
+  - {label: "SECTION 4.10", raw_start: 1514081, title: "Construction Responsibilities"}
+  - {label: "SECTION 4.11", raw_start: 1515385, title: "Assessments and Community Facilities Districts"}
+  - {label: "SECTION 4.12", raw_start: 1516124, title: "Delay"}
+  - {label: "SECTION 4.13", raw_start: 1516389, title: "Inspections"}
+  - {label: "SECTION 4.14", raw_start: 1517155, title: "Surveys"}
+  - {label: "ARTICLE 5", raw_start: 1517756, title: "INSURANCE"}
+  - {label: "SECTION 5.01", raw_start: 1518068, title: "Title Insurance"}
+  - {label: "SECTION 5.02", raw_start: 1518526, title: "Property Insurance"}
+  - {label: "SECTION 5.03", raw_start: 1518947, title: "Flood Hazard Insurance"}
+  - {label: "SECTION 5.04", raw_start: 1519098, title: "Liability Insurance"}
+  - {label: "SECTION 5.05", raw_start: 1519392, title: "General"}
+  - {label: "ARTICLE 6", raw_start: 1520046, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 6.01", raw_start: 1520878, title: "Authority/Enforceability"}
+  - {label: "SECTION 6.02", raw_start: 1521191, title: "Binding Obligations"}
+  - {label: "SECTION 6.03", raw_start: 1521413, title: "Formation and Organizational Documents"}
+  - {label: "SECTION 6.04", raw_start: 1521991, title: "No Violation"}
+  - {label: "SECTION 6.05", raw_start: 1522881, title: "Compliance with Laws"}
+  - {label: "SECTION 6.06", raw_start: 1523399, title: "Litigation"}
+  - {label: "SECTION 6.07", raw_start: 1523871, title: "Financial Condition"}
+  - {label: "SECTION 6.08", raw_start: 1524554, title: "[Deleted]"}
+  - {label: "SECTION 6.09", raw_start: 1524628, title: "Loan Proceeds and Adequacy"}
+  - {label: "SECTION 6.10", raw_start: 1524916, title: "Accuracy"}
+  - {label: "SECTION 6.11", raw_start: 1525288, title: "Tax Liability"}
+  - {label: "SECTION 6.12", raw_start: 1525616, title: "Utilities"}
+  - {label: "SECTION 6.13", raw_start: 1526084, title: "Compliance"}
+  - {label: "SECTION 6.14", raw_start: 1526448, title: "Americans With Disabilities Act Compliance"}
+  - {label: "SECTION 6.15", raw_start: 1527163, title: "Business Loan"}
+  - {label: "ARTICLE 7", raw_start: 1527503, title: "HAZARDOUS MATERIALS"}
+  - {label: "SECTION 7.01", raw_start: 1527541, title: "Special Representations and Warranties"}
+  - {label: "SECTION 7.02", raw_start: 1531095, title: "Hazardous Materials Covenants"}
+  - {label: "ARTICLE 8", raw_start: 1535927, title: "SET ASIDE LETTERS"}
+  - {label: "SECTION 8.01", raw_start: 1535963, title: "Set Aside Letters"}
+  - {label: "ARTICLE 9", raw_start: 1538707, title: "COVENANTS OF BORROWER"}
+  - {label: "SECTION 9.01", raw_start: 1538747, title: "Expenses"}
+  - {label: "SECTION 9.02", raw_start: 1540425, title: "ERISA Compliance"}
+  - {label: "SECTION 9.03", raw_start: 1541080, title: "Leasing"}
+  - {label: "SECTION 9.04", raw_start: 1541313, title: "Approval of Leases"}
+  - {label: "SECTION 9.05", raw_start: 1542580, title: "Revenue to be Applied to Debt Service"}
+  - {label: "SECTION 9.06", raw_start: 1542811, title: "Subdivision Maps"}
+  - {label: "SECTION 9.07", raw_start: 1544347, title: "Further Assurances"}
+  - {label: "SECTION 9.08", raw_start: 1544737, title: "Assignment"}
+  - {label: "SECTION 9.09", raw_start: 1545471, title: "Management of Property"}
+  - {label: "SECTION 9.10", raw_start: 1545734, title: "Governing Documents"}
+  - {label: "SECTION 9.11", raw_start: 1545999, title: "WAIVER OF FIDUCIARY CLAIMS"}
+  - {label: "ARTICLE 10", raw_start: 1548365, title: "REPORTING COVENANTS"}
+  - {label: "SECTION 10.01", raw_start: 1548404, title: "Financial Information"}
+  - {label: "SECTION 10.02", raw_start: 1550129, title: "Books and Records"}
+  - {label: "ARTICLE 11", raw_start: 1550510, title: "DEFAULTS AND REMEDIES"}
+  - {label: "SECTION 11.01", raw_start: 1550551, title: "Default"}
+  - {label: "SECTION 11.02", raw_start: 1560137, title: "Acceleration Upon Default;"}
+  - {label: "SECTION 11.03", raw_start: 1560760, title: "Disbursements to Third Parties"}
+  - {label: "SECTION 11.04", raw_start: 1561565, title: "Lender's Completion of Construction"}
+  - {label: "SECTION 11.05", raw_start: 1562451, title: "Lender's Cessation of Construction"}
+  - {label: "SECTION 11.06", raw_start: 1563173, title: "Termination or Continuation of Development and Management"}
+  - {label: "SECTION 11.07", raw_start: 1564328, title: "Repayment of Funds Advanced"}
+  - {label: "SECTION 11.08", raw_start: 1564653, title: "Rights Cumulative, No Waiver"}
+  - {label: "ARTICLE 12", raw_start: 1565504, title: "MISCELLANEOUS PROVISIONS"}
+  - {label: "SECTION 12.01", raw_start: 1565548, title: "Indemnity"}
+  - {label: "SECTION 12.02", raw_start: 1567110, title: "Form of Documents"}
+  - {label: "SECTION 12.03", raw_start: 1567519, title: "No Third Parties Benefited"}
+  - {label: "SECTION 12.04", raw_start: 1567708, title: "Notices"}
+  - {label: "SECTION 12.05", raw_start: 1568609, title: "Attorney-in-Fact"}
+  - {label: "SECTION 12.06", raw_start: 1568960, title: "Actions"}
+  - {label: "SECTION 12.07", raw_start: 1569485, title: "Right of Contest"}
+  - {label: "SECTION 12.08", raw_start: 1570287, title: "Relationship of Parties"}
+  - {label: "SECTION 12.09", raw_start: 1570687, title: "Delay Outside Lender's Control"}
+  - {label: "SECTION 12.10", raw_start: 1571315, title: "Attorneys' Fees and Expenses;"}
+  - {label: "SECTION 12.11", raw_start: 1572140, title: "Immediately Available Funds"}
+  - {label: "SECTION 12.12", raw_start: 1572362, title: "Lender's Consent"}
+  - {label: "SECTION 12.13", raw_start: 1572729, title: "Signs"}
+  - {label: "SECTION 12.14", raw_start: 1573034, title: "Lender's Agents"}
+  - {label: "SECTION 12.15", raw_start: 1573496, title: "Tax Service"}
+  - {label: "SECTION 12.16", raw_start: 1573720, title: "WAIVER OF RIGHT TO TRIAL BY JURY"}
+  - {label: "SECTION 12.17", raw_start: 1574923, title: "Severability"}
+  - {label: "SECTION 12.18", raw_start: 1575756, title: "Heirs, Successors and Assigns"}
+  - {label: "SECTION 12.19", raw_start: 1576011, title: "Time"}
+  - {label: "SECTION 12.20", raw_start: 1576096, title: "Headings"}
+  - {label: "SECTION 12.21", raw_start: 1576352, title: "Governing Law"}
+  - {label: "SECTION 12.22", raw_start: 1576848, title: "Integration;"}
+  - {label: "SECTION 12.23", raw_start: 1577475, title: "Joint and Several Liability"}
+  - {label: "SECTION 12.24", raw_start: 1577715, title: "Counterparts"}
+absent: []

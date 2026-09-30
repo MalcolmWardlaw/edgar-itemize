@@ -1,0 +1,11 @@
+flowchart TD
+    in["candidates + TOC regions"]
+    condemn["region members rejected (toc) unless rescued<br/>(toc.member_rescued) or relieved (ctoc.region_relief);<br/>rej.ctoc_row rows rejected (toc);<br/>rej.section_xref rows rejected (section_xref)"]
+    restarts["agenda.chain_restarts: where ARTICLE numbering restarts<br/>(chain.restart; chain.section_restart for section-only<br/>restarts) and whether a new instrument begins there<br/>(seg.instrument_boundary from seg.prior_closed,<br/>seg.new_title, seg.new_parties; else chain.restart_unsegmented)"]
+    chains["one article chain and one section chain per restart<br/>(seq.per_segment); the restart candidate heads its chain"]
+    orphan["a vetoed reference that would have held a chain slot<br/>gets a synthetic section for its clauses<br/>(gram.synth_section_xref)"]
+    nodes["nodes: document root, toc nodes, articles (missing one<br/>synthesised: gram.synth_article), sections keyed by<br/>(chain, order key) so two ARTICLE 1s never collide"]
+    clauses["clauses: sequence.sequence per section span, a Viterbi pass<br/>over stack states with deterministic costs (skip, restart,<br/>open high, family change): seq.gap*, seq.restart,<br/>seq.open_midrun, seq.alt_readings; unplaceable: clause_nonmonotone"]
+    gaps["clauses outside any section: relief under an article<br/>(gram.clause_under_article, gram.synth_section)<br/>or clause_outside_section"]
+    titles["tree_contract.attach_bare_titles: a bare title line above<br/>or beside a label becomes the node's title<br/>(gram.title_above_label, gram.title_adjacent_line)"]
+    in --> condemn --> restarts --> chains --> orphan --> nodes --> clauses --> gaps --> titles

@@ -1,0 +1,30 @@
+accession: 0001193125-19-091486
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 16938, title: ""}
+  - {label: "ITEM 1", raw_start: 17510, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 18013, title: "Risk Factors"}
+  - {label: "ITEM 2", raw_start: 18521, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 19026, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 19538, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 23890, title: ""}
+  - {label: "ITEM 5", raw_start: 24463, title: "Market for Registrant's Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 25076, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 25599, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 26189, title: "Quantitative and Qualitative Disclosures about Market Risk"}
+  - {label: "ITEM 8", raw_start: 26748, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 27291, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 27875, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 28374, title: "Other Information"}
+  - {label: "PART III", raw_start: 29938, title: ""}
+  - {label: "ITEM 10", raw_start: 30512, title: "Directors, Executive Officers, and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 31068, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 31591, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 32186, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 32760, title: "Principal Accounting Fees and Services"}
+  - {label: "PART IV", raw_start: 36269, title: ""}
+  - {label: "ITEM 15", raw_start: 36380, title: "Exhibits and Financial Statement Schedules"}
+  - {label: "ITEM 16", raw_start: 50347, title: "Form 10-K Summary"}
+absent: []

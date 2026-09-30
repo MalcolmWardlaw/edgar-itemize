@@ -1,0 +1,28 @@
+accession: 0001144204-16-088835
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 13451, title: ""}
+  - {label: "ITEM 1", raw_start: 14956, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 37148, title: "RISK FACTORS"}
+  - {label: "ITEM 1B", raw_start: 52707, title: "UNRESOLVED STAFF COMMENTS"}
+  - {label: "ITEM 2", raw_start: 53284, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 62896, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 63678, title: "RESERVED"}
+  - {label: "PART II", raw_start: 63920, title: ""}
+  - {label: "ITEM 5", raw_start: 64330, title: "MARKET FOR THE REGISTRANT'S COMMON EQUITY AND RELATED SECURI"}
+  - {label: "ITEM 6", raw_start: 73092, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 74459, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 127033, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 129735, title: "FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA"}
+  - {label: "ITEM 9", raw_start: 133504, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "PART III", raw_start: 139530, title: ""}
+  - {label: "ITEM 10", raw_start: 139846, title: "DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT"}
+  - {label: "ITEM 11", raw_start: 146692, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 147825, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 149313, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS"}
+  - {label: "ITEM 14", raw_start: 159425, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "PART IV", raw_start: 165463, title: ""}
+  - {label: "ITEM 15", raw_start: 165789, title: "EXHIBITS AND FINANCIAL STATEMENT SCHEDULES"}
+absent: []

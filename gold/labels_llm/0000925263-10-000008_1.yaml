@@ -1,0 +1,14 @@
+accession: 0000925263-10-000008
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  - {label: "PART I", raw_start: 68544}
+  - {label: "ITEM 1", raw_start: 68865}
+  - {label: "ITEM 1A", raw_start: 87278}
+  - {label: "ITEM 1B", raw_start: 91575}
+  - {label: "ITEM 2", raw_start: 92206}
+  - {label: "ITEM 3", raw_start: 93929}
+  - {label: "ITEM 4", raw_start: 94541}
+  - {label: "PART II", raw_start: 98153}

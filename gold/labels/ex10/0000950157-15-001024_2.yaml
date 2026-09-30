@@ -1,0 +1,86 @@
+accession: 0000950157-15-001024
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 113056, title: "DEFINITIONS AND ACCOUNTING TERMS"}
+  - {label: "SECTION 1.01", raw_start: 113340, title: "Certain Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 247627, title: "Other Definitions and Provisions"}
+  - {label: "SECTION 1.03", raw_start: 249800, title: "Computation of Time Periods"}
+  - {label: "SECTION 1.04", raw_start: 251149, title: "Accounting Terms"}
+  - {label: "ARTICLE 2", raw_start: 254166, title: "AMOUNTS AND TERMS OF THE ADVANCES"}
+  - {label: "SECTION 2.01", raw_start: 254452, title: "Initial Term Loans"}
+  - {label: "SECTION 2.02", raw_start: 255633, title: "Making the Advances"}
+  - {label: "SECTION 2.03", raw_start: 270375, title: "Fees"}
+  - {label: "SECTION 2.04", raw_start: 273685, title: "Reduction, Increase and Extension of the Commitments/Substit"}
+  - {label: "SECTION 2.05", raw_start: 284285, title: "Repayment"}
+  - {label: "SECTION 2.06", raw_start: 285356, title: "Interest"}
+  - {label: "SECTION 2.07", raw_start: 288182, title: "Additional Interest on Advances"}
+  - {label: "SECTION 2.08", raw_start: 289976, title: "Interest Rate Determination"}
+  - {label: "SECTION 2.09", raw_start: 292784, title: "Prepayments"}
+  - {label: "SECTION 2.10", raw_start: 294871, title: "Increased Costs"}
+  - {label: "SECTION 2.11", raw_start: 303109, title: "Payments and Computations"}
+  - {label: "SECTION 2.12", raw_start: 309562, title: "Evidence of Indebtedness"}
+  - {label: "SECTION 2.13", raw_start: 313393, title: "Sharing of Payments, Etc"}
+  - {label: "SECTION 2.14", raw_start: 317632, title: "Taxes"}
+  - {label: "SECTION 2.15", raw_start: 342386, title: "Interest Elections"}
+  - {label: "SECTION 2.16", raw_start: 349808, title: "[Reserved]"}
+  - {label: "SECTION 2.17", raw_start: 350182, title: "Mitigation Obligations;"}
+  - {label: "SECTION 2.18", raw_start: 359162, title: "[Reserved]"}
+  - {label: "SECTION 2.19", raw_start: 359536, title: "Defaulting Lenders"}
+  - {label: "ARTICLE 3", raw_start: 369463, title: "CONDITIONS OF LENDING"}
+  - {label: "SECTION 3.01", raw_start: 369738, title: "Condition Precedent to the Effectiveness of Sections 2.01 an"}
+  - {label: "SECTION 3.02", raw_start: 384222, title: "[Reserved]"}
+  - {label: "SECTION 3.03", raw_start: 384596, title: "[Reserved]"}
+  - {label: "SECTION 3.04", raw_start: 384970, title: "Determinations Under Section 3.01"}
+  - {label: "SECTION 3.05", raw_start: 386570, title: "Conditions Precedent to Effectiveness"}
+  - {label: "ARTICLE 4", raw_start: 390632, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 4.01", raw_start: 390915, title: "Representations and Warranties of the Borrower"}
+  - {label: "ARTICLE 5", raw_start: 410761, title: "COVENANTS OF THE BORROWER"}
+  - {label: "SECTION 5.01", raw_start: 411038, title: "Affirmative Covenants"}
+  - {label: "SECTION 5.02", raw_start: 430905, title: "Negative Covenants"}
+  - {label: "ARTICLE 6", raw_start: 456418, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 6.01", raw_start: 456688, title: "Events of Default"}
+  - {label: "SECTION 6.02", raw_start: 468294, title: "[Reserved]"}
+  - {label: "SECTION 6.03", raw_start: 468668, title: "Administrative Agent May File Proofs of Claim"}
+  - {label: "ARTICLE 7", raw_start: 472909, title: "GUARANTY"}
+  - {label: "SECTION 7.01", raw_start: 473171, title: "Guaranty"}
+  - {label: "SECTION 7.02", raw_start: 474884, title: "Guaranty Absolute"}
+  - {label: "SECTION 7.03", raw_start: 482679, title: "Waivers and Acknowledgments"}
+  - {label: "SECTION 7.04", raw_start: 487379, title: "Subrogation"}
+  - {label: "SECTION 7.05", raw_start: 490396, title: "Subordination"}
+  - {label: "SECTION 7.06", raw_start: 496935, title: "Continuing Guaranty;"}
+  - {label: "ARTICLE 8", raw_start: 498625, title: "THE AGENT"}
+  - {label: "SECTION 8.01", raw_start: 498889, title: "Appointment and Authority"}
+  - {label: "SECTION 8.02", raw_start: 500544, title: "Reliance by the Administrative Agent"}
+  - {label: "SECTION 8.03", raw_start: 503051, title: "Rights as a Lender"}
+  - {label: "SECTION 8.04", raw_start: 504284, title: "Exculpatory Provisions"}
+  - {label: "SECTION 8.05", raw_start: 511599, title: "Non-Reliance on Administrative Agent and Other Lenders"}
+  - {label: "SECTION 8.06", raw_start: 512785, title: "Indemnification"}
+  - {label: "SECTION 8.07", raw_start: 517576, title: "Successor Agent"}
+  - {label: "SECTION 8.08", raw_start: 520233, title: "No Other Duties, Etc"}
+  - {label: "SECTION 8.09", raw_start: 520955, title: "Delegation of Duties"}
+  - {label: "SECTION 8.10", raw_start: 522385, title: "Other Agents"}
+  - {label: "ARTICLE 9", raw_start: 523065, title: "SUCCESSORS, ASSIGNS AND PARTICIPATIONS"}
+  - {label: "SECTION 9.01", raw_start: 523356, title: "Binding Effect"}
+  - {label: "SECTION 9.02", raw_start: 524974, title: "Assignments"}
+  - {label: "SECTION 9.03", raw_start: 539050, title: "Participations"}
+  - {label: "SECTION 9.04", raw_start: 546867, title: "Pledge"}
+  - {label: "ARTICLE 10", raw_start: 548892, title: "MISCELLANEOUS"}
+  - {label: "SECTION 10.01", raw_start: 549157, title: "Amendments, Etc"}
+  - {label: "SECTION 10.02", raw_start: 556948, title: "Notices, Effectiveness, Electronic Communication"}
+  - {label: "SECTION 10.03", raw_start: 569538, title: "No Waiver;"}
+  - {label: "SECTION 10.04", raw_start: 570343, title: "Costs and Expenses;"}
+  - {label: "SECTION 10.05", raw_start: 575807, title: "Right of Set-off"}
+  - {label: "SECTION 10.06", raw_start: 577694, title: "Indemnification by Borrower"}
+  - {label: "SECTION 10.07", raw_start: 582976, title: "Governing Law"}
+  - {label: "SECTION 10.08", raw_start: 583783, title: "Execution in Counterparts;"}
+  - {label: "SECTION 10.09", raw_start: 585443, title: "Special Prepayment Right"}
+  - {label: "SECTION 10.10", raw_start: 592026, title: "Jurisdiction, Etc"}
+  - {label: "SECTION 10.11", raw_start: 595980, title: "Guarantors"}
+  - {label: "SECTION 10.12", raw_start: 596627, title: "Confidentiality"}
+  - {label: "SECTION 10.13", raw_start: 604114, title: "Patriot Act, Etc"}
+  - {label: "SECTION 10.14", raw_start: 605197, title: "Release of Guarantors"}
+  - {label: "SECTION 10.15", raw_start: 606148, title: "Waiver of Jury Trial"}
+  - {label: "SECTION 10.16", raw_start: 606945, title: "Acknowledgments"}
+absent: []

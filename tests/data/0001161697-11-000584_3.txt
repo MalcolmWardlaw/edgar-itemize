@@ -1,0 +1,220 @@
+
+
+     Exhibit 10.50
+
+     SHAREHOLDERS' AGREEMENT
+
+     This SHAREHOLDERS' AGREEMENT (this "Agreement") is made as of June 13, 2011 (the "Effective Date"), by and among Scott M. Boruff, Paul W. Boyd, David Hall, Deloy Miller and David Voyticky (Boruff, Boyd, Hall, Miller and Voyticky are each referred to herein individually, as "Shareholder", and together, the "Shareholders") and Miller Energy Resources, Inc., a Tennessee corporation (the "Corporation").  The Corporation and the Shareholders are individually referred to herein as "Party" and are collectively referred to herein as the "Parties".
+
+     RECITALS
+
+     WHEREAS, the Shareholders are shareholders of the Corporation;
+
+     WHEREAS, the Corporation is a party to that certain Loan Agreement (the "Loan Agreement"), dated as of the Effective Date, by and among the Corporation, the financial institutions named therein ("Lenders"), and Guggenheim Corporation Funding, as Arranger and Administrative Agent (the "Agent" and together with the Shareholders and the Corporation, the "Beneficiaries"), pursuant to which, inter alia, the Lenders will provide a multi-draw term loan facility in a principal amount of up to $100 million, to be used by the Corporation, inter alia, to acquire a certain platform rig and to finance the drilling of certain wells and for other activities of the Corporation;
+
+     WHEREAS, the Corporation and its shareholders, including the Shareholders, will derive substantial direct and indirect benefits from the making of the Loans under the Loan Agreement; and
+
+     WHEREAS, it is a condition precedent to the obligation of the Lenders to make their respective Loans to the Corporation under the Loan Agreement that the Shareholders shall have executed and delivered this Agreement to the Agent.
+
+     NOW, THEREFORE, in consideration of the premises and the mutual covenants, agreements and conditions contained in this Agreement, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto, intending to be legally bound hereby, agree as follows:
+
+     ARTICLE I
+
+  DEFINITIONS
+
+     Defined Terms.  Unless otherwise defined herein, terms defined in the Loan Agreement and used herein shall have the meanings given to them in the Loan Agreement.
+
+     1
+
+     * * *
+
+     ARTICLE II
+
+  TRANSFER MATTERS
+
+     2.1       Transfer of Stock. During the Term (as defined below), except as expressly provided in Section 2.2, each Shareholder severally agrees that he shall not, directly or indirectly, sell, assign, convey, gift, transfer, encumber, or otherwise dispose of ("Transfer") all or any part of the shares of the common stock, par value $0.0001 per share of the Corporation (the "Common Stock") beneficially owned by such Shareholder, whether now owned or acquired after the Effective Date, without the prior written consent of the Agent and the Required Lenders. Every Transfer in violation of this Section 2.1 is null and void.
+
+     2.2       Permitted Transfers.  During the Term:
+
+     (a)       Deloy Miller shall be permitted to Transfer shares of Common Stock beneficially owned by him if, simultaneously with such Transfer, (a) the Company issues a number of shares of Common Stock (the "New Issuance") in an amount necessary for the Company to receive net proceeds from the New Issuance equal to two times the net proceeds received by Deloy Miller and (b) Deloy Miller Transfers such shares at the same price and for the same consideration as received by the Company from the New Issuance; provided, however, that the aggregate number of shares of Common Stock Transferred by Deloy Miller during the Term may not exceed the lesser of (i) 2,500,000 shares of Common Stock and (ii) an amount of shares of Common Stock necessary for Deloy Miller to receive net proceeds equal to $10,000,000;
+
+     (b)       Paul W. Boyd shall be permitted to exercise options to buy up to 250,000 shares of Common Stock, expiring on September 23, 2011, beneficially owned by him and to Transfer any shares of Common Stock received upon the exercise of such options; and
+
+     (c)       Any Shareholder may in its sole discretion pledge, grant or encumber, or permit to exist a lien on or security interest in, shares of Common Stock beneficially owned by such Shareholder in order to secure obligations of such Shareholder to a secured lender.  An involuntary transfer of any such shares of Common Stock upon the foreclosure by such secured lender shall not constitute a breach of or violation under this Agreement.
+
+     2.3       Acknowledgement. EACH SHAREHOLDER HEREBY ACKNOWLEDGES THAT HE: (X) HAS REVIEWED THE LOAN AGREEMENT AND (Y) UNDERSTANDS THAT ANY TRANSFER OF SHARES OF COMMON STOCK OF THE CORPORATION IN VIOLATION OF THIS AGREEMENT WILL CONSTITUTE AN EVENT OF DEFAULT BY THE CORPORATION PURSUANT TO THE LOAN AGREEMENT AND COULD SUBJECT THE CORPORATION TO, AMONG OTHER THINGS, THE REMEDIES SET FORTH IN THE LOAN DOCUMENTS.
+
+     2
+
+     * * *
+
+     ARTICLE III
+
+  TERMINATION
+
+     3.1       Term.  The term of this Agreement (the "Term") shall commence on the Effective Date and shall continue in effect until the earliest to occur of:
+
+     (a)       the termination hereof by the written agreement of the Shareholders, the Corporation, the Agent and the Required Lenders; and
+
+     (b)       the termination of the Aggregate Commitment and the payment in full of the Obligations.
+
+     3.2       Effect of Termination.  In the event of a termination of this Agreement, as provided in Section 3.1 above, all obligations under this Agreement shall terminate.
+
+     ARTICLE IV
+
+  MISCELLANEOUS
+
+     4.1       Notices.  All notices and other communications required to be given under this Agreement shall be delivered in writing personally or mailed by next-business day courier, to the address set forth on Schedule A.
+
+     4.2       Several Liabilities of Shareholders.  Nothing contained in this Agreement shall be construed to impose on any Shareholder any liability for any breach, action or failure to act of any other Shareholder.
+
+     4.3       Fees and Expenses.  The Corporation shall pay all reasonable fees, costs and expenses of the Shareholders incurred in connection with the execution of this Agreement and any amendment, waiver, notice or consent under this Agreement.
+
+     4.4       Entire Agreement.  This Agreement and Schedule A hereto constitute the entire agreement between the Parties with respect to the subject matter hereof and supersede all prior agreements, whether written or oral, regarding the subject matter hereof.
+
+     4.5       Governing Law.  THIS AGREEMENT SHALL BE GOVERNED BY AND CONSTRUED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT REGARD TO PRINCIPLES OF CONFLICT OF LAWS.
+
+     4.6       Enforcement.  The Parties hereto agree that money damages or other remedies at law would not be sufficient or adequate remedy for any breach or violation of, or default under, this Agreement and that in addition to all other remedies available to the Beneficiaries, each of the Beneficiaries shall be entitled to the fullest extent permitted by law to
+
+     3
+
+     * * *
+
+     an injunction restraining such breach, violation or default and to other equitable relief, including specific performance, without bond or other security being required.
+
+     4.7       Amendments. No amendment, modification, or supplement to this Agreement shall be binding unless it is in writing and duly executed by all Beneficiaries.
+
+     4.8       Assignment.  No Party may assign this Agreement. Any assignment of this Agreement by any Party is null and void. The Agent may assign its rights under this Agreement to any successor Agent in accordance with the Loan Agreement.
+
+     4.9       Third Party Beneficiaries.  The Shareholders and the Corporation acknowledge that the Agent is a third-party beneficiary to this Agreement and that the Agent shall be entitled to enforce the covenants and obligations of the Shareholders and the Corporation under this Agreement.  The Agent's rights as a third-party beneficiary of this Agreement may be exercised by the Agent independently or in conjunction with the Corporation or any Shareholder or group of Shareholders, and such rights shall not be prejudiced by any prior assertion or waiver of any right, claim or cause of action for damages or equitable relief or any other claim, assertion or waiver made by the Corporation or any Shareholder under this Agreement.  As a third-party beneficiary to this Agreement, the Agent shall be entitled to all of the remedies available under this Agreement, including the rights under Section 4.6, in addition to such other remedies as may be permitted by law or in equity.  This Agreement shall not be deemed to confer upon any Person other than the Beneficiaries any remedy, claim, liability, claim of action or other rights hereunder.
+
+     4.10       Severability.  Every provision of this Agreement is intended to be severable, and, if any term or provision herein is illegal or invalid for any reason whatsoever, such illegality or invalidity shall not affect the validity or legality of the remainder of this Agreement.
+
+     4.11       Section Headings.  Section and other headings contained in this Agreement are for reference purposes only and are not intended to describe, interpret, define, or limit the scope, extent, or intent of this Agreement or any provision hereof.
+
+     4.12       Counterparts.  This Agreement may be executed in two or more counterparts, each of which shall be deemed an original and all of which will constitute one and the same instrument, and will become effective when counterparts have been signed by each of the Parties and delivered to the other Parties; it being understood that all Parties need not sign the same counterpart.  The exchange of copies of this Agreement and of signature pages to this Agreement by facsimile transmission, by electronic mail in "portable document format" ("pdf") form, or by any other electronic means intended to preserve the original graphic and pictorial appearance of a document, or by combination of such means, shall constitute effective execution and delivery of this Agreement as to the Parties and may be used in lieu of the original Agreement for all purposes.  Signatures of the Parties transmitted by facsimile shall be deemed to be their original signatures for all purposes.
+
+     4
+
+     * * *
+
+     IN WITNESS WHEREOF, the parties hereto have entered into and signed this Agreement as of the date and year first above written.
+
+     Scott M. Boruff
+
+     /s/ Scott M. Boruff
+
+     Paul W. Boyd
+
+     /s/ Paul W. Boyd
+
+     David Hall
+
+     /s/ David Hall
+
+     Deloy Miller
+
+     /s/ Deloy Miller
+
+     David Voyticky
+
+     /s/ David Voyticky
+
+     Miller Energy Resources, Inc.
+
+     By: /s/ Scott M. Boruff
+
+     Name:  Scott M. Boruff
+
+     Title:  Chief Executive Officer
+
+     5
+
+     * * *
+
+     EXHIBIT A
+
+     NOTICE INFORMATION
+
+     If to Scott M. Boruff:
+
+     [home address]
+
+     If to Paul W. Boyd:
+
+     [home address]
+
+     If to David Hall:
+
+     [home address]
+
+     If to Deloy Miller:
+
+     [home address]
+
+     If to David Voyticky:
+
+     Miller Energy Resources, Inc.
+
+     Attn: David Voyticky
+
+     3651 Baker Hwy
+
+     Huntsville, TN  37756
+
+     If to the Corporation:
+
+     Miller Energy Resources, Inc.
+
+     Attn: Anna East, General Counsel
+
+     3651 Baker Hwy
+
+     Huntsville, TN 37756
+
+     Phone: (865) 223-6575
+
+     Fax: (865) 691-8209
+
+     Email: aeast@millerenergyresources.com
+
+     A-1
+
+     * * *
+
+     If to the Agent:
+
+     Guggenheim Corporate Funding, LLC
+
+     135 E. 57th Street, 6th Floor
+
+     New York, New York 10022
+
+     Attn: Kaitlin Trinh
+
+     Phone: (212) 651-0840
+
+     Fax: (212) 644-8396
+
+     e-mail: kaitlin.trinh@guggenheimpartners.com
+
+     With a copy to:
+
+     Guggenheim Corporate Funding, LLC
+
+     1301 McKinney, Suite 3105
+
+     Houston, TX 77010
+
+     Attn: Tim Murray
+
+     Phone: (713) 300-1330
+
+     Fax: (713) 300-1339
+
+     e-mail: tim.murray@guggenheimpartners.com
+
+     A-2
+
+     * * *
+

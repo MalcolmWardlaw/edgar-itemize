@@ -1,0 +1,22 @@
+accession: 0001047469-03-010372
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 8202, title: ""}
+  - {label: "ITEM 1", raw_start: 8343, title: "Business"}
+  - {label: "ITEM 2", raw_start: 41359, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 42129, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 42537, title: "Submission of Matters to a Vote of Security Holders"}
+  - {label: "PART II", raw_start: 43363, title: ""}
+  - {label: "ITEM 5", raw_start: 43529, title: "Market for Registrant's Common Equity and Related Stockholde"}
+  - {label: "ITEM 6", raw_start: 54717, title: "Selected Financial Data"}
+  - {label: "ITEM 7", raw_start: 80872, title: "Management's Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 98720, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 99523, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 353894, title: "Changes in and Disagreements with Accountants on Accounting "}
+  - {label: "PART III", raw_start: 356918, title: ""}
+  - {label: "ITEM 14", raw_start: 357789, title: "Controls and Procedures"}
+  - {label: "PART IV", raw_start: 359051, title: ""}
+  - {label: "ITEM 15", raw_start: 359217, title: "Exhibits, Financial Statement Schedules, and Reports on Form"}
+absent: []

@@ -1,0 +1,52 @@
+flowchart TD
+    subgraph prepare["prepare.prepare_document  (cached by normcache when --norm-cache is on)"]
+        direction TB
+        load["prepare.load_row: read the submission<br/>(sgml.read_submission_hashed: input_sha256)<br/>and pick the document by kind"]
+        split["sgml.split_documents: DOCUMENT blocks<br/>by byte offset; PEM / IMS wrappers handled"]
+        classify["classify.classify: Profile<br/>era (text, html_early, html_publisher, ixbrl, image_text)<br/>publisher (agent CIK prefix, generator fingerprints)"]
+        ix["sgml.blank_ix_header (ixbrl only):<br/>blank in place so offsets never move"]
+        norm{"profile.era"}
+        ntext["normalize_text.text_to_blocks"]
+        nhtml["normalize_html.html_to_blocks<br/>(vendored CPython 3.11 HTMLParser)"]
+        blocks["Blocks: text, raw_start/raw_end,<br/>norm_start/norm_end, style flags,<br/>table-row context, page breaks, anchors"]
+        prepared["Prepared: doc, header type, Profile,<br/>blocks, normalized text, header CIK, input hash"]
+        load --> split --> classify --> ix --> norm
+        norm -- text --> ntext --> blocks
+        norm -- html / ixbrl / image_text --> nhtml --> blocks
+        blocks --> prepared
+    end
+
+    subgraph parse["pipeline.parse_prepared"]
+        direction TB
+        gram["pipeline.grammar_for: Form10K / Form10Q / Contract<br/>(section 3)"]
+        cands["candidates.find_candidates: every block whose text<br/>starts with a level label, scored (section 5)"]
+        g10k{"form10k?"}
+        cap["candidates.caption_guard_pass<br/>candidates.fm_table_pass<br/>(tags only: rej.caption_*, rej.fm_table)"]
+        toc["toc.detect_toc: dense candidate runs duplicated later<br/>or carrying index evidence -> TocRegion;<br/>toc._contract_regions for contracts;<br/>toc.veto_chain_completing (toc.vetoed_region)"]
+        prp["candidates.page_repeat_pass (rej.page_repeat)"]
+        kind{"grammar"}
+        cpass["candidates.ctoc_row_pass (rej.ctoc_row, ctoc.region_relief)<br/>candidates.section_xref_pass (rej.section_xref)"]
+        ctree["tree_contract.build_contract_tree<br/>(section 4b)"]
+        vpass["candidates.vetoed_index_row_pass<br/>(10-K / 10-Q, not EX-13: rej.vetoed_index_row)"]
+        ktree["tree.build_tree (section 4a)"]
+        regab{"10-K and an untitled Reg-AB item<br/>accepted past the back matter?"}
+        rebuild["agenda.regab_back_matter tags rej.regab_back_matter,<br/>tree.build_tree runs again"]
+        heads["headings.find_headings + merge_and_renumber:<br/>styled short blocks inside Items become depth 3+<br/>heading nodes; rej.page_banner rows go to rejected"]
+        ex13["EX-13 only: synthetic root item (gram.synth_doc_root, never written);<br/>ars_kind.classify -> satisfies_item, kind.*"]
+        stamps["ocr.degraded (image_text era)<br/>gram.form_from_header (10-Q tag, 10-K header)"]
+        paths["agenda.assign_paths: segments (compound exhibits),<br/>back-matter boundary, meta digit 0/1/2/3, ordinals"]
+        trunc["tree.truncate_at_back_start: main-body spans stop<br/>at the back matter (tree.back_truncate);<br/>re-parent orphaned headings, re-run assign_paths"]
+        ibr["classify.ibr_flags on each Item span<br/>(incorporated by reference, cross reference)"]
+        result["ParseResult -> pipeline.result_rows:<br/>nodes, one documents row, rejected rows"]
+        gram --> cands --> g10k
+        g10k -- yes --> cap --> toc
+        g10k -- no --> toc
+        toc --> prp --> kind
+        kind -- contract --> cpass --> ctree --> heads
+        kind -- form10k / form10q --> vpass --> ktree --> regab
+        regab -- yes --> rebuild --> heads
+        regab -- no --> heads
+        heads --> ex13 --> stamps --> paths --> trunc --> ibr --> result
+    end
+
+    prepared --> gram

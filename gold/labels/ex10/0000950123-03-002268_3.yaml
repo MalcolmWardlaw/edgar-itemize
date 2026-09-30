@@ -1,0 +1,83 @@
+accession: 0000950123-03-002268
+sequence: 3
+doc_type: EX-10.3
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 438100, title: ""}
+  - {label: "SECTION 1.01", raw_start: 438262, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 486772, title: "Accounting Terms and Determinations"}
+  - {label: "SECTION 1.03", raw_start: 488206, title: "Classifications of Borrowings"}
+  - {label: "ARTICLE 2", raw_start: 488915, title: ""}
+  - {label: "SECTION 2.01", raw_start: 489078, title: "Commitments to Lend"}
+  - {label: "SECTION 2.02", raw_start: 490652, title: "Notice of Committed Borrowings"}
+  - {label: "SECTION 2.03", raw_start: 492504, title: "Money Market Borrowings"}
+  - {label: "SECTION 2.04", raw_start: 507507, title: "Notice to Banks;"}
+  - {label: "SECTION 2.05", raw_start: 509920, title: "Evidence of Debt"}
+  - {label: "SECTION 2.06", raw_start: 512781, title: "Maturity of Loans"}
+  - {label: "SECTION 2.07", raw_start: 513476, title: "Termination or Reduction of Commitments"}
+  - {label: "SECTION 2.08", raw_start: 514513, title: "Increase in Commitments"}
+  - {label: "SECTION 2.09", raw_start: 518830, title: "Interest Rates"}
+  - {label: "SECTION 2.10", raw_start: 531616, title: "Fees"}
+  - {label: "SECTION 2.11", raw_start: 533773, title: "Method of Electing Interest Rates"}
+  - {label: "SECTION 2.12", raw_start: 539663, title: "Prepayments"}
+  - {label: "SECTION 2.13", raw_start: 541495, title: "General Provisions as to Payments"}
+  - {label: "SECTION 2.14", raw_start: 544397, title: "Funding Losses"}
+  - {label: "SECTION 2.15", raw_start: 545912, title: "Computation of Interest and Fees"}
+  - {label: "SECTION 2.16", raw_start: 546502, title: "Regulation D Compensation"}
+  - {label: "SECTION 2.17", raw_start: 548604, title: "Term-Out Option"}
+  - {label: "ARTICLE 3", raw_start: 549981, title: ""}
+  - {label: "SECTION 3.01", raw_start: 550144, title: "Effectiveness"}
+  - {label: "SECTION 3.02", raw_start: 555716, title: "Borrowings"}
+  - {label: "ARTICLE 4", raw_start: 558897, title: ""}
+  - {label: "SECTION 4.01", raw_start: 559163, title: "Corporate Existence and Power"}
+  - {label: "SECTION 4.02", raw_start: 559997, title: "Corporate and Governmental Authorization;"}
+  - {label: "SECTION 4.03", raw_start: 560778, title: "Binding Effect"}
+  - {label: "SECTION 4.04", raw_start: 561567, title: "Financial Information"}
+  - {label: "SECTION 4.05", raw_start: 563417, title: "Litigation"}
+  - {label: "SECTION 4.06", raw_start: 564172, title: "Compliance with ERISA"}
+  - {label: "SECTION 4.07", raw_start: 565242, title: "Compliance with Laws and Agreements"}
+  - {label: "SECTION 4.08", raw_start: 565980, title: "Investment Company Act;"}
+  - {label: "SECTION 4.09", raw_start: 566497, title: "Full Disclosure"}
+  - {label: "SECTION 4.10", raw_start: 567519, title: "Taxes"}
+  - {label: "ARTICLE 5", raw_start: 568018, title: ""}
+  - {label: "SECTION 5.01", raw_start: 568403, title: "Information"}
+  - {label: "SECTION 5.02", raw_start: 572820, title: "Conduct of Business and Maintenance of Existence and Insuran"}
+  - {label: "SECTION 5.03", raw_start: 574279, title: "Minimum Adjusted Consolidated Net Worth"}
+  - {label: "SECTION 5.04", raw_start: 574666, title: "Leverage Ratio"}
+  - {label: "SECTION 5.05", raw_start: 574939, title: "Liens"}
+  - {label: "SECTION 5.06", raw_start: 580070, title: "Consolidations, Mergers and Sales of Assets"}
+  - {label: "SECTION 5.07", raw_start: 580891, title: "Use of Proceeds"}
+  - {label: "SECTION 5.08", raw_start: 581347, title: "Compliance with Laws"}
+  - {label: "SECTION 5.09", raw_start: 582461, title: "Inspection of Property, Books and Records"}
+  - {label: "SECTION 5.10", raw_start: 583319, title: "Payment of Obligations"}
+  - {label: "ARTICLE 6", raw_start: 584132, title: ""}
+  - {label: "SECTION 6.01", raw_start: 584292, title: "Events of Default"}
+  - {label: "SECTION 6.02", raw_start: 592635, title: "Notice of Default"}
+  - {label: "ARTICLE 7", raw_start: 592882, title: ""}
+  - {label: "SECTION 7.01", raw_start: 593044, title: "Appointment and Authorization"}
+  - {label: "SECTION 7.02", raw_start: 593733, title: "Agent and Affiliates"}
+  - {label: "SECTION 7.03", raw_start: 594285, title: "Action by Agent"}
+  - {label: "SECTION 7.04", raw_start: 594677, title: "Consultation with Experts"}
+  - {label: "SECTION 7.05", raw_start: 595121, title: "Liability of Agent"}
+  - {label: "SECTION 7.06", raw_start: 596708, title: "Indemnification"}
+  - {label: "SECTION 7.07", raw_start: 597345, title: "Credit Decision"}
+  - {label: "SECTION 7.08", raw_start: 598023, title: "Successor Agent"}
+  - {label: "SECTION 7.09", raw_start: 599405, title: "Agent's Fees"}
+  - {label: "ARTICLE 8", raw_start: 599634, title: ""}
+  - {label: "SECTION 8.01", raw_start: 600006, title: "Basis for Determining Interest Rate Inadequate or Unfair"}
+  - {label: "SECTION 8.02", raw_start: 601948, title: "Illegality"}
+  - {label: "SECTION 8.03", raw_start: 604163, title: "Increased Cost and Reduced Return"}
+  - {label: "SECTION 8.04", raw_start: 609838, title: "Taxes"}
+  - {label: "SECTION 8.05", raw_start: 617459, title: "Base Rate Loans Substituted for Affected Euro-Dollar Loans"}
+  - {label: "SECTION 8.06", raw_start: 619742, title: "Substitution of Bank"}
+  - {label: "SECTION 8.07", raw_start: 621047, title: "Election to Terminate"}
+  - {label: "ARTICLE 9", raw_start: 622176, title: ""}
+  - {label: "SECTION 9.01", raw_start: 622341, title: "Notices"}
+  - {label: "SECTION 9.02", raw_start: 625154, title: "No Waivers"}
+  - {label: "SECTION 9.03", raw_start: 625704, title: "Expenses;"}
+  - {label: "SECTION 9.04", raw_start: 627704, title: "Amendments and Waivers"}
+  - {label: "SECTION 9.05", raw_start: 628958, title: "Successors and Assigns"}
+  - {label: "SECTION 9.06", raw_start: 638257, title: "New York Law"}
+  - {label: "SECTION 9.07", raw_start: 638682, title: "Counterparts;"}
+  - {label: "SECTION 9.08", raw_start: 639222, title: "WAIVER OF JURY TRIAL"}
+absent: []

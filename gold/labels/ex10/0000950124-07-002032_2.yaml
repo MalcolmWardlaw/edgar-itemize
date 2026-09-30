@@ -1,0 +1,110 @@
+accession: 0000950124-07-002032
+sequence: 2
+doc_type: EX-10.58
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 32470, title: "DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 32804, title: "DEFINED TERMS"}
+  - {label: "SECTION 1.02", raw_start: 74515, title: "ACCOUNTING TERMS;"}
+  - {label: "ARTICLE 2", raw_start: 75580, title: "AMOUNT AND TERMS OF CREDIT"}
+  - {label: "SECTION 2.01", raw_start: 75650, title: "COMMITMENTS"}
+  - {label: "SECTION 2.02", raw_start: 77379, title: "MINIMUM AMOUNT OF EACH BORROWING;"}
+  - {label: "SECTION 2.03", raw_start: 77792, title: "NOTICE OF BORROWING"}
+  - {label: "SECTION 2.04", raw_start: 80108, title: "DISBURSEMENT OF FUNDS"}
+  - {label: "SECTION 2.05", raw_start: 83166, title: "REPAYMENT OF LOANS;"}
+  - {label: "SECTION 2.06", raw_start: 85989, title: "CHANGES IN TYPE OF REVOLVING CREDIT LOAN"}
+  - {label: "SECTION 2.07", raw_start: 89643, title: "PRO RATA BORROWINGS"}
+  - {label: "SECTION 2.08", raw_start: 90481, title: "INTEREST AND FEES"}
+  - {label: "SECTION 2.09", raw_start: 94321, title: "LIBOR PERIODS"}
+  - {label: "SECTION 2.10", raw_start: 96472, title: "INCREASED COSTS, ILLEGALITY, ETC"}
+  - {label: "SECTION 2.11", raw_start: 103784, title: "COMPENSATION"}
+  - {label: "SECTION 2.12", raw_start: 105362, title: "CHANGE OF LENDING OFFICE"}
+  - {label: "SECTION 2.13", raw_start: 106192, title: "NOTICE OF CERTAIN COSTS"}
+  - {label: "SECTION 2.14", raw_start: 106877, title: "EXTENSION OF COMMITMENT TERMINATION DATE"}
+  - {label: "ARTICLE 3", raw_start: 111943, title: "LETTERS OF CREDIT"}
+  - {label: "SECTION 3.01", raw_start: 112009, title: "LETTERS OF CREDIT"}
+  - {label: "SECTION 3.02", raw_start: 113950, title: "LETTER OF CREDIT REQUESTS AND INFORMATION TO ADMINISTRATIVE "}
+  - {label: "SECTION 3.03", raw_start: 115058, title: "LETTER OF CREDIT PARTICIPATIONS"}
+  - {label: "SECTION 3.04", raw_start: 122828, title: "AGREEMENT TO REPAY LETTER OF CREDIT DRAWINGS"}
+  - {label: "SECTION 3.05", raw_start: 126956, title: "INCREASED COSTS"}
+  - {label: "SECTION 3.06", raw_start: 129835, title: "SUCCESSOR LETTER OF CREDIT ISSUER"}
+  - {label: "ARTICLE 4", raw_start: 131900, title: "FEES; COMMITMENTS"}
+  - {label: "SECTION 4.01", raw_start: 131966, title: "FEES"}
+  - {label: "SECTION 4.02", raw_start: 136536, title: "VOLUNTARY REDUCTION OF REVOLVING CREDIT COMMITMENTS"}
+  - {label: "SECTION 4.03", raw_start: 137773, title: "COMMITMENT INCREASES"}
+  - {label: "SECTION 4.04", raw_start: 143730, title: "MANDATORY TERMINATION OF COMMITMENTS"}
+  - {label: "ARTICLE 5", raw_start: 143936, title: "PAYMENTS"}
+  - {label: "SECTION 5.01", raw_start: 143997, title: "PREPAYMENTS"}
+  - {label: "SECTION 5.02", raw_start: 145678, title: "METHOD AND PLACE OF PAYMENT"}
+  - {label: "SECTION 5.03", raw_start: 147982, title: "NET PAYMENTS"}
+  - {label: "SECTION 5.04", raw_start: 156395, title: "COMPUTATIONS OF INTEREST AND FEES"}
+  - {label: "ARTICLE 6", raw_start: 158091, title: "CONDITIONS PRECEDENT"}
+  - {label: "SECTION 6.01", raw_start: 158158, title: "CONDITIONS PRECEDENT TO INITIAL CREDIT EVENT"}
+  - {label: "SECTION 6.02", raw_start: 162780, title: "CONDITIONS PRECEDENT TO ALL CREDIT EVENTS"}
+  - {label: "ARTICLE 7", raw_start: 164757, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 7.01", raw_start: 165306, title: "ORGANIZATIONAL STATUS"}
+  - {label: "SECTION 7.02", raw_start: 166058, title: "CAPACITY, POWER AND AUTHORITY"}
+  - {label: "SECTION 7.03", raw_start: 166797, title: "NO VIOLATION"}
+  - {label: "SECTION 7.04", raw_start: 167794, title: "LITIGATION"}
+  - {label: "SECTION 7.05", raw_start: 168113, title: "GOVERNMENTAL APPROVALS"}
+  - {label: "SECTION 7.06", raw_start: 168635, title: "TRUE AND COMPLETE DISCLOSURE"}
+  - {label: "SECTION 7.07", raw_start: 170309, title: "FINANCIAL CONDITION;"}
+  - {label: "SECTION 7.08", raw_start: 171053, title: "TAX RETURNS AND PAYMENTS"}
+  - {label: "SECTION 7.09", raw_start: 171693, title: "ENVIRONMENTAL MATTERS"}
+  - {label: "SECTION 7.10", raw_start: 172705, title: "PROPERTIES"}
+  - {label: "SECTION 7.11", raw_start: 173238, title: "PENSION AND WELFARE PLANS"}
+  - {label: "SECTION 7.12", raw_start: 174185, title: "REGULATIONS U AND X"}
+  - {label: "SECTION 7.13", raw_start: 174391, title: "INVESTMENT COMPANY ACT"}
+  - {label: "SECTION 7.14", raw_start: 174578, title: "NO MATERIAL ADVERSE CHANGE"}
+  - {label: "SECTION 7.15", raw_start: 174813, title: "DEEMED REPETITION OF REPRESENTATIONS AND WARRANTIES"}
+  - {label: "ARTICLE 8", raw_start: 175931, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 8.01", raw_start: 176242, title: "INFORMATION COVENANTS"}
+  - {label: "SECTION 8.02", raw_start: 184576, title: "BOOKS, RECORD AND INSPECTIONS"}
+  - {label: "SECTION 8.03", raw_start: 185679, title: "MAINTENANCE OF INSURANCE"}
+  - {label: "SECTION 8.04", raw_start: 186305, title: "PAYMENT OF TAXES"}
+  - {label: "SECTION 8.05", raw_start: 187178, title: "ORGANIZATIONAL EXISTENCE"}
+  - {label: "SECTION 8.06", raw_start: 187674, title: "COMPLIANCE WITH STATUTES, OBLIGATIONS, ETC"}
+  - {label: "SECTION 8.07", raw_start: 188002, title: "GOOD REPAIR"}
+  - {label: "SECTION 8.08", raw_start: 188815, title: "TRANSACTIONS WITH AFFILIATES"}
+  - {label: "SECTION 8.09", raw_start: 189668, title: "END OF FISCAL YEARS;"}
+  - {label: "SECTION 8.10", raw_start: 190496, title: "USE OF PROCEEDS"}
+  - {label: "SECTION 8.11", raw_start: 190676, title: "CHANGES IN BUSINESS"}
+  - {label: "ARTICLE 9", raw_start: 191158, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 9.01", raw_start: 191419, title: "LIMITATION ON LIENS"}
+  - {label: "SECTION 9.02", raw_start: 196378, title: "LIMITATION ON FUNDAMENTAL CHANGES"}
+  - {label: "SECTION 9.03", raw_start: 199440, title: "LIMITATION ON DIVIDENDS"}
+  - {label: "SECTION 9.04", raw_start: 200807, title: "DEBT TO CAPITALIZATION RATIO"}
+  - {label: "SECTION 9.05", raw_start: 201502, title: "LIMITATION ON SALE-LEASE BACK TRANSACTIONS"}
+  - {label: "ARTICLE 10", raw_start: 202511, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 10.01", raw_start: 202723, title: "PAYMENTS"}
+  - {label: "SECTION 10.02", raw_start: 203069, title: "REPRESENTATIONS, ETC"}
+  - {label: "SECTION 10.03", raw_start: 203574, title: "COVENANTS"}
+  - {label: "SECTION 10.04", raw_start: 204161, title: "DEFAULT UNDER OTHER AGREEMENTS"}
+  - {label: "SECTION 10.05", raw_start: 205443, title: "BANKRUPTCY, ETC"}
+  - {label: "SECTION 10.06", raw_start: 207739, title: "NON-OWNERSHIP OF MATERIAL SUBSIDIARIES"}
+  - {label: "SECTION 10.07", raw_start: 208008, title: "JUDGMENTS"}
+  - {label: "SECTION 10.08", raw_start: 208528, title: "CHANGE OF OWNERSHIP"}
+  - {label: "SECTION 10.09", raw_start: 208654, title: "PENSION PLANS"}
+  - {label: "SECTION 10.10", raw_start: 209396, title: "REMEDIES"}
+  - {label: "SECTION 10.11", raw_start: 211672, title: "REMEDIES CUMULATIVE"}
+  - {label: "ARTICLE 11", raw_start: 213157, title: "THE ADMINISTRATIVE AGENT"}
+  - {label: "ARTICLE 12", raw_start: 220699, title: "MISCELLANEOUS"}
+  - {label: "SECTION 12.01", raw_start: 220764, title: "AMENDMENTS AND WAIVERS"}
+  - {label: "SECTION 12.02", raw_start: 224600, title: "NOTICES"}
+  - {label: "SECTION 12.03", raw_start: 228199, title: "NO WAIVER;"}
+  - {label: "SECTION 12.04", raw_start: 228850, title: "SURVIVAL OF REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 12.05", raw_start: 229174, title: "PAYMENT OF EXPENSES AND TAXES"}
+  - {label: "SECTION 12.06", raw_start: 234310, title: "SUCCESSORS AND ASSIGNS;"}
+  - {label: "SECTION 12.07", raw_start: 244182, title: "REPLACEMENTS OF LENDERS UNDER CERTAIN CIRCUMSTANCES"}
+  - {label: "SECTION 12.08", raw_start: 247040, title: "ADJUSTMENTS;"}
+  - {label: "SECTION 12.09", raw_start: 252634, title: "MARSHALLING;"}
+  - {label: "SECTION 12.10", raw_start: 253909, title: "COUNTERPARTS"}
+  - {label: "SECTION 12.11", raw_start: 254329, title: "SEVERABILITY"}
+  - {label: "SECTION 12.12", raw_start: 254810, title: "INTEGRATION"}
+  - {label: "SECTION 12.13", raw_start: 255175, title: "GOVERNING LAW"}
+  - {label: "SECTION 12.14", raw_start: 255561, title: "SUBMISSION TO JURISDICTION;"}
+  - {label: "SECTION 12.15", raw_start: 257261, title: "ACKNOWLEDGEMENTS"}
+  - {label: "SECTION 12.16", raw_start: 258047, title: "WAIVERS OF JURY TRIAL"}
+  - {label: "SECTION 12.17", raw_start: 258297, title: "CONFIDENTIALITY"}
+  - {label: "SECTION 12.18", raw_start: 260576, title: "TREATMENT OF REVOLVING CREDIT LOANS"}
+absent: []

@@ -1,0 +1,25 @@
+accession: 0001144204-13-021839
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 31019, title: ""}
+  - {label: "ITEM 1", raw_start: 31263, title: "BUSINESS"}
+  - {label: "ITEM 1A", raw_start: 106166, title: "RISK FACTORS"}
+  - {label: "ITEM 2", raw_start: 162500, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 168389, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 169078, title: "MINE SAFETY DISCLOSURES"}
+  - {label: "PART II", raw_start: 170459, title: ""}
+  - {label: "ITEM 5", raw_start: 170704, title: "MARKET FOR COMMON EQUITY AND RELATED STOCKHOLDER MATTERS"}
+  - {label: "ITEM 7", raw_start: 202129, title: "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 8", raw_start: 305526, title: "FINANCIAL STATEMENTS"}
+  - {label: "ITEM 9", raw_start: 306965, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "ITEM 9A", raw_start: 307523, title: "CONTROLS AND PROCEDURES"}
+  - {label: "PART III", raw_start: 315339, title: ""}
+  - {label: "ITEM 10", raw_start: 315585, title: "DIRECTORS, EXECUTIVE OFFICERS, PROMOTERS, CONTROL PERSONS AN"}
+  - {label: "ITEM 11", raw_start: 368850, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 443003, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 458521, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR"}
+  - {label: "ITEM 14", raw_start: 470246, title: "PRINCIPAL ACCOUNTANT FEES AND SERVICES"}
+  - {label: "ITEM 15", raw_start: 478002, title: "EXHIBITS"}
+absent: []

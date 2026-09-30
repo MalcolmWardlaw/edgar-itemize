@@ -1,0 +1,32 @@
+accession: 0001888524-25-004764
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 44785, title: ""}
+  - {label: "ITEM 1", raw_start: 44979, title: "Business"}
+  - {label: "ITEM 1A", raw_start: 45357, title: "Risk Factors"}
+  - {label: "ITEM 1B", raw_start: 45740, title: "Unresolved Staff Comments"}
+  - {label: "ITEM 1C", raw_start: 46133, title: "Cybersecurity"}
+  - {label: "ITEM 2", raw_start: 46517, title: "Properties"}
+  - {label: "ITEM 3", raw_start: 46897, title: "Legal Proceedings"}
+  - {label: "ITEM 4", raw_start: 47284, title: "Mine Safety Disclosures"}
+  - {label: "PART II", raw_start: 47703, title: ""}
+  - {label: "ITEM 5", raw_start: 47898, title: "Market for Registrant’s Common Equity, Related Stockholder M"}
+  - {label: "ITEM 6", raw_start: 48382, title: ""}
+  - {label: "ITEM 7", raw_start: 48753, title: "Management’s Discussion and Analysis of Financial Condition "}
+  - {label: "ITEM 7A", raw_start: 49214, title: "Quantitative and Qualitative Disclosures About Market Risk"}
+  - {label: "ITEM 8", raw_start: 49643, title: "Financial Statements and Supplementary Data"}
+  - {label: "ITEM 9", raw_start: 50056, title: "Changes in and Disagreements With Accountants on Accounting "}
+  - {label: "ITEM 9A", raw_start: 50510, title: "Controls and Procedures"}
+  - {label: "ITEM 9B", raw_start: 50904, title: "Other Information"}
+  - {label: "ITEM 9C", raw_start: 51289, title: "Disclosure Regarding Foreign Jurisdictions that Prevent Insp"}
+  - {label: "PART III", raw_start: 51743, title: ""}
+  - {label: "ITEM 10", raw_start: 51939, title: "Directors, Executive Officers and Corporate Governance"}
+  - {label: "ITEM 11", raw_start: 52364, title: "Executive Compensation"}
+  - {label: "ITEM 12", raw_start: 52757, title: "Security Ownership of Certain Beneficial Owners and Manageme"}
+  - {label: "ITEM 13", raw_start: 53222, title: "Certain Relationships and Related Transactions, and Director"}
+  - {label: "ITEM 14", raw_start: 53666, title: "Principal Accountant Fees and Services"}
+  - {label: "PART IV", raw_start: 62829, title: ""}
+  - {label: "ITEM 15", raw_start: 63024, title: "Exhibits and Financial Statement Schedules"}
+absent: []

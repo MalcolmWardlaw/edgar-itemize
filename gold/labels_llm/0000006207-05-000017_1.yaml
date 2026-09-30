@@ -1,0 +1,14 @@
+accession: 0000006207-05-000017
+sequence: 1
+doc_type: 10-K
+reviewed: false
+source: llm-agreed (gpt-oss-120b + qwen3-32b)
+nodes:
+  - {label: "PART I", raw_start: 5367}
+  - {label: "ITEM 1", raw_start: 5419}
+  - {label: "ITEM 2", raw_start: 19887}
+  - {label: "ITEM 3", raw_start: 20813}
+  - {label: "ITEM 4", raw_start: 23862}
+  - {label: "PART II", raw_start: 25886}
+  - {label: "ITEM 5", raw_start: 25940}
+  # not a heading: ITEM 7 at 33595 (cross_reference)

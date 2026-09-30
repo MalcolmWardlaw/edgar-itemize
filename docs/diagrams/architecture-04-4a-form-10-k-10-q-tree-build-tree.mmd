@@ -1,0 +1,14 @@
+flowchart TD
+    in["candidates + TOC regions"]
+    condemn["members of a TOC region are rejected (reason toc)<br/>unless the row is the document's only strong copy<br/>of its label: toc.member_rescued"]
+    tagged["rej.vetoed_index_row and rej.regab_back_matter rows<br/>are rejected before anything is chained"]
+    q["form10q: 'ITEM ?.' labels get their Part<br/>from the nearest preceding live Part"]
+    chain["per level kind: max-weight increasing chain<br/>over (order_key, chain_weight);<br/>index-looking rows weigh less"]
+    regab["form10k: Reg-AB items chained as their own run<br/>(seq.regab_run) and reunited with the ordinary items"]
+    dup["tree.strong_duplicate_pass (10-K / 10-Q items):<br/>a later, stronger copy displaces a weak one<br/>(seq.strong_duplicate; loser: weak_duplicate)"]
+    ooo["tree.out_of_order_items: an item the chain could not<br/>place but the document really typesets<br/>(seq.out_of_order); rej.caption_*, rej.fm_table,<br/>rej.xref_pointer block it"]
+    lose["chain losers: nonmonotone;<br/>below the minimum score: low_score"]
+    build["nodes: document root (doc), one toc node per region<br/>(its reason as rule id), Parts explicit or synthesised<br/>(gram.synth_part, gram.part_opened_early,<br/>gram.part_after_item), Items under their Part"]
+    s1["form10q: tree._synth_item1 when Part I's<br/>Item 1 is only a run-in (gram.synth_item1)"]
+    ends["ids in document order; each node ends where the next<br/>node at its depth or shallower begins; a Part covers<br/>its children except out-of-order ones"]
+    in --> condemn --> tagged --> q --> chain --> regab --> dup --> ooo --> lose --> build --> s1 --> ends

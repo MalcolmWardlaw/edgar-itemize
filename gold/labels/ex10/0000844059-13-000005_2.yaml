@@ -1,0 +1,129 @@
+accession: 0000844059-13-000005
+sequence: 2
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 83341, title: ""}
+  - {label: "SECTION 1.01", raw_start: 83398, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 128644, title: "Classifications"}
+  - {label: "SECTION 1.03", raw_start: 128961, title: "Accounting"}
+  - {label: "SECTION 1.04", raw_start: 130129, title: "Terms Generally"}
+  - {label: "ARTICLE 2", raw_start: 131829, title: ""}
+  - {label: "SECTION 2.01", raw_start: 131883, title: "General Description"}
+  - {label: "SECTION 2.02", raw_start: 132789, title: "Revolving Loans"}
+  - {label: "SECTION 2.03", raw_start: 133451, title: "Procedure for"}
+  - {label: "SECTION 2.04", raw_start: 135157, title: "Term Loan"}
+  - {label: "SECTION 2.05", raw_start: 135860, title: "Procedure for Term"}
+  - {label: "SECTION 2.06", raw_start: 137197, title: "Funding of"}
+  - {label: "SECTION 2.07", raw_start: 137648, title: "Interest Elections"}
+  - {label: "SECTION 2.08", raw_start: 141056, title: "Optional Reduction"}
+  - {label: "SECTION 2.09", raw_start: 141893, title: "Repayment of Loans"}
+  - {label: "SECTION 2.10", raw_start: 142125, title: "Evidence of"}
+  - {label: "SECTION 2.11", raw_start: 144051, title: "Optional"}
+  - {label: "SECTION 2.12", raw_start: 145819, title: "Interest on Loans"}
+  - {label: "SECTION 2.13", raw_start: 148358, title: "Fees"}
+  - {label: "SECTION 2.14", raw_start: 150435, title: "Computation of"}
+  - {label: "SECTION 2.15", raw_start: 151091, title: "Inability to"}
+  - {label: "SECTION 2.16", raw_start: 152894, title: "Illegality"}
+  - {label: "SECTION 2.17", raw_start: 154170, title: "Increased Costs"}
+  - {label: "SECTION 2.18", raw_start: 156768, title: "Funding Indemnity"}
+  - {label: "SECTION 2.19", raw_start: 158532, title: "Taxes"}
+  - {label: "SECTION 2.20", raw_start: 160695, title: "Payments Generally"}
+  - {label: "SECTION 2.21", raw_start: 162255, title: "Mitigation of"}
+  - {label: "SECTION 2.22", raw_start: 163213, title: "Letter of"}
+  - {label: "SECTION 2.23", raw_start: 163869, title: "Procedure"}
+  - {label: "SECTION 2.24", raw_start: 165078, title: "Increased"}
+  - {label: "SECTION 2.25", raw_start: 167929, title: "Obligations"}
+  - {label: "SECTION 2.26", raw_start: 169579, title: "Letter"}
+  - {label: "ARTICLE 3", raw_start: 169865, title: ""}
+  - {label: "SECTION 3.01", raw_start: 169916, title: "Conditions"}
+  - {label: "SECTION 3.02", raw_start: 174073, title: "Each"}
+  - {label: "ARTICLE 4", raw_start: 175532, title: ""}
+  - {label: "SECTION 4.01", raw_start: 175653, title: "Existence;"}
+  - {label: "SECTION 4.02", raw_start: 176200, title: ""}
+  - {label: "SECTION 4.03", raw_start: 177081, title: ""}
+  - {label: "SECTION 4.04", raw_start: 178295, title: "Financial"}
+  - {label: "SECTION 4.05", raw_start: 179319, title: "Litigation"}
+  - {label: "SECTION 4.06", raw_start: 180496, title: "Compliance"}
+  - {label: "SECTION 4.07", raw_start: 180965, title: "Investment"}
+  - {label: "SECTION 4.08", raw_start: 181418, title: "Taxes"}
+  - {label: "SECTION 4.09", raw_start: 182471, title: "Margin"}
+  - {label: "SECTION 4.10", raw_start: 182836, title: "ERISA"}
+  - {label: "SECTION 4.11", raw_start: 183757, title: "Ownership"}
+  - {label: "SECTION 4.12", raw_start: 184463, title: "Disclosure"}
+  - {label: "SECTION 4.13", raw_start: 185476, title: "Labor"}
+  - {label: "SECTION 4.14", raw_start: 186308, title: "Subsidiaries"}
+  - {label: "SECTION 4.15", raw_start: 186602, title: "Legal Name"}
+  - {label: "SECTION 4.16", raw_start: 186884, title: "No"}
+  - {label: "SECTION 4.17", raw_start: 187063, title: "Solvency"}
+  - {label: "SECTION 4.18", raw_start: 187496, title: "Insurance"}
+  - {label: "SECTION 4.19", raw_start: 188287, title: "Outstanding"}
+  - {label: "SECTION 4.20", raw_start: 188686, title: "Letters of"}
+  - {label: "ARTICLE 5", raw_start: 188972, title: ""}
+  - {label: "SECTION 5.01", raw_start: 189223, title: "Financial"}
+  - {label: "SECTION 5.02", raw_start: 193481, title: "Notices of"}
+  - {label: "SECTION 5.03", raw_start: 195399, title: "Existence;"}
+  - {label: "SECTION 5.04", raw_start: 196094, title: "Compliance with"}
+  - {label: "SECTION 5.05", raw_start: 196477, title: "Payment of"}
+  - {label: "SECTION 5.06", raw_start: 197190, title: "Books and"}
+  - {label: "SECTION 5.07", raw_start: 197578, title: "Visitation,"}
+  - {label: "SECTION 5.08", raw_start: 198149, title: "Maintenance of"}
+  - {label: "SECTION 5.09", raw_start: 199427, title: "Use of"}
+  - {label: "SECTION 5.10", raw_start: 200021, title: "Additional"}
+  - {label: "SECTION 5.11", raw_start: 201358, title: "Deposit"}
+  - {label: "ARTICLE 6", raw_start: 201554, title: ""}
+  - {label: "SECTION 6.01", raw_start: 201812, title: "Leverage Ratio"}
+  - {label: "SECTION 6.02", raw_start: 202035, title: "Fixed Charge"}
+  - {label: "ARTICLE 7", raw_start: 203017, title: ""}
+  - {label: "SECTION 7.01", raw_start: 203271, title: "Indebtedness"}
+  - {label: "SECTION 7.02", raw_start: 206005, title: "Negative"}
+  - {label: "SECTION 7.03", raw_start: 209260, title: "Fundamental"}
+  - {label: "SECTION 7.04", raw_start: 212874, title: "Investments,"}
+  - {label: "SECTION 7.05", raw_start: 215384, title: "Restricted"}
+  - {label: "SECTION 7.06", raw_start: 216607, title: "Sale of"}
+  - {label: "SECTION 7.07", raw_start: 218308, title: "Transactions"}
+  - {label: "SECTION 7.08", raw_start: 219196, title: "Restrictive"}
+  - {label: "SECTION 7.09", raw_start: 220749, title: "Sale and"}
+  - {label: "SECTION 7.10", raw_start: 221240, title: "Hedging"}
+  - {label: "SECTION 7.11", raw_start: 222210, title: "Amendment"}
+  - {label: "SECTION 7.12", raw_start: 222539, title: "Permitted"}
+  - {label: "SECTION 7.13", raw_start: 223917, title: "Accounting"}
+  - {label: "SECTION 7.14", raw_start: 224307, title: "Name Changes"}
+  - {label: "ARTICLE 8", raw_start: 224649, title: ""}
+  - {label: "SECTION 8.01", raw_start: 224695, title: "Events of"}
+  - {label: "ARTICLE 9", raw_start: 233398, title: ""}
+  - {label: "ARTICLE 10", raw_start: 233446, title: ""}
+  - {label: "SECTION 10.01", raw_start: 233489, title: "Notices"}
+  - {label: "SECTION 10.02", raw_start: 236405, title: "Waiver;"}
+  - {label: "SECTION 10.03", raw_start: 238104, title: "Expenses;"}
+  - {label: "SECTION 10.04", raw_start: 241786, title: "Successors and"}
+  - {label: "SECTION 10.05", raw_start: 245772, title: "Governing Law;"}
+  - {label: "SECTION 10.06", raw_start: 247867, title: "ARBITRATION"}
+  - {label: "SECTION 10.07", raw_start: 254979, title: "Right of"}
+  - {label: "SECTION 10.08", raw_start: 256047, title: "Counterparts;"}
+  - {label: "SECTION 10.09", raw_start: 256699, title: "Survival"}
+  - {label: "SECTION 10.10", raw_start: 258204, title: "Severability"}
+  - {label: "SECTION 10.11", raw_start: 258779, title: "Confidentiality"}
+  - {label: "SECTION 10.12", raw_start: 260299, title: "Interest Rate"}
+  - {label: "SECTION 10.13", raw_start: 261446, title: "US PATRIOT"}
+  - {label: "ARTICLE 11", raw_start: 285930, title: ""}
+  - {label: "SECTION 11", raw_start: 285930, title: "Waivers;"}
+  - {label: "ARTICLE 12", raw_start: 287227, title: ""}
+  - {label: "SECTION 12", raw_start: 287227, title: "Governing Law"}
+  - {label: "ARTICLE 13", raw_start: 287372, title: ""}
+  - {label: "SECTION 13", raw_start: 287372, title: "Notices"}
+  - {label: "ARTICLE 14", raw_start: 287675, title: ""}
+  - {label: "SECTION 14", raw_start: 287675, title: "Survival of"}
+  - {label: "ARTICLE 15", raw_start: 289224, title: ""}
+  - {label: "SECTION 15", raw_start: 289224, title: "Counterparts"}
+  - {label: "ARTICLE 16", raw_start: 289678, title: ""}
+  - {label: "SECTION 16", raw_start: 289678, title: "Rules of"}
+  - {label: "ARTICLE 17", raw_start: 289845, title: ""}
+  - {label: "SECTION 17", raw_start: 289845, title: "Jurisdiction;"}
+  - {label: "ARTICLE 18", raw_start: 291767, title: ""}
+  - {label: "SECTION 18", raw_start: 291767, title: "Arbitration"}
+  - {label: "ARTICLE 19", raw_start: 298897, title: ""}
+  - {label: "SECTION 19", raw_start: 298897, title: "Additional"}
+  - {label: "ARTICLE 20", raw_start: 299736, title: ""}
+  - {label: "SECTION 20", raw_start: 299736, title: "Right of"}
+absent: []

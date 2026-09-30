@@ -1,0 +1,114 @@
+accession: 0001423746-11-000001
+sequence: 2
+doc_type: EX-10.6
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 8818, title: "CERTAIN DEFINITIONS"}
+  - {label: "SECTION 1.01", raw_start: 8877, title: "'Advance' shall mean the portion of the Commitment Amount"}
+  - {label: "SECTION 1.02", raw_start: 8999, title: "'Advance Date' shall mean the first (1st) Trading Day after"}
+  - {label: "SECTION 1.03", raw_start: 9135, title: "'Drawdown Notice' shall mean a written notice in the form of"}
+  - {label: "SECTION 1.04", raw_start: 9373, title: "'Drawdown Notice Date' shall mean each date the Company deli"}
+  - {label: "SECTION 1.05", raw_start: 9741, title: "'Drawdawn Phase' shall mean ten (10) days before a Drawdown "}
+  - {label: "SECTION 1.06", raw_start: 9857, title: "'Bid Price' shall mean, on any date, the closing bid price ("}
+  - {label: "SECTION 1.07", raw_start: 10191, title: "'Closing' shall mean one of the closings of a purchase and s"}
+  - {label: "SECTION 1.08", raw_start: 10311, title: "'Commitment Amount' shall mean the aggregate amount of up to"}
+  - {label: "SECTION 1.09", raw_start: 10581, title: "'Commitment Period' shall mean the period commencing on the"}
+  - {label: "SECTION 1.10", raw_start: 11120, title: "'Common Stock' shall mean the Company's common stock, par va"}
+  - {label: "SECTION 1.11", raw_start: 11218, title: "'Condition Satisfaction Date' shall have the meaning set for"}
+  - {label: "SECTION 1.12", raw_start: 11313, title: "'Damages' shall mean any loss, claim, damage, liability,"}
+  - {label: "SECTION 1.13", raw_start: 11567, title: "'Effective Date' shall mean the date on which the SEC first"}
+  - {label: "SECTION 1.14", raw_start: 11771, title: "'Exchange Act' shall mean the Securities Exchange Act of 193"}
+  - {label: "SECTION 1.15", raw_start: 11916, title: "'Floor' The 'Floor Price' shall be defined as a) a fixed-pri"}
+  - {label: "SECTION 1.16", raw_start: 12607, title: "'Material Adverse Effect' shall mean any condition, circumst"}
+  - {label: "SECTION 1.17", raw_start: 12919, title: "'Market Price' shall mean the lowest closing Bid Price of th"}
+  - {label: "SECTION 1.18", raw_start: 13037, title: "'Maximum Advance Amount' shall not exceed Five Hundred Thous"}
+  - {label: "SECTION 1.19", raw_start: 13296, title: "'FINRA' shall mean the Financial Industry Regulatory Authori"}
+  - {label: "SECTION 1.20", raw_start: 13375, title: "'Person' shall mean an individual, a corporation, a partners"}
+  - {label: "SECTION 1.21", raw_start: 13602, title: "'Pricing Period' shall mean the five (5) consecutive Trading"}
+  - {label: "SECTION 1.22", raw_start: 13716, title: "'Principal Market' shall mean the Nasdaq National Market, th"}
+  - {label: "SECTION 1.23", raw_start: 14006, title: "'Purchase Price' shall be set at Ninety-Seven (97%) percent "}
+  - {label: "SECTION 1.24", raw_start: 14161, title: "'Registrable Securities' shall mean the shares of Common Sto"}
+  - {label: "SECTION 1.25", raw_start: 14809, title: "'Registration Rights Agreement' shall mean the Registration"}
+  - {label: "SECTION 1.26", raw_start: 15073, title: "'Registration Statement' shall mean a registration statement"}
+  - {label: "SECTION 1.27", raw_start: 15785, title: "'Regulation D' shall have the meaning set forth in the recit"}
+  - {label: "SECTION 1.28", raw_start: 15884, title: "'SEC' shall mean the United States Securities and Exchange"}
+  - {label: "SECTION 1.29", raw_start: 15971, title: "'Securities Act' shall have the meaning set forth in the"}
+  - {label: "SECTION 1.30", raw_start: 16072, title: "'SEC Documents' shall mean Annual Reports on Form 10-K,"}
+  - {label: "SECTION 1.31", raw_start: 16592, title: "'Trading Day' shall mean any day during which the New York S"}
+  - {label: "ARTICLE 2", raw_start: 16743, title: "ADVANCES"}
+  - {label: "SECTION 2.01", raw_start: 16797, title: "Advances"}
+  - {label: "SECTION 2.02", raw_start: 18627, title: "Mechanics"}
+  - {label: "SECTION 2.03", raw_start: 20013, title: "Closings"}
+  - {label: "SECTION 2.04", raw_start: 23627, title: "Hardship"}
+  - {label: "SECTION 2.05", raw_start: 26128, title: "Test Drawdown"}
+  - {label: "ARTICLE 3", raw_start: 26880, title: "REPRESENTATIONS AND WARRANTIES OF INVESTOR"}
+  - {label: "SECTION 3.01", raw_start: 27118, title: "Organization and Authorization"}
+  - {label: "SECTION 3.01.1", raw_start: 28214, title: "Evaluation of Risks"}
+  - {label: "SECTION 3.02", raw_start: 28619, title: "No Legal Advice From the Company"}
+  - {label: "SECTION 3.03", raw_start: 29189, title: "Investment Purpose"}
+  - {label: "SECTION 3.04", raw_start: 29993, title: "Accredited Investor"}
+  - {label: "SECTION 3.05", raw_start: 30152, title: "Information"}
+  - {label: "SECTION 3.06", raw_start: 31340, title: "Receipt of Documents"}
+  - {label: "SECTION 3.07", raw_start: 31911, title: "Registration Rights Agreement"}
+  - {label: "SECTION 3.08", raw_start: 32045, title: "No General Solicitation"}
+  - {label: "SECTION 3.09", raw_start: 32396, title: "Not an Affiliate"}
+  - {label: "SECTION 3.10", raw_start: 32717, title: "Trading Activities"}
+  - {label: "SECTION 3.11", raw_start: 33700, title: "No Registration as a Dealer"}
+  - {label: "SECTION 3.12", raw_start: 33947, title: "Good Standing"}
+  - {label: "ARTICLE 4", raw_start: 34207, title: "REPRESENTATIONS AND WARRANTIES OF THE COMPANY"}
+  - {label: "SECTION 4.01", raw_start: 34539, title: "Organization and Qualification"}
+  - {label: "SECTION 4.02", raw_start: 35233, title: "Authorization, Enforcement, Compliance with Other Instrument"}
+  - {label: "SECTION 4.02.1", raw_start: 36714, title: "Capitalization"}
+  - {label: "SECTION 4.03", raw_start: 39199, title: "No Conflict"}
+  - {label: "SECTION 4.04", raw_start: 41706, title: "SEC Documents;"}
+  - {label: "SECTION 4.05", raw_start: 43279, title: "No Default"}
+  - {label: "SECTION 4.06", raw_start: 44558, title: "Absence of Events of Default"}
+  - {label: "SECTION 4.07", raw_start: 45063, title: "Intellectual Property Rights"}
+  - {label: "SECTION 4.08", raw_start: 46297, title: "Employee Relations"}
+  - {label: "SECTION 4.09", raw_start: 46685, title: "Environmental Laws"}
+  - {label: "SECTION 4.10", raw_start: 47285, title: "Title"}
+  - {label: "SECTION 4.11", raw_start: 47926, title: "Insurance"}
+  - {label: "SECTION 4.12", raw_start: 48852, title: "Regulatory Permits"}
+  - {label: "SECTION 4.13", raw_start: 49289, title: "Internal Accounting Controls"}
+  - {label: "SECTION 4.14", raw_start: 50213, title: "No Material Adverse Breaches, etc"}
+  - {label: "SECTION 4.15", raw_start: 51090, title: "Absence of Litigation"}
+  - {label: "SECTION 4.16", raw_start: 51978, title: "Subsidiaries"}
+  - {label: "SECTION 4.17", raw_start: 52207, title: "Tax Status"}
+  - {label: "SECTION 4.18", raw_start: 53231, title: "Certain Transactions"}
+  - {label: "SECTION 4.19", raw_start: 53956, title: "Fees and Rights of First Refusal"}
+  - {label: "SECTION 4.20", raw_start: 54278, title: "Use of Proceeds"}
+  - {label: "SECTION 4.21", raw_start: 54981, title: "Further Representation and Warranties of the Company"}
+  - {label: "SECTION 4.22", raw_start: 55278, title: "Opinion of Counsel"}
+  - {label: "SECTION 4.23", raw_start: 55610, title: "Dilution"}
+  - {label: "ARTICLE 5", raw_start: 55891, title: "INDEMNIFICATION"}
+  - {label: "SECTION 5.01", raw_start: 56040, title: "Indemnification"}
+  - {label: "ARTICLE 6", raw_start: 60023, title: "COVENANTS OF THE COMPANY"}
+  - {label: "SECTION 6.01", raw_start: 60089, title: "Registration Rights"}
+  - {label: "SECTION 6.02", raw_start: 60297, title: "Listing of Common Stock"}
+  - {label: "SECTION 6.03", raw_start: 60437, title: "Exchange Act Registration"}
+  - {label: "SECTION 6.04", raw_start: 60960, title: "Transfer Agent Instructions"}
+  - {label: "SECTION 6.05", raw_start: 61223, title: "Corporate Existence"}
+  - {label: "SECTION 6.06", raw_start: 61367, title: "Notice of Certain Events Affecting Registration;"}
+  - {label: "SECTION 6.07", raw_start: 63700, title: "Restriction on Sale of Capital Stock"}
+  - {label: "SECTION 6.08", raw_start: 64260, title: "Consolidation;"}
+  - {label: "SECTION 6.09", raw_start: 64823, title: "Issuance of the Company's Common Stock"}
+  - {label: "SECTION 6.10", raw_start: 65040, title: "Review of Public Disclosures"}
+  - {label: "SECTION 6.11", raw_start: 65587, title: "Market Activities"}
+  - {label: "ARTICLE 7", raw_start: 66571, title: "CONDITIONS FOR ADVANCE AND CONDITIONS TO CLOSING"}
+  - {label: "SECTION 7.01", raw_start: 66650, title: "Conditions Precedent to the Obligations of the Company"}
+  - {label: "SECTION 7.02", raw_start: 67483, title: "Conditions Precedent to the Right of the Company to Deliver "}
+  - {label: "ARTICLE 8", raw_start: 72024, title: "DUE DILIGENCE REVIEW; NON-DISCLOSURE OF NON-PUBLIC INFORMATI"}
+  - {label: "SECTION 8.01", raw_start: 72109, title: "Non-Disclosure of Non-Public Information"}
+  - {label: "ARTICLE 9", raw_start: 74776, title: ""}
+  - {label: "SECTION 9.01", raw_start: 74776, title: "Governing Law"}
+  - {label: "ARTICLE 10", raw_start: 75177, title: "ASSIGNMENT; TERMINATION"}
+  - {label: "SECTION 10.01", raw_start: 75242, title: "Assignment"}
+  - {label: "SECTION 10.02", raw_start: 75371, title: "Termination"}
+  - {label: "ARTICLE 11", raw_start: 76504, title: "NOTICES"}
+  - {label: "ARTICLE 12", raw_start: 78251, title: "MISCELLANEOUS"}
+  - {label: "SECTION 12.01", raw_start: 78312, title: "Counterparts"}
+  - {label: "SECTION 12.02", raw_start: 78953, title: "Entire Agreement;"}
+  - {label: "SECTION 12.03", raw_start: 79694, title: "Reporting Entity for the Common Stock"}
+  - {label: "SECTION 12.04", raw_start: 80091, title: "Fees and Expenses"}
+  - {label: "SECTION 12.05", raw_start: 80796, title: "Confidentiality"}
+absent: []

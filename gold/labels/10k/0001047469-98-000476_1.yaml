@@ -1,0 +1,25 @@
+accession: 0001047469-98-000476
+sequence: 1
+doc_type: 10-K
+reviewed: false
+nodes:
+  - {label: "PART I", raw_start: 3473, title: ""}
+  - {label: "ITEM 1", raw_start: 3481, title: "BUSINESS"}
+  - {label: "ITEM 2", raw_start: 22223, title: "PROPERTIES"}
+  - {label: "ITEM 3", raw_start: 24491, title: "LEGAL PROCEEDINGS"}
+  - {label: "ITEM 4", raw_start: 28644, title: "SUBMISSION OF MATTERS TO A VOTE OF SECURITY HOLDERS"}
+  - {label: "PART II", raw_start: 28838, title: ""}
+  - {label: "ITEM 5", raw_start: 28847, title: "MARKET FOR GOSS'S COMMON STOCK AND RELATED STOCKHOLDER MATTE"}
+  - {label: "ITEM 6", raw_start: 29370, title: "SELECTED FINANCIAL DATA"}
+  - {label: "ITEM 7", raw_start: 40194, title: "MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION "}
+  - {label: "ITEM 7A", raw_start: 60121, title: "QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK"}
+  - {label: "ITEM 8", raw_start: 60241, title: "FINANCIAL STATEMENTS AND SUPPLEMENTAL DATA"}
+  - {label: "ITEM 9", raw_start: 188000, title: "CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING "}
+  - {label: "PART III", raw_start: 188235, title: ""}
+  - {label: "ITEM 10", raw_start: 188245, title: "DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT"}
+  - {label: "ITEM 11", raw_start: 196272, title: "EXECUTIVE COMPENSATION"}
+  - {label: "ITEM 12", raw_start: 203936, title: "SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEME"}
+  - {label: "ITEM 13", raw_start: 204527, title: "CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS"}
+  - {label: "PART IV", raw_start: 205046, title: ""}
+  - {label: "ITEM 14", raw_start: 205055, title: "EXHIBITS, FINANCIAL STATEMENTS, SCHEDULES, AND REPORTS ON FO"}
+absent: []

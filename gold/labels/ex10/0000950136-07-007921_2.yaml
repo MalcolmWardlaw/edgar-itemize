@@ -1,0 +1,28 @@
+accession: 0000950136-07-007921
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 28527, title: ""}
+  - {label: "SECTION 1", raw_start: 28527, title: "DESCRIPTION OF EXISTING INDEBTEDNESS AND OBLIGATIONS"}
+  - {label: "ARTICLE 2", raw_start: 29247, title: ""}
+  - {label: "SECTION 2", raw_start: 29247, title: "DESCRIPTION OF COLLATERAL"}
+  - {label: "ARTICLE 3", raw_start: 30107, title: ""}
+  - {label: "SECTION 3", raw_start: 30107, title: "DESCRIPTION OF CHANGE IN TERMS"}
+  - {label: "ARTICLE 4", raw_start: 96405, title: ""}
+  - {label: "SECTION 4", raw_start: 96405, title: "FEES"}
+  - {label: "ARTICLE 5", raw_start: 96925, title: ""}
+  - {label: "SECTION 5", raw_start: 96925, title: "RATIFICATION OF IP SECURITY AGREEMENT"}
+  - {label: "ARTICLE 6", raw_start: 97442, title: ""}
+  - {label: "SECTION 6", raw_start: 97442, title: "RATIFICATION OF PERFECTION CERTIFICATE"}
+  - {label: "ARTICLE 7", raw_start: 98027, title: ""}
+  - {label: "SECTION 7", raw_start: 98027, title: "CONSISTENT CHANGES"}
+  - {label: "ARTICLE 8", raw_start: 98338, title: ""}
+  - {label: "SECTION 8", raw_start: 98338, title: "RATIFICATION OF LOAN DOCUMENTS"}
+  - {label: "ARTICLE 9", raw_start: 98785, title: ""}
+  - {label: "SECTION 9", raw_start: 98785, title: "NO DEFENSES OF BORROWER"}
+  - {label: "ARTICLE 10", raw_start: 99836, title: ""}
+  - {label: "SECTION 10", raw_start: 99836, title: "CONTINUING VALIDITY"}
+  - {label: "ARTICLE 11", raw_start: 100941, title: ""}
+  - {label: "SECTION 11", raw_start: 100941, title: "COUNTERSIGNATURE"}
+absent: []

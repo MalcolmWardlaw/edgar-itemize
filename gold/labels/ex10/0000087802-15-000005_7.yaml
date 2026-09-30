@@ -1,0 +1,108 @@
+accession: 0000087802-15-000005
+sequence: 7
+doc_type: EX-10
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 94346, title: "DEFINITIONS; DEFINITIONAL CONVENTIONS; RULES OF CONSTRUCTION"}
+  - {label: "SECTION 1.01", raw_start: 94419, title: "Definitions"}
+  - {label: "SECTION 1.02", raw_start: 124646, title: "Accounting Terms"}
+  - {label: "SECTION 1.03", raw_start: 124830, title: "Rules of Construction"}
+  - {label: "SECTION 1.04", raw_start: 126444, title: "Incorporation of Recitals"}
+  - {label: "ARTICLE 2", raw_start: 126593, title: "THE LOANS"}
+  - {label: "SECTION 2.01", raw_start: 126616, title: "Export-Related Revolving Credit Commitment"}
+  - {label: "SECTION 2.02", raw_start: 132523, title: "Demand Line of Credit"}
+  - {label: "SECTION 2.03", raw_start: 136917, title: "Interest"}
+  - {label: "SECTION 2.04", raw_start: 141216, title: "Capital Adequacy"}
+  - {label: "SECTION 2.05", raw_start: 142707, title: "Fees"}
+  - {label: "SECTION 2.06", raw_start: 144057, title: "Loan Account"}
+  - {label: "SECTION 2.07", raw_start: 144538, title: "Time, Place and Manner of Payments"}
+  - {label: "SECTION 2.08", raw_start: 145140, title: "Payment from Accounts Maintained by the"}
+  - {label: "SECTION 2.09", raw_start: 145624, title: "All Obligations to Constitute One Obligation"}
+  - {label: "SECTION 2.10", raw_start: 145994, title: "Security"}
+  - {label: "SECTION 2.11", raw_start: 149888, title: "Letter of Credit Subfacility"}
+  - {label: "ARTICLE 3", raw_start: 155034, title: "REPRESENTATIONS AND WARRANTIES"}
+  - {label: "SECTION 3.01", raw_start: 155431, title: "Existence"}
+  - {label: "SECTION 3.02", raw_start: 155797, title: "Capitalization;"}
+  - {label: "SECTION 3.03", raw_start: 156339, title: "Power and Authority"}
+  - {label: "SECTION 3.04", raw_start: 157018, title: "Validity;"}
+  - {label: "SECTION 3.05", raw_start: 157472, title: "No Conflict"}
+  - {label: "SECTION 3.06", raw_start: 158503, title: "Governmental Approvals;"}
+  - {label: "SECTION 3.07", raw_start: 158917, title: "Historical Financial Statements"}
+  - {label: "SECTION 3.08", raw_start: 159619, title: "Material Adverse Change"}
+  - {label: "SECTION 3.09", raw_start: 159893, title: "Solvency"}
+  - {label: "SECTION 3.10", raw_start: 160033, title: "Litigation"}
+  - {label: "SECTION 3.11", raw_start: 160604, title: "Compliance with Laws"}
+  - {label: "SECTION 3.12", raw_start: 160854, title: "Material Contracts"}
+  - {label: "SECTION 3.13", raw_start: 161458, title: "Labor and Employment Matters"}
+  - {label: "SECTION 3.14", raw_start: 161900, title: "Condition of and Title to Assets;"}
+  - {label: "SECTION 3.15", raw_start: 162549, title: "Tax Returns and Matters"}
+  - {label: "SECTION 3.16", raw_start: 163727, title: "Intellectual Property"}
+  - {label: "SECTION 3.17", raw_start: 164722, title: "Insurance"}
+  - {label: "SECTION 3.18", raw_start: 165538, title: "No Defaults"}
+  - {label: "SECTION 3.19", raw_start: 165614, title: "Employee Benefit Plans"}
+  - {label: "SECTION 3.20", raw_start: 166394, title: "Margin Stock"}
+  - {label: "SECTION 3.21", raw_start: 167021, title: "Investment Company Act"}
+  - {label: "SECTION 3.22", raw_start: 167425, title: "Senior Debt Status"}
+  - {label: "SECTION 3.23", raw_start: 167768, title: "Full Disclosure"}
+  - {label: "SECTION 3.24", raw_start: 168134, title: "Environmental Matters"}
+  - {label: "SECTION 3.25", raw_start: 169666, title: "Violations of Anti-Terrorism Laws"}
+  - {label: "ARTICLE 4", raw_start: 170051, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 4.01", raw_start: 170275, title: "Use of Proceeds"}
+  - {label: "SECTION 4.02", raw_start: 171138, title: "Furnishing Financial Statements and Other"}
+  - {label: "SECTION 4.03", raw_start: 179217, title: "Preservation of Existence;"}
+  - {label: "SECTION 4.04", raw_start: 179613, title: "Compliance with Laws, Contracts and Licenses;"}
+  - {label: "SECTION 4.05", raw_start: 180592, title: "Payment of Taxes and Other Liabilities"}
+  - {label: "SECTION 4.06", raw_start: 180850, title: "Insurance"}
+  - {label: "SECTION 4.07", raw_start: 182494, title: "Operation and Maintenance of Properties"}
+  - {label: "SECTION 4.08", raw_start: 182911, title: "Maintenance of Leases"}
+  - {label: "SECTION 4.09", raw_start: 183229, title: "Maintenance of Patents, Trademarks, Permits,"}
+  - {label: "SECTION 4.10", raw_start: 183653, title: "Deposit Accounts"}
+  - {label: "SECTION 4.11", raw_start: 184220, title: "Key Management"}
+  - {label: "SECTION 4.12", raw_start: 184805, title: "Further Assurances"}
+  - {label: "SECTION 4.13", raw_start: 185931, title: "Export-Related Contracts The Borrower will"}
+  - {label: "ARTICLE 5", raw_start: 188410, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 188676, title: "Incurrence of Indebtedness"}
+  - {label: "SECTION 5.02", raw_start: 189382, title: "Guaranties"}
+  - {label: "SECTION 5.03", raw_start: 189608, title: "Liens"}
+  - {label: "SECTION 5.04", raw_start: 190543, title: "Negative Pledge"}
+  - {label: "SECTION 5.05", raw_start: 190764, title: "Dividends/Distributions"}
+  - {label: "SECTION 5.06", raw_start: 191404, title: "Disposal of Assets"}
+  - {label: "SECTION 5.07", raw_start: 192094, title: "Mergers, Acquisitions, Liquidations, Consolidations,"}
+  - {label: "SECTION 5.08", raw_start: 192483, title: "Equity Interests of the Borrower"}
+  - {label: "SECTION 5.09", raw_start: 193129, title: "Minimum Tangible Net Worth"}
+  - {label: "SECTION 5.10", raw_start: 193293, title: "Loans and Advances"}
+  - {label: "SECTION 5.11", raw_start: 193545, title: "Investments"}
+  - {label: "SECTION 5.12", raw_start: 194973, title: "Affiliate Transactions"}
+  - {label: "SECTION 5.13", raw_start: 195563, title: "Use of Proceeds"}
+  - {label: "SECTION 5.14", raw_start: 196091, title: "Change of Business"}
+  - {label: "SECTION 5.15", raw_start: 196281, title: "Change in Fiscal Year"}
+  - {label: "SECTION 5.16", raw_start: 196406, title: "ERISA"}
+  - {label: "SECTION 5.17", raw_start: 196653, title: "Amendments to Certain Documents"}
+  - {label: "SECTION 5.18", raw_start: 196932, title: "Subordinated Indebtedness"}
+  - {label: "ARTICLE 6", raw_start: 197173, title: "CONDITIONS PRECEDENT TO ALL LOANS"}
+  - {label: "SECTION 6.01", raw_start: 197220, title: "All Advances The obligation of the Lender to"}
+  - {label: "SECTION 6.02", raw_start: 199345, title: "Conditions Precedent to the Initial Loan"}
+  - {label: "ARTICLE 7", raw_start: 205903, title: "EVENTS OF DEFAULT"}
+  - {label: "SECTION 7.01", raw_start: 205935, title: "Events of Default"}
+  - {label: "SECTION 7.02", raw_start: 212254, title: "Remedies"}
+  - {label: "ARTICLE 8", raw_start: 216066, title: "GENERAL PROVISIONS"}
+  - {label: "SECTION 8.01", raw_start: 216100, title: "Set-Off"}
+  - {label: "SECTION 8.02", raw_start: 217357, title: "Amendments and Waivers"}
+  - {label: "SECTION 8.03", raw_start: 218684, title: "Taxes"}
+  - {label: "SECTION 8.04", raw_start: 219293, title: "Expenses"}
+  - {label: "SECTION 8.05", raw_start: 221058, title: "Notices"}
+  - {label: "SECTION 8.06", raw_start: 222509, title: "Indemnity"}
+  - {label: "SECTION 8.07", raw_start: 223293, title: "Successors and Assigns"}
+  - {label: "SECTION 8.08", raw_start: 223707, title: "Assignments and Participations"}
+  - {label: "SECTION 8.09", raw_start: 225088, title: "Information"}
+  - {label: "SECTION 8.10", raw_start: 225440, title: "Severability"}
+  - {label: "SECTION 8.11", raw_start: 225790, title: "Survival"}
+  - {label: "SECTION 8.12", raw_start: 226088, title: "Interest"}
+  - {label: "SECTION 8.13", raw_start: 226634, title: "Governing Law"}
+  - {label: "SECTION 8.14", raw_start: 227001, title: "Forum"}
+  - {label: "SECTION 8.15", raw_start: 228575, title: "Non-Business Days"}
+  - {label: "SECTION 8.16", raw_start: 229016, title: "Integration"}
+  - {label: "SECTION 8.17", raw_start: 229350, title: "Counterparts"}
+  - {label: "SECTION 8.18", raw_start: 229873, title: "Assignment to Ex-Im Bank The Borrower"}
+  - {label: "SECTION 8.19", raw_start: 230773, title: "WAIVER OF JURY TRIAL"}
+absent: []

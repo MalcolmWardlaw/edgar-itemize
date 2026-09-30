@@ -1,0 +1,82 @@
+accession: 0001193125-12-082659
+sequence: 2
+doc_type: EX-10.5
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 4768224, title: ""}
+  - {label: "SECTION 1.01", raw_start: 4768524, title: "Certain Defined Terms"}
+  - {label: "SECTION 1.02", raw_start: 5046698, title: "Computation of Time Periods;"}
+  - {label: "SECTION 1.03", raw_start: 5048330, title: "Accounting Terms"}
+  - {label: "ARTICLE 2", raw_start: 5048798, title: ""}
+  - {label: "SECTION 2.01", raw_start: 5049126, title: "The Advances and the Letters of Credit"}
+  - {label: "SECTION 2.02", raw_start: 5080137, title: "Making the Advances;"}
+  - {label: "SECTION 2.03", raw_start: 5115316, title: "Letters of Credit"}
+  - {label: "SECTION 2.04", raw_start: 5129870, title: "Repayment of Advances;"}
+  - {label: "SECTION 2.05", raw_start: 5139822, title: "Termination or Reduction of the Commitments"}
+  - {label: "SECTION 2.06", raw_start: 5143339, title: "Prepayments"}
+  - {label: "SECTION 2.07", raw_start: 5150431, title: "Interest"}
+  - {label: "SECTION 2.08", raw_start: 5161917, title: "Fees"}
+  - {label: "SECTION 2.09", raw_start: 5167616, title: "Conversion of Advances"}
+  - {label: "SECTION 2.10", raw_start: 5171764, title: "Increased Costs, Etc"}
+  - {label: "SECTION 2.11", raw_start: 5186019, title: "Payments and Computations"}
+  - {label: "SECTION 2.12", raw_start: 5205056, title: "Taxes"}
+  - {label: "SECTION 2.13", raw_start: 5226118, title: "Sharing of Payments, Etc"}
+  - {label: "SECTION 2.14", raw_start: 5233758, title: "Use of Proceeds"}
+  - {label: "SECTION 2.15", raw_start: 5234297, title: "Evidence of Debt"}
+  - {label: "SECTION 2.16", raw_start: 5238141, title: "Extension of Termination Date"}
+  - {label: "SECTION 2.17", raw_start: 5240340, title: "Cash Collateral Account"}
+  - {label: "SECTION 2.18", raw_start: 5247724, title: "Increase in the Aggregate Commitments"}
+  - {label: "SECTION 2.19", raw_start: 5258337, title: "Reallocation of Commitments"}
+  - {label: "SECTION 2.20", raw_start: 5270438, title: "Supplemental Tranches"}
+  - {label: "SECTION 2.21", raw_start: 5276078, title: "Defaulting Lenders"}
+  - {label: "ARTICLE 3", raw_start: 5283484, title: ""}
+  - {label: "SECTION 3.01", raw_start: 5283810, title: "Conditions Precedent to Initial Extension of Credit"}
+  - {label: "SECTION 3.02", raw_start: 5301261, title: "Conditions Precedent to Each Borrowing, Issuance, Renewal, C"}
+  - {label: "SECTION 3.03", raw_start: 5306059, title: "Conditions Precedent to Each Competitive Bid Advance"}
+  - {label: "SECTION 3.04", raw_start: 5307834, title: "Additional Conditions Precedent"}
+  - {label: "SECTION 3.05", raw_start: 5308670, title: "Determinations Under Section 3.01"}
+  - {label: "ARTICLE 4", raw_start: 5309933, title: ""}
+  - {label: "SECTION 4.01", raw_start: 5310232, title: "Representations and Warranties of the Loan Parties"}
+  - {label: "ARTICLE 5", raw_start: 5333256, title: ""}
+  - {label: "SECTION 5.01", raw_start: 5333553, title: "Affirmative Covenants"}
+  - {label: "SECTION 5.02", raw_start: 5351964, title: "Negative Covenants"}
+  - {label: "SECTION 5.03", raw_start: 5368197, title: "Reporting Requirements"}
+  - {label: "SECTION 5.04", raw_start: 5384506, title: "Financial Covenants"}
+  - {label: "ARTICLE 6", raw_start: 5389182, title: ""}
+  - {label: "SECTION 6.01", raw_start: 5389468, title: "Events of Default"}
+  - {label: "SECTION 6.02", raw_start: 5402152, title: "Actions in Respect of the Letters of Credit upon Default"}
+  - {label: "ARTICLE 7", raw_start: 5404121, title: ""}
+  - {label: "SECTION 7.01", raw_start: 5404399, title: "Guaranty;"}
+  - {label: "SECTION 7.02", raw_start: 5408296, title: "Guaranty Absolute"}
+  - {label: "SECTION 7.03", raw_start: 5413886, title: "Waivers and Acknowledgments"}
+  - {label: "SECTION 7.04", raw_start: 5417766, title: "Subrogation"}
+  - {label: "SECTION 7.05", raw_start: 5421012, title: "Guaranty Supplements"}
+  - {label: "SECTION 7.06", raw_start: 5422178, title: "Indemnification by Guarantors"}
+  - {label: "SECTION 7.07", raw_start: 5423758, title: "Subordination"}
+  - {label: "SECTION 7.08", raw_start: 5427656, title: "Continuing Guaranty"}
+  - {label: "SECTION 7.09", raw_start: 5428743, title: "Guaranty Limitations"}
+  - {label: "ARTICLE 8", raw_start: 5459730, title: ""}
+  - {label: "SECTION 8.01", raw_start: 5460025, title: "Authorization and Action"}
+  - {label: "SECTION 8.02", raw_start: 5462433, title: "Administrative Agent's Reliance, Etc"}
+  - {label: "SECTION 8.03", raw_start: 5466932, title: "Waiver of Conflicts of Interest;"}
+  - {label: "SECTION 8.04", raw_start: 5469869, title: "Lender Party Credit Decision"}
+  - {label: "SECTION 8.05", raw_start: 5470715, title: "Indemnification by Lender Parties"}
+  - {label: "SECTION 8.06", raw_start: 5476301, title: "Successor Administrative Agents"}
+  - {label: "ARTICLE 9", raw_start: 5479819, title: ""}
+  - {label: "SECTION 9.01", raw_start: 5480101, title: "Amendments, Etc"}
+  - {label: "SECTION 9.02", raw_start: 5487821, title: "Notices, Etc"}
+  - {label: "SECTION 9.03", raw_start: 5503484, title: "No Waiver;"}
+  - {label: "SECTION 9.04", raw_start: 5504102, title: "Costs and Expenses"}
+  - {label: "SECTION 9.05", raw_start: 5513063, title: "Right of Set-off"}
+  - {label: "SECTION 9.06", raw_start: 5516072, title: "Binding Effect"}
+  - {label: "SECTION 9.07", raw_start: 5517067, title: "Assignments and Participations;"}
+  - {label: "SECTION 9.08", raw_start: 5540702, title: "Execution in Counterparts"}
+  - {label: "SECTION 9.09", raw_start: 5541430, title: "WAIVER OF JURY TRIAL"}
+  - {label: "SECTION 9.10", raw_start: 5542045, title: "Confidentiality"}
+  - {label: "SECTION 9.11", raw_start: 5546427, title: "Patriot Act;"}
+  - {label: "SECTION 9.12", raw_start: 5547811, title: "Jurisdiction, Etc"}
+  - {label: "SECTION 9.13", raw_start: 5551819, title: "Governing Law"}
+  - {label: "SECTION 9.14", raw_start: 5552098, title: "Judgment Currency"}
+  - {label: "SECTION 9.15", raw_start: 5554269, title: "Substitution of Currency;"}
+  - {label: "SECTION 9.16", raw_start: 5555634, title: "No Fiduciary Duties"}
+absent: []

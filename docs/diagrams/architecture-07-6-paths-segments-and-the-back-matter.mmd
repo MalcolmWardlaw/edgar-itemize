@@ -1,0 +1,6 @@
+flowchart LR
+    nodes["nodes"] --> segs["agenda.compound_restarts: article nodes carrying<br/>seg.instrument_boundary open a new segment<br/>(a glued second agreement in one EX-10)"]
+    segs --> bm["agenda._back_matter_boundary per segment:<br/>the signature block, an attestation, the<br/>IN WITNESS WHEREOF execution clause, a short tail<br/>(agenda.back_after_sigs, agenda.back_attestation,<br/>agenda.back_iww, agenda.back_iww_before_tail,<br/>agenda.back_short_tail)"]
+    bm --> meta["meta digit per node from its raw_start:<br/>before the first main node = 0, toc node = 1,<br/>main = 2, at or past the boundary = 3"]
+    meta --> ord["ordinals among siblings in document order;<br/>top-level ordinals restart in every segment"]
+    ord --> out["paths, _bounds (front_end, back_start),<br/>_segments; agenda.segment_back_matter tags nodes<br/>only a segment's own scan put in the back matter"]

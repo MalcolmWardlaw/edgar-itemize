@@ -1,0 +1,131 @@
+accession: 0001361658-15-000008
+sequence: 2
+doc_type: EX-10.1
+reviewed: false
+nodes:
+  - {label: "ARTICLE 1", raw_start: 1540094, title: ""}
+  - {label: "SECTION 1", raw_start: 1540094, title: "DEFINITIONS"}
+  - {label: "ARTICLE 2", raw_start: 1717069, title: ""}
+  - {label: "SECTION 2", raw_start: 1717069, title: "THE LOANS"}
+  - {label: "SECTION 2.01", raw_start: 1717429, title: "Revolving Commitments"}
+  - {label: "SECTION 2.02", raw_start: 1720178, title: "Loans"}
+  - {label: "SECTION 2.03", raw_start: 1726396, title: "Revolving Credit Borrowing Procedure"}
+  - {label: "SECTION 2.04", raw_start: 1730190, title: "Use of Proceeds"}
+  - {label: "SECTION 2.05", raw_start: 1732441, title: "[Intentionally Omitted]"}
+  - {label: "SECTION 2.06", raw_start: 1732809, title: "[Intentionally Omitted]"}
+  - {label: "SECTION 2.07", raw_start: 1733177, title: "Competitive Bid Procedure – Competitive Loans"}
+  - {label: "SECTION 2.08", raw_start: 1749814, title: "Refinancings"}
+  - {label: "SECTION 2.09", raw_start: 1754561, title: "Fees"}
+  - {label: "SECTION 2.10", raw_start: 1758173, title: "Repayment of Loans;"}
+  - {label: "SECTION 2.11", raw_start: 1766051, title: "Interest on Loans"}
+  - {label: "SECTION 2.12", raw_start: 1771147, title: "Interest on Overdue Amounts"}
+  - {label: "SECTION 2.13", raw_start: 1772548, title: "Alternate Rate of Interest"}
+  - {label: "SECTION 2.14", raw_start: 1778563, title: "Termination, Reduction and Increase of Revolving Commitments"}
+  - {label: "SECTION 2.15", raw_start: 1791708, title: "Prepayment of Loans"}
+  - {label: "SECTION 2.16", raw_start: 1795767, title: "Eurocurrency Reserve Costs"}
+  - {label: "SECTION 2.17", raw_start: 1798266, title: "Reserve Requirements;"}
+  - {label: "SECTION 2.18", raw_start: 1812912, title: "Change in Legality"}
+  - {label: "SECTION 2.19", raw_start: 1818607, title: "Reimbursement of Lenders"}
+  - {label: "SECTION 2.20", raw_start: 1826494, title: "Pro Rata Treatment"}
+  - {label: "SECTION 2.21", raw_start: 1830456, title: "Right of Setoff"}
+  - {label: "SECTION 2.22", raw_start: 1833259, title: "Manner of Payments"}
+  - {label: "SECTION 2.23", raw_start: 1837187, title: "Taxes"}
+  - {label: "SECTION 2.24", raw_start: 1859452, title: "Certain Pricing Adjustments"}
+  - {label: "SECTION 2.25", raw_start: 1871993, title: "Prepayments Required Due to Currency Fluctuation"}
+  - {label: "SECTION 2.26", raw_start: 1874539, title: "Letters of Credit"}
+  - {label: "SECTION 2.27", raw_start: 1921236, title: "New Local Facilities"}
+  - {label: "SECTION 2.28", raw_start: 1929293, title: "Incremental Term Loans"}
+  - {label: "SECTION 2.29", raw_start: 1936677, title: "Loan Modification Offers"}
+  - {label: "SECTION 2.30", raw_start: 1944404, title: "Cash Collateral"}
+  - {label: "SECTION 2.31", raw_start: 1951251, title: "Defaulting Lenders"}
+  - {label: "ARTICLE 3", raw_start: 1967380, title: ""}
+  - {label: "SECTION 3", raw_start: 1967380, title: "REPRESENTATIONS AND WARRANTIES OF BORROWER"}
+  - {label: "SECTION 3.01", raw_start: 1968339, title: "Corporate Existence and Power"}
+  - {label: "SECTION 3.02", raw_start: 1970486, title: "Corporate Authority, No Violation and Compliance with Law"}
+  - {label: "SECTION 3.03", raw_start: 1972531, title: "Governmental and Other Approval and Consents"}
+  - {label: "SECTION 3.04", raw_start: 1974234, title: "Financial Statements of Borrower"}
+  - {label: "SECTION 3.05", raw_start: 1975506, title: "No Change"}
+  - {label: "SECTION 3.06", raw_start: 1976343, title: "Copyrights, Patents and Other Rights"}
+  - {label: "SECTION 3.07", raw_start: 1977599, title: "Title to Properties"}
+  - {label: "SECTION 3.08", raw_start: 1978776, title: "Litigation"}
+  - {label: "SECTION 3.09", raw_start: 1980049, title: "Federal Reserve Regulations"}
+  - {label: "SECTION 3.10", raw_start: 1981618, title: "Investment Company Act"}
+  - {label: "SECTION 3.11", raw_start: 1982391, title: "Enforceability"}
+  - {label: "SECTION 3.12", raw_start: 1983516, title: "Taxes"}
+  - {label: "SECTION 3.13", raw_start: 1984664, title: "Compliance with ERISA"}
+  - {label: "SECTION 3.14", raw_start: 1986574, title: "Disclosure"}
+  - {label: "SECTION 3.15", raw_start: 1989783, title: "Environmental Liabilities"}
+  - {label: "SECTION 3.16", raw_start: 1991041, title: "Material Subsidiaries"}
+  - {label: "SECTION 3.17", raw_start: 1991748, title: "OFAC"}
+  - {label: "SECTION 3.18", raw_start: 1992944, title: "FCPA"}
+  - {label: "ARTICLE 4", raw_start: 1995236, title: ""}
+  - {label: "SECTION 4", raw_start: 1995236, title: "CONDITIONS OF LENDING"}
+  - {label: "SECTION 4.01", raw_start: 1995608, title: "Conditions Precedent to Closing"}
+  - {label: "SECTION 4.02", raw_start: 2008148, title: "Conditions Precedent to Each Extension of Credit"}
+  - {label: "ARTICLE 5", raw_start: 2014291, title: ""}
+  - {label: "SECTION 5", raw_start: 2014291, title: "AFFIRMATIVE COVENANTS"}
+  - {label: "SECTION 5.01", raw_start: 2015186, title: "Financial Statements, Reports, etc"}
+  - {label: "SECTION 5.02", raw_start: 2028834, title: "Corporate Existence;"}
+  - {label: "SECTION 5.03", raw_start: 2031580, title: "Insurance"}
+  - {label: "SECTION 5.04", raw_start: 2033554, title: "Taxes and Charges"}
+  - {label: "SECTION 5.05", raw_start: 2035939, title: "ERISA Compliance and Reports"}
+  - {label: "SECTION 5.06", raw_start: 2038016, title: "Maintenance of and Access to Books and Records;"}
+  - {label: "SECTION 5.07", raw_start: 2040917, title: "Maintenance of Properties"}
+  - {label: "SECTION 5.08", raw_start: 2041777, title: "Changes in Character of Business"}
+  - {label: "SECTION 5.09", raw_start: 2042562, title: "FCPA;"}
+  - {label: "ARTICLE 6", raw_start: 2043849, title: ""}
+  - {label: "SECTION 6", raw_start: 2043849, title: "NEGATIVE COVENANTS"}
+  - {label: "SECTION 6.01", raw_start: 2044771, title: "Limitation on Indebtedness"}
+  - {label: "SECTION 6.02", raw_start: 2055148, title: "Consolidation, Merger, Sale of Assets"}
+  - {label: "SECTION 6.03", raw_start: 2058325, title: "Limitations on Liens"}
+  - {label: "SECTION 6.04", raw_start: 2065941, title: "[Intentionally Omitted]"}
+  - {label: "SECTION 6.05", raw_start: 2066281, title: "Consolidated Leverage Ratio"}
+  - {label: "SECTION 6.06", raw_start: 2067869, title: "Consolidated Interest Coverage Ratio"}
+  - {label: "SECTION 6.07", raw_start: 2068654, title: "Accounting Practices"}
+  - {label: "SECTION 6.08", raw_start: 2069440, title: "FCPA"}
+  - {label: "ARTICLE 7", raw_start: 2071262, title: ""}
+  - {label: "SECTION 7", raw_start: 2071262, title: "EVENTS OF DEFAULT"}
+  - {label: "ARTICLE 8", raw_start: 2086341, title: ""}
+  - {label: "SECTION 8", raw_start: 2086341, title: "THE ADMINISTRATIVE AGENT AND EACH ISSUING LENDER"}
+  - {label: "SECTION 8.01", raw_start: 2086740, title: "Administration by Administrative Agent"}
+  - {label: "SECTION 8.02", raw_start: 2090602, title: "Advances and Payments"}
+  - {label: "SECTION 8.03", raw_start: 2095272, title: "Sharing of Setoffs and Cash Collateral"}
+  - {label: "SECTION 8.04", raw_start: 2098226, title: "Notice to the Lenders"}
+  - {label: "SECTION 8.05", raw_start: 2099361, title: "Liability of Administrative Agent and each Issuing Lender"}
+  - {label: "SECTION 8.06", raw_start: 2103580, title: "Reimbursement and Indemnification"}
+  - {label: "SECTION 8.07", raw_start: 2107374, title: "Rights of Administrative Agent"}
+  - {label: "SECTION 8.08", raw_start: 2109774, title: "Independent Investigation by Lenders"}
+  - {label: "SECTION 8.09", raw_start: 2111438, title: "Notice of Transfer"}
+  - {label: "SECTION 8.10", raw_start: 2112466, title: "Successor Administrative Agent"}
+  - {label: "SECTION 8.11", raw_start: 2116558, title: "Resignation of an Issuing Lender"}
+  - {label: "SECTION 8.12", raw_start: 2118535, title: "Agents Generally"}
+  - {label: "ARTICLE 9", raw_start: 2119622, title: ""}
+  - {label: "SECTION 9", raw_start: 2119622, title: "GUARANTY OF SUBSIDIARY BORROWER OBLIGATIONS"}
+  - {label: "SECTION 9.01", raw_start: 2120016, title: "Guaranty"}
+  - {label: "SECTION 9.02", raw_start: 2125387, title: "No Subrogation"}
+  - {label: "SECTION 9.03", raw_start: 2127575, title: "Amendments, etc"}
+  - {label: "SECTION 9.04", raw_start: 2130506, title: "Guaranty Absolute and Unconditional"}
+  - {label: "SECTION 9.05", raw_start: 2135636, title: "Reinstatement"}
+  - {label: "ARTICLE 10", raw_start: 2137011, title: ""}
+  - {label: "SECTION 10", raw_start: 2137011, title: "MISCELLANEOUS"}
+  - {label: "SECTION 10.01", raw_start: 2137376, title: "Notices"}
+  - {label: "SECTION 10.02", raw_start: 2151758, title: "Survival of Agreement, Representations and Warranties, etc"}
+  - {label: "SECTION 10.03", raw_start: 2153080, title: "Successors and Assigns;"}
+  - {label: "SECTION 10.04", raw_start: 2175428, title: "Expenses"}
+  - {label: "SECTION 10.05", raw_start: 2179170, title: "Indemnity"}
+  - {label: "SECTION 10.06", raw_start: 2183105, title: "CHOICE OF LAW"}
+  - {label: "SECTION 10.07", raw_start: 2184000, title: "No Waiver"}
+  - {label: "SECTION 10.08", raw_start: 2185594, title: "Extension of Maturity"}
+  - {label: "SECTION 10.09", raw_start: 2186520, title: "Amendments, etc"}
+  - {label: "SECTION 10.10", raw_start: 2197254, title: "Severability"}
+  - {label: "SECTION 10.11", raw_start: 2198731, title: "SERVICE OF PROCESS;"}
+  - {label: "SECTION 10.12", raw_start: 2204044, title: "Headings"}
+  - {label: "SECTION 10.13", raw_start: 2204722, title: "Execution in Counterparts"}
+  - {label: "SECTION 10.14", raw_start: 2205442, title: "Entire Agreement"}
+  - {label: "SECTION 10.15", raw_start: 2206444, title: "Confidentiality"}
+  - {label: "SECTION 10.16", raw_start: 2214080, title: "USA PATRIOT Act"}
+  - {label: "SECTION 10.17", raw_start: 2216507, title: "Replacement of Lenders"}
+  - {label: "SECTION 10.18", raw_start: 2218069, title: "No Advisory or Fiduciary Responsibility"}
+  - {label: "SECTION 10.19", raw_start: 2221260, title: "Judgment Currency"}
+  - {label: "SECTION 10.20", raw_start: 2224687, title: "Electronic Execution of Assignments and Certain Other Docume"}
+absent: []
