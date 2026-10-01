@@ -1,4 +1,4 @@
-# edgar-itemize conformance set 1.0.0
+# edgar-itemize conformance set 1.0.0rc2 (rehearsal copy of the 1.0.0 set)
 
 Drawn by `edgar-itemize conformance draw` from the Turn 13 baselines with edgar-itemize 1.0.0.
 `manifest.parquet` lists the documents (`archive_path` relative to the data root, so it resolves on any

@@ -231,7 +231,7 @@ wheels = [
 
 [[package]]
 name = "edgar-itemize"
-version = "1.0.0"
+version = "1.0.0rc2"
 source = { editable = "." }
 dependencies = [
     { name = "pyarrow" },
