@@ -1,6 +1,6 @@
 [project]
 name = "edgar-itemize"
-version = "1.0.0"
+version = "1.0.0rc3"
 description = "Deterministic agenda-structure (Part/Item/Section) parser for SEC EDGAR filings"
 readme = "README.md"
 license = "MIT"
