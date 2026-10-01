@@ -13,6 +13,7 @@ runs/
 !gold/*.parquet
 !conformance/*/*.parquet
 !examples/*.parquet
+!src/edgar_itemize/conformance_sets/*/*.parquet
 
 # local Claude session state (worktrees)
 /.claude/

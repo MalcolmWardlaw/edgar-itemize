@@ -535,11 +535,23 @@ class VerifyResult:
                     output_differs=self.output_differs, ok=self.ok, failures=self.failures)
 
 
+def packaged_set_dir(version: str = __version__) -> Path:
+    """The conformance set shipped inside the package (``conformance_sets/<version>/``), a
+    byte-identical copy of the repository's ``conformance/<version>/``; what a pip install
+    verifies against."""
+    return Path(__file__).resolve().parent / "conformance_sets" / version
+
+
 def default_set_dir(version: str = __version__) -> Path:
+    """``conformance/<version>/`` under the current directory or the repository, else the
+    copy inside the package (the only one present after ``pip install``)."""
     for base in (Path.cwd(), _repo_root()):
         p = base / "conformance" / version
         if p.is_dir():
             return p
+    p = packaged_set_dir(version)
+    if p.is_dir():
+        return p
     return Path.cwd() / "conformance" / version
 
 
