@@ -1,0 +1,14 @@
+{
+ "docs": [
+  {"kind": "10k", "run": "runs/full_ref_10k", "accession": "0000320193-94-000016", "note": "1990s plain-text 10-K, self-filed; panel year 1 of 3"},
+  {"kind": "10k", "run": "runs/full_ref_10k", "accession": "0000320193-95-000016", "note": "plain-text 10-K; panel year 2 of 3"},
+  {"kind": "10k", "run": "runs/full_ref_10k", "accession": "0000320193-96-000023", "note": "plain-text 10-K; panel year 3 of 3"},
+  {"kind": "10k", "run": "runs/full_ref_10k", "accession": "0000950152-06-007851", "note": "2000s financial-printer HTML 10-K (Bowne), with Item 1A"},
+  {"kind": "10k", "run": "runs/full_ref_10k", "accession": "0000320193-24-000123", "note": "inline-XBRL 10-K (Workiva)"},
+  {"kind": "10q", "run": "runs/full_ref_10q", "accession": "0000012927-02-000010", "note": "10-Q, early self-filed HTML: Part I / Part II items"},
+  {"kind": "ex10", "run": "runs/full_ref_ex10", "accession": "0000950144-97-003175", "sequence": 4, "note": "plain-text credit agreement: Affirmative and Negative Covenants sections with clause trees"},
+  {"kind": "ex10", "run": "runs/full_ref_ex10", "accession": "0001193125-08-240082", "sequence": 2, "note": "HTML credit agreement (Donnelley): covenant sections with nested clauses"},
+  {"kind": "ex13", "run": "runs/full_ref_ex13", "accession": "0000021076-95-000005", "sequence": 2, "note": "EX-13 annual report to shareholders, plain text"}
+ ],
+ "panel": ["0000320193-94-000016", "0000320193-95-000016", "0000320193-96-000023"]
+}

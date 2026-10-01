@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>edgar-itemize demo</title>
+<meta name="description" content="Pre-baked output of edgar-itemize 1.0.0 for nine public SEC filings: the viewer, the node outline, pulled items, rejected candidates and a three-year panel.">
+<style>
+:root{
+  --paper:#FBFAF7; --ink:#1B1F24; --muted:#6B7480; --rule:#D8D4CB; --band:#F1EEE6; --accent:#1E4F73;
+  --l1:#1E4F73; --l2:#2E7D5B; --l3:#B7791F; --l4:#A3502A; --l5:#6E4C9E; --l6:#2F8F9D; --l7:#8A8A3C; --l8:#9A4C6E;
+}
+@media (prefers-color-scheme: dark){ :root{ --paper:#15181C; --ink:#E8E4DA; --muted:#A3AAB3; --rule:#343A42; --band:#1E2228; --accent:#7FB2D6;
+  --l1:#7FB2D6; --l2:#7CCB9F; --l3:#E3B65A; --l4:#E0956A; --l5:#B79CE0; --l6:#7CC9D4; --l7:#C9C979; --l8:#D48AB0; } }
+*{ box-sizing:border-box; }
+html, body{ height:100%; }
+body{ margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Mono", Menlo, Consolas, monospace; font-size:13px; line-height:1.5;
+  display:flex; flex-direction:column; }
+#bar{ display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; padding:.45rem .9rem; border-bottom:1px solid var(--rule); background:var(--paper); }
+#bar a.home{ color:var(--accent); text-decoration:none; font-weight:600; }
+#bar select{ font:inherit; padding:.3rem .45rem; border:1px solid var(--rule); background:var(--band); color:var(--ink); border-radius:2px; max-width:100%; }
+#tabs{ display:flex; gap:0; }
+#tabs button{ font:inherit; padding:.3rem .7rem; border:1px solid var(--rule); background:var(--band); color:var(--ink); cursor:pointer; margin-left:-1px; }
+#tabs button:first-child{ border-radius:2px 0 0 2px; margin-left:0; } #tabs button:last-child{ border-radius:0 2px 2px 0; }
+#tabs button[aria-selected=true]{ background:var(--accent); border-color:var(--accent); color:#fff; }
+#note{ color:var(--muted); font-size:12px; flex:1 1 20ch; min-width:0; }
+main{ flex:1; min-height:0; position:relative; }
+section.tab{ position:absolute; inset:0; overflow:auto; padding:.8rem 1rem 3rem; display:none; }
+section.tab.on{ display:block; }
+#t-viewer{ padding:0; overflow:hidden; }
+#frame{ width:100%; height:100%; border:0; display:block; background:var(--paper); }
+h2{ font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); font-weight:500; margin:.2rem 0 .6rem; }
+p.k, .k{ color:var(--muted); }
+table{ border-collapse:collapse; width:100%; font-size:12px; }
+th, td{ text-align:left; vertical-align:top; padding:.2rem .45rem; border-bottom:1px solid var(--rule); }
+th{ color:var(--muted); font-weight:500; position:sticky; top:-.8rem; background:var(--paper); }
+td.n{ text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+tr.go{ cursor:pointer; } tr.go:hover td{ background:var(--band); }
+.sw{ display:inline-block; width:7px; height:11px; border-radius:1px; margin-right:.35em; vertical-align:-1px; }
+.lab{ font-weight:700; white-space:nowrap; }
+.snip{ white-space:pre-wrap; word-break:break-word; color:var(--ink); background:var(--band); padding:.35rem .5rem; border-radius:2px; margin:.2rem 0 .1rem; font-size:12px; }
+.item{ border-bottom:1px solid var(--rule); padding:.5rem 0; }
+.item .hd{ display:flex; gap:.6rem; flex-wrap:wrap; align-items:baseline; }
+.item .hd a{ color:var(--accent); cursor:pointer; }
+.chips span{ display:inline-block; border:1px solid var(--rule); border-radius:2px; padding:0 .4em; margin:0 .3em .3em 0; font-size:11px; }
+.panel{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; }
+.panel .col{ border:1px solid var(--rule); border-radius:2px; padding:.6rem .7rem; min-width:0; }
+.panel .col h3{ margin:0 0 .3rem; font-size:13px; }
+.track{ position:relative; height:10px; background:var(--band); border:1px solid var(--rule); border-radius:2px; margin:.4rem 0; }
+.track i{ position:absolute; top:0; bottom:0; background:var(--l2); }
+dl.kv{ display:grid; grid-template-columns:max-content 1fr; gap:.1rem .8rem; margin:.3rem 0; }
+dl.kv dt{ color:var(--muted); } dl.kv dd{ margin:0; font-variant-numeric:tabular-nums; }
+label.opt{ color:var(--muted); font-size:12px; }
+@media (max-width:700px){ #bar{ padding:.4rem 1rem; } section.tab{ padding:.8rem 1rem 3rem; } td.hide-sm, th.hide-sm{ display:none; } }
+</style>
+</head>
+<body>
+<div id="bar">
+  <a class="home" href="../" title="edgar-itemize manual">edgar-itemize</a>
+  <select id="pick" aria-label="demo filing"></select>
+  <nav id="tabs" role="tablist" aria-label="views">
+    <button role="tab" data-tab="viewer">Viewer</button><button role="tab" data-tab="outline">Outline</button><button role="tab" data-tab="pulled">Pulled items</button><button role="tab" data-tab="rejected">Rejected</button><button role="tab" data-tab="panel">Panel</button>
+  </nav>
+  <span id="note"></span>
+</div>
+<main>
+  <section class="tab" id="t-viewer" role="tabpanel"><iframe id="frame" title="edgar-itemize viewer"></iframe></section>
+  <section class="tab" id="t-outline" role="tabpanel"></section>
+  <section class="tab" id="t-pulled" role="tabpanel"></section>
+  <section class="tab" id="t-rejected" role="tabpanel"></section>
+  <section class="tab" id="t-panel" role="tabpanel"></section>
+</main>
+<script>
+'use strict';
+// Static demo: everything below reads files baked by scripts/demo_bake.py into data/.
+const $ = s => document.querySelector(s);
+const LV = ['--l1','--l2','--l3','--l4','--l5','--l6','--l7','--l8'];
+const S = { m:null, key:null, tab:'viewer', docs:{}, raws:{}, frameKey:null };
+const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const fmt = n => n == null ? '' : Number(n).toLocaleString('en-US');
+const entry = k => S.m.documents.find(d => d.key === k);
+const getDoc = k => S.docs[k] ||= fetch(`data/${k}/doc.json`).then(r => r.json());
+const getRaw = k => S.raws[k] ||= fetch(`data/${k}/raw.txt`).then(r => r.text());
+
+function slice(e, raw, a, b){ return raw.slice(Math.max(0, a - e.raw_base), Math.max(0, b - e.raw_base)); }
+// display only: markup out, entities decoded, whitespace collapsed (the slice itself is the raw bytes)
+function plain(s){
+  const t = s.replace(/<[^>]*>/g, ' ').replace(/<[^>]*$/, ' ');
+  const d = document.createElement('textarea'); d.innerHTML = t;
+  return d.value.replace(/\s+/g, ' ').trim();
+}
+function preview(e, raw, n, strip, len){
+  const s = slice(e, raw, n.raw_start, n.raw_end);
+  return strip ? plain(s.slice(0, 6000)).slice(0, len || 300) : s.slice(0, len || 300);
+}
+
+// ---- state in the hash: #doc=<key>&tab=<tab> ----
+function readHash(){ const h = new URLSearchParams(location.hash.slice(1)); return {key:h.get('doc'), tab:h.get('tab')}; }
+function writeHash(){ history.replaceState(null, '', '#' + new URLSearchParams({doc:S.key, tab:S.tab})); }
+
+function setTab(t){
+  S.tab = t;
+  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === t));
+  document.querySelectorAll('section.tab').forEach(s => s.classList.toggle('on', s.id === 't-' + t));
+  writeHash(); show();
+}
+function setDoc(k, quiet){ S.key = k; $('#pick').value = k; const e = entry(k);
+  $('#note').textContent = `${e.form} · ${e.year} · era ${e.era} · ${e.n_nodes} nodes · ${e.note}`; writeHash(); if(!quiet) show(); }
+
+function viewerSrc(e, at){
+  const q = new URLSearchParams({acc:e.accession, corpus:e.corpus});
+  if(e.key !== e.accession) q.set('seq', e.sequence);
+  if(at != null) q.set('at', at);
+  return 'viewer.html?' + q;
+}
+// Jump the Viewer tab to a byte offset: the viewer's own jump() when the document is already
+// open in the frame, else a deep link (?at=) that opens it centred there.
+function goto(rawStart){
+  const e = entry(S.key); setTab('viewer');
+  const w = $('#frame').contentWindow, v = w && w.__viewer;
+  if(S.frameKey === e.key && v && v.DOC && typeof w.jump === 'function') requestAnimationFrame(() => w.jump(rawStart));
+  else { S.frameKey = e.key; $('#frame').src = viewerSrc(e, rawStart); }
+}
+
+async function show(){
+  const k = S.key, e = entry(k), t = S.tab;
+  if(t === 'viewer'){ if(S.frameKey !== k){ S.frameKey = k; $('#frame').src = viewerSrc(e); } return; }
+  const el = $('#t-' + t); el.innerHTML = '<p class="k">loading…</p>';
+  if(t === 'panel'){ el.innerHTML = await panel(); return; }
+  const d = await getDoc(k); if(S.key !== k || S.tab !== t) return;
+  if(t === 'outline') outline(el, e, d);
+  else if(t === 'rejected') rejected(el, e, d);
+  else if(t === 'pulled') await pulled(el, e, d);
+}
+
+function outline(el, e, d){
+  const rows = d.nodes.filter(n => n.node_id !== 0).map(n => `<tr class="go" data-at="${n.raw_start}">
+    <td><span style="padding-left:${(n.depth-1)*1.1}em"></span><span class="sw" style="background:var(${LV[n.depth-1]||'--muted'})"></span><span class="lab">${esc(n.label || '#'.repeat(n.depth))}</span></td>
+    <td>${esc((n.title||'').slice(0,90))}</td><td class="k hide-sm">${esc(n.kind)}</td><td class="k">${esc(n.path_str)}</td>
+    <td class="n">${fmt(n.raw_start)}</td><td class="n hide-sm">${fmt(n.raw_end - n.raw_start)}</td><td class="n">${n.confidence.toFixed(2)}</td>
+    <td class="k hide-sm">${esc((n.rules||[]).join(' '))}</td></tr>`).join('');
+  el.innerHTML = `<h2>Node tree · ${d.nodes.length - 1} nodes</h2>
+    <p class="k">Every node of the document's tree in reading order, indented by depth; the ordinal path is the node's address at the fixed global depth. Click a row to open the Viewer at that node.</p>
+    <table><thead><tr><th>label</th><th>title</th><th class="hide-sm">kind</th><th>path</th><th>raw_start</th><th class="hide-sm">bytes</th><th>conf</th><th class="hide-sm">rule_ids</th></tr></thead><tbody>${rows}</tbody></table>`;
+  el.querySelectorAll('tr.go').forEach(r => r.addEventListener('click', () => goto(+r.dataset.at)));
+}
+
+function rejected(el, e, d){
+  const by = {}; d.rejected.forEach(r => by[r.reason] = (by[r.reason]||0) + 1);
+  const chips = Object.entries(by).sort((a,b) => b[1]-a[1]).map(([r,n]) => `<span>${esc(r)} ${n}</span>`).join('');
+  const rows = d.rejected.map(r => `<tr class="go" data-at="${r.raw_start}"><td class="lab">${esc(r.reason)}</td><td>${esc(r.label||'')}</td>
+    <td class="k hide-sm">${esc(r.kind)}</td><td class="n">${r.score.toFixed(2)}</td><td class="n">${fmt(r.raw_start)}</td><td>${esc((r.text||'').slice(0,140))}</td></tr>`).join('');
+  el.innerHTML = `<h2>Rejected candidates · ${d.rejected.length}</h2>
+    <p class="k">Lines that looked like headings but did not enter the tree, each with the reason it was refused (table-of-contents entries, cross-references, running headers, out-of-sequence labels...). Click a row to see it in place.</p>
+    <div class="chips">${chips}</div>
+    <table><thead><tr><th>reason</th><th>label</th><th class="hide-sm">kind</th><th>score</th><th>raw_start</th><th>line</th></tr></thead><tbody>${rows || '<tr><td colspan="6" class="k">none</td></tr>'}</tbody></table>`;
+  el.querySelectorAll('tr.go').forEach(r => r.addEventListener('click', () => goto(+r.dataset.at)));
+}
+
+// What a researcher would pull from each kind of document (examples/pull_items.py does this for
+// whole runs: raw[raw_start:raw_end] of the submission file).
+const PULL = {
+  '10k': {labels:['ITEM 1','ITEM 1A','ITEM 7','ITEM 7A','ITEM 8'], why:'the 10-K Items most often extracted: business, risk factors, MD&amp;A, market risk, financial statements'},
+  '10q': {labels:['ITEM I.1','ITEM I.2','ITEM I.3','ITEM II.1','ITEM II.1A'], why:'Part I financial statements and MD&amp;A, market risk; Part II legal proceedings and risk factors'},
+  'ex10': {title:/\b(affirmative|negative|financial)\s+covenants\b/i, kids:true, why:'the covenant sections of the credit agreement, with every clause under them'},
+  'ex13': {title:/management.s discussion|results of operations|financial condition|liquidity|report of independent|auditors/i, why:'the MD&amp;A and auditor-report headings of the annual report'},
+};
+async function pulled(el, e, d){
+  const raw = await getRaw(e.key);
+  const spec = PULL[e.kind] || PULL['10k'], strip = !!$('#stripopt') ? $('#stripopt').checked : true;
+  const kids = {}; d.nodes.forEach(n => (kids[n.parent_id] ||= []).push(n));
+  let picked = [];
+  if(spec.labels) picked = d.nodes.filter(n => spec.labels.includes(n.label)).map(n => [n, 0]);
+  else {
+    const tops = d.nodes.filter(n => n.node_id !== 0 && spec.title.test(n.title || ''));
+    const seen = new Set();
+    const walk = (n, lvl) => { if(seen.has(n.node_id)) return; seen.add(n.node_id); picked.push([n, lvl]);
+      if(spec.kids) (kids[n.node_id]||[]).forEach(c => walk(c, lvl+1)); };
+    tops.forEach(n => walk(n, 0));
+  }
+  const total = e.raw_end - e.raw_base;
+  const items = picked.map(([n, lvl]) => `<div class="item" style="margin-left:${lvl*1.4}em"><div class="hd">
+      <span class="lab"><span class="sw" style="background:var(${LV[n.depth-1]||'--muted'})"></span>${esc(n.label || '#'.repeat(n.depth))}</span>
+      <span>${esc((n.title||'').slice(0,80))}</span>
+      <span class="k">[${fmt(n.raw_start)}, ${fmt(n.raw_end)}) · ${fmt(n.raw_end-n.raw_start)} bytes · ${(100*(n.raw_end-n.raw_start)/total).toFixed(1)}% of the document${(n.covers||[]).length ? ' · covers ' + esc(n.covers.join(', ')) : ''}</span>
+      <a data-at="${n.raw_start}">view ›</a></div>
+      <div class="snip">${esc(preview(e, raw, n, strip))}</div></div>`).join('');
+  el.innerHTML = `<h2>Pulled items · ${picked.length}</h2>
+    <p class="k">Slices by byte offset: each is <code>raw[raw_start:raw_end]</code> of the raw submission file, which is what <code>examples/pull_items.py</code> writes for a whole run. Shown: ${spec.why}; first 300 characters of each.
+    <label class="opt"><input id="stripopt" type="checkbox" ${strip?'checked':''}> strip markup for display</label></p>
+    ${items || '<p class="k">none of these sections in this document</p>'}`;
+  $('#stripopt').addEventListener('change', () => pulled(el, e, d));
+  el.querySelectorAll('a[data-at]').forEach(a => a.addEventListener('click', () => goto(+a.dataset.at)));
+}
+
+async function panel(){
+  const keys = S.m.panel || [];
+  if(!keys.length) return '<p class="k">no panel in this demo</p>';
+  const cols = await Promise.all(keys.map(async k => {
+    const e = entry(k), [d, raw] = await Promise.all([getDoc(k), getRaw(k)]);
+    const total = e.raw_end - e.raw_base;
+    const n = d.nodes.find(x => x.label === 'ITEM 7');
+    if(!n) return `<div class="col"><h3>${esc(e.company)} ${e.year}</h3><p class="k">no ITEM 7 node</p></div>`;
+    const len = n.raw_end - n.raw_start, a = 100*(n.raw_start - e.raw_base)/total, w = 100*len/total;
+    return `<div class="col"><h3>${esc(e.company)} · ${esc(e.form)} filed ${e.year}</h3>
+      <div class="k">${esc(e.accession)} · ${esc(e.era)} · ${fmt(total)} bytes</div>
+      <div class="track" title="ITEM 7 within the document"><i style="left:${a.toFixed(2)}%;width:${Math.max(.5,w).toFixed(2)}%"></i></div>
+      <dl class="kv"><dt>ITEM 7</dt><dd>${esc((n.title||'').slice(0,60))}</dd><dt>start</dt><dd>${fmt(n.raw_start)}</dd><dt>end</dt><dd>${fmt(n.raw_end)}</dd>
+      <dt>length</dt><dd>${fmt(len)} bytes</dd><dt>share</dt><dd>${w.toFixed(1)}% of the document</dd><dt>path</dt><dd>${esc(n.path_str)}</dd></dl>
+      <div class="snip">${esc(preview(e, raw, n, true))}</div>
+      <a data-key="${k}" data-at="${n.raw_start}" style="color:var(--accent);cursor:pointer">open in the Viewer ›</a></div>`;
+  }));
+  setTimeout(() => document.querySelectorAll('#t-panel a[data-key]').forEach(a => a.addEventListener('click', () => { setDoc(a.dataset.key); goto(+a.dataset.at); })));
+  return `<h2>Panel · Item 7 across three consecutive 10-Ks</h2>
+    <p class="k">The same Item located in each year's filing, addressed by byte offset into that year's raw file: the cross-year use the stable labels and offsets are for. The bar marks Item 7's span within each document.</p>
+    <div class="panel">${cols.join('')}</div>`;
+}
+
+(async function init(){
+  S.m = await fetch('data/manifest.json').then(r => r.json());
+  $('#pick').innerHTML = S.m.documents.map(d => `<option value="${esc(d.key)}">${esc(d.company)} · ${esc(d.form)} · ${d.year} · ${esc(d.era)}</option>`).join('');
+  $('#pick').addEventListener('change', () => setDoc($('#pick').value));
+  document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click', () => setTab(b.dataset.tab)));
+  const h = readHash();
+  S.key = entry(h.key) ? h.key : S.m.documents[0].key;
+  S.tab = ['viewer','outline','pulled','rejected','panel'].includes(h.tab) ? h.tab : 'viewer';
+  setDoc(S.key, true); setTab(S.tab);
+  window.addEventListener('hashchange', () => { const h = readHash();
+    if(entry(h.key) && h.key !== S.key) setDoc(h.key, true);
+    setTab(['viewer','outline','pulled','rejected','panel'].includes(h.tab) ? h.tab : S.tab); });
+})();
+</script>
+</body>
+</html>

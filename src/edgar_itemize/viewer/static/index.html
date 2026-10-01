@@ -177,6 +177,8 @@ body.golding.armed #doc .blk:hover > .txt{ background:color-mix(in srgb, var(--l
 #btab:hover{ color:var(--accent); }
 body.browse #btab{ display:none; }
 main{ margin-left:20px; }
+body.nobanks main{ margin-left:0; }
+#acchint{ flex-basis:100%; display:none; color:var(--muted); font-size:11px; margin-top:-.35rem; }
 body.browse main{ margin-left:var(--dw); }
 #browse{ display:none; position:fixed; left:0; top:var(--hh); bottom:0; width:var(--dw); z-index:4; background:var(--paper); border-right:1px solid var(--rule); flex-direction:column; font-size:12px; }
 body.browse #browse{ display:flex; }
@@ -220,28 +222,29 @@ body.reviewing #browse{ bottom:200px; } body.golding #browse{ bottom:300px; }
 <body>
 <header>
   <input id="q" type="text" placeholder="accession, company, description" aria-label="search">
-  <select id="kind"><option value="10k">10-K</option><option value="10q">10-Q</option><option value="ex10">EX-10</option><option value="ex13">EX-13</option><option value="text">contracts text</option></select>
-  <input id="year" type="number" placeholder="year" style="width:8ch" aria-label="year">
-  <input id="agent" type="text" placeholder="agent cik" style="width:12ch" aria-label="agent">
-  <button id="go">Search</button>
+  <select id="kind" class="cap-manifests"><option value="10k">10-K</option><option value="10q">10-Q</option><option value="ex10">EX-10</option><option value="ex13">EX-13</option><option value="text">contracts text</option></select>
+  <input id="year" class="cap-manifests" type="number" placeholder="year" style="width:8ch" aria-label="year">
+  <input id="agent" class="cap-manifests" type="text" placeholder="agent cik" style="width:12ch" aria-label="agent">
+  <button id="go" class="cap-manifests">Search</button>
   <label><input id="hdg" type="checkbox" checked> sub-headings</label>
   <label><input id="showpath" type="checkbox"> paths</label>
   <label><input id="hl" type="checkbox"> highlight</label>
   <label><input id="rawtog" type="checkbox"> raw on hover</label>
   <label><input id="origtog" type="checkbox"> original</label>
-  <label><input id="review" type="checkbox"> review</label>
-  <label><input id="gold" type="checkbox"> gold</label>
-  <span id="parsesw" class="seg" role="radiogroup" aria-label="which parse the document pane shows" title="which parse a document opens on: the checked-out code, the run the window was judged on, or the latest baseline of record">
+  <label class="cap-review"><input id="review" type="checkbox"> review</label>
+  <label class="cap-gold"><input id="gold" type="checkbox"> gold</label>
+  <span id="parsesw" class="seg cap-runs" role="radiogroup" aria-label="which parse the document pane shows" title="which parse a document opens on: the checked-out code, the run the window was judged on, or the latest baseline of record">
     <label><input type="radio" name="parse" value="live" checked>live</label><label><input type="radio" name="parse" value="judged">judged-on run</label><label><input type="radio" name="parse" value="latest">latest baseline</label>
   </span>
   <a href="/turns" class="hlink">turns</a>
   <span id="keyshelp" tabindex="0" class="hlink">keys
-    <span class="pop">b &nbsp;browse drawer on/off<br>j / k &nbsp;next / previous window (drawer)<br>Enter &nbsp;open the selected window<br>/ &nbsp;drawer text filter · Esc leaves it<br>a &nbsp;re-centre on the window's anchor (drawer open)<br>n / p &nbsp;next / previous (review mode)<br>gold mode keys are listed in its panel</span></span>
+    <span class="pop"><span class="cap-banks">b &nbsp;browse drawer on/off<br>j / k &nbsp;next / previous window (drawer)<br>Enter &nbsp;open the selected window<br>/ &nbsp;drawer text filter · Esc leaves it<br>a &nbsp;re-centre on the window's anchor (drawer open)<br></span><span class="cap-review">n / p &nbsp;next / previous (review mode)<br></span><span class="cap-gold">gold mode keys are listed in its panel</span></span></span>
   <span id="meta"></span>
+  <div id="acchint">Open a filing by accession (0000893220-04-000596, or accession:sequence; needs EDGAR_ITEMIZE_DATA_ROOT) or by the path of a submission .txt, then Enter. Search over a corpus appears when EDGAR_ITEMIZE_RUNS names a directory holding the run manifests (full_manifest_10k.parquet, ...).</div>
   <div id="wbar"></div>
 </header>
-<div id="btab" title="browse windows (b)">▸ browse</div>
-<aside id="browse" aria-label="browse windows">
+<div id="btab" class="cap-banks" title="browse windows (b)">▸ browse</div>
+<aside id="browse" class="cap-banks" aria-label="browse windows">
   <div id="bhead">
     <div class="brow"><select id="bsrc" aria-label="source"></select><button id="bclose" class="mini" title="hide (b)">◂</button></div>
     <div class="brow"><input id="bq" type="text" placeholder="text: accession, company, line, label  (/)" aria-label="free-text filter"></div>
@@ -268,7 +271,7 @@ body.reviewing #browse{ bottom:200px; } body.golding #browse{ bottom:300px; }
   <div id="sidetab" title="show sidebar">◂ sidebar</div>
   <aside id="side">
     <button id="sidehide" class="mini" title="hide sidebar">hide ▸</button>
-    <h3>Results</h3><ul id="results"></ul>
+    <h3 class="cap-manifests">Results</h3><ul id="results" class="cap-manifests"></ul>
     <h3>Levels</h3><div id="legend" class="legend"></div>
     <h3>Document</h3><div id="info" class="kv"></div>
     <h3>Level profile</h3><div id="prof"></div>
@@ -276,7 +279,7 @@ body.reviewing #browse{ bottom:200px; } body.golding #browse{ bottom:300px; }
     <h3>Rejected candidates</h3><ul id="rej" class="rej"></ul>
   </aside>
 </main>
-<div id="review-panel">
+<div id="review-panel" class="cap-review">
   <div id="rvlist"></div>
   <div id="rvmain">
     <h4><button id="rvprev" class="mini">‹ p</button> <span id="rvpos"></span> <button id="rvnext" class="mini">n ›</button></h4>
@@ -292,7 +295,7 @@ body.reviewing #browse{ bottom:200px; } body.golding #browse{ bottom:300px; }
     <input id="rvnote" type="text" placeholder="note (optional)" aria-label="review note">
   </div>
 </div>
-<div id="gold-panel">
+<div id="gold-panel" class="cap-gold">
   <div id="gdfiles">
     <h4>Gold
       <select id="gdkind"><option value="10k">10-K</option><option value="ex10">EX-10</option><option value="llm">LLM</option></select>
@@ -499,7 +502,7 @@ async function origSrcWindow(center){
   const tok = OR.inflight = {acc:DOC.accession, seq:DOC.sequence, corpus:DOC.corpus, s, e};
   $('#origstat').textContent='loading…';
   let r;
-  try{ r = await fetch(`/api/raw/${DOC.accession}?start=${s}&end=${e}${DOC.sequence?'&sequence='+DOC.sequence:''}${DOC.corpus?'&corpus='+DOC.corpus:''}`).then(r=>r.json()); }
+  try{ r = await fetch(`/api/raw/${DOC.accession}?start=${s}&end=${e}${DOC.sequence?'&sequence='+DOC.sequence:''}${DOC.corpus?'&corpus='+DOC.corpus:''}${pathQS()}`).then(r=>r.json()); }
   catch(err){ if(OR.inflight===tok){ OR.inflight = null; $('#origstat').textContent = 'raw read failed'; } return; }
   if(OR.inflight!==tok) return;   // superseded by a later request
   OR.inflight = null;
@@ -575,7 +578,7 @@ async function tip(e, b, nodeById){
   t.textContent = s; t.style.display='block';
   t.style.left = Math.min(e.clientX+14, window.innerWidth-420)+'px'; t.style.top = (e.clientY+14)+'px';
   if($('#rawtog').checked && !b._raw){
-    const r = await fetch(`/api/raw/${DOC.accession}?start=${b.raw_start}&end=${Math.min(b.raw_end, b.raw_start+400)}${DOC.sequence?'&sequence='+DOC.sequence:''}${DOC.corpus?'&corpus='+DOC.corpus:''}`).then(r=>r.json());
+    const r = await fetch(`/api/raw/${DOC.accession}?start=${b.raw_start}&end=${Math.min(b.raw_end, b.raw_start+400)}${DOC.sequence?'&sequence='+DOC.sequence:''}${DOC.corpus?'&corpus='+DOC.corpus:''}${pathQS()}`).then(r=>r.json());
     b._raw = r.text; t.textContent = s + '\n---\n' + b._raw;
   } else if(b._raw){ t.textContent = s + '\n---\n' + b._raw; }
 }
@@ -585,11 +588,13 @@ let VIEW = null, OPENSEQ = 0;
 function docQS(){  // corpus/source/run of the rendered document, for /api/original
   const q = new URLSearchParams(); if(DOC && DOC.corpus) q.set('corpus', DOC.corpus);
   if(DOC && DOC.source==='run'){ q.set('source','run'); if(DOC.run) q.set('run', DOC.run); }
+  if(DOC && DOC.manifest && DOC.manifest.path) q.set('path', DOC.manifest.path);
   return q.toString();
 }
+function pathQS(){ return DOC && DOC.manifest && DOC.manifest.path ? '&path='+encodeURIComponent(DOC.manifest.path) : ''; }
 async function open(acc, seq, o){
   o = o || {};
-  const v = {acc, seq: seq ? +seq : null, corpus:o.corpus||null, source:o.source||'live', run:o.run||null,
+  const v = {acc, seq: seq ? +seq : null, corpus:o.corpus||null, source:o.path ? 'live' : (o.source||'live'), run:o.path ? null : (o.run||null), path:o.path||null,
              anchor: o.anchor==null ? null : +o.anchor, wid:o.wid||null, note:o.note||''};
   const topRaw = o.keepTop ? topRawStart() : null;
   VIEW = v; if(!v.wid) WIN = null;
@@ -598,7 +603,8 @@ async function open(acc, seq, o){
   const q = new URLSearchParams({headings: $('#hdg').checked});
   if(v.seq) q.set('sequence', v.seq); if(v.corpus) q.set('corpus', v.corpus);
   if(v.source==='run'){ q.set('source','run'); if(v.run) q.set('run', v.run); }
-  const r = await fetch(`/api/doc/${acc}?${q}`);
+  if(v.path){ q.set('path', v.path); q.delete('corpus'); }
+  const r = await fetch(v.path ? `/api/doc/by-path?${q}` : `/api/doc/${acc}?${q}`);
   if(my!==OPENSEQ) return;
   if(!r.ok){
     const msg = await r.text();
@@ -625,7 +631,10 @@ async function search(){
 $('#go').addEventListener('click', search);
 // the `text` option names the run registry's text corpus; drop it when the registry has none
 fetch('/api/corpora').then(r=>r.ok ? r.json() : null).then(j=>{ if(j && !j.text){ const o=$('#kind').querySelector('option[value="text"]'); if(o) o.remove(); } }).catch(()=>{});
-$('#q').addEventListener('keydown', e=>{ if(e.key==='Enter'){ const v=$('#q').value.trim(); if(/^\d{10}-\d{2}-\d{6}(:\d+)?$/.test(v)){ const [a,s]=v.split(':'); open(a,s, modeOpts(null)); } else search(); } });
+$('#q').addEventListener('keydown', e=>{ if(e.key==='Enter'){ const v=$('#q').value.trim(); if(/^\d{10}-\d{2}-\d{6}(:\d+)?$/.test(v)){ const [a,s]=v.split(':'); open(a,s, modeOpts(null)); }
+  else if(v.includes('/') || /\.txt$/i.test(v)) open(null, null, {path:v});
+  else if(CAPS.manifests) search();
+  else $('#doc').innerHTML = `<p style="padding:1rem">${esc(v)}: not an accession (0000893220-04-000596) or a submission file path</p>`; } });
 $('#hdg').addEventListener('change', ()=>{ if(VIEW) open(VIEW.acc, VIEW.seq, {...VIEW, keepTop: VIEW.anchor==null}); });
 $('#showpath').addEventListener('change', ()=>{ if(DOC) render(DOC); const d=$('#origframe').contentDocument; if(d&&d.documentElement) d.documentElement.classList.toggle('ea-chips', $('#showpath').checked); $('#origsrc').classList.toggle('chips', $('#showpath').checked); });
 $('#hl').addEventListener('change', ()=>{ $('#doc').classList.toggle('hl', $('#hl').checked); });
@@ -978,7 +987,7 @@ function reopenForMode(){
   urlSync();
   if(!VIEW) return;
   if(VIEW.wid){ wOpen(VIEW.wid); return; }
-  open(VIEW.acc, VIEW.seq, {...modeOpts(VIEW.corpus || (DOC && DOC.corpus), null, false), anchor:VIEW.anchor, keepTop:VIEW.anchor==null});
+  open(VIEW.acc, VIEW.seq, {...modeOpts(VIEW.corpus || (DOC && DOC.corpus), null, false), anchor:VIEW.anchor, keepTop:VIEW.anchor==null, path:VIEW.path});
 }
 document.querySelectorAll('input[name=parse]').forEach(x=>x.addEventListener('change', reopenForMode));
 
@@ -1326,6 +1335,7 @@ async function bInit(){
   bRenderSrc(); await bLoad();
 }
 function bSetOpen(on){
+  if(on && !CAPS.banks) return null;
   B.open = on; document.body.classList.toggle('browse', on);
   if(on && !B.initP) B.initP = bInit();
   else if(on) bPaint();
@@ -1339,7 +1349,7 @@ document.addEventListener('keydown', e=>{
   if(t.id==='bq'){ if(e.key==='Escape' || e.key==='Enter'){ t.blur(); e.preventDefault(); } return; }
   if(tag==='TEXTAREA' || tag==='SELECT' || (tag==='INPUT' && !/checkbox|radio/.test(t.type))) return;
   if(e.ctrlKey || e.metaKey || e.altKey) return;
-  if(e.key==='b'){ bSetOpen(!B.open); e.preventDefault(); return; }
+  if(e.key==='b'){ if(!CAPS.banks) return; bSetOpen(!B.open); e.preventDefault(); return; }
   if(!B.open || document.body.classList.contains('golding')) return;   // gold mode keeps j/k/Enter/a
   if(tag==='BUTTON' && e.key==='Enter') return;
   if(e.key==='j') bMove(1);
@@ -1359,6 +1369,7 @@ function urlSync(){
   if(B.g1) p.set('g', [B.g1, B.g2].filter(Boolean).join(','));
   if(B.open) p.set('browse', '1');
   if(VIEW && VIEW.wid) p.set('w', VIEW.wid);
+  else if(VIEW && VIEW.path){ p.set('path', VIEW.path); if(VIEW.seq) p.set('seq', VIEW.seq); }
   else if(VIEW && VIEW.acc){ p.set('acc', VIEW.acc); if(VIEW.seq) p.set('seq', VIEW.seq); if(VIEW.corpus) p.set('corpus', VIEW.corpus); if(VIEW.anchor!=null) p.set('at', VIEW.anchor); }
   if(B.curId && !(VIEW && VIEW.wid===B.curId)) p.set('sel', B.curId);
   const m = parseMode(); if(m!=='live') p.set('parse', m);
@@ -1372,10 +1383,22 @@ $('#origmode').addEventListener('change', ()=>{ urlSync(); if(VIEW && VIEW.ancho
 // read-only handle on the page state for headless checks (script-scoped let/const are not window properties)
 window.__viewer = { B, OR, get VIEW(){ return VIEW; }, get DOC(){ return DOC; }, get WIN(){ return WIN; }, get ROWS(){ return ROWS; } };
 
+// ---- capabilities: hide (display:none) every control of a feature this server has not configured ----
+let CAPS = {banks:true, runs:true, manifests:true, gold:true, review:true, text_corpus:true};
+async function capsLoad(){
+  try{ const r = await fetch('/api/capabilities'); if(r.ok) CAPS = {...CAPS, ...(await r.json())}; } catch(e){}
+  for(const [k, on] of Object.entries(CAPS)) if(!on) document.querySelectorAll('.cap-'+k).forEach(el=>{ el.style.display = 'none'; });
+  document.body.classList.toggle('nobanks', !CAPS.banks);
+  if(!CAPS.banks && !CAPS.review && !CAPS.gold) $('#keyshelp').style.display = 'none';
+  if(!CAPS.manifests){ $('#q').placeholder = 'accession or path to a submission .txt'; $('#acchint').style.display = 'block'; }
+}
+window.__viewer.caps = () => CAPS;
+
 // ---- start ----
 (async function init(){
+  await capsLoad();
   const u = new URLSearchParams(location.search);
-  const pm = u.get('parse'); if(['live','judged','latest'].includes(pm)) document.querySelector(`input[name=parse][value=${pm}]`).checked = true;
+  const pm = CAPS.runs ? u.get('parse') : null; if(['live','judged','latest'].includes(pm)) document.querySelector(`input[name=parse][value=${pm}]`).checked = true;
   if(u.get('orig')){ $('#origtog').checked=true; if(u.get('omode')==='source') $('#origmode').value='source'; origSet(true); }
   let deep = false;
   if(u.has('windows')){
@@ -1392,6 +1415,7 @@ window.__viewer = { B, OR, get VIEW(){ return VIEW; }, get DOC(){ return DOC; },
   B.curId = u.get('sel') || u.get('w') || null;
   const listed = (deep || u.get('browse')==='1') ? bSetOpen(true) : null;
   if(u.get('w')) wOpen(u.get('w'));
+  else if(u.get('path')) open(null, u.get('seq'), {path:u.get('path'), anchor:u.get('at')});
   else if(u.get('acc')) open(u.get('acc'), u.get('seq'), {...modeOpts(u.get('corpus'), null, false), anchor:u.get('at')});
   else if(deep && listed){ await listed; const i = B.items.findIndex(it=>it.t==='r'); if(i>=0 && !VIEW){ bSelect(i); bOpenCur(); } }
 })();

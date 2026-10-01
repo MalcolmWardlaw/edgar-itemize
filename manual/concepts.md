@@ -3,6 +3,23 @@
 What the output means, in the order a reader meets it. The precise statement of every
 column is the [output contract](output-contract.md); this page is the vocabulary.
 
+## What a node is and why offsets
+
+A node is one heading the parser found: "Item 1A. Risk Factors" in a 10-K, "Article VI.
+Negative Covenants" in a credit agreement, or clause "(b)" beneath it. The parser does not
+copy the text under the heading into its output. It records where the section sits in the
+filing: the position of its first character and of the character after its last, counted
+in bytes from the start of the submission file as the SEC serves it. Those two numbers,
+plus the label and the place in the tree, are the node.
+
+Addressing by offset has three consequences. The output is small, because it holds
+positions and labels rather than text. It is shareable: positions in a public filing are
+facts about that filing, so a table of nodes can be posted with a paper without
+redistributing anyone's documents. And it is checkable: anyone who downloads the same
+filing, confirmed by its SHA-256 (the `input_sha256` column), can cut the same bytes and
+see exactly the text the row refers to. The raw files are never edited, so there is one
+direct path from any number in a study back to the bytes it came from.
+
 ## The agenda tree
 
 A filing has an agenda: the SEC's form prescribes Parts and Items for a 10-K or 10-Q, and a

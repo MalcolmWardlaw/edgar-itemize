@@ -15,6 +15,7 @@ docs_dir: manual
 site_dir: site
 exclude_docs: |
   _hooks.py
+  demo/README.md
 strict: false   # `mkdocs build --strict` turns warnings into errors; CI passes the flag
 copyright: MIT licence. The vendored HTML parser is PSF-2.0.
 
@@ -63,6 +64,7 @@ nav:
   - Getting started:
       - Install: install.md
       - Quickstart: quickstart.md
+      - Demo: demo-guide.md
   - Understanding the output:
       - Concepts: concepts.md
       - How the parser works: architecture.md

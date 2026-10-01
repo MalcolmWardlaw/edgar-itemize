@@ -24,7 +24,7 @@ from ..agenda import META_FRONT, META_TOC, META_NAMES, PATH_LEN, path_str
 from ..pipeline import covers_items_of, parse_document
 from ..select import select_primary
 from ..grammar.form10k import Form10KGrammar
-from ..sgml import load_submission, load_text_submission
+from ..sgml import conformed_type, load_submission, load_text_submission
 from . import runread
 from .original import RENDER_CAP, inject_markers, marker_tag
 
@@ -138,7 +138,7 @@ def _manifests() -> list[_Manifest]:
     try:
         idx = control.load_index_cik()
         names = dict(zip(idx["accession_number"].to_pylist(), idx["company_name"].to_pylist()))
-    except Exception:  # noqa: BLE001
+    except (Exception, SystemExit):  # noqa: BLE001  (SystemExit: no data root set)
         names = {}
     out = []
     for corpus, name, keymode in manifest_specs():
@@ -189,6 +189,16 @@ def _norm(t: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
 
 
+def _data_root(fn, *args):
+    """fn(*args) for a control helper that needs the data root; its SystemExit (the CLI's
+    "EDGAR_ITEMIZE_DATA_ROOT is not set" exit) becomes a 404 carrying the same message
+    instead of taking the server down."""
+    try:
+        return fn(*args)
+    except SystemExit as e:
+        raise HTTPException(404, str(e)) from None
+
+
 def _resolve(accession: str, sequence: int | None, corpus: str | None = None):
     corpus = _corpus_name(corpus)
     if corpus:
@@ -209,14 +219,34 @@ def _resolve(accession: str, sequence: int | None, corpus: str | None = None):
         row = m.get(f"{accession}:{sequence}") if sequence else None
         row = row or m.get(accession)
     if row is None:
-        # fall back to the control index
-        idx = control.load_index_cik()
-        hits = [(a, c) for a, c in zip(idx["accession_number"].to_pylist(), idx["cik"].to_pylist()) if a == accession]
-        if not hits:
-            raise HTTPException(404, f"{accession} not found")
-        row = dict(accession_number=accession, cik=str(hits[0][1]), archive_path=str(control.archive_path_for(accession, hits[0][1])),
+        cik = _cik_for_accession(accession)
+        if cik is None:
+            raise HTTPException(404, f"{accession} not found under the data root (archives/edgar/data/<cik>/{accession}.txt)")
+        row = dict(accession_number=accession, cik=cik, archive_path=str(control.archive_path_for(accession, cik)),
                    submission_type="10-Q" if corpus == "10q" else "10-K", corpus=corpus or "10k")
     return row
+
+
+def _cik_for_accession(accession: str) -> str | None:
+    """The CIK directory holding <accession>.txt under the data root: the control index when the
+    mirror has the lab's control tables, else the mirror itself (archives/edgar/data/*/<acc>.txt;
+    the smallest CIK wins when a co-registrant filing sits under several, as `manifest` does).
+    None when the file is not there."""
+    root = _data_root(lambda: control.DATA_ROOT)
+    if root is None:
+        raise HTTPException(404, f"{control.DATA_ROOT_ENV} is not set")
+    try:
+        idx = control.load_index_cik()
+        hits = [c for a, c in zip(idx["accession_number"].to_pylist(), idx["cik"].to_pylist()) if a == accession]
+        if hits:
+            return str(hits[0])
+    except Exception:
+        pass  # no control tables: an outsider's mirror
+    if not re.fullmatch(r"\d{10}-\d{2}-\d{6}", accession):
+        return None
+    found = sorted((p for p in (Path(root) / "archives" / "edgar" / "data").glob(f"*/{accession}.txt") if p.is_file()),
+                   key=lambda p: (len(p.parent.name), p.parent.name))
+    return found[0].parent.name if found else None
 
 
 @app.get("/api/corpora")
@@ -224,6 +254,50 @@ def list_corpora():
     """The corpora the search box offers: built-ins plus the run registry's, and the one the
     `text` alias names (null when the registry has no text corpus)."""
     return dict(corpora=list(corpora()), text=text_corpus())
+
+
+def _capabilities_now() -> dict[str, bool]:
+    """What this server can actually serve, from the same places the endpoints read: the
+    window index (windex.windows_path), the run registry's baselines on disk (runread), the
+    search manifests under EDGAR_ITEMIZE_RUNS (manifest_specs), the gold labels directory,
+    the review queue (review_queue) and a registry text corpus (text_corpus)."""
+    from . import windex
+
+    wp = windex.windows_path()
+    try:
+        banks = wp.is_file() and pq.read_metadata(wp).num_rows > 0
+    except Exception:  # noqa: BLE001
+        banks = False
+    names = {n for b in runread.baselines().values() for n in b.values() if n}
+    runs = False
+    for n in names:
+        try:
+            if runread.run_dir(RUNS, n).is_dir():
+                runs = True
+                break
+        except ValueError:
+            continue
+    labels = GOLD / "labels"
+    return dict(
+        banks=bool(banks),
+        runs=runs,
+        manifests=any((RUNS / name).is_file() for _, name, _ in manifest_specs()),
+        gold=labels.is_dir() and os.access(labels, os.W_OK),
+        review=(RUNS / "judge" / "review_queue.json").is_file(),
+        text_corpus=text_corpus() is not None,
+    )
+
+
+@lru_cache(maxsize=1)
+def _capabilities() -> dict[str, bool]:
+    return _capabilities_now()
+
+
+@app.get("/api/capabilities")
+def capabilities():
+    """Which lab features are configured on this server (computed once at startup); the front
+    end hides the controls of every one that is false."""
+    return _capabilities()
 
 
 @app.get("/")
@@ -289,7 +363,7 @@ def _load(row: dict, sequence: int | None):
     if (runread.corpus_spec(row.get("corpus") or "") or {}).get("kind") == "text":
         sub = load_text_submission(row["archive_path"], row["accession_number"], row.get("sequence"))
         return sub, sub.documents[0]
-    sub = load_submission(control.rewrite_path(row["archive_path"]))
+    sub = load_submission(_data_root(control.rewrite_path, row["archive_path"]))
     seq = sequence or (row.get("sequence") if row.get("corpus") in ("ex10", "ex13") else None)
     if seq:
         d = next((x for x in sub.documents if x.sequence == seq), None)
@@ -344,6 +418,84 @@ def _view(accession: str, sequence: int | None, headings: bool, corpus: str | No
     return _stored(accession, sequence, corpus, run)
 
 
+# ---- open by file path ----
+
+_ACC_IN_NAME = re.compile(r"(\d{10}-\d{2}-\d{6})(?:_(\d+))?")
+
+
+def _by_path_roots() -> list[Path]:
+    """Directories a /api/doc/by-path request may read from: EDGAR_ITEMIZE_DATA_ROOT and
+    EDGAR_ITEMIZE_TEXT_CORPUS when set. Nothing outside them is readable through the viewer,
+    which can be bound to a non-local interface."""
+    roots = []
+    if control.DATA_ROOT is not None:
+        roots.append(control.DATA_ROOT)
+    tc = os.environ.get("EDGAR_ITEMIZE_TEXT_CORPUS")
+    if tc:
+        roots.append(Path(tc))
+    return roots
+
+
+def _by_path_file(path: str) -> Path:
+    """The submission file a /api/doc/by-path request names: a path relative to
+    EDGAR_ITEMIZE_DATA_ROOT, or an absolute path under EDGAR_ITEMIZE_DATA_ROOT or
+    EDGAR_ITEMIZE_TEXT_CORPUS. Anything else is a 404."""
+    raw = (path or "").strip()
+    if not raw:
+        raise HTTPException(404, "no path given")
+    roots = _by_path_roots()
+    if not roots:
+        raise HTTPException(404, f"{control.DATA_ROOT_ENV} is not set; the viewer opens files only under it "
+                                 "(or under EDGAR_ITEMIZE_TEXT_CORPUS)")
+    p = Path(raw).expanduser()
+    q = p.resolve() if p.is_absolute() else (roots[0] / p).resolve()
+    if not any(q.is_relative_to(r.resolve()) for r in roots):
+        raise HTTPException(404, f"{raw} is outside {control.DATA_ROOT_ENV}" +
+                            (" and EDGAR_ITEMIZE_TEXT_CORPUS" if len(roots) > 1 else "") +
+                            "; the viewer opens files only under those directories")
+    if not q.is_file():
+        raise HTTPException(404, f"{raw}: no such file")
+    return q
+
+
+@lru_cache(maxsize=4)
+def _parsed_path(path: str, sequence: int | None, headings: bool):
+    """(row, submission, document block, parse result) for a submission file parsed live, read
+    the way `edgar-itemize show <path>` reads it (load_submission, then the sequence asked for
+    or select_primary). A file with no SGML <DOCUMENT> envelope is a bare exhibit text and is
+    read as the text corpus reads one (load_text_submission: file offsets, contract grammar)."""
+    f = _by_path_file(path)
+    m = _ACC_IN_NAME.search(f.name)
+    sub = load_submission(f)
+    if sub.documents:
+        stype = conformed_type(sub.header) or "10-K"
+        if sequence:
+            d = next((x for x in sub.documents if x.sequence == sequence), None)
+            if d is None:
+                raise HTTPException(404, f"sequence {sequence} not in {f}")
+        else:
+            d = select_primary(sub.documents, stype)
+            if d is None:
+                raise HTTPException(404, f"no text-bearing document in {f}")
+        cik = sub.header_cik or "0"
+    else:
+        sub = load_text_submission(f, m.group(1) if m else None, sequence or (int(m.group(2)) if m and m.group(2) else None))
+        d = sub.documents[0]
+        cik = f.parent.name if f.parent.name.isdigit() else "0"
+        stype = d.type
+    r = parse_document(sub, d, cik, headings=headings)
+    row = dict(accession_number=r.accession, cik=str(cik), archive_path=str(f), sequence=d.sequence,
+               submission_type=stype, corpus=None, path=str(f))
+    return row, sub, d, r
+
+
+@app.get("/api/doc/by-path")
+def doc_by_path(path: str, sequence: int | None = None, headings: bool = True):
+    """A submission file parsed live, by path (see _by_path_file); same JSON as /api/doc."""
+    row, sub, d, r = _parsed_path(path, sequence, headings)
+    return _doc_json(row, d, r, "live")
+
+
 @app.get("/api/doc/{accession}")
 def doc(accession: str, sequence: int | None = None, headings: bool = True, corpus: str | None = None,
         source: str = "live", run: str | None = None):
@@ -351,6 +503,10 @@ def doc(accession: str, sequence: int | None = None, headings: bool = True, corp
     rejected rows from runs/<run> (default: the corpus's latest baseline of record) and lays
     them over the current normalizer's blocks. Same JSON shape either way."""
     row, sub, d, r = _view(accession, sequence, headings, corpus, source, run)
+    return _doc_json(row, d, r, source)
+
+
+def _doc_json(row: dict, d, r, source: str) -> JSONResponse:
     bounds = r.paths["_bounds"]
     # deepest node containing each block -> block path
     nodes = sorted((n for n in r.nodes if n.node_id != 0), key=lambda n: (n.raw_start, -n.depth))
@@ -390,17 +546,18 @@ _ORIGINAL_CSP = "default-src 'none'; style-src 'unsafe-inline'; img-src data:; f
 
 @app.get("/api/original/{accession}")
 def original(accession: str, sequence: int | None = None, headings: bool = True, corpus: str | None = None,
-             source: str = "live", run: str | None = None):
+             source: str = "live", run: str | None = None, path: str | None = None):
     """The document's <TEXT> payload as a page with sync markers at every block
     offset and a chip marker at every node heading. Rendered inside a sandboxed
-    iframe by the viewer; scripts never run (sandbox + CSP)."""
-    row, sub, d, r = _view(accession, sequence, headings, corpus, source, run)
+    iframe by the viewer; scripts never run (sandbox + CSP). path= names a document
+    opened through /api/doc/by-path."""
+    row, sub, d, r = _parsed_path(path, sequence, headings) if path else _view(accession, sequence, headings, corpus, source, run)
     if not d.has_text:
         raise HTTPException(404, f"{accession} sequence {d.sequence} has no <TEXT> payload")
     size = d.text_end - d.text_start
     if size > RENDER_CAP:
         raise HTTPException(413, f"payload is {size} bytes, over the render cap of {RENDER_CAP}; use the source view")
-    with open(control.rewrite_path(row["archive_path"]), "rb") as f:
+    with open(row["path"] if row.get("path") else _data_root(control.rewrite_path, row["archive_path"]), "rb") as f:
         f.seek(d.text_start)
         payload = f.read(size).decode("latin-1")
     heads = {n.head_raw_start: n for n in r.nodes if n.node_id != 0 and n.head_raw_start is not None}
@@ -426,9 +583,13 @@ def original(accession: str, sequence: int | None = None, headings: bool = True,
 
 
 @app.get("/api/raw/{accession}")
-def raw(accession: str, start: int, end: int, sequence: int | None = None, corpus: str | None = None):
-    row = _resolve(accession, sequence, corpus)
-    with open(control.rewrite_path(row["archive_path"]), "rb") as f:
+def raw(accession: str, start: int, end: int, sequence: int | None = None, corpus: str | None = None,
+        path: str | None = None):
+    if path:
+        f_path = _by_path_file(path)
+    else:
+        f_path = _data_root(control.rewrite_path, _resolve(accession, sequence, corpus)["archive_path"])
+    with open(f_path, "rb") as f:
         f.seek(start)
         return JSONResponse(dict(start=start, end=end, text=f.read(max(0, end - start)).decode("latin-1")))
 
@@ -579,3 +740,4 @@ def gold_save(payload: dict):
 from .turns import router as turns_router; app.include_router(turns_router)  # noqa: E402,E702
 from .windex import router as windex_router; app.include_router(windex_router)  # noqa: E402,E702
 from .sets import router as sets_router; app.include_router(sets_router)  # noqa: E402,E702
+_capabilities()  # computed once at startup

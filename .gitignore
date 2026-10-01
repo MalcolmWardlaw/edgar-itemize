@@ -12,6 +12,7 @@ runs/
 *.parquet
 !gold/*.parquet
 !conformance/*/*.parquet
+!examples/*.parquet
 
 # local Claude session state (worktrees)
 /.claude/

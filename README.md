@@ -1,16 +1,86 @@
 # edgar-itemize
 
-edgar-itemize is a deterministic, rule-based parser that recovers the agenda structure of
-SEC EDGAR filings: Part, Item and sub-heading in Form 10-K and 10-Q bodies; Article,
-Section and clause in credit agreements filed as EX-10 exhibits; the Item-like headings of
-EX-13 annual reports. It works across the whole EDGAR era, from 1993 plain text through
-publisher HTML to inline XBRL, and addresses every node by byte offset into the raw
-full-submission `.txt` file, so its output can be shared and checked without redistributing
-filings. Every node carries the ids of the rules that produced it, and every rejected
-heading candidate is written out with its reason.
+edgar-itemize turns the raw filings in the SEC's EDGAR archive into a table of their
+headings. For each filing it recovers the agenda the document is written to: Part and Item
+in a 10-K or 10-Q, sub-headings inside an Item, and Article, Section and the lettered and
+numbered clauses of a credit agreement filed as an EX-10 exhibit. Each heading is one row
+that records where its section starts and ends as byte offsets into the submission file
+exactly as the SEC serves it, so the text of any section, from Item 1A down to a single
+covenant clause, is one slice of a file you already have. It reads the whole EDGAR era,
+from 1993 plain text through publisher HTML to inline XBRL.
 
-The manual, the long form of everything below, is at
-<https://malcolmwardlaw.github.io/edgar-itemize/>.
+## Why this exists
+
+* **Deterministic.** The parser is a fixed set of written rules, not a language model
+  deciding over a corpus. The same release on the same file gives the same rows every time,
+  every heading names the rules that produced it, and every candidate heading that was
+  dropped is written out with the reason.
+* **Replicable by hash, with the data untouched.** Each tagged release gives exactly the
+  same results on exactly the same EDGAR files, checked by SHA-256 of the input and the
+  output. The filings themselves are never modified or redistributed, so nobody has to
+  archive gigabytes of derived text as validation, and every value traces directly to a
+  byte range in a public file.
+* **The whole agenda, down to the clauses.** Most tools pull out a few top-level sections.
+  10-Ks, and the contracts attached as EX-10 exhibits even more, have deep agenda
+  structures: a study of covenants needs the affirmative and negative covenant Articles and
+  each clause one or two levels beneath them. The tree goes to that depth.
+* **Your corpus, downloaded once, parsed locally.** You pull as much or as little of EDGAR
+  as you want, up to the whole archive, and parse it on your own machine. Rate-limited SEC
+  downloads are slow but happen once; storage is cheap; re-parsing with different choices
+  costs nothing but compute.
+* **Improves by frozen tagged releases.** The output is evaluated by human review and by
+  language-model judges, and the evaluation feeds hand-written rule changes. Current results
+  are good, with room left (see [Measured accuracy](#measured-accuracy)). Each improvement
+  ships as a new tagged release that keeps the two guarantees above; earlier releases stay
+  as they were.
+* **Public and updatable.** The author keeps working on it. Anyone who finds a set of
+  errors can package them and send them in, and they are folded into the next release.
+
+## What to do with it
+
+**Start small.** `examples/` holds manifests and expected hashes for the nine filings of the
+demo and for ten credit agreements; the
+[quickstart](https://malcolmwardlaw.github.io/edgar-itemize/quickstart/) fetches, parses,
+checks and opens the nine in four commands, the first of which fetches them:
+
+```
+for k in 10k ex10 ex13; do edgar-itemize fetch --manifest examples/sample_manifest_$k.parquet; done
+```
+
+**Get the sections.** Build a manifest from the SEC's index, fetch the files, parse, then
+pull the sections you want into one parquet with their text (the `examples/` scripts are in
+the repository):
+
+```
+edgar-itemize manifest --years 2019-2020 --no-only-present --out manifest.parquet
+edgar-itemize fetch --manifest manifest.parquet
+edgar-itemize parse --manifest manifest.parquet --out run_10k --kind 10k --no-text --partition-by year
+python examples/pull_items.py --run run_10k --items "ITEM 1A,ITEM 7" --out items.parquet
+```
+
+For credit agreements, parse EX-10 exhibits with `--kind ex10` (the manifest then needs a
+`sequence` column naming the exhibit's document) and select the Articles whose
+title names the covenants from the `nodes` table (their numbers vary by agreement); each
+Article's span includes all of its clauses. The details are under
+[From nothing to a parsed corpus](#from-nothing-to-a-parsed-corpus) below.
+
+**Check a result or a paper's claim.** Confirm that your install reproduces the release, then
+compare a full run of your own with the per-corpus hash parquet published with the release:
+
+```
+edgar-itemize verify --data-root /path/to/edgar
+python examples/check_hashes.py --run run_10k --expected hashes_1.0.0_10k.parquet
+```
+
+**Help.** Report a wrong parse as an issue, following
+[CONTRIBUTING.md](https://github.com/MalcolmWardlaw/edgar-itemize/blob/main/CONTRIBUTING.md):
+the accession number, the document sequence, the edgar-itemize version, and the byte offsets
+of what the parser produced and what you expected. A set of verdicts from your own review
+is welcome the same way, as an issue or a pull request carrying those four fields per row; a
+file format for exchanging verdicts is planned for release 1.0.1.
+
+A live demo is at <https://malcolmwardlaw.github.io/edgar-itemize/demo/>, and the manual,
+the long form of everything below, at <https://malcolmwardlaw.github.io/edgar-itemize/>.
 
 ## Install
 
@@ -148,8 +218,9 @@ numbers were measured is in the manual's
 ## Out of scope
 
 * XBRL financial data and tables: the parser recovers headings, not figures.
-* Text extraction beyond offsets: the output is spans into the raw file; slicing and
-  cleaning the text is left to the user.
+* Text cleaning: the output is spans into the raw file. `examples/pull_items.py` slices
+  them as filed, HTML tags and all; stripping markup and cleaning the text is left to the
+  user.
 * Machine learning: none inside the parser, and no randomness.
 
 ## Viewer and judge
