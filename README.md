@@ -9,8 +9,19 @@ exactly as the SEC serves it, so the text of any section, from Item 1A down to a
 covenant clause, is one slice of a file you already have. It reads the whole EDGAR era,
 from 1993 plain text through publisher HTML to inline XBRL.
 
+* **Manual** <https://malcolmwardlaw.github.io/edgar-itemize/>
+* **Output Demo** <https://malcolmwardlaw.github.io/edgar-itemize/demo/
+
 ## Why this exists
 
+* **The whole agenda, down to the clauses.** Most tools pull out a few top-level sections.
+  10-Ks, and the contracts attached as EX-10 exhibits even more, have deep agenda
+  structures: a study of covenants needs the affirmative and negative covenant Articles and
+  each clause one or two levels beneath them. The tree goes to that depth.
+* **Your corpus, downloaded once, parsed locally.** You pull as much or as little of EDGAR
+  as you want, up to the whole archive, and parse it on your own machine. Rate-limited SEC
+  downloads are slow but happen once; storage is cheap; re-parsing with different choices
+  costs nothing but compute.
 * **Deterministic.** The parser is a fixed set of written rules, not a language model
   deciding over a corpus. The same release on the same file gives the same rows every time,
   every heading names the rules that produced it, and every candidate heading that was
@@ -20,14 +31,6 @@ from 1993 plain text through publisher HTML to inline XBRL.
   output. The filings themselves are never modified or redistributed, so nobody has to
   archive gigabytes of derived text as validation, and every value traces directly to a
   byte range in a public file.
-* **The whole agenda, down to the clauses.** Most tools pull out a few top-level sections.
-  10-Ks, and the contracts attached as EX-10 exhibits even more, have deep agenda
-  structures: a study of covenants needs the affirmative and negative covenant Articles and
-  each clause one or two levels beneath them. The tree goes to that depth.
-* **Your corpus, downloaded once, parsed locally.** You pull as much or as little of EDGAR
-  as you want, up to the whole archive, and parse it on your own machine. Rate-limited SEC
-  downloads are slow but happen once; storage is cheap; re-parsing with different choices
-  costs nothing but compute.
 * **Improves by frozen tagged releases.** The output is evaluated by human review and by
   language-model judges, and the evaluation feeds hand-written rule changes. Current results
   are good, with room left (see [Measured accuracy](#measured-accuracy)). Each improvement
