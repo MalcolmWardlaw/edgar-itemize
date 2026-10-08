@@ -18,7 +18,13 @@ version; v1.0.0's own record is [10.5281/zenodo.23229032](https://doi.org/10.528
 
 ## The dataset
 
-The parsed node tables for the full 10-K and 10-Q corpora (offsets only, no filing text)
-are published per release under CC-BY-4.0 with the release's version and input hashes, so
-"we used the v1.0.0 dataset" is as citable as "we ran v1.0.0". Offsets into public filings
-are facts, not a redistribution of the filings.
+The parsed tables for the full 10-K and 10-Q corpora (`nodes`, `documents` and `rejected`;
+byte offsets and heading lines, no filing body text) are published per release under
+CC-BY-4.0 with the release's version and input hashes, so "we used the v1.0.0 dataset" is as
+citable as "we ran v1.0.0". Offsets into public filings are facts, not a redistribution of
+the filings.
+
+The 1.0.0 dataset is [10.5281/zenodo.23241710](https://doi.org/10.5281/zenodo.23241710)
+(2.55 GB, 13 files, published 2026-10-08); its concept DOI
+[10.5281/zenodo.23241709](https://doi.org/10.5281/zenodo.23241709) resolves to the newest
+dataset version. Cite the software and name the dataset version you used.
