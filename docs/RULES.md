@@ -93,10 +93,10 @@ Grammar and label matching: how the label was read, canonicalised or synthesised
 
 | id | emitted in | read in | first named in docs | documented in |
 |---|---|---|---|---|
-| `gram.article_after_section` | `tree_contract.build_contract_tree` |  | Turn 6 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a3_wrap_toc.md](../turn8_decisions/a3_wrap_toc.md) |
-| `gram.clause_under_article` | `tree_contract.build_contract_tree.place` |  | Turn 12 | [a2_clause_layer.md](../turn12_decisions/a2_clause_layer.md)<br>[b2_clauses_build.md](../turn12_decisions/b2_clauses_build.md) |
+| `gram.article_after_section` | `tree_contract.build_contract_tree` |  | Turn 6 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a3_wrap_toc.md](../turn8_decisions/a3_wrap_toc.md)<br>[e1_credit_agreements.md](../turn15_decisions/e1_credit_agreements.md) |
+| `gram.clause_under_article` | `tree_contract.build_contract_tree.place` |  | Turn 12 | [a2_clause_layer.md](../turn12_decisions/a2_clause_layer.md)<br>[b2_clauses_build.md](../turn12_decisions/b2_clauses_build.md)<br>[e1_credit_agreements.md](../turn15_decisions/e1_credit_agreements.md) |
 | `gram.form_from_header` | `pipeline.parse_prepared` |  | Turn 7 | [infra_normalize_cache.md](../turn13_decisions/infra_normalize_cache.md) |
-| `gram.item.4t` | `grammar/form10q.label_rules` |  | Turn 8 | [a5_10q_full.md](../turn9_decisions/a5_10q_full.md)<br>[a4_label_family.md](../turn12_decisions/a4_label_family.md) |
+| `gram.item.4t` | `grammar/form10q.label_rules` |  | Turn 8 | [a5_10q_full.md](../turn9_decisions/a5_10q_full.md)<br>[a4_label_family.md](../turn12_decisions/a4_label_family.md)<br>[f1_10q_random.md](../turn15_decisions/f1_10q_random.md) |
 | `gram.item.multi_repeat` | `candidates._try_match` |  | Turn 7 | [TURN7_REPORT.md](../TURN7_REPORT.md) |
 | `gram.item.multi_singular` | `candidates._try_match` |  |  |  |
 | `gram.item.part_hint` | `grammar/form10q.label_rules` |  | Turn 12 | [b4_labels_build.md](../turn12_decisions/b4_labels_build.md) |
@@ -106,15 +106,15 @@ Grammar and label matching: how the label was read, canonicalised or synthesised
 | `gram.item.suffix_sep` | `grammar/form10q.label_rules` |  | Turn 12 | [a4_label_family.md](../turn12_decisions/a4_label_family.md)<br>[b4_labels_build.md](../turn12_decisions/b4_labels_build.md)<br>[10q.md](../turn12_leads/10q.md) |
 | `gram.item.title_match` | `candidates._try_match` | `candidates.find_candidates`<br>`candidates.vetoed_index_row_pass`<br>`tree.out_of_order_items`<br>`agenda.regab_back_matter` | Turn 7 | [a5_out_of_order.md](../turn8_decisions/a5_out_of_order.md)<br>[b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a5_10q_full.md](../turn9_decisions/a5_10q_full.md) |
 | `gram.item.word` | `grammar/form10k.label_rules`<br>`grammar/form10q.label_rules` |  | Turn 7 | [a4_label_family.md](../turn12_decisions/a4_label_family.md)<br>[b4_labels_build.md](../turn12_decisions/b4_labels_build.md)<br>[10q.md](../turn12_leads/10q.md) |
-| `gram.part_after_item` | `tree.build_tree` |  | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a6c_out_of_order.md](../turn13_decisions/a6c_out_of_order.md) |
+| `gram.part_after_item` | `tree.build_tree` |  | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a6c_out_of_order.md](../turn13_decisions/a6c_out_of_order.md)<br>[a1_part_nesting.md](../turn15_decisions/a1_part_nesting.md) |
 | `gram.part_from_context` | `tree.build_tree` |  | Turn 11 | [a3_synth_item1.md](../turn11_decisions/a3_synth_item1.md)<br>[a1_index_anchor.md](../turn12_decisions/a1_index_anchor.md)<br>[b1_index_rows_build.md](../turn12_decisions/b1_index_rows_build.md) |
-| `gram.part_opened_early` | `tree.build_tree` | `tree.build_tree` | Turn 13 | [a6c_out_of_order.md](../turn13_decisions/a6c_out_of_order.md) |
+| `gram.part_opened_early` | `tree.build_tree` | `tree.build_tree` | Turn 13 | [a6c_out_of_order.md](../turn13_decisions/a6c_out_of_order.md)<br>[a1_part_nesting.md](../turn15_decisions/a1_part_nesting.md)<br>[f4_10k_document_accuracy.md](../turn15_decisions/f4_10k_document_accuracy.md) |
 | `gram.synth_article` | `tree_contract.build_contract_tree` | `tree_contract.attach_bare_titles`<br>`agenda._article_restarts`<br>`agenda._real_article_after` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md)<br>[b1_section_restart.md](../turn9_decisions/b1_section_restart.md) |
 | `gram.synth_doc_root` | `pipeline.parse_prepared` |  |  |  |
 | `gram.synth_item1` | `tree._synth_item1` |  | Turn 7 | [e_10q_tier.md](../turn7_decisions/e_10q_tier.md)<br>[a6_10q.md](../turn8_decisions/a6_10q.md)<br>[a5_10q_full.md](../turn9_decisions/a5_10q_full.md) |
 | `gram.synth_part` | `tree.build_tree` | `tree._synth_item1`<br>`eval/gold.score`<br>`eval/gold.skeleton`<br>`eval/metrics.doc_metrics` | Turn 12 | [b4_labels_build.md](../turn12_decisions/b4_labels_build.md)<br>[10k.md](../turn12_leads/10k.md)<br>[audit.md](../turn12_leads/audit.md) |
 | `gram.synth_section` | `tree_contract.build_contract_tree`<br>`tree_contract.build_contract_tree.place` | `tree_contract.attach_bare_titles` | Turn 12 | [a2_clause_layer.md](../turn12_decisions/a2_clause_layer.md)<br>[b2_clauses_build.md](../turn12_decisions/b2_clauses_build.md)<br>[b4_section_xref.md](../turn13_decisions/b4_section_xref.md) |
-| `gram.synth_section_xref` | `tree_contract.build_contract_tree` |  | Turn 13 | [b4_section_xref.md](../turn13_decisions/b4_section_xref.md) |
+| `gram.synth_section_xref` | `tree_contract.build_contract_tree` |  | Turn 13 | [b4_section_xref.md](../turn13_decisions/b4_section_xref.md)<br>[e2_amendments.md](../turn15_decisions/e2_amendments.md) |
 | `gram.title_above_label` | `tree_contract.attach_bare_titles` |  | Turn 10 | [a4_bare_titles.md](../turn10_decisions/a4_bare_titles.md) |
 | `gram.title_adjacent_line` | `tree_contract.attach_bare_titles` |  | Turn 10 | [a4_bare_titles.md](../turn10_decisions/a4_bare_titles.md)<br>[a2_eol_cut.md](../turn11_decisions/a2_eol_cut.md)<br>[contracts.md](../turn12_leads/contracts.md) |
 
@@ -130,7 +130,7 @@ Style evidence on the block (bold, caps, centred, larger font, ...).
 | `sty.font_size` | `candidates._score_block_style`<br>`headings._signature` | `candidates._styled` | Turn 9 | [a5_10q_full.md](../turn9_decisions/a5_10q_full.md)<br>[a3_subheadings.md](../turn12_decisions/a3_subheadings.md) |
 | `sty.italic` | `headings._signature` |  | Turn 12 | [a3_subheadings.md](../turn12_decisions/a3_subheadings.md)<br>[subheadings.md](../turn12_leads/subheadings.md) |
 | `sty.runin` | `headings.find_headings` | `headings.find_headings` | Turn 5 | [c_multi_item.md](../turn7_decisions/c_multi_item.md)<br>[subheadings.md](../turn12_leads/subheadings.md) |
-| `sty.standalone` | `headings._signature` |  | Turn 7 | [b_ex13.md](../turn7_decisions/b_ex13.md) |
+| `sty.standalone` | `headings._signature` |  | Turn 7 | [b_ex13.md](../turn7_decisions/b_ex13.md)<br>[f5_subheadings_random.md](../turn15_decisions/f5_subheadings_random.md) |
 | `sty.underline` | `candidates._score_block_style`<br>`headings._signature` | `candidates._styled` | Turn 7 | [b_ex13.md](../turn7_decisions/b_ex13.md)<br>[d_compound.md](../turn7_decisions/d_compound.md) |
 
 ### `pos.*`
@@ -139,7 +139,7 @@ Position evidence (anchor target, head line only, table row, short block, line k
 
 | id | emitted in | read in | first named in docs | documented in |
 |---|---|---|---|---|
-| `pos.anchor` | `candidates._score_block_style` |  | pilot | [PILOT_REPORT.md](../PILOT_REPORT.md) |
+| `pos.anchor` | `candidates._score_block_style` |  | Turn 14 | [b3_gate.md](../turn14_decisions/b3_gate.md) |
 | `pos.head_line_only` | `candidates._try_match` |  | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md) |
 | `pos.in_table` | `candidates._score_block_style` | `agenda (module level)` | Turn 9 | [a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md)<br>[b1_section_restart.md](../turn9_decisions/b1_section_restart.md)<br>[a4_bare_titles.md](../turn10_decisions/a4_bare_titles.md) |
 | `pos.inline_after_part` | `candidates.find_candidates` |  | Turn 10 | [a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md) |
@@ -169,9 +169,9 @@ Table-of-contents evidence and region decisions.
 | `toc.leader_or_pageno` | `candidates._try_match` | `toc._leader`<br>`tree (module level)`<br>`tree.build_tree`<br>`tree.chain_weight`<br>`tree_contract.build_contract_tree`<br>`agenda (module level)`<br>`agenda._live_structural` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a5_out_of_order.md](../turn8_decisions/a5_out_of_order.md)<br>[b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md) |
 | `toc.leader_or_pageno_wrapped` | `candidates._try_match` | `tree (module level)` | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a4_caption_guard.md](../turn9_decisions/a4_caption_guard.md)<br>[a3_fmtable.md](../turn10_decisions/a3_fmtable.md) |
 | `toc.member_rescued` | `tree.build_tree`<br>`tree_contract.build_contract_tree` | `agenda (module level)` | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md)<br>[b1_section_restart.md](../turn9_decisions/b1_section_restart.md) |
-| `toc.pageno_self_label` | `candidates._try_match` |  | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a1_index_anchor.md](../turn12_decisions/a1_index_anchor.md) |
+| `toc.pageno_self_label` | `candidates._try_match` |  | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a1_index_anchor.md](../turn12_decisions/a1_index_anchor.md)<br>[b3_gate.md](../turn14_decisions/b3_gate.md) |
 | `toc.parts_only` | `toc.detect_toc` |  | Turn 9 | [a6_index_regions.md](../turn9_decisions/a6_index_regions.md) |
-| `toc.section_run` | `toc._contract_regions` | `toc._contract_regions`<br>`agenda (module level)` | Turn 7 | [a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md)<br>[b1_section_restart.md](../turn9_decisions/b1_section_restart.md) |
+| `toc.section_run` | `toc._contract_regions` | `toc._contract_regions`<br>`agenda (module level)` | Turn 7 | [a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md)<br>[b1_section_restart.md](../turn9_decisions/b1_section_restart.md)<br>[e1_credit_agreements.md](../turn15_decisions/e1_credit_agreements.md) |
 | `toc.vetoed_index` | `candidates.vetoed_index_row_pass`<br>`tree.out_of_order_items` |  | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a1_text_corpus.md](../turn9_decisions/a1_text_corpus.md)<br>[a4_caption_guard.md](../turn9_decisions/a4_caption_guard.md) |
 | `toc.vetoed_region` | `toc.veto_chain_completing` | `candidates.vetoed_index_row_pass`<br>`tree._guard_part_restart_starts`<br>`tree.vetoed_index_run`<br>`agenda (module level)` | Turn 8 | [a5_out_of_order.md](../turn8_decisions/a5_out_of_order.md)<br>[b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md) |
 
@@ -211,8 +211,8 @@ Penalties and vetoes that were applied to a candidate.
 | `rej.lowercase_title` | `candidates._try_match` | `agenda (module level)` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md)<br>[a2_clause_layer.md](../turn12_decisions/a2_clause_layer.md) |
 | `rej.page_repeat` | `candidates.page_repeat_pass` | `tree (module level)`<br>`tree.build_tree` | Turn 5 | [b4_10q_tiebreak.md](../turn9_decisions/b4_10q_tiebreak.md)<br>[b4k_10k_widen.md](../turn9_decisions/b4k_10k_widen.md)<br>[b1_index_rows_build.md](../turn12_decisions/b1_index_rows_build.md) |
 | `rej.prose` | `candidates._try_match` | `agenda (module level)` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md)<br>[a2_clause_layer.md](../turn12_decisions/a2_clause_layer.md) |
-| `rej.regab_back_matter` | `pipeline.parse_prepared` | `tree.build_tree` | Turn 13 | [b1_regab_build.md](../turn13_decisions/b1_regab_build.md) |
-| `rej.section_xref` | `candidates.section_xref_pass` | `candidates.section_xref_pass`<br>`tree_contract.build_contract_tree` | Turn 13 | [b4_section_xref.md](../turn13_decisions/b4_section_xref.md) |
+| `rej.regab_back_matter` | `pipeline.parse_prepared` | `tree.build_tree` | Turn 13 | [b1_regab_build.md](../turn13_decisions/b1_regab_build.md)<br>[a4_strong_rejected.md](../turn15_decisions/a4_strong_rejected.md) |
+| `rej.section_xref` | `candidates.section_xref_pass` | `candidates.section_xref_pass`<br>`tree_contract.build_contract_tree` | Turn 13 | [b4_section_xref.md](../turn13_decisions/b4_section_xref.md)<br>[e4_nesting_spans.md](../turn15_decisions/e4_nesting_spans.md) |
 | `rej.vetoed_index_row` | `candidates.vetoed_index_row_pass` | `candidates.vetoed_index_row_pass`<br>`tree.build_tree` | Turn 12 | [a1_index_anchor.md](../turn12_decisions/a1_index_anchor.md)<br>[b1_index_rows_build.md](../turn12_decisions/b1_index_rows_build.md)<br>[b4_labels_build.md](../turn12_decisions/b4_labels_build.md) |
 | `rej.xref_phrase` | `candidates._try_match` | `agenda (module level)` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md) |
 | `rej.xref_pointer` | `candidates._try_match` | `tree (module level)` | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[a4_caption_guard.md](../turn9_decisions/a4_caption_guard.md)<br>[b2_caption_guard.md](../turn9_decisions/b2_caption_guard.md) |
@@ -230,7 +230,7 @@ Sequencing decisions: chain, out-of-order placement, duplicates, clause sequenci
 | `seq.out_of_order_multi` | `tree.out_of_order_items` |  | Turn 12 | [b4_labels_build.md](../turn12_decisions/b4_labels_build.md) |
 | `seq.out_of_order_tiebreak` | `tree.out_of_order_items` |  | Turn 8 | [b4_out_of_order.md](../turn8_decisions/b4_out_of_order.md)<br>[b4_10q_tiebreak.md](../turn9_decisions/b4_10q_tiebreak.md)<br>[a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md) |
 | `seq.per_segment` | `tree_contract.build_contract_tree` |  | Turn 8 | [b2b_chain_vs_segment.md](../turn8_decisions/b2b_chain_vs_segment.md)<br>[a1_text_corpus.md](../turn9_decisions/a1_text_corpus.md)<br>[a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md) |
-| `seq.regab_run` | `tree.build_tree` |  | Turn 13 | [b1_regab_build.md](../turn13_decisions/b1_regab_build.md) |
+| `seq.regab_run` | `tree.build_tree` |  | Turn 13 | [b1_regab_build.md](../turn13_decisions/b1_regab_build.md)<br>[a4_strong_rejected.md](../turn15_decisions/a4_strong_rejected.md)<br>[a5_duplicate_trees.md](../turn15_decisions/a5_duplicate_trees.md) |
 | `seq.restart` | `tree_contract.build_contract_tree.place` |  | Turn 6 | [c_multi_item.md](../turn7_decisions/c_multi_item.md)<br>[d_compound.md](../turn7_decisions/d_compound.md)<br>[a3_chain_flips.md](../turn9_decisions/a3_chain_flips.md) |
 | `seq.strong_duplicate` | `tree.strong_duplicate_pass` | `tree.build_tree` | Turn 9 | [b4_10q_tiebreak.md](../turn9_decisions/b4_10q_tiebreak.md)<br>[b4k_10k_widen.md](../turn9_decisions/b4k_10k_widen.md)<br>[a2_10q_titles.md](../turn10_decisions/a2_10q_titles.md) |
 | `seq.strong_duplicate_backmatter` | `tree.strong_duplicate_pass` | `tree.strong_duplicate_pass` | Turn 10 | [b5_k1_narrowings.md](../turn13_decisions/b5_k1_narrowings.md) |
@@ -263,11 +263,11 @@ Back-matter and segment placement (the meta digit).
 
 | id | emitted in | read in | first named in docs | documented in |
 |---|---|---|---|---|
-| `agenda.back_after_sigs` | `agenda._back_matter_boundary` | `agenda (module level)` | Turn 7 | [a5_ex13.md](../turn12_decisions/a5_ex13.md)<br>[consistency.md](../turn12_leads/consistency.md) |
-| `agenda.back_attestation` | `agenda._back_matter_boundary` | `agenda (module level)` | Turn 7 | [TURN7_REPORT.md](../TURN7_REPORT.md) |
-| `agenda.back_iww` | `agenda._back_matter_boundary` |  | Turn 7 | [TURN7_REPORT.md](../TURN7_REPORT.md)<br>[TURN8_REPORT.md](../TURN8_REPORT.md) |
-| `agenda.back_iww_before_tail` | `agenda._back_matter_boundary` | `agenda (module level)` | Turn 8 | [TURN8_REPORT.md](../TURN8_REPORT.md) |
-| `agenda.back_short_tail` | `agenda._back_matter_boundary` |  | Turn 8 | [b5_ex13_build.md](../turn12_decisions/b5_ex13_build.md)<br>[b1_regab_build.md](../turn13_decisions/b1_regab_build.md) |
+| `agenda.back_after_sigs` | `agenda._back_matter_boundary` | `agenda (module level)` | Turn 7 | [a5_ex13.md](../turn12_decisions/a5_ex13.md)<br>[consistency.md](../turn12_leads/consistency.md)<br>[a2_span_outliers.md](../turn15_decisions/a2_span_outliers.md) |
+| `agenda.back_attestation` | `agenda._back_matter_boundary` | `agenda (module level)` | Turn 7 | [f6_backmatter_regab.md](../turn15_decisions/f6_backmatter_regab.md) |
+| `agenda.back_iww` | `agenda._back_matter_boundary` |  | Turn 7 | [e4_nesting_spans.md](../turn15_decisions/e4_nesting_spans.md) |
+| `agenda.back_iww_before_tail` | `agenda._back_matter_boundary` | `agenda (module level)` | Turn 8 | [e2_amendments.md](../turn15_decisions/e2_amendments.md)<br>[e3_other_ex10.md](../turn15_decisions/e3_other_ex10.md) |
+| `agenda.back_short_tail` | `agenda._back_matter_boundary` |  | Turn 8 | [b5_ex13_build.md](../turn12_decisions/b5_ex13_build.md)<br>[b1_regab_build.md](../turn13_decisions/b1_regab_build.md)<br>[f6_backmatter_regab.md](../turn15_decisions/f6_backmatter_regab.md) |
 | `agenda.compound_restart` | `agenda.compound_restarts` | `agenda.compound_restarts` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a2_compound.md](../turn8_decisions/a2_compound.md)<br>[b2b_chain_vs_segment.md](../turn8_decisions/b2b_chain_vs_segment.md) |
 | `agenda.segment_back_matter` | `agenda.assign_paths` | `agenda.assign_paths` | Turn 7 | [d_compound.md](../turn7_decisions/d_compound.md) |
 
@@ -303,7 +303,7 @@ Structure recovered from an OCR text layer.
 
 | id | emitted in | read in | first named in docs | documented in |
 |---|---|---|---|---|
-| `ocr.degraded` | `pipeline.parse_prepared` |  | Turn 6 | [TURN6_REPORT.md](../TURN6_REPORT.md) |
+| `ocr.degraded` | `pipeline.parse_prepared` |  | Turn 6 | [a4_strong_rejected.md](../turn15_decisions/a4_strong_rejected.md) |
 
 ### `omit.*`
 
@@ -334,8 +334,8 @@ duplicate pass's `forced_reason`) is listed where the literal is.
 | `clause_outside_section` | `tree_contract.build_contract_tree` | Turn 8 | [a1_text_corpus.md](../turn8_decisions/a1_text_corpus.md)<br>[a1_text_corpus.md](../turn9_decisions/a1_text_corpus.md)<br>[a2_text_queue.md](../turn9_decisions/a2_text_queue.md) |
 | `low_score` | `tree.build_tree`<br>`tree_contract.build_contract_tree` | Turn 7 | [a1_text_corpus.md](../turn8_decisions/a1_text_corpus.md)<br>[a5_out_of_order.md](../turn8_decisions/a5_out_of_order.md)<br>[a6_10q.md](../turn8_decisions/a6_10q.md) |
 | `nonmonotone` | `tree.build_tree`<br>`tree_contract.build_contract_tree` | Turn 5 | [d_compound.md](../turn7_decisions/d_compound.md)<br>[a5_out_of_order.md](../turn8_decisions/a5_out_of_order.md)<br>[a6_10q.md](../turn8_decisions/a6_10q.md) |
-| `regab_back_matter` | `tree.build_tree` | Turn 13 | [b1_regab_build.md](../turn13_decisions/b1_regab_build.md)<br>[c_phasec.md](../turn13_decisions/c_phasec.md) |
+| `regab_back_matter` | `tree.build_tree` | Turn 13 | [b1_regab_build.md](../turn13_decisions/b1_regab_build.md)<br>[c_phasec.md](../turn13_decisions/c_phasec.md)<br>[a3_label_no_node.md](../turn15_decisions/a3_label_no_node.md) |
 | `rej.page_banner` | `headings.find_headings` | Turn 12 | [a3_subheadings.md](../turn12_decisions/a3_subheadings.md)<br>[b3_page_banner_build.md](../turn12_decisions/b3_page_banner_build.md)<br>[c_phasec.md](../turn12_decisions/c_phasec.md) |
-| `section_xref` | `tree_contract.build_contract_tree` | Turn 13 | [b4_section_xref.md](../turn13_decisions/b4_section_xref.md)<br>[c_phasec.md](../turn13_decisions/c_phasec.md) |
+| `section_xref` | `tree_contract.build_contract_tree` | Turn 13 | [b4_section_xref.md](../turn13_decisions/b4_section_xref.md)<br>[c_phasec.md](../turn13_decisions/c_phasec.md)<br>[e1_credit_agreements.md](../turn15_decisions/e1_credit_agreements.md) |
 | `toc` | `tree.build_tree`<br>`tree_contract.build_contract_tree` | Turn 5 | [a_appendix.md](../turn7_decisions/a_appendix.md)<br>[d_compound.md](../turn7_decisions/d_compound.md)<br>[e_10q_tier.md](../turn7_decisions/e_10q_tier.md) |
 | `weak_duplicate` | `tree.strong_duplicate_pass` | Turn 9 | [b4_10q_tiebreak.md](../turn9_decisions/b4_10q_tiebreak.md)<br>[b4k_10k_widen.md](../turn9_decisions/b4k_10k_widen.md)<br>[a1_judge_audit.md](../turn10_decisions/a1_judge_audit.md) |

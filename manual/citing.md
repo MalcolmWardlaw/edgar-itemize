@@ -7,9 +7,10 @@ Name the version you ran, because that is what the promise is stated over. In a 
 > verify`, 2,001 of 2,001 documents).
 
 The citation metadata lives in the repository as `CITATION.cff`, which GitHub renders as a
-"Cite this repository" box and Zenodo reads when a release is archived. The concept DOI,
-which resolves to every version, and each version's own DOI are added there at the first
-Zenodo mint.
+"Cite this repository" box and Zenodo reads when a release is archived. The concept DOI
+[10.5281/zenodo.23229031](https://doi.org/10.5281/zenodo.23229031) resolves to every
+version; v1.0.0's own record is [10.5281/zenodo.23229032](https://doi.org/10.5281/zenodo.23229032)
+(archived 2026-10-08).
 
 ```yaml
 --8<-- "CITATION.cff"

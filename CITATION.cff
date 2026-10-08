@@ -1,6 +1,5 @@
 # Citation metadata for edgar-itemize (Citation File Format 1.2.0).
 # GitHub and Zenodo read this file; `cffconvert --validate` checks it.
-# doi: added at the Zenodo mint (the concept DOI, so it resolves to every version).
 cff-version: 1.2.0
 type: software
 message: "If you use edgar-itemize in a paper, please cite it as below and name the version you ran."
@@ -9,9 +8,11 @@ abstract: "A deterministic, rule-based parser that recovers the agenda structure
 authors:
   - family-names: Wardlaw
     given-names: Malcolm
+    orcid: "https://orcid.org/0000-0002-4789-3286"
     affiliation: "Terry College of Business, University of Georgia"
 version: 1.0.0
-# date-released: set to the tag date (YYYY-MM-DD) when v1.0.0 is tagged.
+date-released: "2026-10-08"
+doi: 10.5281/zenodo.23229031
 repository-code: "https://github.com/MalcolmWardlaw/edgar-itemize"
 license: MIT
 keywords:

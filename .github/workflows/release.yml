@@ -140,12 +140,15 @@ jobs:
           v="${{ needs.check.outputs.version }}"
           tar -czf "edgar-itemize-conformance-$v.tar.gz" "conformance/$v"
           sha256sum "edgar-itemize-conformance-$v.tar.gz" dist/* > SHA256SUMS
-          echo "container image: ghcr.io/malcolmwardlaw/edgar-itemize@${{ needs.image.outputs.digest }}" > IMAGE_DIGEST
+          # release body: this version's CHANGELOG section (rc tags use the final version's section), then the image digest
+          { awk -v h="## [${v%rc*}]" 'index($0,h)==1{p=1;next} p&&/^## /{exit} p' CHANGELOG.md
+            echo; echo "Container image: \`ghcr.io/malcolmwardlaw/edgar-itemize@${{ needs.image.outputs.digest }}\`"; } > RELEASE_BODY
+          test -s RELEASE_BODY
       - uses: softprops/action-gh-release@v2
         with:
           prerelease: ${{ contains(github.ref_name, 'rc') }}
           generate_release_notes: false
-          body_path: IMAGE_DIGEST
+          body_path: RELEASE_BODY
           files: |
             edgar-itemize-conformance-${{ needs.check.outputs.version }}.tar.gz
             dist/*

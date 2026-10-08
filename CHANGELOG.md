@@ -11,13 +11,18 @@ that resolves them ships with release 1.0.1 (`docs/RELEASE_PLAN.md` decision D3)
 `runs/text_vN` are the runs on a private loan-contracts corpus of raw exhibit text
 (`--kind text`; not published).
 
-## [1.0.0] - unreleased
+## [1.0.0] - 2026-10-08
 
 The first numbered release. Tree behaviour is that of the Turn 13 close (`runs/full_v30`,
 `runs/full_10q_v11`, `runs/full_ex10_v24`, `runs/full_ex13_v12`, `runs/text_v8`); the
 release's reference re-parse is gated as an identity against those runs on `nodes` and
 `rejected`, with `documents` differing only in the version stamp and the two new columns
 (`docs/RELEASE_PLAN.md` section 5 item 3). The R0 gate on EX-10 is `runs/diff_r0_ex10.log`.
+
+The `v1.0.0` tag is at public commit f95bc58 (lab 672e63c). That commit carries this section
+headed `unreleased` and a `CITATION.cff` without `date-released` or `doi`; both were filled in
+by the next commit on `main`, after the Zenodo mint (`docs/release_decisions/r2_tag.md`). Tags
+are never moved, so the sdist on PyPI and the Zenodo archive keep the undated files.
 
 ### Changed
 - Renamed from `edgar-agenda` to **`edgar-itemize`**: package `edgar_itemize`, CLI

@@ -238,7 +238,8 @@ candidates; it is evaluation tooling only and never part of the parser.
 
 Name the version you ran. The citation metadata is in
 [CITATION.cff](https://github.com/MalcolmWardlaw/edgar-itemize/blob/main/CITATION.cff);
-the Zenodo DOI is `<Zenodo concept DOI, added at the 1.0.0 release>`. See the manual's
+the Zenodo concept DOI, which resolves to every version, is
+[10.5281/zenodo.23229031](https://doi.org/10.5281/zenodo.23229031). See the manual's
 [citing](https://malcolmwardlaw.github.io/edgar-itemize/citing/) page.
 
 ## License
